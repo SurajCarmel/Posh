@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #F6F8F9;
+}
+
+.container {
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 3.5vw;
+    border-bottom-right-radius: 3.5vw;
+    width: 73%;
+    margin: auto;
+}
+
+.trainingContainer {
+    padding: 3% 5% 4% 5%;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.training {
+    font-size: 14px;
+    font-family: 'Anton';
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.trainingSubtext {
+    font-size: 12px;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #747474;
+}
+
+.listContainer {
+    padding: 4% 6.7% 7% 6.7%;
+    border-bottom-left-radius: 3.5vw;
+    border-bottom-right-radius: 3.5vw;
+}
+
+.greenCard {
+    padding: 2%;
+    background-color: #EFFAF6;
+    border: 0.5px solid #B6D1C8;
+}
+
+.message {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #000000;
+    padding-bottom: 2%;
+}
+
+.subMessage {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.redCard {
+    padding: 2%;
+    background-color: #FFE8E8;
+    border: 0.5px solid #BA8C8C;
+}
+
+.row {
+    padding: 2%;
+    width: 100%;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.columnOne {
+    width: 34%;
+    float: left;
+    text-align: left;
+    clear: left;
+}
+
+.columnTwo {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.columnThree {
+    width: 33%;
+    float: right;
+    text-align: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.darkText {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #505050;
+    font-weight: bold;
+}
+
+.lightText {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #909090;
+    font-weight: bold;
+}
+
+.Image {
+    width: 9%;
+    transform: translateY(0%);
+}

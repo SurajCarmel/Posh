@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #F6F8F9;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 34%;
+}
+
+.firstRow {
+    padding: 7% 8%;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.contacts {
+    font-family: 'Anton';
+    font-size: 1.8vw;
+    color: #000000;
+    letter-spacing: 1.4px;
+}
+
+.contactsSubtext {
+    padding-top: 4%;
+    font-family: 'Lato';
+    font-size: 1.3vw;
+    color: #909090;
+}
+
+.listContainer {
+    padding: 6%;
+}
+
+.card {
+    background-color: #EEEEEE;
+    padding: 6% 0;
+    overflow: auto;
+}
+
+.space {
+    margin-bottom: 6%;
+}
+
+.imageContainer {
+    width: 35%;
+    float: left;
+    padding: 0 7% 0 8%;
+}
+
+.profilePicContainer {
+    border-radius: 15%;
+}
+
+.profilePic {
+    width: 100%;
+}
+
+.textContainer {
+    width: 65%;
+    float: right;
+}
+
+.name {
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 1.1vw;
+    color: #4D4F5C;
+    padding-bottom: 2%;
+}
+
+.designation {
+    font-family: 'Lato';
+    font-size: 1vw;
+    color: #747474;
+    padding-bottom: 4%;
+}
+
+.email {
+    font-family: 'Lato';
+    font-size: 1vw;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #747474;
+    padding-bottom: 2%;
+}
+
+.mobileNumber {
+    font-family: 'Lato';
+    font-size: 1vw;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #747474;
+}
+
+.lastRow {
+    padding: 0 6% 6% 6%;
+}
+
+.navImage {
+    width: 3%;
+    height: 5%;
+}
+
+.indexText {
+    font-family: 'Lato';
+    font-size: 0.8vw;
+    letter-spacing: 0.6px;
+    color: #B5B5B5;
+    padding: 2% 1%;
+    transform: translateY(-50%);
+}
