@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #F6F8F9;
+}
+
+.container {
+    background-color: #FFFFFF;
+    padding: 5% 7.6%;
+    box-shadow: 0px 2px 6px #00000029;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 72%;
+}
+
+.cooLeft {
+    width: 20%;
+    float: left;
+}
+
+.cooImageContainer {
+    width: 50%;
+    margin-top: 25%;
+}
+
+.cooImage {
+    width: 100%;
+}
+
+.cooRight {
+    width: 80%;
+    float: right;
+}
+
+.cooHeading {
+    font-family: 'Anton';
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+    padding-bottom: 2%;
+}
+
+.cooText {
+    font-family: 'Lato';
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #505050;
+    padding-bottom: 4%;
+}
+
+.cooName {
+    font-family: 'Lato';
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    font-weight: 600;
+    padding-bottom: 7px;
+}
+
+.cooDesignation {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}

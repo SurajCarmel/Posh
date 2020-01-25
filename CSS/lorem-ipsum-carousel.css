@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {}
+
+.container {
+    width: 72%;
+}
+
+.leftColumn {
+    padding-top: 28%;
+    padding-left: 4%;
+    width: 17%;
+    float: left;
+}
+
+.navLeft {
+    width: 27px;
+    height: 33px;
+}
+
+.middleColumn {
+    padding-top: 17%;
+    width: 66%;
+    float: left;
+}
+
+.loremCard {
+    padding: 7.3%;
+    background-color: #F7F6EF;
+    margin-bottom: 22%;
+}
+
+.caraouselHeading {
+    font-family: 'Merriweather';
+    font-size: 22px;
+    letter-spacing: 3.2px;
+    font-weight: 900;
+    color: #521A1A;
+    text-align: center;
+}
+
+.caraouselText {
+    font-family: 'Lato';
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #521A1A;
+    text-align: center;
+    padding-top: 4.5%;
+}
+
+.rightColumn {
+    padding-top: 28%;
+    padding-right: 4%;
+    width: 17%;
+    float: left;
+}
+
+.navRight {
+    margin-left: 4%;
+    width: 27px;
+    height: 33px;
+    float: right;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: auto;
+}
+
+.navCircles {
+    width: 10px;
+    height: 10px;
+    margin: 7px;
+}
