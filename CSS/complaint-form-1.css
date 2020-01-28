@@ -1,0 +1,117 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.leftContainer {
+    background-color: #fff;
+    width: 5%;
+    float: left;
+    padding-top: 4%;
+}
+
+.headingContainer {
+    text-align: center;
+    padding-bottom: 50%;
+}
+
+.complaintHeading {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Anton';
+    letter-spacing: 2.8px;
+    color: #000000;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+}
+
+.svgContainer {
+    width: 45%;
+    margin: auto;
+}
+
+.circle_color {
+    font-size: 12px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #fff;
+}
+
+.circle_without_color {
+    font-size: 12px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #d3d3d3;
+}
+
+.rightContainer {
+    width: 95%;
+    float: right;
+    background-color: #FCFCFC;
+}
+
+.content {
+    padding: 5%;
+}
+
+.heading {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Lato';
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.commonText {
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #595959;
+    padding-bottom: .5%;
+}
+
+.spacing {
+    padding-top: 4%;
+}
+
+.fullBox {
+    width: 50%;
+    border: 1px solid #CECECE;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.halfBox {
+    width: 30%;
+    border: 1px solid #CECECE;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.alertBox {
+    background-color: #FFDBD0;
+    padding: 5px 30px;
+    width: 50%;
+}
+
+.alertBoxHalf {
+    background-color: #FFDBD0;
+    padding: 5px 30px;
+    width: 30%;
+}
+
+.alertImage {
+    width: 14px;
+    height: 14px;
+}
+
+.alertText {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #772309;
+    padding-left: 15px;
+}

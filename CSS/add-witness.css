@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #000000B2;
+}
+
+.addContainer {
+    background-color: #FFFFFF;
+}
+
+.topRow {
+    padding: 2.7%;
+}
+
+.cancelIcon {
+    width: 38px;
+    height: 38px;
+    float: right;
+}
+
+.middleRow {
+    padding: 0 6.8%;
+}
+
+.heading {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    color: #5A5A5A;
+}
+
+.parameters {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #595959;
+    padding-bottom: 1%;
+}

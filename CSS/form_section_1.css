@@ -1,0 +1,33 @@
+.headingContainer {
+    text-align: center;
+    padding-bottom: 50%;
+}
+
+.complaintHeading {
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Anton';
+    letter-spacing: 2.8px;
+    color: #000000;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+}
+
+.svgContainer {
+    width: 45%;
+    margin: auto;
+}
+
+.circle_color {
+    font-size: 12px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #fff;
+}
+
+.circle_without_color {
+    font-size: 12px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #d3d3d3;
+}

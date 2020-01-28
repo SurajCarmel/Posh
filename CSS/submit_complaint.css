@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headingHolder {
+    padding: 5% 4%;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.submitHeading {
+    font-family: 'Anton';
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.buttonHolder {
+    padding: 4%;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.submitText {
+    font-family: 'Lato';
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #505050;
+    padding-bottom: 2%;
+}
+
+.complaintButton {
+    background-color: #FF0000;
+    box-shadow: 2px 2px 3px #FF000043;
+    border-radius: 27px;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    border: 0;
+}
+
+.trackHolder {
+    padding: 4%;
+}
+
+.registeredText {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 1%;
+}
+
+.trackText {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #505050;
+    font-weight: 600;
+    border-bottom: 1px solid #505050;
+    padding-bottom: 5px;
+}
