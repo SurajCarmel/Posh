@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #FFFFFF;
+}
+
+.desContainer {
+    background-color: #FAFCFD;
+    border: 1px solid #D5E2E8;
+    position: relative;
+}
+
+.description {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 1.4px;
+    color: #4C5264;
+}
+
+.editIcon {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+}

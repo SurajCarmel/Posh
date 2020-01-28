@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.witnessTag {
+    background-color: #F3F5B3;
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #505050;
+    padding: 1.2% 2.7%;
+    border-top-left-radius: 12px;
+    display: inline-block;
+}
+
+.borderContainer {
+    border-bottom: 1px solid #F3F5B3;
+}
+
+.yellowCard {
+    background-color: #fbfce7;
+    padding: 4% 2.7%;
+}
+
+.witDescription {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 1%;
+}
+
+.addIcon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.addLabel {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    color: #000000;
+    padding-left: 1.2%;
+}
+
+.row {
+    padding: 4.6% 2.7%;
+    border-bottom: 1px solid #F3F5B3;
+}
+
+.editIcon {
+    width: 34px;
+    height: 34px;
+}
+
+.deleteIcon {
+    width: 34px;
+    height: 34px;
+    margin-left: 2%;
+}
+
+.leftColumn {
+    float: left;
+    width: 50%;
+}
+
+.rightColumn {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.witName {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+
+.witDetails {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #747474;
+}

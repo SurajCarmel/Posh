@@ -12,11 +12,12 @@
     background-color: #FFFFFF;
     border-bottom-left-radius: 3.5vw;
     border-bottom-right-radius: 3.5vw;
+    box-shadow: 0px 0px 6px #00000029;
 }
 
 .trainingContainer {
     padding: 3% 5% 4% 5%;
-    border-bottom: 1px solid #D3D3D3;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 .training {
@@ -69,7 +70,7 @@
 .row {
     padding: 2%;
     width: 100%;
-    border-bottom: 1px solid #D3D3D3;
+    border-bottom: 1px solid #CCCCCC;
 }
 
 .columnOne {
@@ -100,7 +101,7 @@
     font-size: 12px;
     letter-spacing: 0.6px;
     color: #505050;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .lightText {
@@ -108,10 +109,25 @@
     font-size: 12px;
     letter-spacing: 0.6px;
     color: #909090;
-    font-weight: bold;
+}
+
+.greyText {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #505050;
 }
 
 .Image {
     width: 9%;
-    transform: translateY(0%);
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.underline {
+    border-bottom: 1px solid #505050;
+}
+
+.space {
+    padding-bottom: 11px;
 }
