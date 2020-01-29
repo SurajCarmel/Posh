@@ -1,133 +1,229 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.parent {
-    background-color: #F6F8F9;
-}
-
-.container {
-    background-color: #FFFFFF;
-    border-bottom-left-radius: 3.5vw;
-    border-bottom-right-radius: 3.5vw;
-    box-shadow: 0px 0px 6px #00000029;
-}
-
-.trainingContainer {
-    padding: 3% 5% 4% 5%;
-    border-bottom: 1px solid #CCCCCC;
-}
-
-.training {
-    font-size: 14px;
-    font-family: 'Anton';
-    letter-spacing: 1.4px;
-    color: #000000;
-}
-
-.trainingSubtext {
-    font-size: 12px;
-    font-family: 'Lato';
-    letter-spacing: 0.6px;
-    color: #747474;
-}
-
-.listContainer {
-    padding: 4% 6.7% 7% 6.7%;
-    border-bottom-left-radius: 3.5vw;
-    border-bottom-right-radius: 3.5vw;
-}
-
-.greenCard {
-    padding: 2%;
-    background-color: #EFFAF6;
-    border: 0.5px solid #B6D1C8;
-}
-
-.message {
-    font-family: 'Lato';
-    font-size: 12px;
-    letter-spacing: 1.2px;
-    color: #000000;
-    padding-bottom: 2%;
-}
-
-.subMessage {
-    font-family: 'Lato';
-    font-size: 12px;
-    letter-spacing: 0.6px;
-    color: #505050;
-}
-
-.redCard {
-    padding: 2%;
-    background-color: #FFE8E8;
-    border: 0.5px solid #BA8C8C;
-}
-
-.row {
-    padding: 2%;
-    width: 100%;
-    border-bottom: 1px solid #CCCCCC;
-}
-
-.columnOne {
-    width: 34%;
-    float: left;
-    text-align: left;
-    clear: left;
-}
-
-.columnTwo {
-    width: 33%;
-    float: left;
-    text-align: center;
-}
-
-.columnThree {
-    width: 33%;
-    float: right;
-    text-align: right;
-}
-
-.clear {
-    clear: both;
-}
-
-.darkText {
-    font-family: 'Lato';
-    font-size: 12px;
-    letter-spacing: 0.6px;
-    color: #505050;
-    font-weight: 800;
-}
-
-.lightText {
-    font-family: 'Lato';
-    font-size: 12px;
-    letter-spacing: 0.6px;
-    color: #909090;
-}
-
-.greyText {
-    font-family: 'Lato';
-    font-size: 12px;
-    letter-spacing: 0.6px;
-    color: #505050;
-}
-
-.Image {
-    width: 9%;
-    vertical-align: middle;
-    margin-right: 16px;
-}
-
-.underline {
-    border-bottom: 1px solid #505050;
-}
-
-.space {
-    padding-bottom: 11px;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .parent {
+            background-color: #F6F8F9;
+        }
+        
+        .container {
+            background-color: #FFFFFF;
+            border-bottom-left-radius: 3.5vw;
+            border-bottom-right-radius: 3.5vw;
+            box-shadow: 0px 0px 6px #00000029;
+        }
+        
+        .trainingContainer {
+            padding: 3% 5% 4% 5%;
+            border-bottom: 1px solid #CCCCCC;
+        }
+        
+        .training {
+            font-size: 14px;
+            font-family: 'Anton';
+            letter-spacing: 1.4px;
+            color: #000000;
+        }
+        
+        .trainingSubtext {
+            font-size: 12px;
+            font-family: 'Lato';
+            letter-spacing: 0.6px;
+            color: #747474;
+        }
+        
+        .listContainer {
+            padding: 4% 6.7% 7% 6.7%;
+            border-bottom-left-radius: 3.5vw;
+            border-bottom-right-radius: 3.5vw;
+        }
+        
+        .greenCard {
+            padding: 2%;
+            background-color: #EFFAF6;
+            border: 0.5px solid #B6D1C8;
+        }
+        
+        .message {
+            font-family: 'Lato';
+            font-size: 12px;
+            letter-spacing: 1.2px;
+            color: #000000;
+            padding-bottom: 2%;
+        }
+        
+        .subMessage {
+            font-family: 'Lato';
+            font-size: 12px;
+            letter-spacing: 0.6px;
+            color: #505050;
+        }
+        
+        .redCard {
+            padding: 2%;
+            background-color: #FFE8E8;
+            border: 0.5px solid #BA8C8C;
+        }
+        
+        .row {
+            padding: 2%;
+            width: 100%;
+            border-bottom: 1px solid #CCCCCC;
+        }
+        
+        .columnOne {
+            width: 34%;
+            float: left;
+            text-align: left;
+            clear: left;
+        }
+        
+        .columnTwo {
+            width: 33%;
+            float: left;
+            text-align: center;
+        }
+        
+        .columnThree {
+            width: 33%;
+            float: right;
+            text-align: right;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        .darkText {
+            font-family: 'Lato';
+            font-size: 12px;
+            letter-spacing: 0.6px;
+            color: #505050;
+            font-weight: 800;
+        }
+        
+        .lightText {
+            font-family: 'Lato';
+            font-size: 12px;
+            letter-spacing: 0.6px;
+            color: #909090;
+        }
+        
+        .greyText {
+            font-family: 'Lato';
+            font-size: 12px;
+            letter-spacing: 0.6px;
+            color: #505050;
+        }
+        
+        .Image {
+            width: 9%;
+            vertical-align: middle;
+            margin-right: 16px;
+        }
+        
+        .underline {
+            border-bottom: 1px solid #505050;
+        }
+        
+        .space {
+            padding-bottom: 11px;
+        }
+        
+        @media screen and (max-device-width:768px) {
+            .training {
+                font-size: 10.4px;
+            }
+            .trainingSubtext {
+                font-size: 8.9px;
+            }
+            .message {
+                font-size: 8.9px;
+            }
+            .subMessage {
+                font-size: 8.9px;
+            }
+            .darkText {
+                font-size: 8.9px;
+            }
+            .lightText {
+                font-size: 8.9px;
+            }
+            .greyText {
+                font-size: 8.9px;
+            }
+        }
+        
+        @media screen and (min-device-width:1025px) and (max-device-width:1440px) {
+            .training {
+                font-size: 19.58px;
+            }
+            .trainingSubtext {
+                font-size: 16.84px;
+            }
+            .message {
+                font-size: 16.84px;
+            }
+            .subMessage {
+                font-size: 16.84px;
+            }
+            .darkText {
+                font-size: 16.84px;
+            }
+            .lightText {
+                font-size: 16.84px;
+            }
+            .greyText {
+                font-size: 16.84px;
+            }
+        }
+        
+        @media screen and (min-device-width:1441px) and (max-device-width:1920px) {
+            .training {
+                font-size: 26.112px;
+            }
+            .trainingSubtext {
+                font-size: 22.46px;
+            }
+            .message {
+                font-size: 22.46px;
+            }
+            .subMessage {
+                font-size: 22.46px;
+            }
+            .darkText {
+                font-size: 22.46px;
+            }
+            .lightText {
+                font-size: 22.46px;
+            }
+            .greyText {
+                font-size: 22.46px;
+            }
+        }
+        
+        @media screen and (min-device-width:1921px) and (max-device-width:2560px) {
+            .training {
+                font-size: 34.81px;
+            }
+            .trainingSubtext {
+                font-size: 29.95px;
+            }
+            .message {
+                font-size: 29.95px;
+            }
+            .subMessage {
+                font-size: 29.95px;
+            }
+            .darkText {
+                font-size: 29.95px;
+            }
+            .lightText {
+                font-size: 29.95px;
+            }
+            .greyText {
+                font-size: 29.95px;
+            }
+        }

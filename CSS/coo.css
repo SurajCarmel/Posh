@@ -37,7 +37,7 @@
 
 .cooHeading {
     font-family: 'Anton';
-    font-size: 14px;
+    font-size: 1.36vw;
     letter-spacing: 1px;
     color: #000000;
     padding-bottom: 2%;
@@ -45,7 +45,7 @@
 
 .cooText {
     font-family: 'Lato';
-    font-size: 14px;
+    font-size: 1.36vw;
     letter-spacing: 0;
     color: #505050;
     padding-bottom: 4%;
@@ -53,7 +53,7 @@
 
 .cooName {
     font-family: 'Lato';
-    font-size: 14px;
+    font-size: 1.36vw;
     letter-spacing: 0.7px;
     font-weight: 800;
     padding-bottom: 7px;
@@ -62,7 +62,7 @@
 
 .cooDesignation {
     font-family: 'Lato';
-    font-size: 14px;
+    font-size: 1.36vw;
     font-weight: 800;
     letter-spacing: 0.7px;
     color: #505050;

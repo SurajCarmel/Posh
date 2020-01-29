@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.container {
+    box-shadow: 0px 0px 6px #00000029;
+}
+
 .headingHolder {
     padding: 5% 4%;
     border-bottom: 1px solid #D3D3D3;
@@ -11,7 +15,7 @@
 
 .submitHeading {
     font-family: 'Anton';
-    font-size: 14px;
+    font-size: 1.36vw;
     letter-spacing: 1.4px;
     color: #000000;
 }
@@ -23,7 +27,7 @@
 
 .submitText {
     font-family: 'Lato';
-    font-size: 14px;
+    font-size: 1.36vw;
     letter-spacing: 0;
     color: #505050;
     padding-bottom: 2%;
@@ -46,14 +50,14 @@
 
 .registeredText {
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 0.6px;
     color: #505050;
     padding-bottom: 1%;
 }
 
 .trackText {
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 1.2px;
     color: #505050;
     font-weight: 600;

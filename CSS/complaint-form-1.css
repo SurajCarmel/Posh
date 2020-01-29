@@ -18,7 +18,7 @@
 
 .complaintHeading {
     text-align: left;
-    font-size: 14px;
+    font-size: 1.36vw;
     font-family: 'Anton';
     letter-spacing: 2.8px;
     color: #000000;
@@ -32,14 +32,14 @@
 }
 
 .circle_color {
-    font-size: 12px;
+    font-size: 1.17vw;
     font-family: 'Roboto';
     letter-spacing: 0;
     fill: #fff;
 }
 
 .circle_without_color {
-    font-size: 12px;
+    font-size: 1.17vw;
     font-family: 'Roboto';
     letter-spacing: 0;
     fill: #d3d3d3;
@@ -57,7 +57,7 @@
 
 .heading {
     text-align: left;
-    font-size: 14px;
+    font-size: 1.36vw;
     font-family: 'Lato';
     letter-spacing: 1px;
     color: #000000;
@@ -66,7 +66,7 @@
 
 .commonText {
     text-align: left;
-    font-size: 12px;
+    font-size: 1.17vw;
     font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #595959;
@@ -110,7 +110,7 @@
 
 .alertText {
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 0.6px;
     color: #772309;
     padding-left: 15px;
