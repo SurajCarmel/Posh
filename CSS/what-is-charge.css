@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+.parent {
+    background-color: #EEEEEE;
+}
+
 .textContainer {
     padding: 3.5%;
     box-shadow: 0px 0px 6px #00000029;
     border: 0.5px solid #B5B5B5;
+    background-color: #FFFFFF;
 }
 
 .whatText {
@@ -15,4 +20,13 @@
     font-size: 12px;
     letter-spacing: 0.12px;
     color: #747474;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #FFFFFF;
+    margin: auto;
 }
