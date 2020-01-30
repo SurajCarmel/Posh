@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.evidenceHeading {
+    background-color: #F3F5B3;
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #505050;
+    padding: 1.2% 2.7%;
+    border-top-left-radius: 12px;
+    display: inline-block;
+}
+
+.evidenceDescription {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 1%;
+}
+
+.yellowCard {
+    background-color: #fbfce7;
+    padding: 4% 2.7%;
+}
+
+.borderBox {
+    border: 1px solid #F3F5B3;
+}
+
+.rows {
+    padding: 4.4% 2.7%;
+    border-bottom: 1px solid #F3F5B3;
+}
+
+.leftColumns {
+    width: 75%;
+    float: left;
+    text-align: left;
+}
+
+.rightColumns {
+    width: 25%;
+    float: right;
+    text-align: right;
+}
+
+.latoReg {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.latoBold {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #747474;
+    padding-bottom: 2%;
+}
+
+.underline {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #595959;
+}
+
+.appendEvidenceBox {
+    background-color: #fbfce7;
+    padding: 0 2.7% 3%;
+}
+
+.add {
+    width: 27px;
+    height: 27px;
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.up {
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.evidenceBar {
+    padding: 1.4% 0;
+    margin-bottom: 3%;
+}
+
+.fileContainer {
+    display: flex;
+}
+
+.selectContainer {
+    height: inherit;
+    background-color: white;
+    border: 1px solid #DFEBEF;
+    padding: 2% 2% 1%;
+    width: 45%;
+}
+
+.select {
+    padding-bottom: 1%;
+    font-size: 12px;
+    color: #747474;
+    font-family: 'Lato';
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.maximum {
+    padding-bottom: 3%;
+    font-size: 10px;
+    color: #747474;
+    font-family: 'Lato';
+    letter-spacing: 0.5px;
+}
+
+.browse {
+    font-family: 'Lato';
+    font-size: 12px;
+    background-color: #32BDD2;
+    font-weight: 700;
+    border-radius: 6%;
+    padding: 2% 3%;
+    color: #FFFFFF;
+    border: 0;
+    letter-spacing: 0.6px;
+}
+
+.uploadContainer {
+    background-color: #32BDD2;
+    border: 1px solid #DFEBEF;
+    padding: 2%;
+    width: 45%;
+}
+
+.uploadBackground {
+    border: 2px dashed white;
+    padding: 4% 0;
+}
+
+.upload {
+    display: block;
+    margin: auto;
+    width: 28px;
+    height: 28px;
+}
+
+.drop {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 1px;
+    opacity: 0.75;
+}
+
+.clear {
+    clear: both;
+}

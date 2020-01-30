@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #F6F8F9;
+}
+
+.listHeader {
+    padding: 1.3%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px #00000029;
+}
+
+.headerLeftPart {
+    width: 75%;
+    float: left;
+}
+
+.posh {
+    font-family: 'Anton';
+    font-size: 24px;
+    letter-spacing: 1.1px;
+    color: #000000;
+}
+
+.headerRightPart {
+    width: 25%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.notiIcon {
+    width: 32px;
+    height: 32px;
+    margin-right: 27px;
+}
+
+.userImage {
+    width: 32px;
+    height: 32px;
+    margin-right: 9px;
+}
+
+.userName {
+    font-family: 'Roboto';
+    font-size: 12px;
+    letter-spacing: 0.9px;
+    color: #595959;
+    margin-right: 10px;
+}
+
+.dropIcon {
+    width: 9px;
+    height: 9px;
+}
+
+.clear {
+    clear: both;
+}
+
+.listContainer {
+    width: 95%;
+    margin: 2.5%;
+    box-shadow: 0px 0px 4px #00000029;
+    background-color: #FFFFFF;
+    padding: 5.8% 7.6%;
+}
+
+.returnImage {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 7%;
+}
+
+.underBox {
+    border: 1px solid #CCCCCC;
+    margin-bottom: 3.5%;
+}
+
+.greyUnderBar {
+    padding: 3.4% 4.2%;
+    background-color: #EEEEEE;
+}
+
+.buttonBox {
+    width: 40%;
+    float: left;
+}
+
+.underButton {
+    background-color: #D05224;
+    color: #FFFFFF;
+    border: 0;
+    padding: 6px 15px;
+    letter-spacing: 1.2px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.detailsBox {
+    width: 30%;
+    float: left;
+}
+
+.barHeading {
+    font-family: 'Lato';
+    font-size: 10px;
+    letter-spacing: 1.2px;
+    color: #747474;
+    padding-bottom: 2%;
+}
+
+.barDetails {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #464646;
+    font-weight: 700;
+}
+
+.complaintBox {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+.underBody {
+    padding: 3.4% 4.2%;
+}
+
+.complainantBox {
+    width: 50%;
+    float: left;
+}
+
+.respondentBox {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.bodyHeading {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #909090;
+    font-weight: 900;
+    padding-bottom: 4%;
+}
+
+.underName {
+    font-family: 'Lato';
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: #505050;
+    font-weight: 900;
+    padding-bottom: 3%;
+}
+
+.bodyDetails {
+    color: #4C5264;
+    font-family: 'Lato';
+    font-size: 10px;
+    letter-spacing: 1.2px;
+    padding-bottom: 2%;
+}
+
+.clear {
+    clear: both;
+}

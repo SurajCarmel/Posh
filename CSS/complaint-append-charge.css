@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cancelIcon {
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+}
+
+.appendChargeText {
+    font-family: 'Lato';
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    color: #505050;
+    margin-left: 10px;
+}
+
+.greyTab {
+    padding: 3.5% 6%;
+    background-color: #F4F8FA;
+}
+
+.rightPortion {
+    float: right;
+    width: 15%;
+}
+
+.submitButton {
+    background-color: #32BDD2;
+    border-radius: 0px 54px 54px 0px;
+    padding: 15px;
+    border: 0;
+    color: #FFFFFF;
+    letter-spacing: 1.2px;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 700;
+}
+
+.leftPortion {
+    float: right;
+    width: 81%;
+    position: relative;
+}
+
+.textLine {
+    width: 100%;
+    padding: 13px 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.profilePic {
+    width: 44px;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    transform: translateX(-50%);
+}
