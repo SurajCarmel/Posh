@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inboxContainer {
+    padding: 4.6% 4.36% 4.6% 12.6%;
+}
+
+.inboxHeader {
+    padding-bottom: 7.6%;
+}
+
+.inboxHeading {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    color: #505050;
+    padding-bottom: 2.5%;
+}
+
+.inboxSubheading {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    width: 60%;
+}
+
+.inboxCard {
+    background-color: #EEEEEE;
+    padding: 2.7% 4.4% 3.2% 3.8%;
+    margin-top: 2.2%;
+}
+
+.imageContainers {
+    width: 15%;
+    float: left;
+}
+
+.inboxImage {
+    width: 35px;
+    height: 35px;
+}
+
+.detailsContainers {
+    width: 70%;
+    float: left;
+}
+
+.notiContainer {
+    width: 7%;
+    float: left;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #FF0000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.inboxName {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+.inboxDesignation {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+
+.inboxDetails {
+    width: 93%;
+    float: left;
+}
+
+.dropdownContainers {
+    width: 15%;
+    float: left;
+}
+
+.dropdown {
+    width: 10px;
+    height: 10px;
+    float: right;
+    vertical-align: middle;
+}
+
+.inboxLeftBox {
+    width: 14%;
+    float: left;
+}
+
+.inboxRightBox {
+    width: 86%;
+    float: right;
+    padding: 13.8% 6.5% 0 0;
+}
+
+.inboxgreyCard {
+    padding: 4.3%;
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px;
+    margin-bottom: 7.6%;
+}
+
+.inboxSubmitBtn {
+    background-color: #32BDD2;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 1.36vw;
+    padding: 7px 20px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    border: 0;
+}
+
+.inboxRowBlack {
+    border-bottom: 0.5px solid #CCCCCC;
+    padding-bottom: 6.3%;
+    position: relative;
+}
+
+.inboxRow {
+    border-bottom: 0.5px solid #CCCCCC;
+    padding-top: 7.6%;
+    padding-bottom: 6.3%;
+}
+
+.splInboxRow {
+    padding-top: 7.6%;
+}
+
+.nameContent {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    color: #747474;
+}
+
+.inboxTextBox {
+    box-shadow: 0px 0px 10px #00000029;
+    width: 100%;
+    margin: 2.1% 0;
+}
+
+.contentDateTime {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #747474;
+    padding-bottom: 2.5%;
+}
+
+.inboxContent {
+    font-family: 'Roboto';
+    font-size: 1.36vw;
+    letter-spacing: 0.7px;
+    color: #747474;
+}
+
+.blackBox {
+    padding: 7.3% 0 0 5.8%;
+    background-color: #000000;
+    border-radius: 7px;
+    opacity: 0.75;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 1.36vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.redBar {
+    border-top: 3px solid #FF0000;
+    padding-top: 3px;
+}
+
+.whiteUL {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.clear {
+    clear: both;
+}
+
+.none {
+    display: none;
+}
