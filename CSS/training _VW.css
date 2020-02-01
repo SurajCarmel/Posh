@@ -131,3 +131,27 @@
 .space {
     padding-bottom: 11px;
 }
+
+@media screen and (max-device-width: 768px) {
+    .Image {
+        width: 16.4px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .Image {
+        width: 30.8px;
+    }
+}
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
+    .Image {
+        width: 41px;
+    }
+}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .Image {
+        width: 54.78px;
+    }
+}

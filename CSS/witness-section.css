@@ -7,7 +7,7 @@
 .witnessTag {
     background-color: #F3F5B3;
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 1.2px;
     color: #505050;
     padding: 1.2% 2.7%;
@@ -26,7 +26,7 @@
 
 .witDescription {
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 0.6px;
     color: #505050;
     padding-bottom: 1%;
@@ -40,7 +40,7 @@
 
 .addLabel {
     font-family: 'Lato';
-    font-size: 14px;
+    font-size: 1.36vw;
     font-weight: 700;
     letter-spacing: 1.4px;
     color: #000000;
@@ -49,6 +49,9 @@
 
 .row {
     padding: 4.6% 2.7%;
+}
+
+.bodBot {
     border-bottom: 1px solid #F3F5B3;
 }
 
@@ -76,7 +79,7 @@
 
 .witName {
     font-family: 'Lato';
-    font-size: 14px;
+    font-size: 1.36vw;
     font-weight: 800;
     letter-spacing: 1.2px;
     color: #747474;
@@ -84,11 +87,71 @@
 
 .witDetails {
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 1.2px;
     color: #747474;
 }
 
 .clear {
     clear: both;
+}
+
+@media screen and (max-device-width: 768px) {
+    .addIcon {
+        width: 22.5px;
+        height: 22.5px;
+    }
+    .editIcon {
+        width: 25.5px;
+        height: 25.5px;
+    }
+    .deleteIcon {
+        width: 25.5px;
+        height: 25.5px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .addIcon {
+        width: 42.2px;
+        height: 42.2px;
+    }
+    .editIcon {
+        width: 47.8px;
+        height: 47.8px;
+    }
+    .deleteIcon {
+        width: 47.8px;
+        height: 47.8px;
+    }
+}
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
+    .addIcon {
+        width: 56px;
+        height: 56px;
+    }
+    .editIcon {
+        width: 63.7px;
+        height: 63.7px;
+    }
+    .deleteIcon {
+        width: 63.7px;
+        height: 63.7px;
+    }
+}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .addIcon {
+        width: 75px;
+        height: 75px;
+    }
+    .editIcon {
+        width: 85px;
+        height: 85px;
+    }
+    .deleteIcon {
+        width: 85px;
+        height: 85px;
+    }
 }

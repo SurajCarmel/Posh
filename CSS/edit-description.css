@@ -12,6 +12,7 @@
     background-color: #FAFCFD;
     border: 1px solid #D5E2E8;
     position: relative;
+    padding: 2.3% 3.3% 1.5%;
 }
 
 .description {
@@ -28,4 +29,32 @@
     top: 0;
     right: 0;
     transform: translate(50%, -50%);
+}
+
+@media screen and (max-device-width: 768px) {
+    .editIcon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .editIcon {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
+    .editIcon {
+        width: 48.5px;
+        height: 48.5px;
+    }
+}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .editIcon {
+        width: 64.7px;
+        height: 64.7px;
+    }
 }

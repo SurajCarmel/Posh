@@ -27,7 +27,7 @@
 }
 
 .cooImage {
-    width: 100%;
+    width: 61px;
 }
 
 .cooRight {
@@ -66,4 +66,28 @@
     font-weight: 800;
     letter-spacing: 0.7px;
     color: #505050;
+}
+
+@media screen and (max-device-width: 768px) {
+    .cooImage {
+        width: 46px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .cooImage {
+        width: 86px;
+    }
+}
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
+    .cooImage {
+        width: 114px;
+    }
+}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .cooImage {
+        width: 152px;
+    }
 }

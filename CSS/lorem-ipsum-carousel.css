@@ -30,7 +30,7 @@
 
 .caraouselHeading {
     font-family: 'Merriweather';
-    font-size: 22px;
+    font-size: 2.14vw;
     letter-spacing: 3.2px;
     font-weight: 900;
     color: #521A1A;
@@ -39,7 +39,7 @@
 
 .caraouselText {
     font-family: 'Lato';
-    font-size: 14px;
+    font-size: 1.36vw;
     letter-spacing: 0;
     color: #521A1A;
     text-align: center;
@@ -63,7 +63,7 @@
 .navContainer {
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: fit-content;
     margin: auto;
 }
 
@@ -72,3 +72,11 @@
     height: 10px;
     margin: 7px;
 }
+
+@media screen and (max-device-width: 768px) {}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {}
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {}

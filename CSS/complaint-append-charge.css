@@ -12,7 +12,7 @@
 
 .appendChargeText {
     font-family: 'Lato';
-    font-size: 14px;
+    font-size: 1.36vw;
     letter-spacing: 0.7px;
     color: #505050;
     margin-left: 10px;
@@ -23,42 +23,53 @@
     background-color: #F4F8FA;
 }
 
-.rightPortion {
-    float: right;
-    width: 15%;
+.barAppend {
+    display: flex;
+}
+
+.appendImage {
+    width: fit-content;
+    background-color: #FFFFFF;
+    border-top-left-radius: 5.27vw;
+    border-bottom-left-radius: 5.27vw;
+}
+
+.profilePic {
+    width: 34px;
+    vertical-align: middle;
+}
+
+.appendBox {
+    width: 81.25%;
+}
+
+.textLine {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.appendSubmit {
+    width: 12.5%;
 }
 
 .submitButton {
     background-color: #32BDD2;
-    border-radius: 0px 54px 54px 0px;
-    padding: 15px;
+    border-radius: 0px 5.27vw 5.27vw 0px;
     border: 0;
     color: #FFFFFF;
     letter-spacing: 1.2px;
     font-family: 'Lato';
     font-size: 1.17vw;
     font-weight: 700;
-}
-
-.leftPortion {
-    float: right;
-    width: 81%;
-    position: relative;
-}
-
-.textLine {
     width: 100%;
-    padding: 13px 0;
+    height: 100%;
 }
 
-.clear {
-    clear: both;
-}
+@media screen and (max-device-width: 768px) {}
 
-.profilePic {
-    width: 44px;
-    height: 45px;
-    position: absolute;
-    left: 0;
-    transform: translateX(-50%);
-}
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {}
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {}
