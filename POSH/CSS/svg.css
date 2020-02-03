@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
+.svg_container{
+    width: 20%;
+    float: left;
+}
+.svg_viewport{
+    width: 5.09vw;
+    margin-left: auto;
+}
+.data_container{
+    width: 75%;
+    float: right;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+
+.days{
+    font-size: 1.66vw;
+    font-family: 'Lato';
+    letter-spacing: 1.7px;
+    color: #464646;
+    font-weight: bold;
+    padding-top: .5%;
+}
+
+
+.complaint{
+    margin-top: 30%;
+}
+
+.date_time{
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.2px;
+    color: #505050;
+}
+
+.sent{
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #909090;
+}
+
+.jeret{
+    padding-top: 1%;
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+    font-weight: bold;
+}
+
+
+.member{
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+}
+
+.mob_number{
+    width: 25%;
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+    padding-top: 1%;
+    line-height: 1.5;
+}
+
+.Gurgaon{
+    width: 38%;
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+    padding-top: 1%;
+    line-height: 1.5;
+}
+.accepted{
+    margin-top: 19.5%;
+}

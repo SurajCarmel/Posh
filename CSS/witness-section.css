@@ -11,7 +11,7 @@
     letter-spacing: 1.2px;
     color: #505050;
     padding: 1.2% 2.7%;
-    border-top-left-radius: 12px;
+    border-top-left-radius: 1.17vw;
     display: inline-block;
 }
 
@@ -32,7 +32,7 @@
     padding-bottom: 1%;
 }
 
-.addIcon {
+.addIcons {
     width: 30px;
     height: 30px;
     vertical-align: middle;
@@ -55,12 +55,12 @@
     border-bottom: 1px solid #F3F5B3;
 }
 
-.editIcon {
+.editIcons {
     width: 34px;
     height: 34px;
 }
 
-.deleteIcon {
+.deleteIcons {
     width: 34px;
     height: 34px;
     margin-left: 2%;
@@ -80,7 +80,7 @@
 .witName {
     font-family: 'Lato';
     font-size: 1.36vw;
-    font-weight: 800;
+    font-weight: 900;
     letter-spacing: 1.2px;
     color: #747474;
 }
@@ -97,60 +97,60 @@
 }
 
 @media screen and (max-device-width: 768px) {
-    .addIcon {
+    .addIcons {
         width: 22.5px;
         height: 22.5px;
     }
-    .editIcon {
+    .editIcons {
         width: 25.5px;
         height: 25.5px;
     }
-    .deleteIcon {
+    .deleteIcons {
         width: 25.5px;
         height: 25.5px;
     }
 }
 
 @media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
-    .addIcon {
+    .addIcons {
         width: 42.2px;
         height: 42.2px;
     }
-    .editIcon {
+    .editIcons {
         width: 47.8px;
         height: 47.8px;
     }
-    .deleteIcon {
+    .deleteIcons {
         width: 47.8px;
         height: 47.8px;
     }
 }
 
 @media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
-    .addIcon {
+    .addIcons {
         width: 56px;
         height: 56px;
     }
-    .editIcon {
+    .editIcons {
         width: 63.7px;
         height: 63.7px;
     }
-    .deleteIcon {
+    .deleteIcons {
         width: 63.7px;
         height: 63.7px;
     }
 }
 
 @media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
-    .addIcon {
+    .addIcons {
         width: 75px;
         height: 75px;
     }
-    .editIcon {
+    .editIcons {
         width: 85px;
         height: 85px;
     }
-    .deleteIcon {
+    .deleteIcons {
         width: 85px;
         height: 85px;
     }

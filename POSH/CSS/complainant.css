@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.left_part{
+flex: 0;
+background-color: #fff;
+}
+.complainant{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Anton';
+    letter-spacing: 2.8px;
+    color: #000000;
+    transform: rotateZ(-90deg); 
+    margin-top: 7%;
+}
+
+.circle_color{
+    font-size: 12px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #fff;
+}
+
+.circle_without_color{
+    font-size: 12px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #d3d3d3;
+}
+

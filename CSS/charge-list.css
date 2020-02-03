@@ -192,6 +192,7 @@
     width: 13px;
     height: 10px;
     margin-right: 14px;
+    vertical-align: middle;
 }
 
 .darkerText {
@@ -206,7 +207,6 @@
     width: 26px;
     height: 26px;
     float: right;
-    vertical-align: middle;
 }
 
 .greyBody {
@@ -232,6 +232,7 @@
     font-family: 'Lato';
     font-size: 1.17vw;
     letter-spacing: 0.6px;
+    font-weight: 600;
     color: #CB1720;
 }
 
@@ -277,6 +278,9 @@
     font-family: 'Lato';
     border-bottom: 2px solid #32BDD2;
     float: right;
+}
+
+.valign {
     vertical-align: middle;
 }
 

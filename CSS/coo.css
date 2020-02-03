@@ -8,7 +8,7 @@
     background-color: #F6F8F9;
 }
 
-.container {
+.cooContainer {
     background-color: #FFFFFF;
     padding: 5% 7.6%;
     box-shadow: 0px 2px 6px #00000029;
@@ -55,7 +55,7 @@
     font-family: 'Lato';
     font-size: 1.36vw;
     letter-spacing: 0.7px;
-    font-weight: 800;
+    font-weight: 900;
     padding-bottom: 7px;
     color: #505050;
 }
@@ -63,7 +63,7 @@
 .cooDesignation {
     font-family: 'Lato';
     font-size: 1.36vw;
-    font-weight: 800;
+    font-weight: 900;
     letter-spacing: 0.7px;
     color: #505050;
 }
