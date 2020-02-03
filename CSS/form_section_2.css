@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .heading {
     text-align: left;
     font-size: 1.36vw;
@@ -82,7 +88,7 @@
 
 @media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
     .alertImage {
-        width: 34.8px;
-        height: 34.8px;
+        width: 35px;
+        height: 35px;
     }
 }
