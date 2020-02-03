@@ -116,10 +116,30 @@
     padding-left: 15px;
 }
 
-@media screen and (max-device-width: 768px) {}
+@media screen and (max-device-width: 768px) {
+    .alertImage {
+        width: 10.4px;
+        height: 10.4px;
+    }
+}
 
-@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {}
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .alertImage {
+        width: 19.6px;
+        height: 19.6px;
+    }
+}
 
-@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {}
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
+    .alertImage {
+        width: 26px;
+        height: 26px;
+    }
+}
 
-@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {}
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .alertImage {
+        width: 35px;
+        height: 35px;
+    }
+}

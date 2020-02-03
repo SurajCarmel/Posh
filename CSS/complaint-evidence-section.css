@@ -99,7 +99,6 @@
 }
 
 .selectContainer {
-    height: inherit;
     background-color: white;
     border: 1px solid #DFEBEF;
     padding: 2% 2% 1%;
@@ -168,10 +167,62 @@
     clear: both;
 }
 
-@media screen and (max-device-width: 768px) {}
+@media screen and (max-device-width: 768px) {
+    .add {
+        width: 20px;
+        height: 20px;
+    }
+    .up {
+        width: 9px;
+        height: 9px;
+    }
+    .upload {
+        width: 21px;
+        height: 21px;
+    }
+}
 
-@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {}
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .add {
+        width: 37.8px;
+        height: 37.8px;
+    }
+    .up {
+        width: 16.8px;
+        height: 16.8px;
+    }
+    .upload {
+        width: 39.3px;
+        height: 39.3px;
+    }
+}
 
-@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {}
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
+    .add {
+        width: 50.5px;
+        height: 50.5px;
+    }
+    .up {
+        width: 22.4px;
+        height: 22.4px;
+    }
+    .upload {
+        width: 52.5px;
+        height: 52.5px;
+    }
+}
 
-@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {}
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .add {
+        width: 67.3px;
+        height: 67.3px;
+    }
+    .up {
+        width: 30px;
+        height: 30px;
+    }
+    .upload {
+        width: 70px;
+        height: 70px;
+    }
+}

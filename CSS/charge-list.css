@@ -280,10 +280,142 @@
     vertical-align: middle;
 }
 
-@media screen and (max-device-width: 768px) {}
+@media screen and (max-device-width: 768px) {
+    .notiIcon {
+        width: 24px;
+        height: 24px;
+    }
+    .userImage {
+        width: 24px;
+        height: 24px;
+    }
+    .dropIcon {
+        width: 6.75px;
+        height: 6.75px;
+    }
+    .addChargeIcon {
+        width: 29px;
+        height: 29px;
+    }
+    .upIcon {
+        width: 9.8px;
+        height: 7.4px;
+    }
+    .deleteIcon {
+        width: 19.4px;
+        height: 19.4px;
+    }
+    .errorIcon {
+        width: 10.4px;
+        height: 10.4px;
+    }
+    .nextIcon {
+        width: 7.4px;
+        height: 7.4px;
+    }
+}
 
-@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {}
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .notiIcon {
+        width: 45px;
+        height: 45px;
+    }
+    .userImage {
+        width: 45px;
+        height: 45px;
+    }
+    .dropIcon {
+        width: 12.7px;
+        height: 12.7px;
+    }
+    .addChargeIcon {
+        width: 54.7px;
+        height: 54.7px;
+    }
+    .upIcon {
+        width: 18.3px;
+        height: 14px;
+    }
+    .deleteIcon {
+        width: 36.4px;
+        height: 36.4px;
+    }
+    .errorIcon {
+        width: 19.6px;
+        height: 19.6px;
+    }
+    .nextIcon {
+        width: 14px;
+        height: 14px;
+    }
+}
 
-@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {}
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
+    .notiIcon {
+        width: 60px;
+        height: 60px;
+    }
+    .userImage {
+        width: 60px;
+        height: 60px;
+    }
+    .dropIcon {
+        width: 17px;
+        height: 17px;
+    }
+    .addChargeIcon {
+        width: 73px;
+        height: 73px;
+    }
+    .upIcon {
+        width: 24.4px;
+        height: 18.6px;
+    }
+    .deleteIcon {
+        width: 48.5px;
+        height: 48.5px;
+    }
+    .errorIcon {
+        width: 26px;
+        height: 26px;
+    }
+    .nextIcon {
+        width: 18.6px;
+        height: 18.6px;
+    }
+}
 
-@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {}
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .notiIcon {
+        width: 80px;
+        height: 80px;
+    }
+    .userImage {
+        width: 80px;
+        height: 80px;
+    }
+    .dropIcon {
+        width: 22.5px;
+        height: 22.5px;
+    }
+    .addChargeIcon {
+        width: 97.3px;
+        height: 97.3px;
+    }
+    .upIcon {
+        width: 32.5px;
+        height: 24.8px;
+    }
+    .deleteIcon {
+        width: 64.7px;
+        height: 64.7px;
+    }
+    .errorIcon {
+        width: 34.8px;
+        height: 34.8px;
+    }
+    .nextIcon {
+        width: 24.8px;
+        height: 24.8px;
+    }
+}

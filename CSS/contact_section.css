@@ -56,7 +56,8 @@
 }
 
 .profilePic {
-    width: 100%;
+    width: 55px;
+    height: 55px;
 }
 
 .textContainer {
@@ -101,8 +102,8 @@
 }
 
 .navImage {
-    width: 3%;
-    height: 5%;
+    width: 5px;
+    height: 10px;
 }
 
 .indexText {
@@ -116,13 +117,44 @@
 
 @media screen and (max-device-width: 768px) {
     .navImage {
-        width: 3%;
-        height: 5%;
+        width: 3.6px;
+        height: 7.4px;
+    }
+    .profilePic {
+        width: 41px;
+        height: 41px;
     }
 }
 
-@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {}
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .navImage {
+        width: 6.9px;
+        height: 14px;
+    }
+    .profilePic {
+        width: 77px;
+        height: 77px;
+    }
+}
 
-@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {}
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
+    .navImage {
+        width: 9.2px;
+        height: 19px;
+    }
+    .profilePic {
+        width: 103px;
+        height: 103px;
+    }
+}
 
-@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {}
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .navImage {
+        width: 12px;
+        height: 25px;
+    }
+    .profilePic {
+        width: 137px;
+        height: 137px;
+    }
+}

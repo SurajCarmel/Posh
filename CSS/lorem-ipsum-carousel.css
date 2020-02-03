@@ -73,10 +73,62 @@
     margin: 7px;
 }
 
-@media screen and (max-device-width: 768px) {}
+@media screen and (max-device-width: 768px) {
+    .navLeft {
+        width: 20px;
+        height: 25px;
+    }
+    .navRight {
+        width: 20px;
+        height: 25px;
+    }
+    .navCircles {
+        width: 8px;
+        height: 8px;
+    }
+}
 
-@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {}
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .navLeft {
+        width: 38px;
+        height: 46px;
+    }
+    .navRight {
+        width: 38px;
+        height: 46px;
+    }
+    .navCircles {
+        width: 14px;
+        height: 14px;
+    }
+}
 
-@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {}
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
+    .navLeft {
+        width: 51px;
+        height: 62px;
+    }
+    .navRight {
+        width: 51px;
+        height: 62px;
+    }
+    .navCircles {
+        width: 19px;
+        height: 19px;
+    }
+}
 
-@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {}
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .navLeft {
+        width: 67px;
+        height: 83px;
+    }
+    .navRight {
+        width: 67px;
+        height: 83px;
+    }
+    .navCircles {
+        width: 25px;
+        height: 25px;
+    }
+}
