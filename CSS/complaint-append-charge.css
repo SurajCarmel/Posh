@@ -71,12 +71,18 @@
         width: 19.4px;
         height: 19.4px;
     }
+    .profilePic {
+        width: 25.5px;
+    }
 }
 
 @media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
     .cancelIcon {
         width: 36.4px;
         height: 36.4px;
+    }
+    .profilePic {
+        width: 47.8px;
     }
 }
 
@@ -85,11 +91,17 @@
         width: 48.5px;
         height: 48.5px;
     }
+    .profilePic {
+        width: 63.7px;
+    }
 }
 
 @media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
     .cancelIcon {
         width: 64.7px;
         height: 64.7px;
+    }
+    .profilePic {
+        width: 85px;
     }
 }
