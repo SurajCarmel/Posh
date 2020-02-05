@@ -363,56 +363,69 @@
     color: #747474;
 }
 
+
+/* ---------------------------------taskbar------------------------------------- */
+
 .task_container {
-    width: 5%;
+    width: 7%;
     background-color: #32BDD2;
     border: 1px solid #D6D4E0;
-    padding-top: 2%;
-    border-radius: 50px;
+    border-radius: 3.6vw;
     position: absolute;
-    top: 2%;
     left: 0;
+    top: 1.6%;
     transform: translateX(-50%);
 }
 
-.mail img {
-    display: block;
-    margin: auto;
-    width: 25px;
-    height: 25px;
+.icon_container {
+    border-radius: 50%;
+    margin: 32% 8%;
+    padding: 19%;
+    border: 0;
 }
 
-.mail_mail img {
-    display: block;
-    margin: auto;
-    width: 20px;
-    height: 20px;
-}
-
-.mail {
-    padding: 50% 0;
-}
-
-.mail_mail {
-    padding: 50% 0;
-}
-
-.home img {
-    display: block;
-    margin: auto;
-    width: 25px;
-    height: 25px;
+.focused {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 6px #3B3B3B29;
 }
 
 .home {
-    padding: 2% 0 0 5%;
-    width: 35px;
-    height: 35px;
+    width: 2.56vw;
+    height: 2.56vw;
+    display: block;
     margin: auto;
-    background-color: #FFFFFF;
-    box-shadow: 0px 0px 6px #3B3B3B29;
-    border-radius: 200px;
 }
+
+.mail {
+    width: 2.56vw;
+    height: 2.27vw;
+    display: block;
+    margin: auto;
+}
+
+.calender {
+    width: 2.56vw;
+    height: 2.56vw;
+    display: block;
+    margin: auto;
+}
+
+.pencil {
+    width: 2.75vw;
+    height: 2.75vw;
+    display: block;
+    margin: auto;
+}
+
+.arrow {
+    width: 2.50vw;
+    height: 2.50vw;
+    display: block;
+    margin: auto;
+}
+
+
+/* --------------------------media queries----------------- */
 
 @media screen and (max-device-width: 768px) {
     .notiIcon {
@@ -438,23 +451,6 @@
     .statusIcon {
         width: 15px;
         height: 15px;
-    }
-    .mail img {
-        width: 20px;
-        height: 20px;
-    }
-    .mail_mail img {
-        width: 17px;
-        height: 17px;
-    }
-    .home img {
-        width: 20px;
-        height: 20px;
-    }
-    .home {
-        padding-top: 10%;
-        width: 30px;
-        height: 30px;
     }
 }
 
@@ -483,23 +479,6 @@
         width: 28px;
         height: 28px;
     }
-    .mail img {
-        width: 30px;
-        height: 30px;
-    }
-    .mail_mail img {
-        width: 25px;
-        height: 25px;
-    }
-    .home img {
-        width: 30px;
-        height: 30px;
-    }
-    .home {
-        padding-top: 5%;
-        width: 40px;
-        height: 40px;
-    }
 }
 
 @media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
@@ -526,23 +505,6 @@
     .statusIcon {
         width: 37.4px;
         height: 37.4px;
-    }
-    .mail img {
-        width: 40px;
-        height: 40px;
-    }
-    .mail_mail img {
-        width: 30px;
-        height: 30px;
-    }
-    .home img {
-        width: 40px;
-        height: 40px;
-    }
-    .home {
-        padding-top: 10%;
-        width: 50px;
-        height: 50px;
     }
 }
 
@@ -573,22 +535,5 @@
     }
     .container {
         border-radius: 70px;
-    }
-    .mail img {
-        width: 60px;
-        height: 60px;
-    }
-    .mail_mail img {
-        width: 45px;
-        height: 45px;
-    }
-    .home img {
-        width: 60px;
-        height: 60px;
-    }
-    .home {
-        padding-top: 4%;
-        width: 70px;
-        height: 70px;
     }
 }
