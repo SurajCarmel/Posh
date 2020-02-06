@@ -5,33 +5,50 @@
 }
 
 .parent {
-    background-color: #F6F8F9;
+    height: 100vh;
+    background-color: #000000B2;
+    position: relative;
 }
 
 .cooContainer {
+    width: 77.7%;
     background-color: #FFFFFF;
-    padding: 5% 7.6%;
+    padding: 2% 2% 5.2% 7.6%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     box-shadow: 0px 2px 6px #00000029;
     border-radius: 1.95vw;
 }
 
+.cancelIcon {
+    box-shadow: 0px 0px 10px #00000029;
+    border: 0.5px solid #EFEFEF;
+    float: right;
+    width: 38px;
+    border-radius: 50%;
+}
+
 .cooLeft {
-    width: 20%;
+    width: 14.5%;
     float: left;
 }
 
 .cooImageContainer {
-    width: 50%;
-    margin-top: 25%;
+    width: 62.6%;
+    margin-top: 36.7%;
 }
 
 .cooImage {
     width: 61px;
+    height: 61px;
 }
 
 .cooRight {
-    width: 80%;
+    width: 85.5%;
     float: right;
+    padding-right: 7%;
 }
 
 .cooHeading {
@@ -47,10 +64,11 @@
     font-size: 1.36vw;
     letter-spacing: 0;
     color: #505050;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
 }
 
 .cooName {
+    padding-top: 2%;
     font-family: 'Lato';
     font-size: 1.36vw;
     letter-spacing: 0.7px;
@@ -74,23 +92,39 @@
 @media screen and (max-device-width: 768px) {
     .cooImage {
         width: 46px;
+        height: 46px;
+    }
+    .cancelIcon {
+        width: 28.5px;
     }
 }
 
 @media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
     .cooImage {
         width: 86px;
+        height: 86px;
+    }
+    .cancelIcon {
+        width: 53.4px;
     }
 }
 
 @media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
     .cooImage {
         width: 114px;
+        height: 114px;
+    }
+    .cancelIcon {
+        width: 71.2px;
     }
 }
 
 @media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
     .cooImage {
         width: 152px;
+        height: 152px;
+    }
+    .cancelIcon {
+        width: 95px;
     }
 }
