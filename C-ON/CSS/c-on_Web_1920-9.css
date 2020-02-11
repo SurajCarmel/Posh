@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.addPageContainer {
+    background-color: #FAFAFA;
+}
+
+.header {
+    box-shadow: 0px 3px 6px #BCBCBC40;
+    background-color: #FFFFFF;
+    padding: 2% 3.4%;
+    display: flex;
+    align-items: center;
+}
+
+.leftFlex {
+    width: 85%;
+    float: left;
+    display: flex;
+}
+
+.dashboardBox {
+    width: 18%;
+}
+
+.lightText {
+    font-family: 'Roboto';
+    font-size: 1.36vw;
+    letter-spacing: 0.7px;
+    color: #909090;
+}
+
+.coursesBox {
+    width: 16%;
+}
+
+.underline {
+    padding-bottom: 6px;
+    border-bottom: 4px solid #32BDD2;
+}
+
+.darkText {
+    font-family: 'Roboto';
+    font-size: 1.36vw;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    color: #595959;
+}
+
+.reportsBox {
+    width: 15%;
+}
+
+.systemsBox {
+    width: 51%;
+}
+
+.clear {
+    clear: both;
+}
+
+.rightFlex {
+    width: 15%;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.imageBox {
+    width: 30%;
+}
+
+.userImage {
+    width: 60px;
+}
+
+.nameBox {
+    width: 63%;
+}
+
+.userName {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.17vw;
+    letter-spacing: 0.9px;
+    color: #5A5A5A;
+}
+
+.downBox {
+    width: 7%;
+}
+
+.downImage {
+    width: 18.6px;
+}
+
+.coursesContainer {
+    margin: 4.2% 2.4% 2% 2.4%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.topRow {
+    padding: 5.1% 3.1%;
+    border-bottom: 6px solid #FAFAFA;
+}
+
+.coursesLeft {
+    width: 50%;
+    float: left;
+}
+
+.coursesHeading {
+    font-family: 'Roboto';
+    font-size: 1.75vw;
+    font-weight: 500;
+    letter-spacing: 0.9px;
+    color: #000000;
+}
+
+.coursesRight {
+    width: 50%;
+    float: right;
+}
+
+.burgerMenu {
+    width: 56px;
+    float: right;
+}
+
+.climateRow {
+    padding: 3.6% 3.1%;
+    border-bottom: 6px solid #FAFAFA;
+}
+
+.climateSubHeading {
+    font-family: 'Roboto';
+    font-size: 1.36vw;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    color: #595959;
+    padding-bottom: 2.2%;
+}
+
+.climateText {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #747474;
+    padding-right: 15%;
+    padding-bottom: 7.4%;
+}
+
+.learningBox {
+    width: 34%;
+    float: left;
+    letter-spacing: 1.2px;
+    color: #747474;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    text-align: center;
+    border: 1px solid #747474;
+    padding: 2.2% 0;
+}
+
+.formatBox {
+    width: 29%;
+    float: left;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    text-align: center;
+    background-color: #747474;
+    border: 1px solid #747474;
+    padding: 2.2% 0;
+}
+
+.draftBtn {
+    border-radius: 1.66vw;
+    border: 0;
+    background-color: #D0C824;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.17vw;
+    padding: 10px 30px;
+    float: right;
+}
+
+.addRow {
+    padding: 2.2% 3.1% 3.1%;
+}
+
+.lessons {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #595959;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #32BDD2;
+}
+
+.addBox {
+    margin: 4.8% 0;
+    border: 7px dashed #D5CCCC;
+    text-align: center;
+    padding: 4.7% 0;
+}
+
+.placeholder {
+    width: fit-content;
+    margin: auto;
+}
+
+.addBtn {
+    width: 56px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.addText {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.36vw;
+    letter-spacing: 1.4px;
+    color: #595959;
+    vertical-align: middle;
+}
+
+.indexBox {
+    border: 2px solid #F0F0F0;
+    margin-bottom: 3.9%;
+}
+
+.greyBar {
+    padding: 2.6% 3.2% 2.3% 2.9%;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+}
+
+.downContainer {
+    width: 3.5%;
+}
+
+.downIcon {
+    width: 26px;
+    vertical-align: middle;
+}
+
+.textBox {
+    width: 92.5%;
+}
+
+.greyBarText {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #595959;
+}
+
+.menuBox {
+    width: 4%;
+}
+
+.menuIcon {
+    width: 56px;
+    box-shadow: 0px 0px 3px #00000029;
+    border: 0;
+    border-radius: 50%;
+}
+
+.subGreyBar {
+    background-color: #FAFBFC;
+    padding: 3.3% 3.2% 3.3% 6%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.descriptionBox {
+    width: 71%;
+}
+
+.robotoBold {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #595959;
+    padding-bottom: 8.5px;
+}
+
+.robotoRegular {
+    font-family: 'Roboto';
+    font-size: 0.97vw;
+    letter-spacing: 0.5px;
+    color: #707070;
+    width: 54%;
+}
+
+.burgerMenuBox {
+    width: 5%;
+}
+
+.timeBox {
+    width: 24%;
+    padding-right: 1%;
+    text-align: right;
+}
+
+.timeText {
+    font-family: 'Roboto';
+    font-size: 1.75vw;
+    letter-spacing: 1.8px;
+    color: #5A5A5A;
+}
+
+.space {
+    margin-bottom: 7.1%;
+}
+
+.showRow {
+    width: fit-content;
+    margin: auto;
+}
+
+.showmoreText {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.36vw;
+    letter-spacing: 1.4px;
+    color: #595959;
+    margin-right: 14px;
+    vertical-align: middle;
+}
+
+.shadow {
+    box-shadow: 0px 0px 6px #00000034;
+}
+
+.submitBar {
+    padding-top: 8.2%;
+}
+
+.submitBarLeft {
+    width: 50%;
+    float: left;
+}
+
+.cancelLink {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #747474;
+    border-bottom: 1px solid #747474;
+    padding-bottom: 2px;
+}
+
+.submitBarRight {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.submitBtn {
+    background-color: #32BDD2;
+    border-radius: 4px;
+    padding: 8px 22.5px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    border: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-device-width: 768px) {
+    .userImage {
+        width: 24px;
+    }
+    .downImage {
+        width: 7.4px;
+    }
+    .burgerMenu {
+        width: 22.5px;
+    }
+    .addBtn {
+        width: 22.5px;
+    }
+    .downIcon {
+        width: 10.4px;
+    }
+    .menuIcon {
+        width: 22.5px;
+    }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .userImage {
+        width: 32px;
+    }
+    .downImage {
+        width: 10px;
+    }
+    .burgerMenu {
+        width: 30px;
+    }
+    .addBtn {
+        width: 30px;
+    }
+    .downIcon {
+        width: 14px;
+    }
+    .menuIcon {
+        width: 30px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .userImage {
+        width: 45px;
+    }
+    .downImage {
+        width: 14px;
+    }
+    .burgerMenu {
+        width: 42px;
+    }
+    .addBtn {
+        width: 42px;
+    }
+    .downIcon {
+        width: 19.6px;
+    }
+    .menuIcon {
+        width: 42px;
+    }
+}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .userImage {
+        width: 80px;
+    }
+    .downImage {
+        width: 24.8px;
+    }
+    .burgerMenu {
+        width: 75px;
+    }
+    .addBtn {
+        width: 75px;
+    }
+    .downIcon {
+        width: 34.8px;
+    }
+    .menuIcon {
+        width: 75px;
+    }
+}

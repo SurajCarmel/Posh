@@ -32,6 +32,10 @@
     border-bottom: 4px solid #32BDD2;
 }
 
+.rowTwo {
+    padding: 3.75% 3% 3.2% 3.8%;
+}
+
 .formText {
     font-family: 'Roboto';
     font-size: 1.17vw;
@@ -40,15 +44,15 @@
     padding-bottom: 0.8%;
 }
 
-.rowTwo {
-    padding: 3.75% 3% 3.2% 3.8%;
-}
-
 .textBoxOne {
     border: 1px solid #CECECE;
     border-radius: 4px;
     width: 50%;
     padding: 0.8% 0;
+}
+
+.boxSpace {
+    margin-bottom: 4.8%;
 }
 
 .textBoxTwo {
@@ -74,10 +78,6 @@
     border-radius: 4px;
     width: 39.1%;
     padding: 0.8% 0;
-}
-
-.boxSpace {
-    margin-bottom: 4.8%;
 }
 
 .submitBar {

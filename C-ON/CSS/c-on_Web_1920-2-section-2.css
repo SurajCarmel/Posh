@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.indexBox {
+    border: 2px solid #F0F0F0;
+    margin-bottom: 3.9%;
+}
+
+.greyBar {
+    padding: 2.6% 3.2% 2.3% 2.9%;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+}
+
+.downContainer {
+    width: 3.5%;
+}
+
+.downIcon {
+    width: 26px;
+    vertical-align: middle;
+}
+
+.textBox {
+    width: 92.5%;
+}
+
+.greyBarText {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #595959;
+}
+
+.menuBox {
+    width: 4%;
+}
+
+.menuIcon {
+    width: 56px;
+}
+
+.subGreyBar {
+    background-color: #FAFBFC;
+    padding: 1.8% 3.2% 3.3% 6%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.descriptionBox {
+    width: 71%;
+}
+
+.robotoBold {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #595959;
+    padding-bottom: 8.5px;
+}
+
+.robotoRegular {
+    font-family: 'Roboto';
+    font-size: 0.97vw;
+    letter-spacing: 0.5px;
+    color: #707070;
+    width: 54%;
+}
+
+.burgerMenuBox {
+    width: 5%;
+}
+
+.timeBox {
+    width: 24%;
+    padding-right: 1%;
+    text-align: right;
+}
+
+.timeText {
+    font-family: 'Roboto';
+    font-size: 1.75vw;
+    letter-spacing: 1.8px;
+    color: #5A5A5A;
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-device-width: 768px) {
+    .downIcon {
+        width: 10.4px;
+    }
+    .menuIcon {
+        width: 22.5px;
+    }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .downIcon {
+        width: 14px;
+    }
+    .menuIcon {
+        width: 30px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .downIcon {
+        width: 19.6px;
+    }
+    .menuIcon {
+        width: 42px;
+    }
+}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .downIcon {
+        width: 34.8px;
+    }
+    .menuIcon {
+        width: 75px;
+    }
+}
