@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.optionsPopup {
+    width: 34.1%;
+}
+
+.imgRow {
+    background-color: transparent;
+}
+
+.cancelIcon {
+    width: 60px;
+    float: right;
+}
+
+.optionsBox {
+    background-color: #FFFFFF;
+    padding: 0 7.3%;
+}
+
+.row {
+    border-bottom: 1px solid #F7F7F7;
+    padding: 7.3% 0;
+}
+
+.option {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.36vw;
+    letter-spacing: 1.4px;
+    color: #595959;
+    padding-bottom: 7px;
+}
+
+.details {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #707070;
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-device-width:768px) {
+    .cancelIcon {
+        width: 24px;
+    }
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+    .cancelIcon {
+        width: 32px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .cancelIcon {
+        width: 45px;
+    }
+}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .cancelIcon {
+        width: 80px;
+    }
+}
