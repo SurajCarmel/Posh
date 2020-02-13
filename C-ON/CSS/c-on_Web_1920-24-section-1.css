@@ -121,25 +121,25 @@
     clear: both;
 }
 
-@media screen and (max-device-width: 768px) {
+@media screen and (max-width: 768px) {
     .downImage {
         width: 7.4px;
     }
 }
 
-@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .downImage {
         width: 10px;
     }
 }
 
-@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
     .downImage {
         width: 14px;
     }
 }
 
-@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+@media screen and (min-width: 1921px) and (max-width: 2560px) {
     .downImage {
         width: 24.8px;
     }

@@ -55,25 +55,25 @@ body {
     clear: both;
 }
 
-@media screen and (max-device-width:768px) {
+@media screen and (max-width:768px) {
     .cancelIcon {
         width: 24px;
     }
 }
 
-@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .cancelIcon {
         width: 32px;
     }
 }
 
-@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
     .cancelIcon {
         width: 45px;
     }
 }
 
-@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+@media screen and (min-width: 1921px) and (max-width: 2560px) {
     .cancelIcon {
         width: 80px;
     }
