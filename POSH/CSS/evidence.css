@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-.eviContainer {}
 
 .evidence_tag {
     text-align: center;
@@ -31,7 +30,7 @@
 .description {
     text-align: left;
     font-family: 'Lato';
-    font-size: 1.17vw;
+    font-size:1.17vw;
     letter-spacing: 0.6px;
     color: #505050;
     opacity: 1;
@@ -39,7 +38,7 @@
 
 .file {
     width: 100%;
-    padding: 0 1.99% 3.36% 1.99%;
+    padding: 0 1.99%  3.36% 1.99%;
 }
 
 .selectContainer {
@@ -61,7 +60,7 @@
 
 .maximum {
     padding-bottom: 5.5%;
-    font-size: 0.97vw;
+    font-size:0.97vw;
     color: #707070;
     font-family: 'Lato';
     font-weight: 400;
@@ -166,3 +165,5 @@
     display: block;
     margin-left: auto;
 }
+
+ 
