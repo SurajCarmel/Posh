@@ -1,0 +1,768 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    background-color: #F6F8F9;
+}
+
+.listHeader {
+    padding: 1.3%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px #00000029;
+}
+
+.headerLeftPart {
+    width: 75%;
+    float: left;
+}
+
+.posh {
+    font-family: 'Anton';
+    font-size: 2.34vw;
+    letter-spacing: 1.1px;
+    color: #000000;
+}
+
+.headerRightPart {
+    width: 25%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.notiIcon {
+    width: 32px;
+    height: 32px;
+    margin-right: 27px;
+}
+
+.userImage {
+    width: 32px;
+    height: 32px;
+    margin-right: 9px;
+}
+
+.userName {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.9px;
+    color: #595959;
+    margin-right: 10px;
+}
+
+.dropIcon {
+    width: 9px;
+    height: 9px;
+}
+
+.clear {
+    clear: both;
+}
+
+.listContainer {
+    width: 95%;
+    margin: 2.5%;
+    box-shadow: 0px 0px 4px #00000029;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.leftContainer {
+    background-color: #fff;
+    width: 5%;
+    float: left;
+    padding-top: 4%;
+}
+
+.headingContainer {
+    text-align: center;
+    padding-bottom: 50%;
+}
+
+.complaintHeading {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Anton';
+    letter-spacing: 2.8px;
+    color: #000000;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+}
+
+.svgContainer {
+    width: 45%;
+    margin: auto;
+}
+
+.circle_color {
+    font-size: 1.17vw;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #fff;
+}
+
+.circle_without_color {
+    font-size: 1.17vw;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #d3d3d3;
+}
+
+.rightContainer {
+    width: 95%;
+    float: right;
+    background-color: #FCFCFC;
+}
+
+.content {
+    padding: 6% 11% 6% 6%;
+}
+
+.chargesHeading {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.chargesDescription {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #747474;
+    padding-bottom: 4.7%;
+}
+
+.addChargeBox {
+    border: 4px dashed #B5B5B5;
+    padding: 2.7% 0;
+    margin-bottom: 2.4%;
+}
+
+.contentBox {
+    width: fit-content;
+    margin: auto;
+}
+
+.addChargeIcon {
+    width: 39px;
+    height: 39px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+.addCharge {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    color: #595959;
+}
+
+.aligner {
+    text-align: center;
+    margin-bottom: 6.2%;
+}
+
+.whatText {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0;
+    color: #747474;
+    border-bottom: 1px solid #595959;
+}
+
+.greyContainer {
+    border: 1px solid #F0F0F0;
+    margin-bottom: 5.4%;
+}
+
+.greyHeader {
+    padding: 2.4%;
+    background-color: #F0F0F0;
+}
+
+.upIcon {
+    width: 13px;
+    height: 10px;
+    margin-right: 14px;
+    vertical-align: middle;
+}
+
+.darkerText {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    color: #595959;
+}
+
+.deleteIcon {
+    width: 26px;
+    height: 26px;
+    float: right;
+}
+
+.greyBody {
+    padding: 6% 4.3%;
+}
+
+.whiteBG {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    padding: 6px 13px 7px;
+    margin-right: 12px;
+    float: right;
+}
+
+.errorIcon {
+    margin-right: 12px;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+}
+
+.errorText {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    color: #CB1720;
+}
+
+.saveContainer {
+    padding-top: 3%;
+}
+
+.nextButton {
+    padding: 8px 19px;
+    border-radius: 29px;
+    background-color: #32BDD2;
+    color: #FFFFFF;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    border: 0;
+    float: right;
+}
+
+.nextIcon {
+    width: 10px;
+    height: 10px;
+    vertical-align: middle;
+    margin-left: 11px;
+}
+
+.back {
+    margin-right: 40px;
+    letter-spacing: 1.2px;
+    color: #32BDD2;
+    font-weight: 600;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    border-bottom: 2px solid #32BDD2;
+    float: left;
+}
+
+.valign {
+    vertical-align: middle;
+}
+
+
+/* ---------------------edit description------------------------- */
+
+.desContainer {
+    background-color: #FAFCFD;
+    border: 1px solid #D5E2E8;
+    position: relative;
+    padding: 2.3% 3.3% 1.5%;
+    margin-bottom: 5.4%;
+}
+
+.desLorem {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.4px;
+    color: #4C5264;
+}
+
+.editIcon {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+}
+
+
+/* ----------------------witness section------------------------- */
+
+.witnessTag {
+    background-color: #F3F5B3;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    padding: 1.2% 2.7%;
+    border-top-left-radius: 12px;
+    display: inline-block;
+}
+
+.borderContainer {
+    border: 1px solid #F3F5B3;
+}
+
+.yellowCard {
+    background-color: #fbfce7;
+    padding: 4% 2.7%;
+}
+
+.witDescription {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 1%;
+}
+
+.addIcons {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.addLabel {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    color: #000000;
+    padding-left: 1.2%;
+}
+
+.row {
+    padding: 4.6% 2.7%;
+}
+
+.bodBot {
+    border-bottom: 1px solid #F3F5B3;
+}
+
+.editIcons {
+    width: 34px;
+    height: 34px;
+    vertical-align: middle;
+}
+
+.deleteIcons {
+    width: 34px;
+    height: 34px;
+    margin-left: 2%;
+    vertical-align: middle;
+}
+
+.leftColumn {
+    float: left;
+    width: 50%;
+}
+
+.rightColumn {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.witName {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+
+.witDetails {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+
+
+/* --------------------evidence section------------------- */
+
+.eviContainer {
+    margin-bottom: 5.4%;
+}
+
+.evidence_tag {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    background-color: #F3F5B3;
+    border-top-left-radius: 15px;
+    padding: 01%;
+    width: 13.57%;
+}
+
+.file_resourse {
+    background-color: #fbfce7;
+    border: 1px solid #F3F5B3;
+}
+
+.desc {
+    width: 85%;
+    padding: 3.42% 0 4.37% 2.79%;
+}
+
+.description {
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    opacity: 1;
+}
+
+.file {
+    width: 100%;
+    padding: 0 1.99% 3.36% 1.99%;
+}
+
+.selectContainer {
+    height: inherit;
+    background-color: white;
+    border: 1px solid #DFEBEF;
+    /* padding: 3.17% 4.0% 4.34% 5.99%; */
+    padding: 2%;
+    width: 50%;
+}
+
+.select {
+    font-size: 0.97vw;
+    color: #595959;
+    font-family: 'Lato';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.maximum {
+    padding-bottom: 5.5%;
+    font-size: 0.97vw;
+    color: #707070;
+    font-family: 'Lato';
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: 90%;
+}
+
+.browse {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    background-color: #32BDD2;
+    font-weight: 500;
+    border-radius: 5%;
+    padding: 1.5% 4%;
+    color: #FFFFFF;
+    border: 0;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.drop {
+    color: #fff;
+    text-align: center;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+}
+
+.uploadContainer {
+    background-color: #32BDD2;
+    border: 1px solid #32BDD2;
+    /* padding: 4.20% 6.10%; */
+    padding: 2%;
+    width: 50%;
+}
+
+.uploadBackground {
+    border: 1px dashed white;
+    padding: 6.3%;
+}
+
+.file {
+    display: flex;
+    width: 100%;
+}
+
+.upload {
+    display: block;
+    margin: auto;
+    width: 2.53vw;
+}
+
+.clear {
+    clear: both;
+}
+
+.uploaded_files_container {
+    border-left: 1px solid #F3F5B3;
+    border-right: 1px solid #F3F5B3;
+}
+
+.uploade_files {
+    border-bottom: 1px solid #F3F5B3;
+    padding: 3.89% 3.14%;
+}
+
+.colom_one {
+    width: 34%;
+    float: left;
+    padding-top: 1%;
+}
+
+.img {
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #595959;
+}
+
+.colom_two {
+    width: 33%;
+    float: left;
+    padding-top: 1%;
+}
+
+.kb {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0;
+    color: #595959;
+    padding-top: 2%;
+}
+
+.colom_three {
+    width: 33%;
+    float: left;
+}
+
+.delete_img {
+    width: 3.40vw;
+    display: block;
+    margin-left: auto;
+}
+
+@media screen and (max-device-width: 768px) {
+    .notiIcon {
+        width: 24px;
+        height: 24px;
+    }
+    .userImage {
+        width: 24px;
+        height: 24px;
+    }
+    .dropIcon {
+        width: 6.75px;
+        height: 6.75px;
+    }
+    .addChargeIcon {
+        width: 29px;
+        height: 29px;
+    }
+    .upIcon {
+        width: 9.8px;
+        height: 7.4px;
+    }
+    .deleteIcon {
+        width: 19.4px;
+        height: 19.4px;
+    }
+    .errorIcon {
+        width: 10.4px;
+        height: 10.4px;
+    }
+    .nextIcon {
+        width: 7.4px;
+        height: 7.4px;
+    }
+    .editIcon {
+        width: 20px;
+        height: 20px;
+    }
+    .addIcons {
+        width: 22.5px;
+        height: 22.5px;
+    }
+    .editIcons {
+        width: 25.5px;
+        height: 25.5px;
+    }
+    .deleteIcons {
+        width: 25.5px;
+        height: 25.5px;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
+    .notiIcon {
+        width: 45px;
+        height: 45px;
+    }
+    .userImage {
+        width: 45px;
+        height: 45px;
+    }
+    .dropIcon {
+        width: 12.7px;
+        height: 12.7px;
+    }
+    .addChargeIcon {
+        width: 54.7px;
+        height: 54.7px;
+    }
+    .upIcon {
+        width: 18.3px;
+        height: 14px;
+    }
+    .deleteIcon {
+        width: 36.4px;
+        height: 36.4px;
+    }
+    .errorIcon {
+        width: 19.6px;
+        height: 19.6px;
+    }
+    .nextIcon {
+        width: 14px;
+        height: 14px;
+    }
+    .editIcon {
+        width: 36px;
+        height: 36px;
+    }
+    .addIcons {
+        width: 42.2px;
+        height: 42.2px;
+    }
+    .editIcons {
+        width: 47.8px;
+        height: 47.8px;
+    }
+    .deleteIcons {
+        width: 47.8px;
+        height: 47.8px;
+    }
+}
+
+@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
+    .notiIcon {
+        width: 60px;
+        height: 60px;
+    }
+    .userImage {
+        width: 60px;
+        height: 60px;
+    }
+    .dropIcon {
+        width: 17px;
+        height: 17px;
+    }
+    .addChargeIcon {
+        width: 73px;
+        height: 73px;
+    }
+    .upIcon {
+        width: 24.4px;
+        height: 18.6px;
+    }
+    .deleteIcon {
+        width: 48.5px;
+        height: 48.5px;
+    }
+    .errorIcon {
+        width: 26px;
+        height: 26px;
+    }
+    .nextIcon {
+        width: 18.6px;
+        height: 18.6px;
+    }
+    .editIcon {
+        width: 48.5px;
+        height: 48.5px;
+    }
+    .addIcons {
+        width: 56px;
+        height: 56px;
+    }
+    .editIcons {
+        width: 63.7px;
+        height: 63.7px;
+    }
+    .deleteIcons {
+        width: 63.7px;
+        height: 63.7px;
+    }
+}
+
+@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
+    .notiIcon {
+        width: 80px;
+        height: 80px;
+    }
+    .userImage {
+        width: 80px;
+        height: 80px;
+    }
+    .dropIcon {
+        width: 22.5px;
+        height: 22.5px;
+    }
+    .addChargeIcon {
+        width: 97.3px;
+        height: 97.3px;
+    }
+    .upIcon {
+        width: 32.5px;
+        height: 24.8px;
+    }
+    .deleteIcon {
+        width: 64.7px;
+        height: 64.7px;
+    }
+    .errorIcon {
+        width: 34.8px;
+        height: 34.8px;
+    }
+    .nextIcon {
+        width: 24.8px;
+        height: 24.8px;
+    }
+    .editIcon {
+        width: 64.7px;
+        height: 64.7px;
+    }
+    .addIcons {
+        width: 75px;
+        height: 75px;
+    }
+    .editIcons {
+        width: 85px;
+        height: 85px;
+    }
+    .deleteIcons {
+        width: 85px;
+        height: 85px;
+    }
+}

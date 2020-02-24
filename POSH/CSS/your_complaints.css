@@ -1,51 +1,59 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
-.header_container{
+
+.header_container {
     width: 100%;
     box-shadow: 0px 0px 4px #212121;
     padding: 01%;
 }
-.left_section{
+
+.left_section {
     width: 85%;
     float: left;
 }
-.right_section{
+
+.right_section {
     width: 15%;
     float: right;
 }
-.clear{
+
+.clear {
     clear: both;
 }
-.posh{
+
+.posh {
     font-family: 'Anton';
     font-size: 30px;
     letter-spacing: 1.1px;
     color: #000000;
 }
 
-.notification{
-   width: 24%;
+.notification {
+    width: 24%;
 }
 
-.profile_pic img{
+.profile_pic img {
     width: 40px;
 }
-.containt{
+
+.containt {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.notification img {
-width: 40px;
 
+.notification img {
+    width: 40px;
 }
-.dropdown{
+
+.dropdown {
     padding-right: 5%;
 }
-.lucy{
+
+.lucy {
     text-align: center;
     font-size: 14px;
     font-family: "Roboto";
@@ -53,49 +61,52 @@ width: 40px;
     color: #595959;
 }
 
-.down_icon{
+.down_icon {
     width: 12px;
     height: 12px;
 }
-.container{
+
+.container {
     background-color: #F6F8F9;
     padding: 02% 02% 3%;
 }
-.containt_background{
+
+.containt_background {
     background-color: #fff;
     box-shadow: 0px 0px 4px #00000029;
 }
-.complaints{
+
+.complaints {
     text-align: left;
-   font-family: 'Anton';
-   font-size: 16px;
+    font-family: 'Anton';
+    font-size: 16px;
     letter-spacing: 1.4px;
     color: #000000;
 }
-.first_row{
+
+.first_row {
     padding: 1.5%;
     border-bottom: 1px solid #CCCCCC;
 }
 
-.items{
+.items {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     border-bottom: 1px solid #CCCCCC;
     padding: 2% 8% 2.5% 4%;
 }
 
-.item{
+.item {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content:space-between;
-   
+    justify-content: space-between;
     padding: 2% 8% 2.5% 4%;
 }
 
-.tmp{
+.tmp {
     text-align: left;
     font-family: 'Lato';
     padding-bottom: 4%;
@@ -104,21 +115,24 @@ width: 40px;
     color: #595959;
     font-weight: bold;
 }
-.respondent{
+
+.respondent {
     text-align: left;
     font-family: 'Lato';
     font-size: 15px;
     letter-spacing: 0.6px;
     color: #909090;
 }
-.nishant{
+
+.nishant {
     text-align: left;
     font-family: 'Lato';
     font-size: 18px;
     letter-spacing: 1.4px;
     color: #505050;
 }
-.address{
+
+.address {
     text-align: left;
     font-family: 'Lato';
     font-size: 15px;
@@ -127,14 +141,16 @@ width: 40px;
     width: 90%;
     padding: 3% 0%;
 }
-.seen{
+
+.seen {
     text-align: left;
     font-family: 'Lato';
     font-size: 15px;
     letter-spacing: 0.6px;
     color: #909090;
 }
-.date{
+
+.date {
     text-align: left;
     font-family: 'Lato';
     font-size: 18px;
@@ -144,392 +160,353 @@ width: 40px;
     padding-bottom: 2%;
 }
 
-.left{
+.left {
     width: 15%;
     float: left;
     clear: left;
+    cursor: pointer;
 }
 
-.right{
+.right {
     width: 85%;
     clear: right;
     float: right;
     padding-top: 2.5%;
 }
-.delete_section img{
+
+.delete_section img {
     width: 55px;
 }
-.delete{
+
+.delete {
     text-align: left;
     font-family: 'Lato';
     font-size: 15px;
     letter-spacing: 1.2px;
     color: #747474;
 }
-.draft_btn{
+
+.draft_btn {
     font-family: 'Lato';
     font-size: 15px;
     letter-spacing: 1.2px;
     color: #FFFFFF;
-    background: #D0C824 ;
+    background: #D0C824;
     border-radius: 26px;
     padding: 15px 50px;
-    border: 1px solid #D0C824 ;
+    border: 1px solid #D0C824;
+    cursor: pointer;
 }
-.review_btn{
+
+.review_btn {
     font-family: 'Lato';
     font-size: 15px;
     letter-spacing: 1.2px;
     color: #FFFFFF;
-    background: #D05224 ;
+    background: #D05224;
     border-radius: 26px;
     padding: 15px 15px;
-    border: 1px solid #D05224 ;
+    border: 1px solid #D05224;
+    cursor: pointer;
 }
-.submit_on{
+
+.submit_on {
     padding-top: 4%;
 }
 
-.second_colom img{
+.second_colom img {
     width: 60px;
     height: 60px;
+    cursor: pointer;
 }
-@media only screen and (max-width: 768px) {
 
-    .left_section{
+@media only screen and (max-width: 768px) {
+    .left_section {
         width: 78%;
         float: left;
     }
-    .right_section{
+    .right_section {
         width: 22%;
         float: right;
     }
-    .posh{
+    .posh {
         font-size: 15px;
     }
-    .profile_pic img{
+    .profile_pic img {
         width: 25px;
     }
-
-    .notification img{
+    .notification img {
         width: 25px;
     }
-    .lucy{
+    .lucy {
         font-size: 10px;
     }
-    .down_icon img{
+    .down_icon img {
         width: 10px;
     }
-    
-    .complaints{
-       font-size: 12px;
+    .complaints {
+        font-size: 12px;
     }
-    
-    .first_colom{
-    
-        
-    }
-    .second_colom{
-
+    .first_colom {}
+    .second_colom {
         padding-right: 17%;
     }
-    .third_colom{ 
-
-       
-    }
-    .tmp{
+    .third_colom {}
+    .tmp {
         font-size: 12px;
     }
-    .respondent{
+    .respondent {
         font-size: 10px;
     }
-    .nishant{
+    .nishant {
         font-size: 12px;
     }
-    .address{
+    .address {
         font-size: 10px;
         width: 60%;
     }
-    .seen{
+    .seen {
         font-size: 10px;
     }
-    .date{
+    .date {
         font-size: 12px;
     }
-    .delete_section img{
+    .delete_section img {
         width: 40px;
     }
-    .delete{
+    .delete {
         font-size: 10px;
     }
-    .draft_btn{
+    .draft_btn {
         font-size: 10px;
         padding: 9px 39px;
     }
-    .review_btn{
+    .review_btn {
         font-size: 10px;
         padding: 9px 12px;
     }
-    
-    .second_colom img{
+    .second_colom img {
         width: 40px;
         height: 40px;
     }
 }
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
 
-    .left_section{
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .left_section {
         width: 78%;
         float: left;
     }
-    .right_section{
+    .right_section {
         width: 22%;
         float: right;
     }
-    .posh{
+    .posh {
         font-size: 24px;
     }
-    
-    .profile_pic img{
+    .profile_pic img {
         width: 40px;
     }
-    
-    .notification img{
+    .notification img {
         width: 40px;
     }
-    .lucy{
+    .lucy {
         font-size: 12px;
     }
-    .down_icon img{
+    .down_icon img {
         width: 12px;
     }
-   
-    .address{
+    .address {
         width: 80%;
     }
-      
-    .down_icon{
+    .down_icon {
         flex: 2;
     }
-
-    .complaints{
+    .complaints {
         font-size: 14px;
-     }
-     
-     .first_colom{
-     
-         
-     }
-     .second_colom{
- 
-         padding-right: 17%;
-     }
-     .third_colom{ 
- 
-        
-     }
-     .tmp{
-         font-size: 14px;
-     }
-     .respondent{
-         font-size: 12px;
-     }
-     .nishant{
-         font-size: 14px;
-     }
-     .address{
-         font-size: 12px;
-         width: 60%;
-     }
-     .seen{
-         font-size: 12px;
-     }
-     .date{
-         font-size: 14px;
-     }
-     .delete_section img{
-         width: 50px;
-         height: 50px;
-     }
-     .delete{
-         font-size: 12px;
-     }
-     .draft_btn{
-         font-size: 12px;
-         padding: 9px 39px;
-     }
-     .review_btn{
-         font-size: 12px;
-         padding: 9px 12px;
-     }
-     
-     .second_colom img{
-         width: 50px;
-         height: 50px;
-     }
+    }
+    .first_colom {}
+    .second_colom {
+        padding-right: 17%;
+    }
+    .third_colom {}
+    .tmp {
+        font-size: 14px;
+    }
+    .respondent {
+        font-size: 12px;
+    }
+    .nishant {
+        font-size: 14px;
+    }
+    .address {
+        font-size: 12px;
+        width: 60%;
+    }
+    .seen {
+        font-size: 12px;
+    }
+    .date {
+        font-size: 14px;
+    }
+    .delete_section img {
+        width: 50px;
+        height: 50px;
+    }
+    .delete {
+        font-size: 12px;
+    }
+    .draft_btn {
+        font-size: 12px;
+        padding: 9px 39px;
+    }
+    .review_btn {
+        font-size: 12px;
+        padding: 9px 12px;
+    }
+    .second_colom img {
+        width: 50px;
+        height: 50px;
+    }
 }
+
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    .left_section{
+    .left_section {
         width: 82%;
         float: left;
     }
-    .right_section{
+    .right_section {
         width: 18%;
         float: right;
     }
-    .posh{
+    .posh {
         font-size: 27px;
     }
-    
-    .profile_pic img{
+    .profile_pic img {
         width: 42px;
     }
-
-    .notification img{
+    .notification img {
         width: 42px;
     }
-    .lucy{
-
+    .lucy {
         font-size: 15px;
     }
-    .down_icon img{
+    .down_icon img {
         width: 15px;
     }
-
-    .complaints{
+    .complaints {
         font-size: 18px;
-     }
-     
-     .first_colom{
-     
-         
-     }
-     .second_colom{
-         padding-right: 17%;
-     }
-     .third_colom{ 
- 
-        
-     }
-     .tmp{
-         font-size: 16px;
-     }
-     .respondent{
-         font-size: 14px;
-     }
-     .nishant{
-         font-size: 16px;
-     }
-     .address{
-         font-size: 14px;
-         width: 60%;
-     }
-     .seen{
-         font-size: 14px;
-     }
-     .date{
-         font-size: 16px;
-     }
-     .delete_section img{
-         width: 50px;
-         height: 50px;
-     }
-     .delete{
-         font-size: 14px;
-     }
-     .draft_btn{
-         font-size: 14px;
-         padding: 11px 41px;
-     }
-     .review_btn{
-         font-size: 14px;
-         padding: 11px 14px;
-     }
-     
-     .second_colom img{
-         width: 40px;
-         height: 40px;
-     }
+    }
+    .first_colom {}
+    .second_colom {
+        padding-right: 17%;
+    }
+    .third_colom {}
+    .tmp {
+        font-size: 16px;
+    }
+    .respondent {
+        font-size: 14px;
+    }
+    .nishant {
+        font-size: 16px;
+    }
+    .address {
+        font-size: 14px;
+        width: 60%;
+    }
+    .seen {
+        font-size: 14px;
+    }
+    .date {
+        font-size: 16px;
+    }
+    .delete_section img {
+        width: 50px;
+        height: 50px;
+    }
+    .delete {
+        font-size: 14px;
+    }
+    .draft_btn {
+        font-size: 14px;
+        padding: 11px 41px;
+    }
+    .review_btn {
+        font-size: 14px;
+        padding: 11px 14px;
+    }
+    .second_colom img {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 @media only screen and (min-width: 1921px) and (max-width: 2560px) {
-    .posh{
+    .posh {
         font-size: 50px;
     }
-    
-    .profile_pic img{
+    .profile_pic img {
         width: 70px;
     }
-    
-    .notification img{
+    .notification img {
         width: 70px;
     }
-    .lucy{
+    .lucy {
         font-size: 28px;
     }
-    .down_icon{
+    .down_icon {
         width: 20px;
         height: 20px;
     }
-
-    .complaints{
+    .complaints {
         font-size: 32px;
-     }
-     .dropdown {
+    }
+    .dropdown {
         padding-right: 2%;
     }
-     .first_colom{
-     
-         
-     }
-     .second_colom{
- 
-         padding-right: 17%;
-     }
-     .third_colom{ 
- 
-        
-     }
-     .tmp{
-         font-size: 28px;
-     }
-     .respondent{
-         font-size: 22px;
-     }
-     .nishant{
-         font-size: 28px;
-     }
-     .address{
-         font-size: 22px;
-         width: 60%;
-     }
-     .seen{
-         font-size: 22px;
-     }
-     .date{
-         font-size: 28px;
-     }
-     .delete_section img{
-         width: 75px;
+    .first_colom {}
+    .second_colom {
+        padding-right: 17%;
+    }
+    .third_colom {}
+    .tmp {
+        font-size: 28px;
+    }
+    .respondent {
+        font-size: 22px;
+    }
+    .nishant {
+        font-size: 28px;
+    }
+    .address {
+        font-size: 22px;
+        width: 60%;
+    }
+    .seen {
+        font-size: 22px;
+    }
+    .date {
+        font-size: 28px;
+    }
+    .delete_section img {
+        width: 75px;
         height: 75px;
-     }
-     .delete{
-         font-size: 22px;
-     }
-     .draft_btn{
-         font-size: 22px;
-         padding: 20px 73px;
-         border-radius: 46px;
-     }
-     .review_btn{
-         font-size: 22px;
-         padding: 20px 29px;
-         border-radius: 46px;
-     }
-     
-     .second_colom img{
-         width: 75px;
-         height: 75px;
-     }
+    }
+    .delete {
+        font-size: 22px;
+    }
+    .draft_btn {
+        font-size: 22px;
+        padding: 20px 73px;
+        border-radius: 46px;
+    }
+    .review_btn {
+        font-size: 22px;
+        padding: 20px 29px;
+        border-radius: 46px;
+    }
+    .second_colom img {
+        width: 75px;
+        height: 75px;
+    }
 }
-
