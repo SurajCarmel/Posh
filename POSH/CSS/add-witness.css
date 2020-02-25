@@ -4,8 +4,17 @@
     box-sizing: border-box;
 }
 
-.parent {
+.add {
     background-color: #000000B2;
+    display: none;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+}
+
+.parent_add {
+    width: 100vw;
+    height: 100vh;
 }
 
 .addContainer {
@@ -55,15 +64,21 @@
 
 .inputFull {
     width: 65%;
-    padding: 5px;
     margin-bottom: 4%;
+    border: 1px solid #CECECE;
+    border-radius: 4px;
+    padding: 1%;
 }
 
 .inputHalf {
     width: 50%;
-    padding: 5px;
     margin-bottom: 4%;
+    border: 1px solid #CECECE;
+    border-radius: 4px;
+    padding: 1%;
 }
+
+.formRow {}
 
 .bottomRow {
     padding: 9% 6.8% 4% 6.8%;

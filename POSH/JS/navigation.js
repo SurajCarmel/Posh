@@ -15,8 +15,9 @@ function show(full, half) {
 }
 
 function showcharge(charge) {
-    var doc = document.getElementById(charge);
-    doc.style.display = "block";
+    var show = document.getElementById(charge);
+    console.log(show)
+    show.style.display = "block";
 }
 
 
@@ -26,8 +27,12 @@ function certificate() {
 
 window.onclick = function(event) {
     var cert = document.getElementById("windowExit");
+    var hide = this.document.getElementById("charge");
     if (event.target == cert) {
         location.href = "posh_screen-1.html";
+    }
+    if (event.target == hide) {
+        location.href = "posh_screen-22.html";
     }
 }
 
@@ -44,4 +49,14 @@ function imageclick() {
         path.src = "../ASSETS/like.png";
         path.alt = "like"
     }
+}
+
+function chargeClick(charge) {
+    var chargePop = document.getElementById(charge);
+    if (chargePop.style.display === "none") {
+        chargePop.style.display = "block"
+    } else {
+        chargePop.style.display = "none"
+    }
+
 }

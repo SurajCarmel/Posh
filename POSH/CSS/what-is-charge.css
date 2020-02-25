@@ -4,8 +4,13 @@
     box-sizing: border-box;
 }
 
-.parent {
+.parent_pop {
+    width: 46vw;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: #EEEEEE;
+    display: none;
+    position: absolute;
 }
 
 .textContainer {
@@ -15,7 +20,7 @@
     background-color: #FFFFFF;
 }
 
-.whatText {
+.whatText_pop {
     font-family: 'Lato';
     font-size: 1.17vw;
     letter-spacing: 0.12px;
