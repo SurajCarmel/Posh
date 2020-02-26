@@ -200,24 +200,24 @@
                                     <div>
                                         <div class="row bodBot">
                                             <div class="leftColumn">
-                                                <p class="witName">Satish Kumar Chauhan</p>
-                                                <p class="witDetails">satish.kumar@airtel.in</p>
-                                                <p class="witDetails">+91 98456 45823</p>
+                                                <p class="witName" id="name">Satish Kumar Chauhan</p>
+                                                <p class="witDetails" id="email">satish.kumar@airtel.in</p>
+                                                <p class="witDetails" id="cell">+91 98456 45823</p>
                                             </div>
                                             <div class="rightColumn">
-                                                <img class="editIcons" src="../ASSETS/Artboard 1 copy 23@16x.png" alt="edit">
+                                                <img class="editIcons" onclick="edite('add','name','email','cell')" src="../ASSETS/Artboard 1 copy 23@16x.png" alt="edit">
                                                 <img class="deleteIcons" src="../ASSETS/Artboard 1 copy 24@16x.png" alt="delete">
                                             </div>
                                             <div class="clear"></div>
                                         </div>
                                         <div class="row">
                                             <div class="leftColumn">
-                                                <p class="witName">Anita Seth</p>
-                                                <p class="witDetails">anitha.seth@airtel.in</p>
-                                                <p class="witDetails">+91 84379 58314</p>
+                                                <p class="witName" id="anita">Anita Seth</p>
+                                                <p class="witDetails" id="airtel">anitha.seth@airtel.in</p>
+                                                <p class="witDetails" id="no">+91 84379 58314</p>
                                             </div>
                                             <div class="rightColumn">
-                                                <img class="editIcons" src="../ASSETS/Artboard 1 copy 23@16x.png" alt="edit">
+                                                <img class="editIcons" onclick="edite('add','anita','airtel','no')" src="../ASSETS/Artboard 1 copy 23@16x.png" alt="edit">
                                                 <img class="deleteIcons" src="../ASSETS/Artboard 1 copy 24@16x.png" alt="delete">
                                             </div>
                                             <div class="clear"></div>
@@ -246,8 +246,8 @@
 
                     <div class="saveContainer">
                         <span class="saveDraft valign" onclick="nextNav('posh_screen-20.html')">SAVE DRAFT</span>
-                        <button class="nextButton valign">NEXT<img class="nextIcon" src="../ASSETS/Artboard 1 copy 27@16x.png" alt=""></button>
-                        <span style="cursor: pointer;" class="back valign">BACK</span>
+                        <button class="nextButton valign" onclick="nextNav('posh_screen-18.html')">NEXT<img class="nextIcon" src="../ASSETS/Artboard 1 copy 27@16x.png" alt=""></button>
+                        <span style="cursor: pointer;" onclick="nextNav('posh_screen-16.html')" class="back valign">BACK</span>
                         <div class="clear"></div>
                     </div>
                 </div>
@@ -329,15 +329,15 @@
                         <p class="heading">WITNESS</p>
                         <div class="formRow">
                             <p class="parameters">FULL NAME</p>
-                            <input class="inputFull" type="text" name="" id="">
+                            <input class="inputFull text" type="text" id="putname">
                         </div>
                         <div class="formRow">
                             <p class="parameters">EMAIL</p>
-                            <input class="inputHalf" type="text" name="" id="">
+                            <input class="inputHalf text" type="text" name="" id="putemail">
                         </div>
                         <div class="formRow">
                             <p class="parameters">MOBILE</p>
-                            <input class="inputHalf" type="text" name="" id="">
+                            <input class="inputHalf text" type="text" name="" id="putcell">
                         </div>
                     </div>
                     <div class="bottomRow">

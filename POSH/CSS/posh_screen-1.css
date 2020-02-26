@@ -69,6 +69,10 @@
     position: relative;
 }
 
+.carouselImage {
+    width: 100%;
+}
+
 
 /* ----------------------COO Card-------------------------------- */
 
@@ -116,6 +120,13 @@
     color: #505050;
     padding-bottom: 4%;
     text-align: justify;
+}
+
+.readMoreCoo {
+    font: 900 1.07vw/0.97vw Lato;
+    letter-spacing: 0.55px;
+    color: #32BDD2;
+    padding: 2.5% 0 3% 0;
 }
 
 .cooName {
@@ -267,36 +278,41 @@
 
 /* ------------------------Carousel------------------------------ */
 
-.carouselContainer {
+.slideshow-container {
     background-color: #FFFFFF;
     box-shadow: 0px 2px 6px #00000029;
     border-radius: 1.95vw;
     margin-top: 6.5%;
+    display: flex;
+    justify-content: center;
 }
 
-.leftColumn {
+.left {
     padding-top: 28%;
     padding-left: 4%;
     width: 17%;
-    float: left;
+    position: relative;
 }
 
-.navLeft {
+.prev {
     width: 27px;
     height: 33px;
+    cursor: pointer;
+    transition: 0.6s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.middleColumn {
-    padding-top: 15%;
-    padding-bottom: 5%;
+.slideshow-inner {
     width: 66%;
-    float: left;
 }
 
 .loremCard {
-    padding: 7.3%;
+    margin: 24.5% 0 21% 0;
+    padding: 10.4% 10.6% 9.2% 10.6%;
     background-color: #F7F6EF;
-    margin-bottom: 22%;
 }
 
 .caraouselHeading {
@@ -311,37 +327,110 @@
 .caraouselText {
     font-family: 'Lato';
     font-size: 1.36vw;
+    font-weight: 300;
     letter-spacing: 0;
     color: #521A1A;
     text-align: center;
     padding-top: 4.5%;
 }
 
-.rightColumn {
-    padding-top: 28%;
-    padding-right: 4%;
-    width: 17%;
-    float: left;
+.carouselVideo {
+    width: 86%;
+    display: block;
+    margin: auto;
+    padding: 14.2% 0 4.6% 0;
 }
 
-.navRight {
-    margin-left: 4%;
-    width: 27px;
-    height: 33px;
-    float: right;
+.videoDescription {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    color: #505050;
+    letter-spacing: 0;
+    line-height: 2.14vw;
+    width: 86%;
+    margin: auto;
+    padding-bottom: 11.3%;
 }
 
-.navContainer {
-    display: flex;
-    flex-direction: row;
-    width: fit-content;
+.svgImage {
+    width: 100%;
+    margin: 25.5% 0 16% 0;
+    box-shadow: 0px 0px 10px #00000029;
+}
+
+.stop {
+    padding: 11.5% 0 3.8% 0;
+    width: 95%;
+    display: block;
     margin: auto;
 }
 
-.navCircles {
-    width: 10px;
-    height: 10px;
-    margin: 7px;
+.caraouselDesc {
+    font-family: 'Lato';
+    font-size: 1.35vw;
+    letter-spacing: 0;
+    color: #505050;
+    text-align: left;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 7.8%;
+}
+
+.infotext {
+    padding: 12.1% 0 8.2% 0;
+}
+
+.caraouselpara {
+    font-family: 'Lato';
+    font-size: 1.35vw;
+    letter-spacing: 0;
+    color: #505050;
+    text-align: left;
+    line-height: 1.8vw;
+}
+
+.spacer {
+    padding-top: 4.2%;
+}
+
+.right {
+    padding-top: 28%;
+    padding-right: 4%;
+    width: 17%;
+    position: relative;
+}
+
+.next {
+    margin-left: 4%;
+    width: 27px;
+    height: 33px;
+    cursor: pointer;
+    transition: 0.6s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navBar {
+    text-align: center;
+    margin-bottom: 7.5%;
+}
+
+.dot {
+    cursor: pointer;
+    width: 0.97vw;
+    height: 0.97vw;
+    margin: 0 7px;
+    border: 1px solid #32BDD2;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #32BDD2;
 }
 
 
@@ -983,11 +1072,11 @@
     .Image {
         width: 16.4px;
     }
-    .navLeft {
+    .prev {
         width: 20px;
         height: 25px;
     }
-    .navRight {
+    .next {
         width: 20px;
         height: 25px;
     }
@@ -1125,11 +1214,11 @@
     .Image {
         width: 30.8px;
     }
-    .navLeft {
+    .prev {
         width: 38px;
         height: 46px;
     }
-    .navRight {
+    .next {
         width: 38px;
         height: 46px;
     }
@@ -1267,11 +1356,11 @@
     .Image {
         width: 41px;
     }
-    .navLeft {
+    .prev {
         width: 51px;
         height: 62px;
     }
-    .navRight {
+    .next {
         width: 51px;
         height: 62px;
     }
@@ -1411,11 +1500,11 @@
     .Image {
         width: 54.78px;
     }
-    .navLeft {
+    .prev {
         width: 67px;
         height: 83px;
     }
-    .navRight {
+    .next {
         width: 67px;
         height: 83px;
     }
