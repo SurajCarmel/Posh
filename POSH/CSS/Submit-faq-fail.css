@@ -2,15 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
-body {
-    background-color: #4C4C4C;
-}
-
-.parent {
-    background-color: #4C4C4C;
+.msgparent {
+    background-color: #000000B2;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: none;
 }
 
 .popupContainer {

@@ -31,12 +31,12 @@
     padding: 9.94% 0 11.25% 0;
 }
 
-.left_part {
+.left_part_cert {
     width: 30%;
     float: left;
 }
 
-.right_part {
+.right_part_cert {
     width: 70%;
     float: right;
 }

@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../CSS/faq_explore.css">
+    <link rel="stylesheet" href="../CSS/loading_screen.css">
+    <link rel="stylesheet" href="../CSS/Submit-faq-fail.css">
     <title>FAQ</title>
 </head>
 
@@ -132,7 +134,7 @@
                             <textarea name="text" id="review" cols="50" rows="5"></textarea>
                         </div>
                         <div>
-                            <button type="submit" class="btn">SUBMIT</button>
+                            <button type="submit" onclick="submit('loadId');" class="btn">SUBMIT</button>
                         </div>
                     </div>
                     <div class="clear"></div>
@@ -153,10 +155,10 @@
                                 </div>
                                 <div class="text ">Lorem ipsum dolor sit amet consectetur adipiscing elit sodales primis, mollis viverra conubia ligula inceptos laoreet libero tortor.</div>
                                 <div class="thumb ">
-                                    <img src="../ASSETS/Artboard 1 copy 5@16x.png" alt="like">
-                                    <span class="likes ">12</span>
-                                    <img src="../ASSETS/Artboard 1 copy 6@16x.png" alt="unlike">
-                                    <span class="likes ">02</span>
+                                    <img onclick="givelikes('like','thumbUp','../ASSETS/like_thumb.png','../ASSETS/Artboard 1 copy 5@16x.png')" id="thumbUp" src="../ASSETS/Artboard 1 copy 5@16x.png " alt="Unclicked">
+                                    <span id="like" class="likes ">12</span>
+                                    <img id="thumbDown" onclick="givelikes('disLike','thumbDown','../ASSETS/dis_like.png','../ASSETS/Artboard 1 copy 6@16x.png')" src="../ASSETS/Artboard 1 copy 6@16x.png " alt="Unclicked">
+                                    <span id="disLike" class="likes ">02</span>
                                 </div>
                             </div>
                         </div>
@@ -178,10 +180,10 @@
                                 <div class="text ">Lorem ipsum dolor sit amet consectetur adipiscing elit sodales primis, mollis viverra conubia ligula inceptos laoreet libero tortor.
                                 </div>
                                 <div class="thumb ">
-                                    <img src="../ASSETS/Artboard 1 copy 5@16x.png" alt="like thumb ">
-                                    <span class="likes ">05</span>
-                                    <img src="../ASSETS/Artboard 1 copy 6@16x.png" alt="dis like thumb ">
-                                    <span class="likes ">01</span>
+                                    <img onclick="givelikes('likeone','thumbUpone','../ASSETS/like_thumb.png','../ASSETS/Artboard 1 copy 5@16x.png')" id="thumbUpone" src="../ASSETS/Artboard 1 copy 5@16x.png " alt="Unclicked">
+                                    <span id="likeone" class="likes ">05</span>
+                                    <img id="thumbDownone" onclick="givelikes('disLikeone','thumbDownone','../ASSETS/dis_like.png','../ASSETS/Artboard 1 copy 6@16x.png')" src="../ASSETS/Artboard 1 copy 6@16x.png " alt="Unclicked">
+                                    <span class="likes" id="disLikeone">01</span>
                                 </div>
                             </div>
                         </div>
@@ -197,6 +199,47 @@
                     </div>
                 </div>
 
+            </div>
+        </div>
+        <div class="loadingParent" id="loadId" onclick="failDisplay('loadId','failId')">
+            <div class="loadingScreen">
+                <img class="loadingImage" src="../ASSETS/Artboard 1 copy 7@16x.png" alt="loading">
+            </div>
+        </div>
+
+        <div class="msgparent" id="failId">
+            <div class="popupContainer">
+                <div class="topRow">
+                    <img id="failcancelId" onclick="showsuccess('failId','sucessId')" class="cancelImage" src="../ASSETS/Artboard 1 copy 34@16x.png" alt="Cancel">
+                    <div class="clear"></div>
+                </div>
+                <div class="textRow">
+                    <p class="failMessage">FAILED</p>
+                    <p class="messageText">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula, tortor ipsum faucibus nunc, id aliquam lacus odio nec magna.
+                    </p>
+                </div>
+                <div class="buttonRow">
+                    <input id="failbtnId" onclick="showsuccess('failId','sucessId')" class="doneButtonFail" type="submit" value="DONE">
+                </div>
+            </div>
+        </div>
+
+        <div class="msgparent" id="sucessId">
+            <div class="popupContainer">
+                <div class="topRow">
+                    <img id="sucesscancelId" onclick="nextNav('posh_screen-3.html')" class="cancelImage" src="../ASSETS/Artboard 1 copy 34@16x.png" alt="Cancel">
+                    <div class="clear"></div>
+                </div>
+                <div class="textRow">
+                    <p class="successMessage">SUCCESS</p>
+                    <p class="messageText">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula, tortor ipsum faucibus nunc, id aliquam lacus odio nec magna.
+                    </p>
+                </div>
+                <div class="buttonRow">
+                    <input id="sucessbtnId" class="doneButtonSuccess" type="submit" onclick="nextNav('posh_screen-3.html')" value="DONE">
+                </div>
             </div>
         </div>
     </div>

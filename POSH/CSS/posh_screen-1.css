@@ -753,6 +753,7 @@
     background-color: #FFFFFF;
     margin-top: 6.5%;
     box-shadow: 0px 0px 6px #00000029;
+    overflow: hidden;
 }
 
 .policy_header {
@@ -860,13 +861,6 @@
     border-bottom-left-radius: 50px;
 }
 
-.drop_comment input {
-    width: 100%;
-    border: 0px;
-    font-size: 12px;
-    height: 100%;
-}
-
 .drop_comment {
     width: 80%;
 }
@@ -934,7 +928,7 @@
 
 .date {
     text-align: left;
-    font-size: 12px;
+    font-size: 1.17vw;
     font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #909090;
@@ -943,7 +937,7 @@
 
 .text {
     text-align: left;
-    font-size: 11px;
+    font-size: 1.07vw;
     font-family: 'Lato';
     letter-spacing: 1.1px;
     color: #747474;
@@ -952,7 +946,7 @@
 
 .likes {
     text-align: left;
-    font-size: 12px;
+    font-size: .97vw;
     font-family: 'Lato';
     letter-spacing: 0.5px;
     color: #909090;
@@ -988,6 +982,17 @@
 
 .down {
     padding-left: 1%;
+}
+
+.review {
+    text-align: left;
+    font: 400 1.17vw/18px 'Lato';
+    letter-spacing: 0.6px;
+    color: #909090;
+    padding-left: 2%;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 
@@ -1139,9 +1144,6 @@
         width: 32px;
         height: 32px;
     }
-    .drop_comment input {
-        font-size: 10px;
-    }
     .submit {
         font-size: 10px;
     }
@@ -1155,15 +1157,6 @@
     }
     .name {
         font-size: 10px;
-    }
-    .date {
-        font-size: 9px;
-    }
-    .text {
-        font-size: 8px;
-    }
-    .likes {
-        font-size: 9px;
     }
     .show {
         font-size: 9px;
@@ -1281,9 +1274,6 @@
         width: 59.5px;
         height: 59.5px;
     }
-    .drop_comment input {
-        font-size: 12px;
-    }
     .submit {
         font-size: 12px;
     }
@@ -1297,15 +1287,6 @@
     }
     .name {
         font-size: 19px;
-    }
-    .date {
-        font-size: 17px;
-    }
-    .text {
-        font-size: 15px;
-    }
-    .likes {
-        font-size: 17px;
     }
     .show {
         font-size: 17px;
@@ -1422,9 +1403,6 @@
     .profile img {
         width: 78.72px;
     }
-    .drop_comment input {
-        font-size: 12px;
-    }
     .drop_comment {
         flex-grow: 10;
     }
@@ -1441,15 +1419,6 @@
     }
     .name {
         font-size: 25px;
-    }
-    .date {
-        font-size: 25px;
-    }
-    .text {
-        font-size: 27px;
-    }
-    .likes {
-        font-size: 23px;
     }
     .show {
         font-size: 23px;
@@ -1567,9 +1536,6 @@
         width: 105px;
         height: 105px;
     }
-    .drop_comment input {
-        font-size: 30px;
-    }
     .drop_comment {
         flex-grow: 10;
     }
@@ -1594,15 +1560,6 @@
     }
     .name {
         font-size: 35px;
-    }
-    .date {
-        font-size: 30px;
-    }
-    .text {
-        font-size: 26.5px;
-    }
-    .likes {
-        font-size: 30px;
     }
     .show {
         font-size: 30px;
