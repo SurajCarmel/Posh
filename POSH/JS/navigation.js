@@ -44,7 +44,6 @@ function hide(id) {
 }
 
 function show(full, half) {
-    debugger;
     var fullBox = document.getElementsByClassName(full);
     for (
         let index = 0; index < document.getElementsByClassName(full).length; index++

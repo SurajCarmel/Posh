@@ -1866,7 +1866,7 @@
 
 /* ===============================================loading screen===================================================== */
 
-loadingParent {
+.loadingParent {
     height: 100vh;
     width: 100vw;
     display: none;
