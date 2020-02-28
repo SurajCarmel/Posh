@@ -1,23 +1,42 @@
-// document.getElementById("hover").addEventListener('mouseover', function() {
-//     var chargePop = document.getElementById('pop');
-//     chargePop.style.display = "block"
-// });
+var carouselIndex = 1;
+showCarousel(carouselIndex);
 
-// document.getElementById("hover").addEventListener('onmousemove', function() {
-//     var chargePop = document.getElementById('pop');
-//     chargePop.style.display = "none"
-// });
+function plusCarousel(n) {
+    showCarousel((carouselIndex += n));
+}
+
+function currentCarousel(n) {
+    showCarousel((carouselIndex = n));
+}
+
+function showCarousel(n) {
+    var i;
+    var carousels = document.getElementsByClassName("carouselImage");
+
+    if (n > carousels.length) {
+        carouselIndex = 1;
+    }
+    if (n < 1) {
+        carouselIndex = carousels.length;
+    }
+    for (i = 0; i < carousels.length; i++) {
+        carousels[i].style.display = "none";
+    }
+    carousels[carouselIndex - 1].style.display = "block";
+    document.getElementById("counterText").innerHTML = carouselIndex + '/' + '4';
+}
+
+// ===========================================================================================================================
 
 function mover() {
-    var chargePop = document.getElementById('pop');
-    chargePop.style.display = "block"
-};
-
+    var chargePop = document.getElementById("pop");
+    chargePop.style.display = "block";
+}
 
 function mout() {
-    var chargePop = document.getElementById('pop');
-    chargePop.style.display = "none"
-};
+    var chargePop = document.getElementById("pop");
+    chargePop.style.display = "none";
+}
 
 function hide(id) {
     var doc = document.getElementById(id);
@@ -25,9 +44,11 @@ function hide(id) {
 }
 
 function show(full, half) {
-    debugger
+    debugger;
     var fullBox = document.getElementsByClassName(full);
-    for (let index = 0; index < document.getElementsByClassName(full).length; index++) {
+    for (
+        let index = 0; index < document.getElementsByClassName(full).length; index++
+    ) {
         fullBox[index].style.display = "block";
     }
     console.log(document.getElementsByClassName(half));
@@ -47,11 +68,11 @@ window.onclick = function(event) {
     if (event.target == hide) {
         location.href = "posh_screen-22.html";
     }
-}
+};
 
 function closeCert() {
-    var cert = document.getElementById('certificate');
-    cert.style.display = 'none';
+    var cert = document.getElementById("certificate");
+    cert.style.display = "none";
 }
 
 function nextNav(dest) {
@@ -59,38 +80,36 @@ function nextNav(dest) {
 }
 
 function imageclick() {
-    var path = document.getElementById("dark")
+    var path = document.getElementById("dark");
     if (path.alt == "like") {
         path.src = "../ASSETS/Artboard 1 copy 8@16x.png";
         path.alt = "dislike";
     } else {
         path.src = "../ASSETS/like.png";
-        path.alt = "like"
+        path.alt = "like";
     }
 }
 
 function chargeClick(charge) {
     var chargePop = document.getElementById(charge);
     if (chargePop.style.display === "none") {
-        chargePop.style.display = "block"
+        chargePop.style.display = "block";
     } else {
-        chargePop.style.display = "none"
+        chargePop.style.display = "none";
     }
-
 }
 
 function edite(index, x, y, z) {
-
     var name = document.getElementById(x);
     var email = document.getElementById(y);
-    var cell = document.getElementById(z)
+    var cell = document.getElementById(z);
 
     var show = document.getElementById(index);
     show.style.display = "block";
 
-    var putname = document.getElementById('putname');
-    var putemail = document.getElementById('putemail');
-    var putcell = document.getElementById('putcell')
+    var putname = document.getElementById("putname");
+    var putemail = document.getElementById("putemail");
+    var putcell = document.getElementById("putcell");
 
     putname.value = name.innerHTML;
     putemail.value = email.innerHTML;
@@ -108,11 +127,11 @@ function givelikes(num, img, dark, light) {
     if (likeIcon.alt == "Unclicked") {
         rate.innerHTML = updatedValue;
         likeIcon.src = dark;
-        likeIcon.alt = "clicked"
+        likeIcon.alt = "clicked";
     } else {
         rate.innerHTML = Number(initial) - 1;
         likeIcon.src = light;
-        likeIcon.alt = "Unclicked"
+        likeIcon.alt = "Unclicked";
     }
 }
 
@@ -122,19 +141,18 @@ function submit(loadId) {
 }
 
 function failDisplay(loadId, failId) {
-
     var load = document.getElementById(loadId);
     var fail = document.getElementById(failId);
 
     load.style.display = "none";
-    fail.style.display = "block"
+    fail.style.display = "block";
 }
 
 function showsuccess(failId, sucessId) {
     var fail = document.getElementById(failId);
     var sucess = document.getElementById(sucessId);
-    fail.style.display = "none"
-    sucess.style.display = "block"
+    fail.style.display = "none";
+    sucess.style.display = "block";
 }
 
 // ========================== coursel slide show ==============================
@@ -145,43 +163,53 @@ var slideshowContainer;
 
 window.addEventListener("load", function() {
     showSlides(slideIndex);
-    myTimer = setInterval(function() { plusSlides(1); }, 4000);
+    myTimer = setInterval(function() {
+        plusSlides(1);
+    }, 4000);
 
     slideshowContainer = document.getElementsByClassName("slideshow-inner")[0];
 
-    slideshowContainer.addEventListener('mouseenter', pause);
-    slideshowContainer.addEventListener('mouseleave', resume);
-
+    slideshowContainer.addEventListener("mouseenter", pause);
+    slideshowContainer.addEventListener("mouseleave", resume);
 });
 
 function plusSlides(n) {
     clearInterval(myTimer);
     if (n < 0) {
-        showSlides(slideIndex -= 1);
+        showSlides((slideIndex -= 1));
     } else {
-        showSlides(slideIndex += 1);
+        showSlides((slideIndex += 1));
     }
 
-
     if (n === -1) {
-        myTimer = setInterval(function() { plusSlides(n + 2); }, 4000);
+        myTimer = setInterval(function() {
+            plusSlides(n + 2);
+        }, 4000);
     } else {
-        myTimer = setInterval(function() { plusSlides(n + 1); }, 4000);
+        myTimer = setInterval(function() {
+            plusSlides(n + 1);
+        }, 4000);
     }
 }
 
 function currentSlide(n) {
     clearInterval(myTimer);
-    myTimer = setInterval(function() { plusSlides(n + 1); }, 4000);
-    showSlides(slideIndex = n);
+    myTimer = setInterval(function() {
+        plusSlides(n + 1);
+    }, 4000);
+    showSlides((slideIndex = n));
 }
 
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("myslides");
     var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) { slideIndex = 1; }
-    if (n < 1) { slideIndex = slides.length; }
+    if (n > slides.length) {
+        slideIndex = 1;
+    }
+    if (n < 1) {
+        slideIndex = slides.length;
+    }
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
@@ -191,7 +219,6 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
-
 }
 
 pause = () => {
@@ -200,20 +227,21 @@ pause = () => {
 
 resume = () => {
     clearInterval(myTimer);
-    myTimer = setInterval(function() { plusSlides(slideIndex); }, 4000)
-}
+    myTimer = setInterval(function() {
+        plusSlides(slideIndex);
+    }, 4000);
+};
 
 function putcontent(index) {
     var show = document.getElementById(index);
-    console.log(show)
+    console.log(show);
     show.style.display = "block";
 
-    var putname = document.getElementById('putname');
-    var putemail = document.getElementById('putemail');
-    var putcell = document.getElementById('putcell')
+    var putname = document.getElementById("putname");
+    var putemail = document.getElementById("putemail");
+    var putcell = document.getElementById("putcell");
 
     putname.nodeValue = name.innerHTML;
     putemail.nodeValue = email.innerHTML;
     putcell.nodeValue = cell.innerHTML;
-
 }
