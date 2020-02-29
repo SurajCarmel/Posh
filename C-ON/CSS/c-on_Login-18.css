@@ -35,13 +35,14 @@
     font: 500 1.36vw/2.34vw 'Roboto';
     letter-spacing: 1.05px;
     color: #BF574A;
+    display: none;
     /* example@address.com */
     /* 9090909090 */
 }
 
 .forgotTextBox {
     box-shadow: 0px 3px 0.78vw #0000001A;
-    border: 1px solid #BF574A;
+    border: 1px solid #F7F4F4;
     border-radius: 1.17vw;
     font: 1.36vw/16px 'Roboto';
     letter-spacing: 0.14px;
@@ -59,6 +60,7 @@
     letter-spacing: 0.7px;
     color: #BF574A;
     padding: 0 0 0 4.1%;
+    display: none;
 }
 
 .resetBtn {

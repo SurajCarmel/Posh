@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.successPageContainer {
+    background: #ECF0F0;
+    padding: 2.5%;
+    height: 100vh;
+}
+
+.successContainer {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 0.58vw #00000029;
+    position: relative;
+    height: 92.1875vh;
+}
+
+.successCard {
+    background-color: #EEEEEE;
+    border: 1px solid #E6E6E6;
+    border-radius: 1.36vw;
+    padding: 3.8% 7.8%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.successHeading {
+    font: 700 1.56vw/1.85vw 'Roboto';
+    letter-spacing: 1.6px;
+    color: #32BDD2;
+    padding-bottom: 7.6%;
+}
+
+.successText {
+    font: 400 1.36vw/2.34vw 'Roboto';
+    letter-spacing: 0.7px;
+    color: #5A5A5A;
+}
