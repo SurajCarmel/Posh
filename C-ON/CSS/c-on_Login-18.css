@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
 .forgotErrorParent {
@@ -36,8 +37,6 @@
     letter-spacing: 1.05px;
     color: #BF574A;
     display: none;
-    /* example@address.com */
-    /* 9090909090 */
 }
 
 .forgotTextBox {

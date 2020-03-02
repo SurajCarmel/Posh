@@ -18,22 +18,22 @@
                 <p class="msg">Please type the verification code sent to your mobile number.</p>
             </div>
             <div class="errorBackgnd">
-                <p class="errorMsg">You have entered wrong OTP.</p>
+                <p id="otp" style="display: none;" class="errorMsg">You have entered wrong OTP.</p>
             </div>
             <div class="timeTop">
                 <p class="time">0:59</p>
             </div>
             <div class="boxTop">
-                <input class="box" type="text">
-                <input class="box marginbtwnOne" type="text">
-                <input class="box marginbtwnTwo" type="text ">
-                <input class="box " type="text ">
+                <input id="otpOne" class="box" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" type="text" maxlength="1 ">
+                <input id="otpTwo" class="box marginbtwnOne" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" type="text" maxlength="1">
+                <input id="otpThree" class="box marginbtwnTwo" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" type="text " maxlength="1">
+                <input id="otpFour" class="box " type="text" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" maxlength="1">
             </div>
             <div class="otoTop">
                 <span class="OTP">Resend OTP?</span>
             </div>
             <div class="btnTop">
-                <input class="BTN" type="button" value="SUBMIT">
+                <input class="BTN" onclick="showOtp('otp','box')" type="button" value="SUBMIT">
             </div>
             <div class="accountTop">
                 <span class="account">Don’t have an account yet?</span>
@@ -41,6 +41,7 @@
             </div>
         </div>
     </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

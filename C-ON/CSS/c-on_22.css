@@ -1,0 +1,297 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 3px 6px #BCBCBC40;
+    padding-left: 2.92%;
+    padding-right: 3.51%;
+    align-items: center;
+}
+
+.header_left_part {
+    width: 85%;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+}
+
+.dashboard_top {
+    width: 17.28%;
+    padding: 0 6.34% 0 0;
+}
+
+.corses_top {
+    width: 14.80%;
+    padding: 0 6.34% 0 0;
+}
+
+.report_top {
+    width: 14.56%;
+    padding: 0 6.34% 0 0;
+}
+
+.system_top {
+    width: 14.80%;
+    padding: 0 6.34% 0 0;
+}
+
+.dashboard {
+    font-size: 1.35vw;
+    font-family: 'Roboto';
+    letter-spacing: 0.7px;
+    color: #909090;
+}
+
+.report {
+    font-size: 1.35vw;
+    font-family: 'Roboto';
+    letter-spacing: 0.7px;
+    color: #909090;
+}
+
+.system {
+    font-size: 1.35vw;
+    font-family: 'Roboto';
+    letter-spacing: 0.7px;
+    color: #909090;
+}
+
+.corses {
+    font-size: 1.35vw;
+    font-family: 'Roboto';
+    letter-spacing: 0.7px;
+    color: #595959;
+    border-bottom: .3vw solid #32BDD2;
+}
+
+.header_right_part {
+    width: 15%;
+    padding: 02% 0;
+}
+
+.profile_part {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profile_pic {
+    width: 32.15px;
+    vertical-align: middle;
+}
+
+.name {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Roboto';
+    letter-spacing: 0.9px;
+    color: #5A5A5A;
+}
+
+.dropdown {
+    width: 9.89px;
+}
+
+.course {
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 1.75vw;
+    letter-spacing: 0.9px;
+    color: #000000;
+    border-bottom: .2vw solid #32BDD2;
+    padding-bottom: 1%;
+}
+
+.parent {
+    background-color: #FAFAFA;
+    padding: 4.19% 2.44% 3.02% 2.44%;
+}
+
+.container {
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.row {
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 0 3%
+}
+
+.seleted_option {
+    padding: 5.13% 3% 6.06% 3%;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.Section {
+    text-align: left;
+    width: fit-content;
+    font-family: 'Roboto';
+    font-size: 1.75vw;
+    letter-spacing: 0.9px;
+    color: #000000;
+    border-bottom: .3vw solid #32BDD2;
+    padding-bottom: 0.74%;
+}
+
+.Lessons {
+    text-align: left;
+    width: fit-content;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.9px;
+    color: #595959;
+}
+
+.Lessons-top {
+    padding-top: 3.69%;
+}
+
+.top {
+    padding-top: 5.14%;
+}
+
+.Lessons-top_1 {
+    padding: 3.69% 0 0% 0;
+}
+
+.Lessons-top input {
+    width: 46.765%;
+    padding: 1%;
+    margin-top: 0.88%;
+    border: 1px solid #CECECE;
+    border-radius: .4vw;
+}
+
+textarea {
+    width: 37.51%;
+    margin-top: 0.88%;
+    border: 1px solid #CECECE;
+    border-radius: .4vw;
+}
+
+.Lessons-top textarea {
+    width: 36.765%;
+    margin-top: 0.88%;
+    border: 1px solid #CECECE;
+    border-radius: .4vw;
+}
+
+.icon_part {
+    width: 6.59%;
+    background-color: #CB1720;
+}
+
+.msg_part {
+    width: 93.41%;
+}
+
+.textarea_icon_part {
+    width: 8.42%;
+    background-color: #CB1720;
+}
+
+.textarea_msg_part {
+    width: 91.58%;
+}
+
+.msg {
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #CB1720;
+}
+
+.error {
+    width: 16.69px;
+    display: block;
+    margin: auto;
+}
+
+.footer {
+    padding: 17.47% 0 3.699% 0;
+}
+
+.footer_left {
+    width: 50%;
+    float: left;
+    padding-top: .50%;
+}
+
+.footer_right {
+    width: 50%;
+    float: right;
+}
+
+.cancel {
+    width: fit-content;
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+    border-bottom: 1px solid #747474;
+    font-weight: 600;
+}
+
+.done {
+    background: #32BDD2;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    border: 1px solid #32BDD2;
+    padding: 1% 4%;
+    cursor: pointer;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+@media only screen and (max-width: 768px) {
+    .dropdown {
+        width: 7.2px;
+    }
+    .profile_pic {
+        width: 24.15px;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+    .dropdown {
+        width: 12.59px;
+    }
+    .profile_pic {
+        width: 45.15px;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width:1441px) {
+    .dropdown {
+        width: 18.89px;
+    }
+    .profile_pic {
+        width: 60.15px;
+    }
+}
+
+@media only screen and (max-width: 2560px) and (min-width:1991px) {
+    .dropdown {
+        width: 22.89px;
+    }
+    .profile_pic {
+        width: 80.15px;
+    }
+}

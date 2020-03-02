@@ -1,14 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #FAFAFA;
 }
 
-.container{
-    padding: 15% 30%; 
+.container {
+    padding: 15% 30%;
     position: absolute;
     background-color: #FFF;
     margin: 3.125% 2.44%;
@@ -16,7 +17,7 @@ body{
     box-shadow: 0px 0px 10px #00000029;
 }
 
-.forgoot{
+.forgoot {
     text-align: left;
     font-family: 'Roboto';
     font-size: 1.56vw;
@@ -27,7 +28,8 @@ body{
     padding-bottom: 1%;
     width: fit-content;
 }
-.description{
+
+.description {
     text-align: left;
     font-family: 'Roboto';
     font-size: 1.56vw;
@@ -35,10 +37,12 @@ body{
     color: #707070;
     margin-top: 5.83%;
 }
-.email_top{
+
+.email_top {
     padding-top: 17.49%;
 }
-.email{
+
+.email {
     text-align: left;
     font-family: 'Roboto';
     font-size: 1.17vw;
@@ -46,22 +50,26 @@ body{
     color: #505050;
     padding-bottom: 2.91%;
 }
-.txt_area{
+
+.txt_area {
     border: 1px solid #D3D3D3;
     padding: 2%;
     border-radius: 7px;
     width: 100%;
     margin-bottom: 1%;
 }
-.error_top{
+
+.error_top {
     padding-top: 5.53%;
 }
-.icon{
+
+.icon {
     height: 9.49px;
     width: 10.23px;
     vertical-align: middle;
 }
-.field{
+
+.field {
     text-align: left;
     font-family: 'Roboto';
     font-size: 0.97vw;
@@ -70,10 +78,11 @@ body{
     width: 13.66%;
 }
 
-.btn_top{
+.btn_top {
     padding-top: 17.20%;
 }
-.sub_btm{
+
+.sub_btm {
     text-align: center;
     font-family: 'Roboto';
     font-size: 1.17vw;
@@ -88,28 +97,28 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
-    .icon{
+    .icon {
         height: 7px;
         width: 7.7px;
     }
 }
 
-@media only screen and (max-width: 1440px)  and  (min-width: 1025px) {
-    .icon{
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+    .icon {
         height: 13px;
         width: 14.23px;
     }
 }
 
 @media only screen and (max-width: 1920px) and (min-width:1441px) {
-    .icon{
+    .icon {
         height: 17.49px;
         width: 18.7px;
     }
 }
 
-@media only screen and (max-width: 2560px) and (min-width:1991px){
-    .icon{
+@media only screen and (max-width: 2560px) and (min-width:1991px) {
+    .icon {
         height: 22.2px;
         width: 24.8px;
     }

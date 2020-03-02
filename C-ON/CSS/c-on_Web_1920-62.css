@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
 .addPageContainer {
@@ -140,7 +141,7 @@
     font-family: 'Roboto';
     font-size: 1.17vw;
     letter-spacing: 0.6px;
-    width: 41.7%;
+    width: 44%;
 }
 
 .actionText {
@@ -156,6 +157,7 @@
     text-decoration: none;
     color: #3B6956;
     margin-right: 3%;
+    padding-bottom: 3px;
     border-bottom: 1px solid #3B6956;
 }
 

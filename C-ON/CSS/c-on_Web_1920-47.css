@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
 .addPageContainer {
@@ -141,7 +142,7 @@
     font-size: 1.17vw;
     letter-spacing: 0.6px;
     color: #573030;
-    width: 41.7%;
+    width: 44%;
 }
 
 .clear {
