@@ -16,7 +16,7 @@
                     LOGIN
                 </span>
             </div>
-            <div class="errorHeadingRow">
+            <div class="errorHeadingRow" style="display: none;">
                 <img class="errorHeadingImage" src="../ASSETS/Artboard 1 copy 22@16x.png" alt="">
                 <span class="errorHeadingText">
                     Invalid username or password
@@ -27,7 +27,7 @@
                     Email or Username
                 </p>
                 <input class="pageTextbox" type="text" name="" id="">
-                <div class="errorRow">
+                <div class="errorRow" style="display: none;">
                     <img class="errorImage" src="../ASSETS/Artboard 1 copy 22@16x.png" alt="">
                     <span class="errorText">
                         This field is required
@@ -38,8 +38,8 @@
                 <p class="pageText">
                     Password
                 </p>
-                <input class="pageTextbox" type="text" name="" id="">
-                <div class="errorRow">
+                <input class="pageTextbox" type="password" name="" id="">
+                <div class="errorRow" style="display: none;">
                     <img class="errorImage" src="../ASSETS/Artboard 1 copy 22@16x.png" alt="">
                     <span class="errorText">
                         This field is required
@@ -57,10 +57,11 @@
                 <div class="clear"></div>
             </div>
             <div class="buttonRow">
-                <input class="submitButton" type="button" value="LOGIN">
+                <input onclick="adminError('errorRow','errorHeadingRow','pageTextbox')" class="submitButton" type="button" value="LOGIN">
             </div>
         </div>
     </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

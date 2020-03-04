@@ -18,7 +18,7 @@
                     </span>
                 </div>
                 <div class="coursesBox">
-                    <span class="darkText underline">
+                    <span class="darkText underline" onclick="nextNav('web-1920-1.html')">
                         COURSES
                     </span>
                 </div>
@@ -54,7 +54,38 @@
                     <span class="coursesHeading underline">Courses</span>
                 </div>
                 <div class="coursesRight">
-                    <img class="burgerMenu" src="../ASSETS/Artboard 1 copy 26@16x.png" alt="">
+                    <img class="burgerMenu" onclick="publish('bgroundID','editlistID')" src="../ASSETS/Artboard 1 copy 26@16x.png" alt="">
+                    <div class="pop" id="editlistID" style="display: none;">
+                        <div class="cancel_row">
+                            <img class="cancel" onclick="publish('bgroundID','editlistID')" src="../ASSETS/Artboard 1 copy 53xxhdpi.png" alt="">
+                        </div>
+                        <div class="containt_row">
+                            <div class="container">
+                                <div class="row">
+                                    <p class="publish">Publish</p>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque sapien sit amet risus elementum tincidunt.</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <p class="publish">Retire</p>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque sapien sit amet risus elementum tincidunt.</p>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <p class="publish">Edit</p>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque sapien sit amet risus elementum tincidunt.</p>
+                                </div>
+                            </div>
+                            <div class="delete_row">
+                                <div>
+                                    <p class="publish">Delete</p>
+                                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque sapien sit amet risus elementum tincidunt.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -89,7 +120,7 @@
                         Lessons
                     </span>
                 </div>
-                <div class="addBox">
+                <div class="addBox" onclick="nextNav('../HTML/web-1920-60.html')">
                     <div class="placeholder">
                         <img class="addBtn" src="../ASSETS/Artboard 1 copy 25@16x.png" alt="">
                         <span class="addText">ADD SECTION</span>
@@ -106,7 +137,47 @@
                             </p>
                         </div>
                         <div class="menuBox">
-                            <img class="menuIcon" src="../ASSETS/Artboard 1 copy 26@16x.png" alt="">
+                            <img class="menuIcon" onclick="publish('bgroundID','optionsPopupID')" src="../ASSETS/Artboard 1 copy 26@16x.png" alt="">
+                            <div class="optionsPopup" id="optionsPopupID" style="display: none;">
+                                <div class="imgRow">
+                                    <img class="cancelIcon" onclick="publish('bgroundID','optionsPopupID')" src="../ASSETS/all-icons-16.png" alt="">
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="optionsBox">
+                                    <div class="optionsRow">
+                                        <p class="option">
+                                            Add video lesson
+                                        </p>
+                                        <p class="details">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque sapien sit amet risus elementum tincidunt.
+                                        </p>
+                                    </div>
+                                    <div class="optionsRow">
+                                        <p class="option">
+                                            Add text lesson
+                                        </p>
+                                        <p class="details">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque sapien sit amet risus elementum tincidunt.
+                                        </p>
+                                    </div>
+                                    <div class="optionsRow">
+                                        <p class="option">
+                                            Edit
+                                        </p>
+                                        <p class="details">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque sapien sit amet risus elementum tincidunt.
+                                        </p>
+                                    </div>
+                                    <div class="optionsRow">
+                                        <p class="option">
+                                            Delete
+                                        </p>
+                                        <p class="details">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque sapien sit amet risus elementum tincidunt.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="subGreyBar">
@@ -119,7 +190,44 @@
                             </p>
                         </div>
                         <div class="burgerMenuBox">
-                            <img class="menuIcon" src="../ASSETS/Artboard 1 copy 26@16x.png" alt="">
+                            <img class="menuIcon" onclick="publish('bgroundID','iconPopupID')" src="../ASSETS/Artboard 1 copy 26@16x.png" alt="">
+                            <div class="iconPopup" id="iconPopupID" style="display: none;">
+                                <div class="cancel_row">
+                                    <img class="exit" onclick="publish('bgroundID','iconPopupID')" src="../ASSETS/all-icons-16.png" alt="">
+                                </div>
+                                <div class="iconContainer">
+                                    <div>
+                                        <div class="iconRow">
+                                            <span class="text">Move Down</span>
+                                            <img class="dropdown" src="../ASSETS/all-icons-07.png" alt="">
+                                        </div>
+                                        <div class="iconRow">
+                                            <span class="text">Move Up</span>
+                                            <img class="dropdown" src="../ASSETS/all-icons-22.png" alt="">
+                                        </div>
+                                        <div class="iconRow">
+                                            <span class="text">Edit</span>
+                                            <img class="delete" src="../ASSETS/all-icons-13.png" alt="">
+                                        </div>
+                                        <div class="iconRow">
+                                            <span class="text">Delete</span>
+                                            <img class="delete" src="../ASSETS/all-icons-18.png" alt="">
+                                        </div>
+                                        <div class="iconRow">
+                                            <span class="text">Quiz</span>
+                                            <img class="delete" src="../ASSETS/all-icons-20.png" alt="">
+                                        </div>
+                                        <div class="iconRow">
+                                            <span class="text">Resources</span>
+                                            <img class="delete" src="../ASSETS/all-icons-21.png" alt="">
+                                        </div>
+                                        <div class="iconRow">
+                                            <span class="text">Preview</span>
+                                            <img class="delete" src="../ASSETS/all-icons-19.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="timeBox">
                             <p class="timeText">
@@ -183,7 +291,10 @@
                 </div>
             </div>
         </div>
+        <div class="main" id="bgroundID" style="display: none;">
+        </div>
     </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

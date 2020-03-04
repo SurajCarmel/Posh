@@ -18,7 +18,7 @@
                     </span>
                 </div>
                 <div class="coursesBox">
-                    <span class="darkText underline">
+                    <span class="darkText underline" onclick="nextNav('../HTML/web-1920-1.html')">
                         COURSES
                     </span>
                 </div>
@@ -73,7 +73,14 @@
                         <p class="formText">Select an option</p>
                         <div class="textBoxTwo boxSpace">
                             <input class="textBox" type="text" name="" id="">
-                            <img class="downImage" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                            <img class="downImage" onclick="showdropdown('dropo')" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                            <div class="parent" id="dropo" style="display: none;">
+                                <div class="containerpop">
+                                    <p class="self">VIMEO</p>
+                                    <p class="led">YOUTUBE</p>
+                                    <p class="blindroom">NETFLIX</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="radioBox">
@@ -95,6 +102,7 @@
             </div>
         </div>
     </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

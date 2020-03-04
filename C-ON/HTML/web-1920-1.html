@@ -38,7 +38,24 @@
                         <span class="name">Ronald Philip</span>
                     </div>
                     <div>
-                        <img class="dropdown" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="Drop_down">
+                        <img class="dropdown" src="../ASSETS/Artboard 1 copy 20@16x.png" onclick="showdropdown('dropdown')" alt="Drop_down">
+                    </div>
+
+                </div>
+                <div style="display: none;" id="dropdown" class="pageParent">
+                    <div class="popupcontainer">
+                        <p class="popuptext">
+                            Account
+                        </p>
+                        <p class="popuptext">
+                            Profile
+                        </p>
+                        <p class="popuptext">
+                            Settings
+                        </p>
+                        <p class="popuptext">
+                            Log Out
+                        </p>
                     </div>
                 </div>
             </div>
@@ -57,14 +74,14 @@
                         <img class="icon" src="../ASSETS/Artboard 1 copy 18@16x.png" alt="search icons">
                     </div>
                     <div class="colom_third">
-                        <input class="new_btn" type="button" value="NEW COURSE">
+                        <input class="new_btn" type="button" onclick="nextNav(' c-on_Web_1920-24.html')" value="NEW COURSE">
                     </div>
                     <div class="clear"></div>
                 </div>
 
                 <div>
 
-                    <div class="table">
+                    <div class="table" onclick="nextNav('c-on_Web_1920-2.html')">
                         <div class="cities">
                             <p class="head">Climate Resilient Cities</p>
                             <p class="description">
@@ -147,6 +164,7 @@
         </div>
 
     </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

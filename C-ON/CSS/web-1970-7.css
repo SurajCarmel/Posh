@@ -113,6 +113,7 @@
 .parent {
     background-color: #FAFAFA;
     padding: 4.19% 2.44% 3.02% 2.44%;
+    border: 1px solid #FAFAFA;
 }
 
 .container {
@@ -121,8 +122,7 @@
 }
 
 .footer {
-    width: 15.63%;
-    margin: auto;
+    text-align: center;
     padding: 2.90% 0;
 }
 
@@ -133,12 +133,13 @@
     color: #595959;
     border: ipx solid #00000029;
     font-weight: bold;
-    padding-right: 4%;
+    padding-right: 1%;
 }
 
 .seleted_option {
     padding: 5.13% 3% 6.06% 3%;
-    box-shadow: 0px 3px 6px #00000029;
+    /* box-shadow: 0px 3px 6px #00000029; */
+    border: 1px solid #00000029;
 }
 
 .Section {
@@ -154,7 +155,8 @@
 
 .climate {
     padding: 3% 3%;
-    box-shadow: 0px 3px 6px #00000029;
+    /* box-shadow: 0px 3px 6px #00000029; */
+    border: 1px solid #00000029;
 }
 
 .basic {
@@ -195,7 +197,7 @@
 
 .add_topic {
     margin: auto;
-    border: 3px dashed #D5CCCC;
+    border: 6px dashed #D5CCCC;
     padding: 3% 3.08%;
     text-align: center;
     margin: 0 3%;
@@ -235,6 +237,7 @@
 
 .elements_three {
     width: 3%;
+    position: relative;
 }
 
 .instruction {
@@ -271,6 +274,7 @@
 .colom_2 {
     width: 15%;
     text-align: center;
+    position: relative;
 }
 
 .colom_3 {
@@ -305,6 +309,7 @@
     letter-spacing: 1.2px;
     color: #595959;
     padding-top: 0.88%;
+    width: 75%;
 }
 
 .one {
@@ -318,6 +323,16 @@
     font-size: 1.75vw;
     letter-spacing: 1.8px;
     color: #5A5A5A;
+}
+
+.background {
+    background-color: #00000066;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
 @media only screen and (max-width: 768px) {
@@ -389,5 +404,173 @@
     }
     .changr_dropdown {
         width: 32.8px;
+    }
+}
+
+
+/* ============================================================ edit pop============================================================================================== */
+
+.parent_pop {
+    padding: 0 7.16% 7.16 7.16%;
+    width: 34.08vw;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: -21%;
+}
+
+.containt_row {
+    background-color: #fff;
+    box-shadow: 0px 1px 20px #00000029;
+}
+
+.containerPop {
+    padding: 7.16% 7.16% 0 7.16%;
+}
+
+.row {
+    border-bottom: 2px solid #F7F7F7;
+    padding-bottom: 7.16%;
+}
+
+.publish {
+    font-size: 1.35vw;
+    color: #595959;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+.description {
+    width: 81.08%;
+    font-size: 1.17vw;
+    color: #595959;
+    text-align: left;
+    font-family: 'Roboto';
+    padding-top: 2.53%;
+}
+
+.delete_row {
+    font-size: 1.17vw;
+    color: #595959;
+    font-family: 'Roboto';
+    text-align: left;
+    padding: 7.16%;
+}
+
+.cancel_row {
+    text-align: right;
+}
+
+.cancel {
+    vertical-align: bottom;
+    width: 32px;
+    height: 32px;
+}
+
+@media only screen and (max-width: 768px) {
+    .cancel {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+    .cancel {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width:1441px) {
+    .cancel {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 2560px) and (min-width:1991px) {
+    .cancel {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+/* ===========================================================option pop=============================================================== */
+
+.optionsPopup {
+    width: 22.1vw;
+    position: absolute;
+    top: 0;
+    right: 37%;
+    z-index: 2;
+}
+
+.imgRow {
+    background-color: transparent;
+}
+
+.cancelIcon {
+    width: 60px;
+    float: right;
+}
+
+.optionsBox {
+    background-color: #FFFFFF;
+    padding: 0 11.4%;
+}
+
+.row {
+    border-bottom: 1px solid #F0F0F0;
+    padding: 11.4% 0;
+}
+
+.options {
+    width: 70%;
+    float: left;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #595959;
+    padding-bottom: 7px;
+    text-align: left;
+}
+
+.visuals {
+    width: 30%;
+    float: right;
+}
+
+.icons {
+    width: 1.07vw;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width:768px) {
+    .cancelIcon {
+        width: 24px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cancelIcon {
+        width: 32px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .cancelIcon {
+        width: 45px;
+    }
+}
+
+@media screen and (min-width: 1921px) and (max-width: 2560px) {
+    .cancelIcon {
+        width: 80px;
     }
 }

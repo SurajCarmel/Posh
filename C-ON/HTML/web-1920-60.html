@@ -19,7 +19,7 @@
                         <span class="dashboard">DASHBOARD</span>
                     </div>
                     <div class="corses_top">
-                        <span class="corses">COURSES</span>
+                        <span class="corses" onclick="nextNav('../HTML/web-1920-1.html')">COURSES</span>
                     </div>
                     <div class="report_top">
                         <span class="report">REPORTS</span>
@@ -55,39 +55,41 @@
                     <div class="Lessons-top">
                         <div>
                             <p class="Lessons">COURSE TITLE</p>
-                            <input type="text">
+                            <input id="titleID" type="text">
                         </div>
-                        <div class="error_container">
+                        <div class="error_container" id="courseerrorfull" style="display: none;">
                             <div class="icon_part">
                                 <img class="error" src="../ASSETS/all-icons-01.png" alt="">
                             </div>
                             <div class="msg_part">
                                 <span class="msg"> This field is required</span>
                             </div>
+                            <div class="clear"></div>
                         </div>
                     </div>
 
                     <div class="Lessons-top">
                         <div>
                             <p class="Lessons">BRIEF DESCRIPTION ABOUT THE COURSE</p>
-                            <textarea name="" id="" cols="30" rows="7"></textarea>
+                            <textarea id="descID" name="" id="" cols="30" rows="7"></textarea>
                         </div>
-                        <div class="textarea_error_container">
+                        <div class="textarea_error_container" id="courseerrorhalf" style="display: none;">
                             <div class="textarea_icon_part">
                                 <img class="error" src="../ASSETS/all-icons-01.png" alt="">
                             </div>
                             <div class="textarea_msg_part">
                                 <span class="msg"> This field is required</span>
                             </div>
+                            <div class="clear"></div>
                         </div>
                     </div>
 
                     <div class="footer">
                         <div class="footer_left">
-                            <p class="cancel">CANCEL</p>
+                            <p class="cancel" onclick="nextNav('../HTML/c-on_Web_1920-2.html')">CANCEL</p>
                         </div>
                         <div class="footer_right">
-                            <input type="button" value="SUBMIT" class="done">
+                            <input type="button" onclick="courseerror('courseerrorfull','courseerrorhalf','titleID','descID')" value="SUBMIT" class="done">
                         </div>
                         <div class="clear"></div>
                     </div>
@@ -98,6 +100,7 @@
             </div>
         </div>
     </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

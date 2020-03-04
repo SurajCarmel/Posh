@@ -8,7 +8,7 @@ function loginError(show, border, forgot, invalid, logintop, emailtxt, passtxt) 
     var emailcontent = document.getElementById(emailtxt);
     var passcontent = document.getElementById(passtxt);
 
-  if (emailcontent.value == "" || passcontent.value == "") {
+    if (emailcontent.value == "" || passcontent.value == "") {
         showerror[0].style.display = "block";
         showerror[1].style.display = "block";
         borderchange[0].style.border = "1px solid #BF574A";
@@ -80,5 +80,68 @@ function showOtp(showerror, otpbox) {
         nextNav(mobilemsg);
     }
 
+
+}
+
+
+// ===============================================================admin===========================================================================
+
+
+
+function adminError(error, invalid, box) {
+
+    var showerror = document.getElementsByClassName(error);
+    var showinvalid = document.getElementsByClassName(invalid);
+    var inputbox = document.getElementsByClassName(box);
+
+    if (inputbox[0].value == "" || inputbox[1].value == "") {
+        showerror[0].style.display = "block";
+        showerror[1].style.display = "block";
+    } else if (inputbox[0].value !== "example@address.com" || inputbox[1].value !== "secret007") {
+        showinvalid[0].style.display = "block";
+    } else if (inputbox[0].value == "example@address.com" || inputbox[1].value == "secret007") {
+        var myrequest = "../HTML/web-1920-1.html";
+        nextNav(myrequest);
+    }
+}
+
+function showdropdown(drop) {
+    var showdrop = document.getElementById(drop);
+
+    if (showdrop.style.display == "none") {
+        showdrop.style.display = "block";
+    } else {
+        showdrop.style.display = "none";
+    }
+
+}
+
+function publish(bgroundid, editlistid) {
+
+    var bground = document.getElementById(bgroundid);
+    var editlist = document.getElementById(editlistid);
+
+    if (bground.style.display == "none" && editlist.style.display == "none") {
+        bground.style.display = "block";
+        editlist.style.display = "block";
+    } else {
+        bground.style.display = "none";
+        editlist.style.display = "none";
+    }
+}
+
+function courseerror(fullID, halfID, titleID, descID) {
+
+    var fullerror = document.getElementById(fullID);
+    var halferror = document.getElementById(halfID);
+    var title = document.getElementById(titleID);
+    var desc = document.getElementById(descID);
+    if (title.value !== "" || desc.value !== "") {
+        nextNav("../HTML/c-on_Web_1920-61.html")
+
+    } else {
+        fullerror.style.display = "block"
+        halferror.style.display = "block"
+    }
 
 }

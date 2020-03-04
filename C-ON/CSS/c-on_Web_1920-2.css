@@ -125,6 +125,7 @@
 .coursesRight {
     width: 50%;
     float: right;
+    position: relative;
 }
 
 .burgerMenu {
@@ -272,6 +273,7 @@
 
 .menuBox {
     width: 4%;
+    position: relative;
 }
 
 .menuIcon {
@@ -312,6 +314,7 @@
 
 .burgerMenuBox {
     width: 5%;
+    position: relative;
 }
 
 .timeBox {
@@ -427,6 +430,250 @@
         width: 34.8px;
     }
     .menuIcon {
+        width: 75px;
+    }
+}
+
+
+/* ==============================================editlist======================================================== */
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #00000066;
+}
+
+.pop {
+    width: 34vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.containt_row {
+    background-color: #fff;
+    box-shadow: 0px 1px 6px #00000029;
+}
+
+.container {
+    padding: 7.16% 7.16% 0 7.16%;
+}
+
+.row {
+    border-bottom: 2px solid #F7F7F7;
+    padding-bottom: 7.16%;
+}
+
+.publish {
+    font-size: 1.35vw;
+    color: #595959;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+.description {
+    width: 81.08%;
+    font-size: 1.17vw;
+    color: #595959;
+    text-align: left;
+    font-family: 'Roboto';
+    padding-top: 2.53%;
+}
+
+.delete_row {
+    font-size: 1.17vw;
+    color: #595959;
+    font-family: 'Roboto';
+    text-align: left;
+    padding: 7.16%;
+}
+
+.cancel_row {
+    text-align: right;
+}
+
+.cancel {
+    vertical-align: bottom;
+    width: 3.125vw;
+}
+
+
+/* ============================================ options Popup ========================================================== */
+
+.optionsPopup {
+    width: 34vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.imgRow {
+    background-color: transparent;
+}
+
+.cancelIcon {
+    width: 60px;
+    float: right;
+}
+
+.optionsBox {
+    background-color: #FFFFFF;
+    padding: 0 7.3%;
+}
+
+.optionsRow {
+    border-bottom: 1px solid #F7F7F7;
+    padding: 7.3% 0;
+}
+
+.option {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.36vw;
+    letter-spacing: 1.4px;
+    color: #595959;
+    padding-bottom: 7px;
+}
+
+.details {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #707070;
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width:768px) {
+    .cancelIcon {
+        width: 24px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cancelIcon {
+        width: 32px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .cancelIcon {
+        width: 45px;
+    }
+}
+
+@media screen and (min-width: 1921px) and (max-width: 2560px) {
+    .cancelIcon {
+        width: 80px;
+    }
+}
+
+
+/* ============================ Icon Popup ========================================= */
+
+.iconPopup {
+    width: 22vw;
+    position: absolute;
+    top: 0;
+    right: 29%;
+    z-index: 2;
+}
+
+.text {
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #595959;
+}
+
+.dropdown {
+    width: 11.22px;
+    vertical-align: middle;
+    float: right;
+}
+
+.delete {
+    float: right;
+    width: 13.60px;
+    vertical-align: middle;
+}
+
+.exit {
+    width: 30px;
+    vertical-align: bottom;
+}
+
+.iconRow {
+    padding: 11.49% 0 8.33% 0;
+    border-bottom: 1px solid #F0F0F0;
+}
+
+.iconContainer {
+    padding: 0 11.50% 0 11.50%;
+    box-shadow: 0px 0px 20px #60606029;
+    background-color: #fff;
+}
+
+.cancel_row {
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .dropdown {
+        width: 8.22px;
+    }
+    .delete {
+        float: right;
+        width: 8px;
+    }
+    .exit {
+        width: 22.5px;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+    .dropdown {
+        width: 15.22px;
+    }
+    .delete {
+        width: 18.60px;
+    }
+    .exit {
+        width: 42px;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width:1441px) {
+    .dropdown {
+        width: 20.22px;
+    }
+    .delete {
+        float: right;
+        width: 24.60px;
+    }
+    .exit {
+        width: 56px;
+    }
+}
+
+@media only screen and (max-width: 2560px) and (min-width:1991px) {
+    .dropdown {
+        width: 27.22px;
+    }
+    .delete {
+        width: 32.60px;
+    }
+    .exit {
         width: 75px;
     }
 }
