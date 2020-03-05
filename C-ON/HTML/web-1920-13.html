@@ -19,7 +19,7 @@
                         <span class="dashboard">DASHBOARD</span>
                     </div>
                     <div class="corses_top">
-                        <span class="corses">COURSES</span>
+                        <span class="corses" onclick="nextNav('../HTML/web-1920-1.html')">COURSES</span>
                     </div>
                     <div class="report_top">
                         <span class="report">REPORTS</span>
@@ -58,9 +58,9 @@
                         <input type="text">
                     </div>
 
-                    <div class="add_topic">
+                    <div class="add_topic" onclick="nextNav('../HTML/c-on_Web_1920-74.html')">
                         <img class="pluse" src="../ASSETS/all-icons-04.png" alt="">
-                        <span class="topic">ADD TOPIC</span>
+                        <span class="topic">ADD OPTION</span>
                     </div>
 
 
@@ -70,7 +70,33 @@
                                 <span class="instruction">POLLUTION OF AIR</span>
                             </div>
                             <div class="elements_three">
-                                <img class="pluse" src="../ASSETS/all-icons-17.png" alt="">
+                                <img class="pluse" src="../ASSETS/all-icons-17.png" onclick="publish('bground','edit')" alt="">
+                                <div class="parentpop" id="edit" style="display: none;">
+                                    <div class="cancel_row">
+                                        <img class="cancelpop" onclick="publish('bground','edit')" src="../ASSETS/all-icons-16.png" alt="">
+                                    </div>
+                                    <div class="containerpop">
+
+                                        <div>
+                                            <div class="top">
+                                                <span class="textpop">Move Down</span>
+                                                <img class="dropdownpop" src="../ASSETS/all-icons-07.png" alt="">
+                                            </div>
+                                            <div class="top">
+                                                <span class="textpop">Move Up</span>
+                                                <img class="dropdownpop" src="../ASSETS/all-icons-22.png" alt="">
+                                            </div>
+                                            <div class="top">
+                                                <span class="textpop">Edit</span>
+                                                <img class="delete" src="../ASSETS/all-icons-13.png" alt="">
+                                            </div>
+                                            <div class="bottom">
+                                                <span class="textpop">Delete</span>
+                                                <img class="delete" src="../ASSETS/all-icons-18.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="clear"></div>
                         </div>
@@ -107,19 +133,18 @@
 
                     <div class="footer">
                         <div class="footer_left">
-                            <p class="cancel">CANCEL</p>
+                            <p class="cancel" onclick="nextNav('../HTML/web-1920-7.html')">CANCEL</p>
                         </div>
                         <div class="footer_right">
-                            <input type="button" value="DONE" class="done">
+                            <input type="button" value="DONE" onclick="nextNav('../HTML/c-on_Web_1920-9.html')" class="done">
                         </div>
                         <div class="clear"></div>
                     </div>
-
                 </div>
-
             </div>
-
+            <div class="bground" style="display: none;" id="bground"></div>
         </div>
+        <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

@@ -18,7 +18,7 @@
                     </span>
                 </div>
                 <div class="coursesBox">
-                    <span class="darkText underline">
+                    <span onclick="nextNav('../HTML/web-1920-1.html')" class="darkText underline">
                         COURSES
                     </span>
                 </div>
@@ -63,7 +63,14 @@
                     <p class="formText">LEARNING FORMAT</p>
                     <div class="textBoxTwo boxSpace">
                         <input class="textBox" type="text" name="" id="">
-                        <img class="downImage" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                        <img class="downImage" onclick="showdropdown('comboBoxID')" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                        <div class="comboParent" style="display: none;" id="comboBoxID">
+                            <div class="comboContainer">
+                                <p class="self">SELF LEARNING</p>
+                                <p class="led">INSTRUCTOR LED CLASSROOM</p>
+                                <p class="blindroom">BLENDROOM</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div>
@@ -72,7 +79,7 @@
                 </div>
                 <div class="submitBar">
                     <div class="submitBarLeft">
-                        <span class="cancelLink">CANCEL</span>
+                        <span class="cancelLink" onclick="nextNav('../HTML/web-1920-1.html')">CANCEL</span>
                     </div>
                     <div class="submitBarRight">
                         <input class="submitBtn" type="button" value="SUBMIT">
@@ -82,6 +89,7 @@
             </div>
         </div>
     </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

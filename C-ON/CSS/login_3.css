@@ -4,15 +4,21 @@
     box-sizing: border-box;
 }
 
-body {
+.main {
     background-color: #00000065;
+    height: 100vh;
+    position: relative;
 }
 
-.container {
+.sucesscontainer {
     background-color: #FFFFFF;
     box-shadow: 0px 0px 10px #00000029;
     border-radius: .5vw;
-    margin: 21% 23% 27% 23%;
+    width: 53%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .link {
@@ -29,7 +35,7 @@ body {
     padding: 7.63% 37.81% 15% 37.83%;
 }
 
-.submit_btn {
+.btn_submit {
     text-align: center;
     font-family: 'Roboto';
     font-size: 1.17vw;

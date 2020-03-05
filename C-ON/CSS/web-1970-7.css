@@ -241,9 +241,7 @@
 }
 
 .instruction {
-    text-align: left;
-    font-family: 'Roboto';
-    font-size: 1.17vw;
+    font: 700 1.17vw/14px 'Roboto';
     letter-spacing: 1.2px;
     color: #595959;
     padding-left: 1.43%;
@@ -411,7 +409,7 @@
 /* ============================================================ edit pop============================================================================================== */
 
 .parent_pop {
-    padding: 0 7.16% 7.16 7.16%;
+    padding: 0 7.16% 7.16% 7.16%;
     width: 34.08vw;
     z-index: 2;
     position: absolute;
@@ -428,7 +426,7 @@
     padding: 7.16% 7.16% 0 7.16%;
 }
 
-.row {
+.diffrow {
     border-bottom: 2px solid #F7F7F7;
     padding-bottom: 7.16%;
 }
@@ -484,8 +482,8 @@
 
 @media only screen and (max-width: 1920px) and (min-width:1441px) {
     .cancel {
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
 }
 

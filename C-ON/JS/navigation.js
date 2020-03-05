@@ -122,9 +122,11 @@ function publish(bgroundid, editlistid) {
     var editlist = document.getElementById(editlistid);
 
     if (bground.style.display == "none" && editlist.style.display == "none") {
+
         bground.style.display = "block";
         editlist.style.display = "block";
     } else {
+
         bground.style.display = "none";
         editlist.style.display = "none";
     }
@@ -143,5 +145,60 @@ function courseerror(fullID, halfID, titleID, descID) {
         fullerror.style.display = "block"
         halferror.style.display = "block"
     }
+
+}
+
+
+function adminforgot(error, invalid, box, successmsg) {
+
+    var showerror = document.getElementById(error);
+    var showinvalid = document.getElementById(invalid);
+    var inputbox = document.getElementById(box);
+    var successpop = document.getElementById(successmsg);
+
+    if (inputbox.value == "") {
+        showerror.style.display = "block";
+    } else if (inputbox.value !== "example@address.com") {
+        showerror.style.display = "none";
+        showinvalid.style.display = "block";
+    } else if (inputbox.value == "example@address.com") {
+        successpop.style.display = 'block';
+    }
+}
+
+function select(option, input) {
+    var getOption = document.getElementById(option);
+    var dispInput = document.getElementById(input);
+
+    dispInput.value = getOption.innerHTML;
+    document.getElementById('comboBoxID').style.display = "none";
+}
+
+function courseSubmit(titleID, formatID, alertBar, alertBarTwo) {
+    var title = document.getElementById(titleID);
+    var format = document.getElementById(formatID);
+    var titleAlert = document.getElementById(alertBar);
+    var formatAlert = document.getElementById(alertBarTwo);
+
+    if (title.value == "" || format.value == "") {
+        titleAlert.style.display = "block";
+        formatAlert.style.display = "block";
+    } else if (title.value !== "" && (format.value == "SELF LEARNING" || format.value == "INSTRUCTOR LED CLASSROOM" || format.value == "BLENDROOM")) {
+        nextNav('../HTML/c-on_Web_1920-47.html')
+    }
+}
+
+
+function backPop() {
+
+    location.href = '../HTML/c-on_Web_1920-2.html';
+
+    // var bground = document.getElementById('iframeId').contentWindow.document.getElementById('bgroundID');
+    // alert(bground)
+    // var editlist = document.getElementById('iconPopupID');
+    // alert(bground)
+
+    // bground.style.display = "block";
+    // editlist.style.display = "block";
 
 }

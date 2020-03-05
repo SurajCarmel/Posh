@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/screen-38.css">
+    <link rel="stylesheet" href="../CSS/c-on-42.css">
     <title>Document</title>
 </head>
 
@@ -44,33 +44,47 @@
             </div>
         </div>
 
-        <div class="parent" id="bbb">
+        <div class="parent">
 
             <div class="container">
-                <div class="seleted_option" onclick="nextNav('../HTML/C-ON-screen-39.html')">
-                    <p class="Section"> Preview</p>
+                <div class="seleted_option">
+                    <p class="Section"> Text</p>
                 </div>
 
                 <div class="row">
-                    <div class="Lessons-top" onclick="nextNav('../HTML/C-ON-screen-39.html')">
-                        <p class="Lessons">Lorem Ipsum</p>
-                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque sapien sit amet risus elementum tincidunt.</p>
+                    <div class="Lessons-top">
+
+                        <p class="Lessons">TEXT TITLE</p>
+                        <input type="text">
+
+
                     </div>
 
-                    <video class="video" width="400" controls>
-                        <source src="../ASSETS/video.mp4" type="video/mp4">
-                      </video>
+                    <div class="top">
+
+                        <p class="Lessons">BRIEF DESCRIPTION</p>
+                        <textarea name="" id="" cols="30" rows="7"></textarea>
+
+
+                    </div>
 
                     <div class="footer">
                         <div class="footer_left">
-                            <p class="cancel" onclick="backPop()">BACK</p>
+                            <p class="cancel">CANCEL</p>
                         </div>
-
+                        <div class="footer_right">
+                            <input type="button" onclick="nextNav('../HTML/c-on_Web_1920-57.html')" value="SUBMIT" class="done">
+                        </div>
+                        <div class="clear"></div>
                     </div>
+
                 </div>
+
+
             </div>
         </div>
-        <script src="../JS/navigation.js"></script>
+    </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

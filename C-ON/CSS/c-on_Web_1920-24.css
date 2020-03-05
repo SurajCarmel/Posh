@@ -92,6 +92,7 @@
 
 .downImage {
     width: 18.6px;
+    vertical-align: middle;
 }
 
 .container {
@@ -141,12 +142,17 @@
     border-radius: 4px;
     width: 28.9%;
     padding: 0.8% 0;
+    position: relative;
 }
 
 .textBox {
     border: 0;
     width: 91.25%;
     vertical-align: middle;
+    font: 400 1.17vw/14px 'Roboto';
+    letter-spacing: 1.2px;
+    color: #595959;
+    padding-left: 0.97vw;
 }
 
 .textBoxThree {
@@ -231,4 +237,48 @@
     .downImage {
         width: 24.8px;
     }
+}
+
+.comboParent {
+    width: 25.4vw;
+    background-color: #FFFFFF;
+    border: 1px solid #F7F7F7;
+    box-shadow: 0px 4px 8px #60606029;
+    padding: 2.14%;
+    position: absolute;
+    top: 101%;
+    right: 0;
+}
+
+.comboContainer {
+    padding: 0 11.40%;
+}
+
+.self {
+    text-align: left;
+    font-size: 1.17vw;
+    color: #595959;
+    font-family: 'Roboto';
+    border-bottom: 1px solid #F7F7F7;
+    padding: 9.88% 0% 6.84% 0%;
+}
+
+.led {
+    text-align: left;
+    font-size: 1.17vw;
+    color: #595959;
+    font-family: 'Roboto';
+    border-bottom: 1px solid #F7F7F7;
+    padding: 05% 0;
+    padding: 9.88% 0% 6.84% 0%;
+}
+
+.blindroom {
+    padding: 01%;
+    text-align: left;
+    font-size: 1.17vw;
+    color: #595959;
+    font-family: 'Roboto';
+    padding: 05% 0;
+    padding: 9.88% 0% 6.84% 0%;
 }

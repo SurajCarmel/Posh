@@ -12,36 +12,55 @@
 
 <body>
 
-    <div class="container">
-        <div>
-            <p class="forgoot">
-                FORGOT PASSWORD
-            </p>
-            <p class="description">
-                We will send you an email with instructions to reset your password.
-            </p>
-        </div>
-        <div class="email_top">
-            <div>
-                <p class="email">Email</p>
-                <input type="text" class="txt_area">
-            </div>
+    <div class="forgotparent">
+        <div class="forgotbox">
+            <div class="container">
+                <div>
+                    <p class="forgoot">
+                        FORGOT PASSWORD
+                    </p>
+                    <p class="description">
+                        We will send you an email with instructions to reset your password.
+                    </p>
+                </div>
+                <div class="email_top">
+                    <div>
+                        <p class="email">Email</p>
+                        <input id="adminemail" type="text" class="txt_area">
+                    </div>
 
-            <div>
-                <img class="icon" src="../ASSETS/Artboard 1 copy 22@16x.png" alt="error icon">
-                <span class="field">This field is required</span>
-            </div>
-            <div class="error_top">
-                <img class="icon" src="../ASSETS/Artboard 1 copy 22@16x.png" alt="error icon">
-                <span class="field">This email is not registered with us.</span>
-            </div>
-        </div>
+                    <div style="display: none;" id="forgoterror">
+                        <img class="icon" src="../ASSETS/Artboard 1 copy 22@16x.png" alt="error icon">
+                        <span class="field">This field is required</span>
+                    </div>
+                    <div class="error_top" style="display: none;" id="forgotinvalid">
+                        <img class="icon" src="../ASSETS/Artboard 1 copy 22@16x.png" alt="error icon">
+                        <span class="field">This email is not registered with us.</span>
+                    </div>
+                </div>
 
-        <div class="btn_top">
-            <input type="submit" value="SUBMIT" class="sub_btm">
+                <div class="btn_top">
+                    <input type="submit" value="SUBMIT" onclick="adminforgot('forgoterror','forgotinvalid','adminemail','successpop')" class="sub_btm">
+                </div>
+            </div>
         </div>
     </div>
 
+
+    <div class="succesmain " style="display: none;" id="successpop">
+        <div class="popbox">
+            <div class="sucesscontainer">
+                <div>
+                    <p class="link">The link has been sent to your user email.</p>
+                </div>
+                <div class="top_btn">
+                    <input type="submit" onclick="nextNav('../HTML/c-on_Login-1.html')" class="btn_submit" value="CONTINUE">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

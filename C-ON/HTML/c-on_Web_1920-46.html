@@ -18,7 +18,7 @@
                     </span>
                 </div>
                 <div class="coursesBox">
-                    <span class="darkText underline">
+                    <span onclick="nextNav('../HTML/web-1920-1.html')" class="darkText underline">
                         COURSES
                     </span>
                 </div>
@@ -57,8 +57,8 @@
             <div class="rowTwo">
                 <div>
                     <p class="formText">COURSE TITLE</p>
-                    <input class="textBoxOne" type="text" name="" id="">
-                    <div class="alertBar">
+                    <input class="textBoxOne" type="text" name="" id="titleID">
+                    <div id="alertBar" style="display: none;" class="alertBar">
                         <div class="alertImageBox">
                             <img class="alertIcon" src="../ASSETS/all-icons-01.png" alt="">
                         </div>
@@ -71,10 +71,17 @@
                 <div>
                     <p class="formText">LEARNING FORMAT</p>
                     <div class="textBoxTwo">
-                        <input class="textBox" type="text" name="" id="">
-                        <img class="downImage" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                        <input class="textBox" type="text" name="" id="formatID">
+                        <img class="downImage" onclick="showdropdown('comboBoxID')" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                        <div class="comboParent" style="display: none;" id="comboBoxID">
+                            <div class="comboContainer">
+                                <p id="optionOne" class="self" onclick="select('optionOne','formatID')">SELF LEARNING</p>
+                                <p id="optionTwo" class="led" onclick="select('optionTwo','formatID')">INSTRUCTOR LED CLASSROOM</p>
+                                <p id="optionThree" class="blindroom" onclick="select('optionThree','formatID')">BLENDROOM</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="alertBarTwo">
+                    <div id="alertBarTwo" style="display: none;" class="alertBarTwo">
                         <div class="alertImageBoxTwo">
                             <img class="alertIcon" src="../ASSETS/all-icons-01.png" alt="">
                         </div>
@@ -90,16 +97,17 @@
                 </div>
                 <div class="submitBar">
                     <div class="submitBarLeft">
-                        <span class="cancelLink">CANCEL</span>
+                        <span class="cancelLink" onclick="nextNav('../HTML/web-1920-1.html')">CANCEL</span>
                     </div>
                     <div class="submitBarRight">
-                        <input class="submitBtn" type="button" value="SUBMIT">
+                        <input class="submitBtn" onclick="courseSubmit('titleID','formatID','alertBar','alertBarTwo')" type="button" value="SUBMIT">
                     </div>
                     <div class="clear"></div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

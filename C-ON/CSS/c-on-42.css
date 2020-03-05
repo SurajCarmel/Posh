@@ -2,7 +2,6 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
-    outline: none;
 }
 
 .header {
@@ -143,8 +142,10 @@
 
 .Lessons {
     text-align: left;
-    font: 600 1.36vw/16px 'Roboto';
-    letter-spacing: 1.4px;
+    width: fit-content;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.9px;
     color: #595959;
 }
 
@@ -152,38 +153,81 @@
     padding-top: 3.69%;
 }
 
-.desc {
-    width: 40.69%;
-    text-align: left;
-    font: 400 1.17vw/14px 'Roboto';
-    letter-spacing: .6px;
-    color: #747474;
-    line-height: 1.1;
-    padding-top: 1.25%;
+.top {
+    padding-top: 5.14%;
 }
 
-.video {
-    padding-top: 4.41%;
+.Lessons-top_1 {
+    padding: 3.69% 0 0% 0;
 }
 
-.lorem {
-    width: 53.13%;
+.Lessons-top input {
+    width: 46.765%;
+    padding: 1%;
+    margin-top: 0.88%;
+    border: 1px solid #CECECE;
+    border-radius: .4vw;
+}
+
+textarea {
+    width: 37.51%;
+    margin-top: 0.88%;
+    border: 1px solid #CECECE;
+    border-radius: .4vw;
+}
+
+.Lessons-top textarea {
+    width: 36.765%;
+    margin-top: 0.88%;
+    border: 1px solid #CECECE;
+    border-radius: .4vw;
+}
+
+.icon_part {
+    width: 6.59%;
+    background-color: #CB1720;
+}
+
+.msg_part {
+    width: 93.41%;
+}
+
+.textarea_icon_part {
+    width: 8.42%;
+    background-color: #CB1720;
+}
+
+.textarea_msg_part {
+    width: 91.58%;
+}
+
+.msg {
     text-align: left;
-    font: 400 1.17vw/1.56vw 'Roboto';
+    font-family: 'Roboto';
+    font-size: 1.17vw;
     letter-spacing: 0.6px;
-    color: #595959;
+    color: #CB1720;
 }
 
-.read {
-    text-align: left;
-    font: 600 0.97vw/30px 'Roboto';
-    letter-spacing: 0.5px;
-    color: #909090;
-    padding-top: 2.36%;
+.error {
+    width: 16.69px;
+    display: block;
+    margin: auto;
 }
 
 .footer {
-    padding: 13.15% 0 3.699% 0;
+    padding: 17.47% 0 3.699% 0;
+}
+
+.footer_left {
+    width: 50%;
+    float: left;
+    padding-top: .50%;
+}
+
+.footer_right {
+    width: 50%;
+    float: right;
 }
 
 .cancel {
@@ -249,8 +293,5 @@
     }
     .profile_pic {
         width: 80.15px;
-    }
-    .error {
-        width: 40.69px;
     }
 }
