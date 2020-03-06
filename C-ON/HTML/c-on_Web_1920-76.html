@@ -43,12 +43,29 @@
                     </span>
                 </div>
                 <div class="downBox">
-                    <img class="downImage" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                    <img class="downImage" onclick="showdropdown('dropdown')" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                </div>
+
+                <div style="display: none;" id="dropdown" class="pageParent">
+                    <div class="popupcontainer">
+                        <p class="popuptext">
+                            Account
+                        </p>
+                        <p class="popuptext">
+                            Profile
+                        </p>
+                        <p class="popuptext">
+                            Settings
+                        </p>
+                        <p class="popuptext">
+                            Log Out
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="coursesContainer">
+        <div class="coursesContainer" onclick="nextNav('../HTML/web-1920-77.html')">
             <div class="topRow">
                 <span class="coursesHeading underline">Quiz</span>
             </div>
@@ -64,6 +81,7 @@
             </div>
         </div>
     </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

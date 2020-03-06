@@ -166,12 +166,13 @@ function adminforgot(error, invalid, box, successmsg) {
     }
 }
 
-function select(option, input) {
+function select(option, input, drop) {
     var getOption = document.getElementById(option);
     var dispInput = document.getElementById(input);
 
+
     dispInput.value = getOption.innerHTML;
-    document.getElementById('comboBoxID').style.display = "none";
+    document.getElementById(drop).style.display = "none";
 }
 
 function courseSubmit(titleID, formatID, alertBar, alertBarTwo) {

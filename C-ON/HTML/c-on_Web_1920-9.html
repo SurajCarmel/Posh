@@ -43,7 +43,24 @@
                     </span>
                 </div>
                 <div class="downBox ">
-                    <img class="downImage " src="../ASSETS/Artboard 1 copy 20@16x.png " alt=" ">
+                    <img class="downImage" onclick="showdropdown('dropdown')" src="../ASSETS/Artboard 1 copy 20@16x.png " alt=" ">
+                </div>
+            </div>
+
+            <div style="display: none;" id="dropdown" class="pageParent">
+                <div class="popupcontainer">
+                    <p class="popuptext">
+                        Account
+                    </p>
+                    <p class="popuptext">
+                        Profile
+                    </p>
+                    <p class="popuptext">
+                        Settings
+                    </p>
+                    <p class="popuptext">
+                        Log Out
+                    </p>
                 </div>
             </div>
         </div>
@@ -58,10 +75,10 @@
                         QUESTIONS & OPTIONS
                     </span>
                 </div>
-                <div class="addBox ">
+                <div class="addBox" onclick="nextNav( '../HTML/web-1920-13.html') ">
                     <div class="placeholder ">
                         <img class="addBtn " src="../ASSETS/Artboard 1 copy 25@16x.png " alt=" ">
-                        <span class="addText " onclick="nextNav( '../HTML/web-1920-13.html') ">ADD QUESTION</span>
+                        <span class="addText ">ADD QUESTION</span>
                     </div>
                 </div>
                 <div class="indexBox ">
@@ -75,7 +92,57 @@
                             </p>
                         </div>
                         <div class="menuBox ">
-                            <img class="menuIcon " src="../ASSETS/Artboard 1 copy 26@16x.png " alt=" ">
+                            <img class="menuIcon " onclick="publish('backcolor','edit')" src="../ASSETS/Artboard 1 copy 26@16x.png " alt=" ">
+
+                            <div class="optionsPopup" id="edit" style="display: none;">
+                                <div class="imgRow">
+                                    <img class="cancelIcon" onclick="publish('backcolor','edit')" src="../ASSETS/all-icons-16.png" alt="">
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="optionsBox">
+                                    <div class="row">
+                                        <div class="options">
+                                            Move Down
+                                        </div>
+                                        <div class="visuals">
+                                            <img class="icons" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="options">
+                                            Move Up
+                                        </div>
+                                        <div class="visuals">
+                                            <img class="icons" src="../ASSETS/Artboard 1 copy 41@16x.png" alt="">
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="options">
+                                            Edit
+                                        </div>
+                                        <div class="visuals">
+                                            <img class="icons" src="../ASSETS/all-icons-13.png" alt="">
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="options">
+                                            Delete
+                                        </div>
+                                        <div class="visuals">
+                                            <img class="icons" src="../ASSETS/all-icons-18.png" alt="">
+                                            <div class="clear"></div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                     <div class="subGreyBar ">
@@ -131,13 +198,16 @@
                         <span class="cancelLink ">CANCEL</span>
                     </div>
                     <div class="submitBarRight ">
-                        <input class="submitBtn " type="button " value="SUBMIT ">
+
+                        <button class="submitBtn" onclick="nextNav('../HTML/c-on_Web_1920-76.html')">SUBMIT</button>
                     </div>
                     <div class="clear "></div>
                 </div>
             </div>
         </div>
+        <div class="bground" style="display: none;" id="backcolor"></div>
     </div>
+
     <script src="../JS/navigation.js "></script>
 </body>
 

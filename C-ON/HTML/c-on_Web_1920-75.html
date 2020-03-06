@@ -43,7 +43,23 @@
                     </span>
                 </div>
                 <div class="downBox">
-                    <img class="downImage" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                    <img class="downImage" onclick="showdropdown('dropdown')" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                </div>
+                <div style="display: none;" id="dropdown" class="pageParent">
+                    <div class="popupcontainer">
+                        <p class="popuptext">
+                            Account
+                        </p>
+                        <p class="popuptext">
+                            Profile
+                        </p>
+                        <p class="popuptext">
+                            Settings
+                        </p>
+                        <p class="popuptext">
+                            Log Out
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,16 +99,17 @@
                 </div>
                 <div class="submitBar">
                     <div class="submitBarLeft">
-                        <span class="cancelLink">CANCEL</span>
+                        <span class="cancelLink" onclick="nextNav('../HTML/web-1920-13.html')">CANCEL</span>
                     </div>
                     <div class="submitBarRight">
-                        <input class="submitBtn" type="button" value="SAVE">
+                        <input class="submitBtn" onclick="nextNav('../HTML/web-1920-13.html')" type="button" value="SAVE">
                     </div>
                     <div class="clear"></div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

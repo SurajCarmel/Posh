@@ -43,7 +43,23 @@
                     </span>
                 </div>
                 <div class="downBox">
-                    <img class="downImage" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                    <img class="downImage" onclick="showdropdown('dropdown')" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                </div>
+                <div style="display: none;" id="dropdown" class="pageParent">
+                    <div class="popupcontainer">
+                        <p class="popuptext">
+                            Account
+                        </p>
+                        <p class="popuptext">
+                            Profile
+                        </p>
+                        <p class="popuptext">
+                            Settings
+                        </p>
+                        <p class="popuptext">
+                            Log Out
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -75,9 +91,9 @@
                         <img class="downImage" onclick="showdropdown('comboBoxID')" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
                         <div class="comboParent" style="display: none;" id="comboBoxID">
                             <div class="comboContainer">
-                                <p id="optionOne" class="self" onclick="select('optionOne','formatID')">SELF LEARNING</p>
-                                <p id="optionTwo" class="led" onclick="select('optionTwo','formatID')">INSTRUCTOR LED CLASSROOM</p>
-                                <p id="optionThree" class="blindroom" onclick="select('optionThree','formatID')">BLENDROOM</p>
+                                <p id="optionOne" class="self" onclick="select('optionOne','formatID','comboBoxID')">SELF LEARNING</p>
+                                <p id="optionTwo" class="led" onclick="select('optionTwo','formatID','comboBoxID')">INSTRUCTOR LED CLASSROOM</p>
+                                <p id="optionThree" class="blindroom" onclick="select('optionThree','formatID','comboBoxID')">BLENDROOM</p>
                             </div>
                         </div>
                     </div>

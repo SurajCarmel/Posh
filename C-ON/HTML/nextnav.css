@@ -1,0 +1,113 @@
+.page {
+    background-color: #FAFAFA;
+}
+
+.header {
+    box-shadow: 0px 3px 6px #BCBCBC40;
+    background-color: #FFFFFF;
+    padding: 2% 3.4%;
+    display: flex;
+    align-items: center;
+}
+
+.leftFlex {
+    width: 85%;
+    float: left;
+    display: flex;
+}
+
+.dashboardBox {
+    width: 18%;
+}
+
+.lightText {
+    font-family: 'Roboto';
+    font-size: 1.36vw;
+    letter-spacing: 0.7px;
+    color: #909090;
+}
+
+.coursesBox {
+    width: 16%;
+}
+
+.underline {
+    padding-bottom: 6px;
+    border-bottom: 4px solid #32BDD2;
+}
+
+.darkText {
+    font-family: 'Roboto';
+    font-size: 1.36vw;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+    color: #595959;
+}
+
+.reportsBox {
+    width: 15%;
+}
+
+.systemsBox {
+    width: 51%;
+}
+
+.clear {
+    clear: both;
+}
+
+.rightFlex {
+    width: 15%;
+    float: right;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.imageBox {
+    width: 30%;
+}
+
+.userImage {
+    width: 3.125vw;
+}
+
+.nameBox {
+    width: 63%;
+}
+
+.userName {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.17vw;
+    letter-spacing: 0.9px;
+    color: #5A5A5A;
+}
+
+.downBox {
+    width: 7%;
+}
+
+.downImage {
+    width: .97vw;
+}
+
+.popupcontainer {
+    width: 21vw;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px #60606029;
+    border: 1px solid #F7F7F7;
+    padding: 2% 0 2% 2%;
+    position: absolute;
+    top: 158%;
+    right: -7%;
+    z-index: 1;
+}
+
+.popuptext {
+    font-family: 'Roboto';
+    font-size: 1.36vw;
+    color: #595959;
+    letter-spacing: 1.4px;
+    padding: 11% 0 11% 18%;
+}

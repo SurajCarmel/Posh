@@ -1,103 +1,125 @@
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    outline: none;
 }
-.header{
-    width: 100%;
-    display: flex;
+
+.page {
+    background-color: #FAFAFA;
+}
+
+.header {
     box-shadow: 0px 3px 6px #BCBCBC40;
-    padding-left: 2.92%;
-    padding-right: 3.51%;
+    background-color: #FFFFFF;
+    padding: 2% 3.4%;
+    display: flex;
     align-items: center;
 }
-.header_left_part{
+
+.leftFlex {
     width: 85%;
-}
-
-.list{
+    float: left;
     display: flex;
-    align-items: center;  
 }
 
-.dashboard_top{
-    width: 17.28%;
-    padding-right:6.34%;
+.dashboardBox {
+    width: 18%;
 }
 
-.corses_top{
-    width: 14.80%;
-    padding-right:6.34%;
-}
-
-.report_top{
-    width: 14.56%;
-    padding-right:6.34%;
-}
-
-.system_top{
-    width: 14.80%;
-    padding-right:6.34%;
-}
-
-
-.dashboard{
-    font-size: 1.35vw;
+.lightText {
     font-family: 'Roboto';
+    font-size: 1.36vw;
     letter-spacing: 0.7px;
     color: #909090;
 }
 
-.report{
-    font-size: 1.35vw;
-    font-family: 'Roboto';
-    letter-spacing: 0.7px;
-    color: #909090;
+.coursesBox {
+    width: 16%;
 }
 
-.system{
-    font-size: 1.35vw;
-    font-family: 'Roboto';
-    letter-spacing: 0.7px;
-    color: #909090;
+.underline {
+    padding-bottom: 6px;
+    border-bottom: 4px solid #32BDD2;
 }
 
-.corses{
-    font-size: 1.35vw;
+.darkText {
     font-family: 'Roboto';
+    font-size: 1.36vw;
+    font-weight: 500;
     letter-spacing: 0.7px;
     color: #595959;
-    border-bottom: .3vw solid #32BDD2;
 }
 
-.header_right_part{
+.reportsBox {
     width: 15%;
-    padding: 02% 0;
 }
 
-.profile_part{
+.systemsBox {
+    width: 51%;
+}
+
+.clear {
+    clear: both;
+}
+
+.rightFlex {
+    width: 15%;
+    float: right;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    position: relative;
 }
 
-.profile_pic{
-    width: 32.15px;
-    vertical-align: middle;
+.imageBox {
+    width: 30%;
 }
 
-.name{
-    text-align: left;
-    font-size: 1.17vw;
+.userImage {
+    width: 3.125vw;
+}
+
+.nameBox {
+    width: 63%;
+}
+
+.userName {
     font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.17vw;
     letter-spacing: 0.9px;
     color: #5A5A5A;
 }
-.dropdown{
-    width: 9.89px;
+
+.downBox {
+    width: 7%;
 }
 
-.course{
+.downImage {
+    width: .97vw;
+}
+
+.popupcontainer {
+    width: 21vw;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px #60606029;
+    border: 1px solid #F7F7F7;
+    padding: 2% 0 2% 2%;
+    position: absolute;
+    top: 158%;
+    right: -7%;
+    z-index: 1;
+}
+
+.popuptext {
+    font-family: 'Roboto';
+    font-size: 1.36vw;
+    color: #595959;
+    letter-spacing: 1.4px;
+    padding: 11% 0 11% 18%;
+}
+
+.course {
     text-align: left;
     font-family: 'Roboto';
     font-size: 1.75vw;
@@ -107,29 +129,26 @@
     padding-bottom: 1%;
 }
 
-
-.parent{
-    background-color: #FAFAFA;
+.parent {
     padding: 4.19% 2.44% 3.02% 2.44%;
 }
 
-.container{
+.container {
     background-color: #FFFFFF;
     box-shadow: 0px 3px 6px #00000029;
-
 }
 
-.row{
-    box-shadow: 0px 3px 6px #00000029; 
-    padding:  0 3%;
+.row {
+    border-bottom: .4vw solid #FAFAFA;
+    padding: 0 3%;
 }
 
-.seleted_option{
-     padding: 5.13% 3% 6.06% 3%;
-     box-shadow: 0px 3px 6px #00000029; 
+.seleted_option {
+    padding: 5.13% 3% 6.06% 3%;
+    border-bottom: .4vw solid #FAFAFA;
 }
 
-.Section{
+.Section {
     text-align: left;
     width: fit-content;
     font-family: 'Roboto';
@@ -140,7 +159,7 @@
     padding-bottom: 0%;
 }
 
-.Lessons{
+.Lessons {
     text-align: left;
     width: fit-content;
     font-family: 'Roboto';
@@ -149,20 +168,19 @@
     color: #595959;
 }
 
-.Lessons-top{
+.Lessons-top {
     padding: 3.69% 0 5.13% 0;
-    
 }
 
-.Lessons-top input{
-width: 46.765%;
-padding: 1%;
-margin-top: 0.88%;
-border: 1px solid #CECECE;
-border-radius: .4vw;
+.Lessons-top input {
+    width: 46.765%;
+    padding: 1%;
+    margin-top: 0.88%;
+    border: 1px solid #CECECE;
+    border-radius: .4vw;
 }
 
-.attachments{
+.attachments {
     text-align: left;
     font-family: 'Roboto';
     font-size: 1.75vw;
@@ -170,13 +188,11 @@ border-radius: .4vw;
     color: #595959;
 }
 
-.attachments_top{
+.attachments_top {
     padding-bottom: 2.0%;
 }
 
-
-
-.desc{
+.desc {
     text-align: left;
     font-family: 'Roboto';
     font-size: 1.17vw;
@@ -186,13 +202,11 @@ border-radius: .4vw;
     padding-top: 1.23%;
 }
 
-
-.clear{
+.clear {
     clear: both;
 }
 
-
-.file_container{
+.file_container {
     width: 56.52%;
     display: flex;
     align-items: center;
@@ -200,18 +214,18 @@ border-radius: .4vw;
     border: 0.5px solid #B5B5B5;
 }
 
-.browse_container{
+.browse_container {
     width: 50%;
     padding: 5%;
-   
 }
 
-.drop_container{
+.drop_container {
     width: 50%;
     background-color: #32BDD2;
     padding: 03%;
 }
-.select{
+
+.select {
     text-align: left;
     font-family: 'Roboto';
     font-size: 1.07vw;
@@ -219,7 +233,8 @@ border-radius: .4vw;
     color: #747474;
     font-weight: bold;
 }
-.mb{
+
+.mb {
     text-align: left;
     font-family: 'Roboto';
     font-size: 1.07vw;
@@ -227,7 +242,8 @@ border-radius: .4vw;
     color: #747474;
     padding-bottom: 05.81%;
 }
-.browse{
+
+.browse {
     background: #32BDD2;
     border-radius: 4px;
     text-align: center;
@@ -240,13 +256,14 @@ border-radius: .4vw;
     padding: 1% 4%;
     cursor: pointer;
 }
-.browse_icon{
+
+.browse_icon {
     width: 32px;
     display: block;
     margin: auto;
 }
 
-.drop{
+.drop {
     text-align: center;
     font-family: 'Roboto';
     font-size: 1.07vw;
@@ -254,27 +271,29 @@ border-radius: .4vw;
     color: #fff;
 }
 
-.border{
+.border {
     border: 2px dashed #FFFFFF;
     border-radius: 4px;
     padding: 6% 6.90%;
 }
-.footer{
+
+.footer {
     padding: 2.90% 0;
-    padding: 9.66%  0 3.90%  0;
+    padding: 9.66% 0 3.90% 0;
 }
 
-.footer_left{
+.footer_left {
     width: 50%;
     float: left;
     padding-top: 1%;
 }
-.footer_right{
+
+.footer_right {
     width: 50%;
     float: right;
 }
 
-.cancel{
+.cancel {
     width: fit-content;
     text-align: left;
     font-family: 'Roboto';
@@ -284,7 +303,8 @@ border-radius: .4vw;
     border-bottom: 1px solid #747474;
     font-weight: bold;
 }
-.done{
+
+.done {
     background: #32BDD2;
     border-radius: 4px;
     text-align: center;
@@ -300,65 +320,52 @@ border-radius: .4vw;
 }
 
 @media only screen and (max-width: 768px) {
-    .dropdown{
+    .dropdown {
         width: 7.2px;
     }
-
-    .profile_pic{
+    .profile_pic {
         width: 24.15px;
     }
-    .browse_icon{
+    .browse_icon {
         width: 24px;
     }
-  
-    
 }
 
-@media only screen and (max-width: 1440px)  and  (min-width: 1025px) {
-    .dropdown{
+@media only screen and (max-width: 1440px) and (min-width: 1025px) {
+    .dropdown {
         width: 12.59px;
-
     }
-
-    .profile_pic{
+    .profile_pic {
         width: 45.15px;
-
     }
-
-    .browse_icon{
+    .browse_icon {
         width: 45px;
     }
-    
 }
+
 @media only screen and (max-width: 1920px) and (min-width:1441px) {
-    .dropdown{
+    .dropdown {
         width: 18.89px;
-
     }
-
-    .profile_pic{
+    .profile_pic {
         width: 60.15px;
-   
     }
-
-    .browse_icon{
+    .browse_icon {
         width: 60px;
     }
-        
-    }
+}
 
-@media only screen and (max-width: 2560px) and (min-width:1991px){
-    .dropdown{
+@media only screen and (max-width: 2560px) and (min-width:1991px) {
+    .dropdown {
         width: 22.89px;
-        
     }
-
-    .profile_pic{
+    .profile_pic {
         width: 80.15px;
     }
-
-    .browse_icon{
+    .browse_icon {
         width: 80px;
     }
-    
-    }
+}
+
+
+/* ==========================================================================================================================*/

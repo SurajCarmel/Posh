@@ -43,8 +43,26 @@
                     </span>
                 </div>
                 <div class="downBox">
-                    <img class="downImage" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                    <img class="downImage" onclick="showdropdown('dropdown')" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
                 </div>
+
+                <div style="display: none;" id="dropdown" class="pageParent">
+                    <div class="popupcontainer">
+                        <p class="popuptext">
+                            Account
+                        </p>
+                        <p class="popuptext">
+                            Profile
+                        </p>
+                        <p class="popuptext">
+                            Settings
+                        </p>
+                        <p class="popuptext">
+                            Log Out
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -72,13 +90,13 @@
                     <div>
                         <p class="formText">Select an option</p>
                         <div class="textBoxTwo boxSpace">
-                            <input class="textBox" type="text" name="" id="">
+                            <input class="textBox" type="text" name="" id="option">
                             <img class="downImage" onclick="showdropdown('dropo')" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
                             <div class="parent" id="dropo" style="display: none;">
                                 <div class="containerpop">
-                                    <p class="self">VIMEO</p>
-                                    <p class="led">YOUTUBE</p>
-                                    <p class="blindroom">NETFLIX</p>
+                                    <p id="vimeo" onclick="select('vimeo','option','dropo')" class="self">VIMEO</p>
+                                    <p id="youtube" onclick="select('youtube','option','dropo')" class="led">YOUTUBE</p>
+                                    <p id="netfix" onclick="select('netfix','option','dropo')" class="blindroom">NETFLIX</p>
                                 </div>
                             </div>
                         </div>

@@ -68,6 +68,7 @@
     float: right;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .imageBox {
@@ -269,6 +270,7 @@
 
 .menuBox {
     width: 4%;
+    position: relative;
 }
 
 .menuIcon {
@@ -470,4 +472,115 @@
     .menuIcon {
         width: 75px;
     }
+}
+
+
+/* ================================================ edit popup=========================================================================================== */
+
+.bground {
+    background-color: #00000066;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.optionsPopup {
+    width: 22.1vw;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+}
+
+.imgRow {
+    background-color: transparent;
+}
+
+.cancelIcon {
+    width: 60px;
+    float: right;
+}
+
+.optionsBox {
+    background-color: #FFFFFF;
+    padding: 0 11.4%;
+}
+
+.row {
+    border-bottom: 1px solid #F0F0F0;
+    padding: 11.4% 0;
+}
+
+.options {
+    width: 70%;
+    float: left;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #595959;
+    padding-bottom: 7px;
+}
+
+.visuals {
+    width: 30%;
+    float: right;
+}
+
+.icons {
+    width: 32px;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width:768px) {
+    .cancelIcon {
+        width: 24px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .cancelIcon {
+        width: 32px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .cancelIcon {
+        width: 45px;
+    }
+}
+
+@media screen and (min-width: 1921px) and (max-width: 2560px) {
+    .cancelIcon {
+        width: 80px;
+    }
+}
+
+
+/* ========================================================================================================================== */
+
+.popupcontainer {
+    width: 21vw;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px #60606029;
+    border: 1px solid #F7F7F7;
+    padding: 2% 0 2% 2%;
+    position: absolute;
+    top: 14.5%;
+    right: 2%;
+    z-index: 1;
+}
+
+.popuptext {
+    font-family: 'Roboto';
+    font-size: 1.36vw;
+    color: #595959;
+    letter-spacing: 1.4px;
+    padding: 11% 0 11% 18%;
 }

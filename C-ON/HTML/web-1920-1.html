@@ -11,36 +11,41 @@
 </head>
 
 <body>
-    <div>
+    <div class="page">
         <div class="header">
-            <div class="header_left_part">
-                <div class="list">
-                    <div class="dashboard_top">
-                        <span class="dashboard">DASHBOARD</span>
-                    </div>
-                    <div class="corses_top">
-                        <span class="corses">COURSES</span>
-                    </div>
-                    <div class="report_top">
-                        <span class="report">REPORTS</span>
-                    </div>
-                    <div class="system_top">
-                        <span class="system">SYSTEMS</span>
-                    </div>
+            <div class="leftFlex">
+                <div class="dashboardBox">
+                    <span class="lightText">
+                        DASHBOARD
+                    </span>
+                </div>
+                <div class="coursesBox">
+                    <span class="darkText underline" onclick="nextNav('../HTML/web-1920-1.html')">
+                        COURSES
+                    </span>
+                </div>
+                <div class="reportsBox">
+                    <span class="lightText">
+                        REPORTS
+                    </span>
+                </div>
+                <div class="systemsBox">
+                    <span class="lightText">
+                        SYSTEMS
+                    </span>
                 </div>
             </div>
-            <div class="header_right_part">
-                <div class="profile_part">
-                    <div>
-                        <img class="profile_pic" src="../ASSETS/profile_pic.png" alt="profile_pic">
-                    </div>
-                    <div>
-                        <span class="name">Ronald Philip</span>
-                    </div>
-                    <div>
-                        <img class="dropdown" src="../ASSETS/Artboard 1 copy 20@16x.png" onclick="showdropdown('dropdown')" alt="Drop_down">
-                    </div>
-
+            <div class="rightFlex">
+                <div class="imageBox">
+                    <img class="userImage" src="../ASSETS/janeDoe.png" alt="">
+                </div>
+                <div class="nameBox">
+                    <span class="userName">
+                        Ronald Philip
+                    </span>
+                </div>
+                <div class="downBox">
+                    <img class="downImage" onclick="showdropdown('dropdown')" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
                 </div>
                 <div style="display: none;" id="dropdown" class="pageParent">
                     <div class="popupcontainer">

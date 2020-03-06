@@ -67,6 +67,10 @@ body {
     padding: 2% 0;
     margin-bottom: 2%;
     border-radius: 0.58vw;
+    font: 400 1.17vw/14px 'Roboto';
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-left: 1vw;
 }
 
 .errorImage {

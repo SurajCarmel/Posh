@@ -18,7 +18,7 @@
                     </span>
                 </div>
                 <div class="coursesBox">
-                    <span class="darkText underline">
+                    <span class="darkText underline" onclick="nextNav('../HTML/web-1920-1.html')">
                         COURSES
                     </span>
                 </div>
@@ -43,7 +43,24 @@
                     </span>
                 </div>
                 <div class="downBox">
-                    <img class="downImage" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                    <img class="downImage" onclick="showdropdown('dropdown')" src="../ASSETS/Artboard 1 copy 20@16x.png" alt="">
+                </div>
+
+                <div style="display: none;" id="dropdown" class="pageParent">
+                    <div class="popupcontainer">
+                        <p class="popuptext">
+                            Account
+                        </p>
+                        <p class="popuptext">
+                            Profile
+                        </p>
+                        <p class="popuptext">
+                            Settings
+                        </p>
+                        <p class="popuptext">
+                            Log Out
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,13 +80,14 @@
                     <p class="actionText">
                         Next Action
                     </p>
-                    <a class="links" href="#">
+                    <a class="links" onclick="nextNav('../HTML/web-1920-7.html')">
                         VIEW SECTION
                     </a>
                 </div>
             </div>
         </div>
     </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

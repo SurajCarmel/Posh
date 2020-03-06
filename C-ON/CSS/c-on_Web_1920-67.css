@@ -64,6 +64,7 @@
     float: right;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .imageBox {
@@ -164,6 +165,11 @@
     border: 0;
     width: 88.25%;
     vertical-align: middle;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.17vw;
+    padding-left: 1vw;
+    color: #595959;
 }
 
 .radioBox {
@@ -295,4 +301,27 @@
     font-family: 'Roboto';
     padding: 05% 0;
     padding: 9.88% 0% 6.84% 0%;
+}
+
+
+/* ==========================================================================================================================*/
+
+.popupcontainer {
+    width: 21vw;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px #60606029;
+    border: 1px solid #F7F7F7;
+    padding: 2% 0 2% 2%;
+    position: absolute;
+    top: 158%;
+    right: -7%;
+    z-index: 1;
+}
+
+.popuptext {
+    font-family: 'Roboto';
+    font-size: 1.36vw;
+    color: #595959;
+    letter-spacing: 1.4px;
+    padding: 11% 0 11% 18%;
 }

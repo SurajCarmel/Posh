@@ -2,115 +2,124 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    outline: none;
+}
+
+.page {
+    background-color: #FAFAFA;
 }
 
 .header {
-    width: 100%;
-    display: flex;
     box-shadow: 0px 3px 6px #BCBCBC40;
-    padding-left: 2.92%;
-    padding-right: 3.51%;
-    align-items: center;
-}
-
-.header_left_part {
-    width: 85%;
-}
-
-.list {
+    background-color: #FFFFFF;
+    padding: 2% 3.4%;
     display: flex;
     align-items: center;
 }
 
-.dashboard_top {
-    width: 17.28%;
-    padding: 0 6.34% 0 0;
+.leftFlex {
+    width: 85%;
+    float: left;
+    display: flex;
 }
 
-.corses_top {
-    width: 14.80%;
-    padding: 0 6.34% 0 0;
+.dashboardBox {
+    width: 18%;
 }
 
-.report_top {
-    width: 14.56%;
-    padding: 0 6.34% 0 0;
-}
-
-.system_top {
-    width: 14.80%;
-    padding: 0 6.34% 0 0;
-}
-
-.dashboard {
-    font-size: 1.35vw;
+.lightText {
     font-family: 'Roboto';
+    font-size: 1.36vw;
     letter-spacing: 0.7px;
     color: #909090;
 }
 
-.report {
-    font-size: 1.35vw;
-    font-family: 'Roboto';
-    letter-spacing: 0.7px;
-    color: #909090;
+.coursesBox {
+    width: 16%;
 }
 
-.system {
-    font-size: 1.35vw;
-    font-family: 'Roboto';
-    letter-spacing: 0.7px;
-    color: #909090;
+.underline {
+    padding-bottom: 6px;
+    border-bottom: 4px solid #32BDD2;
 }
 
-.corses {
-    font-size: 1.35vw;
+.darkText {
     font-family: 'Roboto';
+    font-size: 1.36vw;
+    font-weight: 500;
     letter-spacing: 0.7px;
     color: #595959;
-    border-bottom: .3vw solid #32BDD2;
 }
 
-.header_right_part {
+.reportsBox {
     width: 15%;
-    padding: 02% 0;
 }
 
-.profile_part {
+.systemsBox {
+    width: 51%;
+}
+
+.clear {
+    clear: both;
+}
+
+.rightFlex {
+    width: 15%;
+    float: right;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    position: relative;
 }
 
-.profile_pic {
-    width: 32.15px;
-    vertical-align: middle;
+.imageBox {
+    width: 30%;
 }
 
-.name {
-    text-align: left;
-    font-size: 1.17vw;
+.userImage {
+    width: 3.125vw;
+}
+
+.nameBox {
+    width: 63%;
+}
+
+.userName {
     font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 1.17vw;
     letter-spacing: 0.9px;
     color: #5A5A5A;
 }
 
-.dropdown {
-    width: 9.89px;
+.downBox {
+    width: 7%;
 }
 
-.course {
-    text-align: left;
+.downImage {
+    width: .97vw;
+}
+
+.popupcontainer {
+    width: 21vw;
+    background-color: #fff;
+    box-shadow: 0px 0px 12px #60606029;
+    border: 1px solid #F7F7F7;
+    padding: 2% 0 2% 2%;
+    position: absolute;
+    top: 158%;
+    right: -7%;
+    z-index: 1;
+}
+
+.popuptext {
     font-family: 'Roboto';
-    font-size: 1.75vw;
-    letter-spacing: 0.9px;
-    color: #000000;
-    border-bottom: .2vw solid #32BDD2;
-    padding-bottom: 1%;
+    font-size: 1.36vw;
+    color: #595959;
+    letter-spacing: 1.4px;
+    padding: 11% 0 11% 18%;
 }
 
 .parent {
-    background-color: #FAFAFA;
     padding: 4.19% 2.44% 3.02% 2.44%;
 }
 
