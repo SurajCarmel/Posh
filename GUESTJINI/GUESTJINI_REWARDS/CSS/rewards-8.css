@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.filterPopupBox {
+    width: 20.41vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.filterList {
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 1.17vw #00000029;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 0px 0.97vw 0.97vw;
+    padding: 11% 10% 0 10%;
+}
+
+.flterClearBox {
+    background-color: #F8F8F8;
+    padding: 5.3% 4.2% 5.3% 7.1%;
+    margin-bottom: 15%;
+}
+
+.filterClear {
+    font: 500 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0.9px;
+    color: #B5B5B5;
+    padding-bottom: 4%;
+}
+
+.filterClearText {
+    font: 500 0.97vw/1.46vw 'Roboto';
+    letter-spacing: 0.25px;
+    color: #909090;
+}
+
+.filteroptions {
+    font: 400 0.97vw/1.07vw 'Roboto';
+    letter-spacing: 0.75px;
+    color: #747474;
+    padding-bottom: 15%;
+}

@@ -321,76 +321,12 @@ img {
     padding-bottom: 23%;
 }
 
-.coupon {
-    background-color: #EEEEEE;
-    box-shadow: 0px 0px 0.38vw #00000029;
+.zomatoCoupon {
     margin: 14% 10.1% 11.4% 9.2%;
-    padding: 3.07%;
-    border-radius: 0.97vw;
-    position: relative;
 }
 
-.couponCut {
-    border: 2px dashed #909B9A;
-    display: flex;
-    padding: 7.6% 4.9% 7.6% 7.55%;
-    border-radius: 0.97vw;
-}
-
-.leftCoupon {
-    width: 45%;
-    padding-top: 15.36%;
-    border-right: 1px solid #B5B5B5;
-}
-
-.couponValue {
-    font: 500 2.44vw/1.56vw 'Roboto';
-    letter-spacing: 0.7px;
-    color: #464646;
-    padding-bottom: 5%;
-}
-
-.guestureImage {
-    width: 7.21vw;
-}
-
-.rightCoupon {
-    width: 55%;
-    padding-left: 5%;
-}
-
-.couponValidity {
-    font: 400 1.17vw/1.36vw 'Roboto';
-    letter-spacing: 0.3px;
-    color: #747474;
-    padding-bottom: 3%;
-}
-
-.couponDate {
-    font: 500 1.36vw/1.56vw 'Roboto';
-    letter-spacing: 0.7px;
-    color: #464646;
-    padding-bottom: 15%;
-}
-
-.couponEmail {
-    font: 400 0.97vw/1.56vw 'Roboto';
-    letter-spacing: 0.7px;
-    color: #464646;
-    padding-bottom: 5%;
-}
-
-.couponExclusive {
-    font: 400 0.97vw/1.27vw 'Roboto';
-    letter-spacing: 0;
-    color: #747474;
-}
-
-.cutImage {
-    width: 2.1vw;
-    position: absolute;
-    top: 2.5%;
-    right: 8%;
+.zomato {
+    width: 39.91vw;
 }
 
 .voucherDetailsBox {
@@ -411,12 +347,13 @@ img {
 .voucherNumberValue {
     font: 500 1.36vw/1.56vw 'Roboto';
     letter-spacing: 0.7px;
-    color: #464646;
+    color: #909090;
     padding-top: 7%;
 }
 
 .copyImageBox {
     width: 40.19%;
+    visibility: hidden;
 }
 
 .copyImage {
@@ -441,7 +378,7 @@ img {
     padding-top: 7%;
     font: 500 1.36vw/1.56vw 'Roboto';
     letter-spacing: 0.7px;
-    color: #32BDD2;
+    color: #171717;
 }
 
 .informationBox {

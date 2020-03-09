@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.navigationPage {
+    background-color: #000000b2;
+}
+
+.navigationColumn {
+    width: 25.75%;
+    background-color: #FFFFFF;
+}
+
+.rewardsBox {
+    padding: 18% 14.5% 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.navOptionBars {
+    padding-bottom: 18.18%;
+}
+
+.optionsImageBox {
+    width: 29%;
+    float: left;
+}
+
+.optionsImages {
+    width: 1.95vw;
+    vertical-align: middle;
+}
+
+.optionsTextBox {
+    width: 71%;
+    float: left;
+}
+
+.optionsText {
+    font: 400 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0;
+    color: #747474;
+    vertical-align: middle;
+}
+
+.passwordBox {
+    padding: 13.5% 14.5% 0 14.5%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.logoutBox {
+    padding: 14.2% 14.5%;
+}
+
+.clear {
+    clear: both;
+}

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {}
+
+.yearPopupBox {
+    width: 12.224vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.yearsList {
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 12px #00000029;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 0px 10px 10px;
+    padding: 14.2% 0 0 13.5%;
+}
+
+.years {
+    font: 400 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0;
+    color: #464646;
+    padding-bottom: 23.7%;
+}

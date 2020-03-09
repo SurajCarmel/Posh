@@ -288,6 +288,7 @@ img {
     align-items: center;
     padding-bottom: 3.3%;
     border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 10.7%;
 }
 
 .navigationIcons {
@@ -319,6 +320,23 @@ img {
 .selected {
     border-bottom: 0.38vw solid #32BDD2;
     padding-bottom: 23%;
+}
+
+.backBox {
+    margin: 0 10.1% 0 9.2%;
+}
+
+.backImage {
+    width: 1.27vw;
+    transform: rotate(180deg);
+    vertical-align: middle;
+}
+
+.back {
+    font: 700 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 1.4px;
+    color: #464646;
+    vertical-align: middle;
 }
 
 .coupon {

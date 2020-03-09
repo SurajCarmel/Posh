@@ -394,7 +394,7 @@ img {
 }
 
 .voucherDetailsBox {
-    margin: 13.2% 10.1% 12.2% 9.2%;
+    margin: 13.2% 10.1% 7.2% 9.2%;
     display: flex;
 }
 
@@ -411,7 +411,7 @@ img {
 .voucherNumberValue {
     font: 500 1.36vw/1.56vw 'Roboto';
     letter-spacing: 0.7px;
-    color: #464646;
+    color: #909090;
     padding-top: 7%;
 }
 
@@ -441,11 +441,38 @@ img {
     padding-top: 7%;
     font: 500 1.36vw/1.56vw 'Roboto';
     letter-spacing: 0.7px;
-    color: #32BDD2;
+    color: #E65959;
+}
+
+.usedBox {
+    border-right: 0.38vw solid #E65A5A;
+    text-align: right;
+    margin: 0 10.2% 0 9.2%;
+    padding-right: 2.28%;
+}
+
+.usedDate {
+    font: 400 1.36vw/1.46vw 'Roboto';
+    letter-spacing: 0;
+    color: #464646;
+    padding-bottom: 6.24%;
+}
+
+.transacitionReference {
+    font: 400 1.17vw/1.46vw 'Roboto';
+    letter-spacing: 0;
+    color: #909090;
+    padding-bottom: 2%;
+}
+
+.referenceNum {
+    font: 500 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0.7px;
+    color: #464646
 }
 
 .informationBox {
-    margin: 0 10.2% 0 9.2%;
+    margin: 7.2% 10.2% 0 9.2%;
     padding: 5.2% 11.2% 0 5.2%;
     background: #EEEEEE;
     border: 0.5px solid #E6E6E6;
