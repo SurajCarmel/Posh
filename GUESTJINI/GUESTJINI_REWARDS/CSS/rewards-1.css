@@ -131,12 +131,13 @@ img {
 .vouchersLeftBox {
     width: 41%;
     float: left;
+    border-right: 1px solid #CCCCCC;
+    background-color: #FFFFFF;
 }
 
 .filterBox {
     padding: 8.83%;
     background-color: #FFFFFF;
-    border-right: 1px solid #CCCCCC;
 }
 
 .filterImage {
@@ -155,7 +156,7 @@ img {
 .vouchers {
     padding: 9.8% 21.4% 6.8% 16.7%;
     border-bottom: 1px solid #CCCCCC;
-    border-right: 1px solid #CCCCCC;
+    background-color: #EEEEEE;
 }
 
 .voucherTitle {
@@ -205,6 +206,7 @@ img {
     border: 0;
     box-shadow: 0px -5px 10px -5px #00000029, 0px 5px 10px -5px #00000029;
     background-color: #FFFFFF;
+    transform: translateX(1px);
 }
 
 .lastVoucher {
@@ -215,13 +217,14 @@ img {
     width: 59%;
     float: left;
     background-color: #FFFFFF;
+    position: relative;
+    z-index: 1;
 }
 
 .showMoreBar {
     background-color: #FFFFFF;
     padding: 11.4% 0;
     text-align: center;
-    border-right: 1px solid #CCCCCC;
 }
 
 .showMoreText {
