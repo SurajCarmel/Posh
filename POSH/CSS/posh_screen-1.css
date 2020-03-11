@@ -74,10 +74,17 @@
 
 .topCarousel {
     position: relative;
+    height: 49vh;
+    width: 100%;
 }
 
 .carouselImage {
+    position: absolute;
+    left: 50%;
+    height: 49vh;
+    /* height: 36.803748%; */
     width: 100%;
+    transform: translate(-50%);
 }
 
 .counter {
@@ -93,6 +100,7 @@
 
 .prevSign {
     width: 1.17vw;
+    cursor: pointer;
 }
 
 .counterText {
@@ -104,6 +112,7 @@
 
 .nextSign {
     width: 1.17vw;
+    cursor: pointer;
 }
 
 
@@ -160,6 +169,7 @@
     letter-spacing: 0.55px;
     color: #32BDD2;
     padding: 2.5% 0 3% 0;
+    cursor: pointer;
 }
 
 .cooName {
@@ -494,6 +504,7 @@
 
 .explore_top {
     padding: 0 5.56% 5.125% 0;
+    cursor: pointer;
 }
 
 .explore {
@@ -943,6 +954,7 @@
 .thumb img {
     width: 15px;
     height: 15px;
+    cursor: pointer;
 }
 
 .right_part {
@@ -990,6 +1002,7 @@
 .show_more {
     background-color: #EEEEEE;
     margin: 0% 2.82% 4.97% 2.82%;
+    cursor: pointer;
 }
 
 .center {

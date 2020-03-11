@@ -12,9 +12,9 @@
     <title>screen-1</title>
 </head>
 
-<body onload="loadBanner()">
+<body>
     <div class="pageParent">
-        <div class="listHeader" onclick="tst()">
+        <div class="listHeader">
             <div class="headerLeftPart">
                 <span class="posh">
                     POSH
@@ -38,13 +38,16 @@
         </div>
 
         <div class="topCarousel">
-            <img id="carouselImage" class="carouselImage" src="" alt="">
+            <img class="carouselImage" src="../ASSETS/carousel-04.png" alt="">
+            <img class="carouselImage" style="display: none;" src="../ASSETS/carousel-03.png" alt="">
+            <img class="carouselImage" style="display: none;" src="../ASSETS/carousel-02.png" alt="">
+            <img class="carouselImage" style="display: none;" src="../ASSETS/carousel-01.png" alt="">
             <div class="counter">
                 <div>
                     <img id="prevSign" class="prevSign" onclick="plusCarousel(-1)" src="../ASSETS/Artboard 1 copy 45@16x.png" alt="">
                 </div>
                 <div>
-                    <p id="counterText" class="counterText"></p>
+                    <p id="counterText" class="counterText">1/4</p>
                 </div>
                 <div>
                     <img id="nextSign" class="nextSign" onclick="plusCarousel(1)" src="../ASSETS/Artboard 1 copy 46@16x.png" alt="">
@@ -424,7 +427,7 @@
                                 <div class="thumb">
                                     <img onclick="givelikes('like','thumbUp','../ASSETS/like_thumb.png','../ASSETS/Artboard 1 copy 5@16x.png')" id="thumbUp" src="../ASSETS/Artboard 1 copy 5@16x.png " alt="Unclicked">
                                     <span id="like" class="likes ">12</span>
-                                    <img id="thumbDown" onclick="givelikes('disLike','thumbDown','../ASSETS/dis_lik.png','../ASSETS/Artboard 1 copy 6@16x.png')" src="../ASSETS/Artboard 1 copy 6@16x.png " alt="Unclicked">
+                                    <img id="thumbDown" onclick="givelikes('disLike','thumbDown','../ASSETS/dis_like.png','../ASSETS/Artboard 1 copy 6@16x.png')" src="../ASSETS/Artboard 1 copy 6@16x.png " alt="Unclicked">
                                     <span id="disLike" class="likes ">02</span>
                                 </div>
                             </div>
@@ -449,7 +452,7 @@
                                 <div class="thumb ">
                                     <img onclick="givelikes('likeone','thumbUpone','../ASSETS/like_thumb.png','../ASSETS/Artboard 1 copy 5@16x.png')" id="thumbUpone" src="../ASSETS/Artboard 1 copy 5@16x.png " alt="Unclicked">
                                     <span id="likeone" class="likes ">05</span>
-                                    <img id="thumbDownone" onclick="givelikes('disLikeone','thumbDownone','../ASSETS/dis_lik.png','../ASSETS/Artboard 1 copy 6@16x.png')" src="../ASSETS/Artboard 1 copy 6@16x.png " alt="Unclicked">
+                                    <img id="thumbDownone" onclick="givelikes('disLikeone','thumbDownone','../ASSETS/dis_like.png','../ASSETS/Artboard 1 copy 6@16x.png')" src="../ASSETS/Artboard 1 copy 6@16x.png " alt="Unclicked">
                                     <span class="likes" id="disLikeone">01</span>
                                 </div>
                             </div>
