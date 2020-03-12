@@ -104,7 +104,7 @@
 }
 
 .counterText {
-    font: 700 1.17vw/14px Roboto;
+    font: 700 1.17vw/14px 'Roboto';
     letter-spacing: 1.2px;
     color: #DBC5C5;
     margin: 0 4px;
