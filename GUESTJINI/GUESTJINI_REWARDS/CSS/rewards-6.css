@@ -175,3 +175,51 @@ img {
     display: block;
     margin: auto;
 }
+
+.dashBody {
+    background-color: #FFFFFF;
+    padding: 7% 6.53% 6.95% 6.63%;
+}
+
+.grayBox {
+    width: 44.6%;
+    float: left;
+    background-color: #EEEEEE;
+    padding: 4.68% 3.08% 5.05%;
+    border: 0.5px solid #E6E6E6;
+    border-radius: 0.97vw;
+}
+
+.grayBoxText {
+    font: 400 1.17vw/1.95vw 'Roboto';
+    letter-spacing: 0.6px;
+    color: #707070;
+    padding-bottom: 4.16%;
+}
+
+.circleSvgContainer {
+    position: relative;
+    width: 63.12%;
+    margin: auto;
+}
+
+.circleSvgText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.totalVouchers {
+    font: 500 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0.3px;
+    color: #909090;
+}
+
+.totalAmount {
+    font-size: 1.1vw;
+    color: #464646;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
