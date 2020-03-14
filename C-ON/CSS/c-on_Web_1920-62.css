@@ -36,6 +36,7 @@
 
 .coursesBox {
     width: 16%;
+    cursor: pointer;
 }
 
 .underline {
@@ -97,6 +98,7 @@
 
 .downImage {
     width: 18.6px;
+    cursor: pointer;
 }
 
 .coursesContainer {
@@ -160,6 +162,7 @@
     margin-right: 3%;
     padding-bottom: 3px;
     border-bottom: 1px solid #3B6956;
+    cursor: pointer;
 }
 
 .clear {

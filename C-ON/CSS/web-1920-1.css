@@ -36,6 +36,7 @@
 
 .coursesBox {
     width: 16%;
+    cursor: pointer;
 }
 
 .underline {
@@ -97,6 +98,7 @@
 
 .downImage {
     width: .97vw;
+    cursor: pointer;
 }
 
 .popupcontainer {
@@ -186,6 +188,7 @@
     color: #FFFFFF;
     padding: 06% 10%;
     float: right;
+    cursor: pointer;
 }
 
 .parent {
@@ -200,6 +203,7 @@
 .table {
     border-bottom: .4vw solid #FAFAFA;
     padding: 0% 3%;
+    cursor: pointer;
 }
 
 .cities {

@@ -36,6 +36,7 @@
 
 .coursesBox {
     width: 16%;
+    cursor: pointer;
 }
 
 .underline {
@@ -97,6 +98,7 @@
 
 .downImage {
     width: .97vw;
+    cursor: pointer;
 }
 
 .popupcontainer {
@@ -131,6 +133,7 @@
 
 .parent {
     padding: 4.19% 2.44% 3.02% 2.44%;
+    cursor: pointer;
 }
 
 .container {
@@ -145,7 +148,6 @@
 
 .Section {
     text-align: left;
-    width: fit-content;
     font-family: 'Roboto';
     font-size: 1.75vw;
     letter-spacing: 0.9px;
@@ -156,7 +158,6 @@
 
 .Lessons {
     text-align: left;
-    width: fit-content;
     font-family: 'Roboto';
     font-size: 1.17vw;
     letter-spacing: 0.9px;

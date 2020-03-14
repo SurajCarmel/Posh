@@ -36,6 +36,7 @@
 
 .coursesBox {
     width: 16%;
+    cursor: pointer;
 }
 
 .underline {
@@ -97,6 +98,7 @@
 
 .downImage {
     width: .97vw;
+    cursor: pointer;
 }
 
 .popupcontainer {
@@ -145,7 +147,6 @@
 
 .Section {
     text-align: left;
-    width: fit-content;
     font-family: 'Roboto';
     font-size: 1.75vw;
     letter-spacing: 0.9px;
@@ -156,7 +157,6 @@
 
 .Lessons {
     text-align: left;
-    width: fit-content;
     font-family: 'Roboto';
     font-size: 1.17vw;
     letter-spacing: 0.9px;
@@ -229,6 +229,7 @@
     color: #3B6956;
     border-bottom: 1px solid #3B6956;
     margin-right: 2.95%;
+    cursor: pointer;
 }
 
 .corse {

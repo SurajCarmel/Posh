@@ -36,6 +36,7 @@
 
 .coursesBox {
     width: 16%;
+    cursor: pointer;
 }
 
 .underline {
@@ -97,6 +98,7 @@
 
 .downImage {
     width: .97vw;
+    cursor: pointer;
 }
 
 .popupcontainer {
@@ -150,7 +152,6 @@
 
 .Section {
     text-align: left;
-    width: fit-content;
     font-family: 'Roboto';
     font-size: 1.75vw;
     letter-spacing: 0.9px;
@@ -161,7 +162,6 @@
 
 .Lessons {
     text-align: left;
-    width: fit-content;
     font-family: 'Roboto';
     font-size: 1.17vw;
     letter-spacing: 0.9px;
@@ -263,7 +263,6 @@
 }
 
 .cancel {
-    width: fit-content;
     text-align: left;
     font-family: 'Roboto';
     font-size: 1.17vw;
@@ -272,6 +271,7 @@
     border-bottom: 1px solid #747474;
     font-weight: 600;
     padding-bottom: 4px;
+    cursor: pointer;
 }
 
 .done {
@@ -287,6 +287,7 @@
     padding: 1% 4%;
     cursor: pointer;
     float: right;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {

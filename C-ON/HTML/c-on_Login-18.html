@@ -16,6 +16,8 @@
                 <p class="forgotPasswordText">The link to reset your password will be sent to your registered email address and mobile number.</p>
                 <p id="mailNot" class="notRegistered">This email is not registered with C-ON.</p>
                 <p id="numberNot" class="notRegistered">This mobile number is not registered with C-ON.</p>
+                <p class="notRegistered">Enter a valid Mobile Number</p>
+                <p class="notRegistered">Enter a valid Email ID</p>
             </div>
             <div>
                 <input id="errorbox" class="forgotTextBox" type="text" placeholder="Email or Mobile Number" name="" id="">
@@ -24,7 +26,7 @@
                 </p>
             </div>
             <div>
-                <button class="resetBtn" onclick="resetpwd('errorbox','errormsg','mailNot')">
+                <button class="resetBtn" onclick="resetpwd('errorbox','errormsg','notRegistered')">
                     RESET PASSWORD
                 </button>
             </div>

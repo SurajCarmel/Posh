@@ -36,6 +36,7 @@
 
 .coursesBox {
     width: 16%;
+    cursor: pointer;
 }
 
 .underline {
@@ -97,6 +98,7 @@
 
 .downImage {
     width: .97vw;
+    cursor: pointer;
 }
 
 .popupcontainer {
@@ -159,7 +161,6 @@
 
 .Lessons {
     text-align: left;
-    width: fit-content;
     font-family: 'Roboto';
     font-size: 1.17vw;
     letter-spacing: 0.9px;
@@ -184,6 +185,10 @@
     margin-top: 0.88%;
     border: 1px solid #CECECE;
     border-radius: .4vw;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.9px;
+    color: #595959;
 }
 
 textarea {
@@ -191,6 +196,11 @@ textarea {
     margin-top: 0.88%;
     border: 1px solid #CECECE;
     border-radius: .4vw;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.9px;
+    padding: 1%;
+    color: #595959;
 }
 
 .Lessons-top textarea {
@@ -253,6 +263,7 @@ textarea {
     font-size: 1.17vw;
     letter-spacing: 1.2px;
     color: #747474;
+    cursor: pointer;
     border-bottom: 1px solid #747474;
     font-weight: 600;
 }

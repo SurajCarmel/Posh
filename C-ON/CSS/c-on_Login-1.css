@@ -131,6 +131,7 @@ input.pageCheckbox {
     border-bottom: 1px solid #868686;
     padding-bottom: 4px;
     float: right;
+    cursor: pointer;
 }
 
 .clear {
@@ -148,6 +149,7 @@ input.pageCheckbox {
     font-size: 1.17vw;
     font-weight: 700;
     letter-spacing: 0.6px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {

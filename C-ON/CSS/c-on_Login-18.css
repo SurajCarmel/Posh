@@ -73,6 +73,7 @@
     display: block;
     margin: 8.6% auto 0;
     padding: 0.97vw 3.9vw;
+    cursor: pointer;
 }
 
 .signup {
@@ -81,6 +82,7 @@
     color: #747474;
     text-align: center;
     padding-top: 7%;
+    cursor: pointer;
 }
 
 .signupLink {

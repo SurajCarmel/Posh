@@ -26,23 +26,60 @@ function nextNav(dest) {
 
 }
 
-function resetpwd(border, msg, email) {
+function resetpwd(border, msg, notRegistered) {
+
+    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    var mobileNumberFormat = /^\d{10}$/;
+    var numbersonly = /^[0-9]+$/;
 
     var txtborder = document.getElementById(border);
     var errormsg = document.getElementById(msg);
-    var invalidemail = document.getElementById(email);
+    var invalidemail = document.getElementsByClassName(notRegistered);
 
     if (txtborder.value == "") {
         txtborder.style.border = "1px solid #BF574A";
         errormsg.style.display = "block";
         txtborder.value = "";
-    } else if (txtborder.value !== "example@address.com") {
-        invalidemail.style.display = "block";
-        txtborder.value = "";
-        errormsg.style.display = "none";
-    } else if (txtborder.value == "example@address.com") {
-        var emailsuccess = "../HTML/c-on_forgot-pwd-success.html";
-        nextNav(emailsuccess);
+    } else if (numbersonly.test(txtborder.value)) {
+        if (mobileNumberFormat.test(txtborder.value)) {
+            console.log(invalidemail);
+            mobileNumbe(txtborder, invalidemail);
+        } else {
+            invalidemail[2].style.display = "block";
+            invalidemail[0].style.display = "none";
+            invalidemail[1].style.display = "none";
+            invalidemail[3].style.display = "none";
+        }
+    } else {
+        if (txtborder.value.match(mailformat)) {
+            emailaddr(txtborder, invalidemail);
+        } else {
+            invalidemail[3].style.display = "block";
+            invalidemail[0].style.display = "none";
+            invalidemail[1].style.display = "none";
+            invalidemail[2].style.display = "none";
+        }
+    }
+
+    function emailaddr(txtborder, erroremial) {
+        if (txtborder.value == 'example@address.com') {
+            nextNav('../HTML/c-on_forgot-pwd-success.html');
+        } else {
+            erroremial[0].style.display = "block";
+            erroremial[1].style.display = "none";
+            invalidemail[2].style.display = "none";
+            invalidemail[3].style.display = "none";
+        }
+    }
+
+    function mobileNumbe(txtborder, erroremial) {
+        if (txtborder.value == '7795347907') {
+            nextNav('../HTML/c_on-screen-10.html');
+        } else {
+            erroremial[1].style.display = "block";
+            invalidemail[2].style.display = "none";
+            invalidemail[3].style.display = "none";
+        }
     }
 
 }

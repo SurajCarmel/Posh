@@ -36,6 +36,7 @@
 
 .coursesBox {
     width: 16%;
+    cursor: pointer;
 }
 
 .underline {
@@ -97,6 +98,7 @@
 
 .downImage {
     width: 18.6px;
+    cursor: pointer;
 }
 
 .coursesContainer {
@@ -135,6 +137,7 @@
     box-shadow: 0px 0px 3px #00000029;
     border: 0;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .climateRow {
@@ -217,6 +220,7 @@
     border: 7px dashed #D5CCCC;
     text-align: center;
     padding: 4.7% 0;
+    cursor: pointer;
 }
 
 .placeholder {
@@ -282,6 +286,7 @@
     box-shadow: 0px 0px 3px #00000029;
     border: 0;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .subGreyBar {
@@ -502,6 +507,7 @@
 .cancel {
     vertical-align: bottom;
     width: 3.125vw;
+    cursor: pointer;
 }
 
 
@@ -522,6 +528,7 @@
 .cancelIcon {
     width: 60px;
     float: right;
+    cursor: pointer;
 }
 
 .optionsBox {
@@ -532,6 +539,7 @@
 .optionsRow {
     border-bottom: 1px solid #F7F7F7;
     padding: 7.3% 0;
+    cursor: pointer;
 }
 
 .option {
@@ -612,11 +620,13 @@
 .exit {
     width: 30px;
     vertical-align: bottom;
+    cursor: pointer;
 }
 
 .iconRow {
     padding: 11.49% 0 8.33% 0;
     border-bottom: 1px solid #F0F0F0;
+    cursor: pointer;
 }
 
 .iconContainer {

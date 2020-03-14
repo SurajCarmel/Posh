@@ -85,6 +85,7 @@
     width: 2.34vw;
     vertical-align: middle;
     padding: 3% 0;
+    cursor: pointer;
 }
 
 .passwordTop {
@@ -113,6 +114,7 @@
     letter-spacing: 0.3px;
     color: #32BDD2;
     border-bottom: 1px solid #32BDD2;
+    cursor: pointer;
 }
 
 .btnTop {
@@ -130,6 +132,7 @@
     color: #FFFFFF;
     padding: 2.2% 6.8%;
     border: 1px solid #32BDD2;
+    cursor: pointer;
 }
 
 .hintTop {
@@ -150,6 +153,7 @@
     letter-spacing: 0;
     color: #32BDD2;
     border-bottom: 1px solid #32BDD2;
+    cursor: pointer;
 }
 
 .clear {

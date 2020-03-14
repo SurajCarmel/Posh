@@ -36,6 +36,7 @@
 
 .coursesBox {
     width: 16%;
+    cursor: pointer;
 }
 
 .underline {
@@ -97,6 +98,7 @@
 
 .downImage {
     width: 0.97vw;
+    cursor: pointer;
 }
 
 .parent {
@@ -120,7 +122,6 @@
 
 .Section {
     text-align: left;
-    width: fit-content;
     font-family: 'Roboto';
     font-size: 1.75vw;
     letter-spacing: 0.9px;
@@ -175,7 +176,6 @@
 }
 
 .cancel {
-    width: fit-content;
     text-align: left;
     font-family: 'Roboto';
     font-size: 1.17vw;
@@ -183,6 +183,7 @@
     color: #747474;
     border-bottom: 1px solid #747474;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .done {
