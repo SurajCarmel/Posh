@@ -23,7 +23,6 @@ function loginError(show, border, forgot, invalid, logintop, emailtxt, passtxt) 
 
 function nextNav(dest) {
     location.href = dest;
-
 }
 
 function resetpwd(border, msg, notRegistered) {

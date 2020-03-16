@@ -182,7 +182,7 @@ img {
 }
 
 .grayBox {
-    width: 44.6%;
+    width: 43.6%;
     float: left;
     background-color: #EEEEEE;
     padding: 4.68% 3.08% 5.05%;
@@ -199,7 +199,7 @@ img {
 
 .circleSvgContainer {
     position: relative;
-    width: 63.12%;
+    width: 73.5%;
     margin: auto;
 }
 
@@ -215,11 +215,160 @@ img {
     font: 500 1.17vw/1.36vw 'Roboto';
     letter-spacing: 0.3px;
     color: #909090;
+    padding-bottom: 0.97vw;
 }
 
 .totalAmount {
-    font-size: 1.1vw;
+    font: 500 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0;
     color: #464646;
-    font-family: 'Roboto';
-    font-weight: 700;
+}
+
+.legendBox {
+    margin-top: 6.26%;
+}
+
+.legendColumn {
+    width: 33%;
+    float: left;
+}
+
+.legendIndicator {
+    display: block;
+    height: 0.78vw;
+    width: 0.78vw;
+}
+
+.legendKey {
+    font: 400 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0.6px;
+    color: #747474;
+    padding: 6.73% 0 3.84% 0;
+}
+
+.legendValue {
+    font: 500 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0;
+    color: #464646;
+}
+
+.barsBox {
+    float: right;
+    width: 48%;
+}
+
+.progressLeftText {
+    width: 50%;
+    float: left;
+    text-align: left;
+    font: 400 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0.9px;
+    color: #505050;
+}
+
+.progressRightText {
+    width: 50%;
+    float: right;
+    text-align: right;
+    font: 500 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0.3px;
+    color: #909090;
+}
+
+.progressBar {
+    margin: 2.6% 0 9.1% 0;
+    border-radius: 0.48vw;
+    height: 0.88vw;
+    display: flex;
+    align-items: stretch;
+    overflow: hidden;
+}
+
+.lastProgressBar {
+    margin: 2.6% 0 0 0;
+    border: 1px solid #A9C7CB;
+}
+
+#rent-usedColor {
+    width: 80%;
+}
+
+#rent-expiredColor {
+    width: 0;
+}
+
+#rent-redeemableColor {
+    width: 20%;
+}
+
+#food-usedColor {
+    width: 66.67%;
+}
+
+#food-expiredColor {
+    width: 0;
+}
+
+#food-redeemableColor {
+    width: 33.33%;
+}
+
+#laundry-usedColor {
+    width: 100%;
+}
+
+#laundry-expiredColor {
+    width: 0;
+}
+
+#laundry-redeemableColor {
+    width: 0;
+}
+
+#entmnt-usedColor {
+    width: 55.55%;
+}
+
+#entmnt-expiredColor {
+    width: 45.45%;
+}
+
+#entmnt-redeemableColor {
+    width: 0;
+}
+
+#transport-usedColor {
+    width: 83.33%;
+}
+
+#transport-expiredColor {
+    width: 16.67%;
+}
+
+#transport-redeemableColor {
+    width: 0;
+}
+
+#sport-usedColor {
+    width: 16.67%;
+}
+
+#sport-expiredColor {
+    width: 43.33%;
+}
+
+#sport-redeemableColor {
+    width: 40%;
+}
+
+#learning-usedColor {
+    width: 0;
+}
+
+#learning-expiredColor {
+    width: 0;
+}
+
+#learning-redeemableColor {
+    width: 0;
 }

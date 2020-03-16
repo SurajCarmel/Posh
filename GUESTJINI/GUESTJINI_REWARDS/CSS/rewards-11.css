@@ -138,6 +138,7 @@ img {
 .filterBox {
     padding: 8.83%;
     background-color: #FFFFFF;
+    position: relative;
 }
 
 .filterImage {
