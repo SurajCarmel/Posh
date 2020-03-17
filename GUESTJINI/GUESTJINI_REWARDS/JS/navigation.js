@@ -10,7 +10,7 @@ window.onclick = function(event) {
         modal.style.display = "none";
         background.style.position = "absolute";
     }
-}
+};
 
 function popupToggle(popupID) {
     var popup = document.getElementById(popupID);

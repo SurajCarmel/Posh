@@ -9,11 +9,11 @@
 </head>
 
 <body>
-    <div class="pageParent">
+    <div id="pageParent" class="pageParent">
         <div class="header">
             <div class="navIconContainer">
                 <div class="navIconBox">
-                    <img class="navIcon" src="../ASSETS/Artboard 1 copy 39@16.png" alt="unclicked">
+                    <img class="navIcon" onclick="navDisplay('navigationPage','pageParent')" src="../ASSETS/Artboard 1 copy 39@16.png" alt="unclicked">
                 </div>
             </div>
             <div class="userContainer">
@@ -39,7 +39,7 @@
                     </div>
                     <div class="rewardsHeader-right">
                         <div>
-                            <img class="dashboardImage" src="../ASSETS/Artboard 1 copy 26@16x.png" alt="">
+                            <img class="dashboardImage" onclick="nextNav('../HTML/rewards-6.html')" src="../ASSETS/Artboard 1 copy 26@16x.png" alt="">
                             <div class="clear"></div>
                         </div>
                         <p class="dashboard cardText">
@@ -51,12 +51,45 @@
                 <div class="vouchersSubContainer">
                     <div class="vouchersLeftBox">
                         <div class="filterBox">
-                            <img class="filterImage" src="../ASSETS/Artboard 1 copy 31@16x.png" alt="">
+                            <img class="filterImage" onclick="popupToggle('filterPopupBox')" src="../ASSETS/Artboard 1 copy 31@16x.png" alt="">
                             <span class="flterText">
                                 Showing all vouchers.
                             </span>
+                            <div style="display: none;" id="filterPopupBox" class="filterPopupBox">
+                                <div class="filterList">
+                                    <div class="flterClearBox">
+                                        <p class="filterClear">
+                                            CLEAR
+                                        </p>
+                                        <p class="filterClearText">
+                                            You have not applied any filter.
+                                        </p>
+                                    </div>
+                                    <p class="filteroptions">
+                                        RENT
+                                    </p>
+                                    <p class="filteroptions" onclick="nextNav('../HTML/rewards-9.html')">
+                                        FOOD & BEVERAGE
+                                    </p>
+                                    <p class="filteroptions">
+                                        LAUNDRY
+                                    </p>
+                                    <p class="filteroptions">
+                                        ENTERTAINMENT
+                                    </p>
+                                    <p class="filteroptions">
+                                        TRANSPORT
+                                    </p>
+                                    <p class="filteroptions">
+                                        SPORT
+                                    </p>
+                                    <p class="filteroptions">
+                                        LEARNING
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="vouchers">
+                        <div class="vouchers" onclick="nextNav('../HTML/rewards-1.html')">
                             <p class="voucherTitle">
                                 <span id="rent">REN</span>T VOUCHERS
                             </p>
@@ -114,13 +147,38 @@
                             <span class="cardTitle">RENT VOUCHERS</span>
                         </div>
                         <div class="">
-                            <div class="yearBox">
+                            <div class="yearBox" onclick="popupToggle('yearPopupBox')">
                                 <div class="keyBox">
                                     <span class="keyText">Year</span>
                                 </div>
                                 <div class="valueBox">
                                     <span class="valueText">2019</span>
                                     <img class="yearDropdownImage" src="../ASSETS/Artboard1copy15-16.png" alt="">
+                                </div>
+                                <div class="yearPopupBox" id="yearPopupBox" style="display: none;">
+                                    <div class="yearsList">
+                                        <p class="years">
+                                            2018
+                                        </p>
+                                        <p class="years">
+                                            2017
+                                        </p>
+                                        <p class="years">
+                                            2016
+                                        </p>
+                                        <p class="years">
+                                            2015
+                                        </p>
+                                        <p class="years">
+                                            2014
+                                        </p>
+                                        <p class="years">
+                                            2013
+                                        </p>
+                                        <p class="years">
+                                            2012
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="clear"></div>
@@ -209,6 +267,116 @@
             </div>
         </div>
     </div>
+    <div id="navigationPage" style="display: none;" class="navigationPage">
+        <div id="navigationColumn" class="navigationColumn">
+            <div class="rewardsBox">
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 13-16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Support
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 23@16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Community
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 14@16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Accounts
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 21-16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Rewards
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="passwordBox">
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 26@16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Change Password
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 32-16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Privacy Policy
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 27@16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Term & Conditions
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 34@16x.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Notifications
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="logoutBox">
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 31@16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox logoutPadding">
+                        <span class="optionsText">
+                            Log Out
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>

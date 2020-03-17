@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <div class="pageParent">
+    <div id="pageParent" class="pageParent">
         <div class="header">
             <div class="navIconContainer">
                 <div class="navIconBox">
-                    <img class="navIcon" src="../ASSETS/Artboard 1 copy 39@16.png" alt="unclicked">
+                    <img class="navIcon" onclick="navDisplay('navigationPage','pageParent')" src="../ASSETS/Artboard 1 copy 39@16.png" alt="unclicked">
                 </div>
             </div>
             <div class="userContainer">
@@ -35,7 +35,7 @@
                 <div class="dashboardHeader">
                     <div class="dashHeaderTop">
                         <div class="backBox">
-                            <img class="backArrowImage" src="../ASSETS/Artboard 1 copy 32@16x.png" alt="">
+                            <img class="backArrowImage" onclick="nextNav('../HTML/rewards-1.html')" src="../ASSETS/Artboard 1 copy 32@16x.png" alt="">
                         </div>
                         <div class="dashBox">
                             <span class="dash">DASHBOARD</span>
@@ -53,13 +53,38 @@
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean feugiat felis id sem elementum, sit amet sollicitudin leo vestibulum.
                             </p>
                         </div>
-                        <div class="yearDropBox">
+                        <div class="yearDropBox" onclick="popupToggle('yearPopupBox')">
                             <div class="yearBox">
                                 <div class="yearLeft">
                                     <span class="yearText">2019</span>
                                 </div>
                                 <div class="yearRight">
                                     <img class="yearDropImage" src="../ASSETS/Artboard1copy15-16.png" alt=" ">
+                                </div>
+                            </div>
+                            <div class="yearPopupBox" id="yearPopupBox" style="display: none;">
+                                <div class="yearsList">
+                                    <p class="years">
+                                        2018
+                                    </p>
+                                    <p class="years">
+                                        2017
+                                    </p>
+                                    <p class="years">
+                                        2016
+                                    </p>
+                                    <p class="years">
+                                        2015
+                                    </p>
+                                    <p class="years">
+                                        2014
+                                    </p>
+                                    <p class="years">
+                                        2013
+                                    </p>
+                                    <p class="years">
+                                        2012
+                                    </p>
                                 </div>
                             </div>
                             <div class="clear"></div>
@@ -265,7 +290,116 @@
             </div>
         </div>
     </div>
-
+    <div id="navigationPage" style="display: none;" class="navigationPage">
+        <div id="navigationColumn" class="navigationColumn">
+            <div class="rewardsBox">
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 13-16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Support
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 23@16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Community
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 14@16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Accounts
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 21-16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Rewards
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="passwordBox">
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 26@16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Change Password
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 32-16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Privacy Policy
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 27@16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Term & Conditions
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 34@16x.png" alt="">
+                    </div>
+                    <div class="optionsTextBox">
+                        <span class="optionsText">
+                            Notifications
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="logoutBox">
+                <div class="navOptionBars">
+                    <div class="optionsImageBox">
+                        <img class="optionsImages" src="../ASSETS/Artboard 1 copy 31@16.png" alt="">
+                    </div>
+                    <div class="optionsTextBox logoutPadding">
+                        <span class="optionsText">
+                            Log Out
+                        </span>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/navigation.js"></script>
 </body>
 
 </html>
