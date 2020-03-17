@@ -1,0 +1,584 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.pageParent {
+    background-color: #E5E5E5;
+    position: static;
+}
+
+.header {
+    padding: 2.03% 2.44%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 0.58vw #BCBCBC40;
+    display: flex;
+    align-items: center;
+}
+
+.navIconContainer {
+    width: 86%;
+}
+
+.navIconBox {
+    width: fit-content;
+}
+
+.navIcon {
+    width: 2.34vw;
+    cursor: pointer;
+}
+
+.userContainer {
+    width: 14%;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.userPicBox {
+    width: fit-content;
+}
+
+.userPic {
+    border-radius: 50%;
+    width: 3.125vw;
+    vertical-align: middle;
+}
+
+.userNameBox {
+    width: fit-content;
+}
+
+.userName {
+    font: 500 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0.9px;
+    color: #5A5A5A;
+    vertical-align: middle;
+    margin: 0 0.97vw;
+}
+
+.dropDownBox {
+    width: fit-content;
+}
+
+.headerDropdown {
+    width: 1.17vw;
+}
+
+.voucherContainer {
+    padding: 2.9%;
+}
+
+.vouchersBox {
+    background-color: #EEEEEE;
+    box-shadow: 0px 0px 6px #00000029;
+}
+
+.rewardsHeader {
+    background-color: #FFFFFF;
+    padding: 3.73%;
+    margin-bottom: 4px;
+}
+
+.rewardsHeader-left {
+    width: 50%;
+    float: left;
+}
+
+.cardTitle {
+    font: 700 1.36vw/1.46vw 'Roboto';
+    letter-spacing: 1.4px;
+    color: #464646;
+}
+
+.cardText {
+    font: 400 1.17vw/1.95vw 'Roboto';
+    letter-spacing: 0.6px;
+    color: #707070;
+    padding-top: 1.6%;
+    width: 47.7%;
+}
+
+.vouchersSubContainer {
+    display: flex;
+}
+
+.vouchersLeftBox {
+    width: 41%;
+    float: left;
+    border-right: 1px solid #CCCCCC;
+    background-color: #FFFFFF;
+}
+
+.filterBox {
+    padding: 8.83%;
+    background-color: #EEEEEE;
+    position: relative;
+}
+
+.filterImage {
+    box-shadow: 0px 0px 0.58vw #00000040;
+    border-radius: 2px;
+    vertical-align: middle;
+    cursor: pointer;
+    width: 3.125vw;
+}
+
+.flterText {
+    font: 400 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0.7px;
+    color: #747474;
+    margin-left: 4%;
+}
+
+.vouchers {
+    padding: 9.8% 21.4% 6.8% 16.7%;
+    border-bottom: 1px solid #CCCCCC;
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+
+.voucherTitle {
+    font: Bold 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 1.05px;
+    color: #5A5A5A;
+}
+
+#rent {
+    border-top: 0.29vw solid #E65959;
+    padding-top: 3.47%;
+}
+
+#gfk {
+    border-top: 0.29vw solid transparent;
+    padding-top: 3.47%;
+}
+
+#zomato {
+    border-top: 0.29vw solid #E65959;
+    padding-top: 3.47%;
+}
+
+#laundry {
+    border-top: 0.29vw solid transparent;
+    padding-top: 3.47%;
+}
+
+#starbucks {
+    border-top: 0.29vw solid #E65959;
+    padding-top: 3.47%;
+}
+
+#event {
+    border-top: 0.29vw solid transparent;
+    padding-top: 3.47%;
+}
+
+.voucherText {
+    font: 400 1.17vw/1.56vw 'Roboto';
+    letter-spacing: 0.3px;
+    color: #747474;
+    padding-top: 5.16%;
+}
+
+.highlightVoucher {
+    border: 0;
+    box-shadow: 0px -5px 10px -5px #00000029, 0px 5px 10px -5px #00000029;
+    background-color: #FFFFFF;
+    transform: translateX(1px);
+}
+
+.lastVoucher {
+    border-bottom: 0;
+}
+
+.vouchersRightBox {
+    width: 59%;
+    float: left;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+
+.showMoreBar {
+    background-color: #FFFFFF;
+    padding: 11.4% 0;
+    text-align: center;
+}
+
+.showMoreText {
+    font: 700 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0.9px;
+    color: #747474;
+}
+
+.showDropDownImage {
+    width: 1.17vw;
+    margin-left: 0.48vw;
+    /* vertical-align: middle; */
+}
+
+.vouchersRightBox {
+    padding: 3.63% 3.1% 0 3.4%;
+}
+
+.voucherType {
+    padding-bottom: 8.4%;
+}
+
+.yearBox {
+    display: flex;
+    float: right;
+    margin-bottom: 7.26%;
+    position: relative;
+}
+
+.keyBox {
+    border: 1px solid #32BDD2;
+    text-align: center;
+    width: 7.3vw;
+    float: left;
+    padding: 0.58vw 1.46vw;
+}
+
+.keyText {
+    font: Bold 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0;
+    color: #32BDD2;
+}
+
+.valueBox {
+    background-color: #32BDD2;
+    text-align: center;
+    width: 7.5vw;
+    float: left;
+    padding: 0.58vw 1.36vw;
+}
+
+.valueText {
+    font: 700 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.yearDropdownImage {
+    width: 0.88vw;
+    margin-left: 3px;
+}
+
+.carouselHeader {
+    display: flex;
+    align-items: center;
+    padding-bottom: 3.3%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.navigationIcons {
+    width: 4.302970%;
+}
+
+.prev {
+    width: 1.17vw;
+    vertical-align: middle;
+    transform: rotate(180deg);
+}
+
+.next {
+    width: 1.17vw;
+    vertical-align: middle;
+}
+
+.monthBox {
+    width: 11.8811881%;
+    text-align: center;
+}
+
+.month {
+    font: 400 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0;
+    color: #909090;
+    cursor: pointer;
+}
+
+.selected {
+    border-bottom: 0.38vw solid #32BDD2;
+    padding-bottom: 23%;
+}
+
+.coupon {
+    background-color: #EEEEEE;
+    box-shadow: 0px 0px 0.38vw #00000029;
+    margin: 14% 10.1% 11.4% 9.2%;
+    padding: 3.07%;
+    border-radius: 0.97vw;
+    position: relative;
+}
+
+.couponCut {
+    border: 2px dashed #909B9A;
+    display: flex;
+    padding: 7.6% 4.9% 7.6% 7.55%;
+    border-radius: 0.97vw;
+}
+
+.leftCoupon {
+    width: 45%;
+    padding-top: 15.36%;
+    border-right: 1px solid #B5B5B5;
+}
+
+.couponValue {
+    font: 500 2.44vw/1.56vw 'Roboto';
+    letter-spacing: 0.7px;
+    color: #464646;
+    padding-bottom: 5%;
+}
+
+.guestureImage {
+    width: 7.21vw;
+}
+
+.rightCoupon {
+    width: 55%;
+    padding-left: 5%;
+}
+
+.couponValidity {
+    font: 400 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0.3px;
+    color: #747474;
+    padding-bottom: 3%;
+}
+
+.couponDate {
+    font: 500 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0.7px;
+    color: #464646;
+    padding-bottom: 15%;
+}
+
+.couponEmail {
+    font: 400 0.97vw/1.56vw 'Roboto';
+    letter-spacing: 0.7px;
+    color: #464646;
+    padding-bottom: 5%;
+}
+
+.couponExclusive {
+    font: 400 0.97vw/1.27vw 'Roboto';
+    letter-spacing: 0;
+    color: #747474;
+}
+
+.cutImage {
+    width: 2.1vw;
+    position: absolute;
+    top: 2.5%;
+    right: 8%;
+}
+
+.voucherDetailsBox {
+    margin: 13.2% 10.1% 12.2% 9.2%;
+    display: flex;
+}
+
+.voucherNumberBox {
+    width: 31.73%;
+}
+
+.voucherNumberKey {
+    font: 400 1.07vw/1.27vw 'Roboto';
+    letter-spacing: 0.28px;
+    color: #747474;
+}
+
+.voucherNumberValue {
+    font: 500 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0.7px;
+    color: #464646;
+    padding-top: 7%;
+}
+
+.copyImageBox {
+    width: 40.19%;
+}
+
+.copyImage {
+    width: 3.61vw;
+    vertical-align: middle;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #207784B5;
+}
+
+.voucherStatusBox {
+    width: 28.08%;
+    text-align: right;
+}
+
+.voucherStatusKey {
+    font: 400 1.07vw/1.27vw 'Roboto';
+    letter-spacing: 0.28px;
+    color: #747474;
+}
+
+.voucherStatusValue {
+    padding-top: 7%;
+    font: 500 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0.7px;
+    color: #32BDD2;
+}
+
+.informationBox {
+    margin: 0 10.2% 0 9.2%;
+    padding: 5.2% 11.2% 0 5.2%;
+    background: #EEEEEE;
+    border: 0.5px solid #E6E6E6;
+}
+
+.infoTitle {
+    font: 500 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0;
+    color: #747474;
+    padding-bottom: 5.3%;
+}
+
+.infoText {
+    font: 400 0.97vw/1.46vw 'Roboto';
+    letter-spacing: 0;
+    color: #747474;
+    padding-bottom: 12.5%;
+}
+
+.spacer {
+    padding-bottom: 6.25%;
+}
+
+.filterPopupBox {
+    width: 20.41vw;
+    position: absolute;
+    top: 66%;
+    left: 9%;
+    z-index: 1;
+}
+
+.filterList {
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 1.17vw #00000029;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 0px 0.97vw 0.97vw;
+    padding: 11% 10% 0 10%;
+}
+
+.flterClearBox {
+    background-color: #F8F8F8;
+    padding: 5.3% 4.2% 5.3% 7.1%;
+    margin-bottom: 15%;
+}
+
+.filterClear {
+    font: 500 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0.9px;
+    color: #B5B5B5;
+    padding-bottom: 4%;
+}
+
+.filterClearText {
+    font: 500 0.97vw/1.46vw 'Roboto';
+    letter-spacing: 0.25px;
+    color: #909090;
+}
+
+.filteroptions {
+    font: 400 0.97vw/1.07vw 'Roboto';
+    letter-spacing: 0.75px;
+    color: #747474;
+    padding-bottom: 15%;
+}
+
+.yearPopupBox {
+    width: 14.8vw;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.yearsList {
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 12px #00000029;
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 0px 10px 10px;
+    padding: 14.2% 0 0 13.5%;
+}
+
+.years {
+    font: 400 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0;
+    color: #464646;
+    padding-bottom: 23.7%;
+}
+
+.navigationPage {
+    background-color: #000000b2;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.navigationColumn {
+    width: 25.75%;
+    background-color: #FFFFFF;
+}
+
+.rewardsBox {
+    padding: 18% 14.5% 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.navOptionBars {
+    padding-bottom: 18.18%;
+}
+
+.optionsImageBox {
+    width: 29%;
+    float: left;
+}
+
+.optionsImages {
+    width: 1.95vw;
+    vertical-align: middle;
+}
+
+.optionsTextBox {
+    width: 71%;
+    float: left;
+}
+
+.optionsText {
+    font: 400 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0;
+    color: #747474;
+    vertical-align: middle;
+}
+
+.passwordBox {
+    padding: 13.5% 14.5% 0 14.5%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.logoutBox {
+    padding: 14.2% 14.5%;
+}
+
+.logoutPadding {
+    padding-bottom: 66%;
+}
