@@ -157,27 +157,12 @@
 }
 
 #gfk {
-    border-top: 0.29vw solid transparent;
+    border-top: 0.29vw solid #E65959;
     padding-top: 3.47%;
 }
 
 #zomato {
     border-top: 0.29vw solid #E65959;
-    padding-top: 3.47%;
-}
-
-#laundry {
-    border-top: 0.29vw solid transparent;
-    padding-top: 3.47%;
-}
-
-#starbucks {
-    border-top: 0.29vw solid #E65959;
-    padding-top: 3.47%;
-}
-
-#event {
-    border-top: 0.29vw solid transparent;
     padding-top: 3.47%;
 }
 
