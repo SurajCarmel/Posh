@@ -72,24 +72,19 @@
     width: 1.17vw;
 }
 
-.voucherContainer {
+.comContainer {
     padding: 2.9%;
 }
 
-.vouchersBox {
+.comBox {
     background-color: #EEEEEE;
     box-shadow: 0px 0px 6px #00000029;
 }
 
-.rewardsHeader {
+.comHeader {
     background-color: #FFFFFF;
     padding: 3.73%;
     margin-bottom: 4px;
-}
-
-.rewardsHeader-left {
-    width: 50%;
-    float: left;
 }
 
 .cardTitle {
@@ -106,36 +101,16 @@
     width: 47.7%;
 }
 
-.vouchersSubContainer {
+.comSubContainer {
     display: flex;
 }
 
-.vouchersLeftBox {
+.comLeftBox {
     width: 41%;
     float: left;
     border-right: 1px solid #CCCCCC;
     background-color: #FFFFFF;
-}
-
-.filterBox {
-    padding: 8.83%;
-    background-color: #EEEEEE;
-    position: relative;
-}
-
-.filterImage {
-    box-shadow: 0px 0px 0.58vw #00000040;
-    border-radius: 2px;
-    vertical-align: middle;
-    cursor: pointer;
-    width: 3.125vw;
-}
-
-.flterText {
-    font: 400 1.36vw/1.56vw 'Roboto';
-    letter-spacing: 0.7px;
-    color: #747474;
-    margin-left: 4%;
+    margin-top: 3.42%;
 }
 
 .vouchers {
@@ -151,17 +126,17 @@
     color: #5A5A5A;
 }
 
-#rent {
+#profile {
     border-top: 0.29vw solid #E65959;
     padding-top: 3.47%;
 }
 
-#gfk {
+#people {
     border-top: 0.29vw solid #E65959;
     padding-top: 3.47%;
 }
 
-#zomato {
+#groups {
     border-top: 0.29vw solid #E65959;
     padding-top: 3.47%;
 }
@@ -186,329 +161,172 @@
 
 .vouchersRightBox {
     width: 59%;
+    padding: 3.42% 3.42% 4.15%;
     float: left;
     background-color: #FFFFFF;
     position: relative;
     z-index: 1;
 }
 
-.showMoreBar {
-    background-color: #FFFFFF;
-    padding: 11.4% 0;
-    text-align: center;
+.voucherHeading {
+    font: 700 1.36vw/1.46vw 'Roboto';
+    letter-spacing: 1.4px;
+    color: #464646;
 }
 
-.showMoreText {
-    font: 700 1.17vw/1.36vw 'Roboto';
-    letter-spacing: 0.9px;
-    color: #747474;
+.imageRow {
+    padding-top: 10.87%;
 }
 
-.showDropDownImage {
-    width: 1.17vw;
-    margin-left: 0.48vw;
-    /* vertical-align: middle; */
-}
-
-.vouchersRightBox {
-    padding: 3.63% 3.1% 0 3.4%;
-}
-
-.voucherType {
-    padding-bottom: 8.4%;
-}
-
-.yearBox {
-    display: flex;
-    float: right;
-    margin-bottom: 7.26%;
+.imageContainer {
+    width: 9vw;
+    margin: 0 auto;
     position: relative;
 }
 
-.keyBox {
-    border: 1px solid #32BDD2;
+#profileImage {
+    width: 9vw;
+    display: block;
+    margin: auto;
+}
+
+#profileEditIcon {
+    width: 2.4vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px #0000004D;
+}
+
+#profileToggle {
+    display: block;
+    margin: 4.94% auto 10.87%;
+}
+
+.uploadText {
+    font: 500 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 0.7px;
+    color: #464646;
     text-align: center;
-    width: 7.3vw;
-    float: left;
-    padding: 0.58vw 1.46vw;
+    padding-top: 3%;
 }
 
-.keyText {
-    font: Bold 1.36vw/1.56vw 'Roboto';
-    letter-spacing: 0;
-    color: #32BDD2;
-}
-
-.valueBox {
-    background-color: #32BDD2;
-    text-align: center;
-    width: 7.5vw;
-    float: left;
-    padding: 0.58vw 1.36vw;
-}
-
-.valueText {
-    font: 700 1.36vw/1.56vw 'Roboto';
-    letter-spacing: 0;
-    color: #FFFFFF;
-}
-
-.yearDropdownImage {
-    width: 0.88vw;
-    margin-left: 3px;
-}
-
-.carouselHeader {
+.fieldRows {
+    padding: 6.52% 0;
+    border-bottom: 0.5px solid #CCCCCC;
     display: flex;
     align-items: center;
-    padding-bottom: 3.3%;
-    border-bottom: 1px solid #CCCCCC;
+    justify-content: space-between;
 }
 
-.navigationIcons {
-    width: 4.302970%;
+.emailRow {
+    flex-direction: column;
+    align-items: stretch;
 }
 
-.prev {
-    width: 1.17vw;
-    vertical-align: middle;
-    transform: rotate(180deg);
-}
-
-.next {
-    width: 1.17vw;
-    vertical-align: middle;
-}
-
-.monthBox {
-    width: 11.8811881%;
-    text-align: center;
-}
-
-.month {
+.fieldKey {
     font: 400 1.36vw/1.56vw 'Roboto';
-    letter-spacing: 0;
-    color: #909090;
-    cursor: pointer;
+    letter-spacing: 1.05px;
+    color: #747474;
+    padding-bottom: 0.97vw;
 }
 
-.selected {
-    border-bottom: 0.38vw solid #32BDD2;
-    padding-bottom: 23%;
+.fieldValue {
+    font: 500 1.56vw/1.66vw 'Roboto';
+    letter-spacing: 1.2px;
+    color: #505050;
 }
 
-.coupon {
-    background-color: #EEEEEE;
-    box-shadow: 0px 0px 0.38vw #00000029;
-    margin: 14% 10.1% 11.4% 9.2%;
-    padding: 3.07%;
-    border-radius: 0.97vw;
+.emailToggle {
+    padding-top: 1.92vw;
+    align-self: flex-end;
+}
+
+.placeEditIcon {
+    width: 1.66vw;
+}
+
+.lastFieldRow {
+    padding-top: 6.52%;
+    display: flex;
+    align-items: stretch;
+}
+
+.lastFieldLeft {
+    width: 50%;
     position: relative;
 }
 
-.couponCut {
-    border: 2px dashed #909B9A;
-    display: flex;
-    padding: 7.6% 4.9% 7.6% 7.55%;
-    border-radius: 0.97vw;
-}
-
-.leftCoupon {
-    width: 45%;
-    padding-top: 15.36%;
-    border-right: 1px solid #B5B5B5;
-}
-
-.couponValue {
-    font: 500 2.44vw/1.56vw 'Roboto';
-    letter-spacing: 0.7px;
-    color: #464646;
-    padding-bottom: 5%;
-}
-
-.guestureImage {
-    width: 7.21vw;
-}
-
-.rightCoupon {
-    width: 55%;
-    padding-left: 5%;
-}
-
-.couponValidity {
-    font: 400 1.17vw/1.36vw 'Roboto';
-    letter-spacing: 0.3px;
-    color: #747474;
-    padding-bottom: 3%;
-}
-
-.couponDate {
-    font: 500 1.36vw/1.56vw 'Roboto';
-    letter-spacing: 0.7px;
-    color: #464646;
-    padding-bottom: 15%;
-}
-
-.couponEmail {
-    font: 400 0.97vw/1.56vw 'Roboto';
-    letter-spacing: 0.7px;
-    color: #464646;
-    padding-bottom: 5%;
-}
-
-.couponExclusive {
-    font: 400 0.97vw/1.27vw 'Roboto';
-    letter-spacing: 0;
-    color: #747474;
-}
-
-.cutImage {
-    width: 2.1vw;
-    position: absolute;
-    top: 2.5%;
-    right: 8%;
-}
-
-.voucherDetailsBox {
-    margin: 13.2% 10.1% 12.2% 9.2%;
-    display: flex;
-}
-
-.voucherNumberBox {
-    width: 31.73%;
-}
-
-.voucherNumberKey {
-    font: 400 1.07vw/1.27vw 'Roboto';
-    letter-spacing: 0.28px;
-    color: #747474;
-}
-
-.voucherNumberValue {
-    font: 500 1.36vw/1.56vw 'Roboto';
-    letter-spacing: 0.7px;
-    color: #464646;
-    padding-top: 7%;
-}
-
-.copyImageBox {
-    width: 40.19%;
-}
-
-.copyImage {
-    width: 3.61vw;
-    vertical-align: middle;
+.redDot {
+    background-color: #E65959;
+    width: 1.07vw;
+    height: 1.07vw;
     border-radius: 50%;
-    box-shadow: 0px 0px 5px #207784B5;
+    position: absolute;
+    left: 45%;
 }
 
-.voucherStatusBox {
-    width: 28.08%;
-    text-align: right;
+.redDotSpace {
+    padding-top: 1.07vw;
 }
 
-.voucherStatusKey {
-    font: 400 1.07vw/1.27vw 'Roboto';
-    letter-spacing: 0.28px;
-    color: #747474;
+.lastFieldRight {
+    width: 50%;
 }
 
-.voucherStatusValue {
-    padding-top: 7%;
-    font: 500 1.36vw/1.56vw 'Roboto';
+#setupButton {
+    float: right;
+    height: 100%;
+    width: 44.8%;
+    box-shadow: 0px 0px 2px #00000029;
+    border-radius: 3px;
+    font: 500 1.46vw/1.75vw 'Roboto';
+    letter-spacing: 1.5px;
+    background-color: #32BDD2;
+    color: #FFFFFF;
+    border: 0;
+}
+
+
+/* ====================================================================== */
+
+#editPicPopup {
+    width: 18.8vw;
+    background-color: transparent;
+    position: absolute;
+    top: -13%;
+    left: 85%;
+}
+
+#cancelEditIcon {
+    width: 2.4vw;
+}
+
+.editPicList {
+    width: 16.3vw;
+    padding: 1.56vw 3.51vw;
+    border: 0.5px solid #CCCCCC;
+    border-radius: 0px 0.88vw 0.88vw 0.88vw;
+    box-shadow: 0px 3px 17px #00000029;
+    float: left;
+    background-color: #FFFFFF;
+}
+
+.editOptions {
+    padding: 2.34vw 0;
+    font: 400 1.36vw/1.56vw 'Roboto';
     letter-spacing: 0.7px;
-    color: #32BDD2;
-}
-
-.informationBox {
-    margin: 0 10.2% 0 9.2%;
-    padding: 5.2% 11.2% 0 5.2%;
-    background: #EEEEEE;
-    border: 0.5px solid #E6E6E6;
-}
-
-.infoTitle {
-    font: 500 1.36vw/1.56vw 'Roboto';
-    letter-spacing: 0;
-    color: #747474;
-    padding-bottom: 5.3%;
-}
-
-.infoText {
-    font: 400 0.97vw/1.46vw 'Roboto';
-    letter-spacing: 0;
-    color: #747474;
-    padding-bottom: 12.5%;
-}
-
-.spacer {
-    padding-bottom: 6.25%;
-}
-
-.filterPopupBox {
-    width: 20.41vw;
-    position: absolute;
-    top: 66%;
-    left: 9%;
-    z-index: 1;
-}
-
-.filterList {
-    background-color: #FFFFFF;
-    box-shadow: 0px 3px 1.17vw #00000029;
-    border: 1px solid #E6E6E6;
-    border-radius: 0px 0px 0.97vw 0.97vw;
-    padding: 11% 10% 0 10%;
-}
-
-.flterClearBox {
-    background-color: #F8F8F8;
-    padding: 5.3% 4.2% 5.3% 7.1%;
-    margin-bottom: 15%;
-}
-
-.filterClear {
-    font: 500 1.17vw/1.36vw 'Roboto';
-    letter-spacing: 0.9px;
-    color: #B5B5B5;
-    padding-bottom: 4%;
-}
-
-.filterClearText {
-    font: 500 0.97vw/1.46vw 'Roboto';
-    letter-spacing: 0.25px;
-    color: #909090;
-}
-
-.filteroptions {
-    font: 400 0.97vw/1.07vw 'Roboto';
-    letter-spacing: 0.75px;
-    color: #747474;
-    padding-bottom: 15%;
-}
-
-.yearPopupBox {
-    width: 14.8vw;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1;
-}
-
-.yearsList {
-    background-color: #FFFFFF;
-    box-shadow: 0px 3px 12px #00000029;
-    border: 1px solid #E6E6E6;
-    border-radius: 0px 0px 10px 10px;
-    padding: 14.2% 0 0 13.5%;
-}
-
-.years {
-    font: 400 1.17vw/1.36vw 'Roboto';
-    letter-spacing: 0;
     color: #464646;
-    padding-bottom: 23.7%;
 }
+
+.optionLine {
+    border-bottom: 0.5px solid #CCCCCC;
+}
+
+
+/* ======================================================================== */
 
 .navigationPage {
     background-color: #000000b2;
@@ -566,4 +384,205 @@
 
 .logoutPadding {
     padding-bottom: 66%;
+}
+
+
+/* ============================================================================ */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 17.5px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #EDEFF1;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 21.5px;
+    width: 21.5px;
+    left: -2px;
+    bottom: -2px;
+    background-color: #F5F5F5;
+    -webkit-transition: .4s;
+    transition: .4s;
+    box-shadow: 0px 0px 3px #0000003C;
+}
+
+input:checked+.slider {
+    background-color: #32BDD2;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(34.5px);
+    -ms-transform: translateX(34.5px);
+    transform: translateX(34.5px);
+}
+
+.slider.round {
+    /* Rounded sliders */
+    border-radius: 0.88vw;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+/* ============================================================================= */
+
+@media screen and (max-width:768px) {
+    .switch {
+        width: 39px;
+        height: 13px;
+    }
+    .slider:before {
+        height: 16px;
+        width: 16px;
+        left: -1.5px;
+        bottom: -1.5px;
+    }
+    input:checked+.slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1440px) {
+    .switch {
+        width: 73px;
+        height: 24.5px;
+    }
+    .slider:before {
+        height: 30.5px;
+        width: 30.5px;
+        left: -3px;
+        bottom: -3px;
+    }
+    input:checked+.slider:before {
+        -webkit-transform: translateX(48.5px);
+        -ms-transform: translateX(48.5px);
+        transform: translateX(48.5px);
+    }
+}
+
+@media screen and (min-width:1441px) and (max-width:1920px) {
+    .switch {
+        width: 97px;
+        height: 32.5px;
+    }
+    .slider:before {
+        height: 40.5px;
+        width: 40.5px;
+        left: -4px;
+        bottom: -4px;
+    }
+    input:checked+.slider:before {
+        -webkit-transform: translateX(64.5px);
+        -ms-transform: translateX(64.5px);
+        transform: translateX(64.5px);
+    }
+}
+
+@media screen and (min-width:1921px) and (max-width:2560px) {
+    .switch {
+        width: 130px;
+        height: 43.5px;
+    }
+    .slider:before {
+        height: 53.5px;
+        width: 53.5px;
+        left: -5px;
+        bottom: -5px;
+    }
+    input:checked+.slider:before {
+        -webkit-transform: translateX(86.5px);
+        -ms-transform: translateX(86.5px);
+        transform: translateX(86.5px);
+    }
+}
+
+
+/* ============================================================================== */
+
+.checkboxValue {
+    font: 400 1.36vw/1.44vw 'Roboto';
+    letter-spacing: 0.35px;
+    color: #5A5A5A;
+    padding-left: 5.5%;
+}
+
+.checkbox-label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    height: 2.1vw;
+    clear: both;
+}
+
+.checkbox-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox-label .checkbox-custom {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1.85vw;
+    height: 1.85vw;
+    background-color: #FFFFFF;
+    border: 0.5px solid #B5B5B5;
+}
+
+.checkbox-label input:checked~.checkbox-custom {
+    background-color: #000000;
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+    border: 0.5px solid #B5B5B5;
+}
+
+.checkbox-label .checkbox-custom::after {
+    position: absolute;
+    content: "";
+    left: 12px;
+    top: 12px;
+    height: 0px;
+    width: 0px;
+    border: 0.5px solid #B5B5B5;
+    border-width: 0 3px 3px 0;
+    transform: rotate(0deg) scale(0);
+    opacity: 1;
+}
+
+.checkbox-label input:checked~.checkbox-custom::after {
+    transform: rotate(45deg) scale(1);
+    opacity: 1;
+    left: .6vw;
+    top: 1px;
+    width: 0.55vw;
+    height: 1.1vw;
+    border: 0.5px solid #B5B5B5;
+    border-width: 0 2px 2px 0;
+    background-color: transparent;
 }
