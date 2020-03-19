@@ -3,7 +3,7 @@
 <style>
     /* The container */
     
-    .container {
+    .custom {
         display: block;
         position: relative;
         cursor: pointer;
@@ -14,7 +14,7 @@
     }
     /* Hide the browser's default checkbox */
     
-    .container input {
+    .custom input {
         position: absolute;
         opacity: 0;
         cursor: pointer;
@@ -27,14 +27,14 @@
         position: absolute;
         top: 0;
         left: 0;
-        height: 18px;
-        width: 18px;
+        height: 1.7578125vw;
+        width: 1.7578125vw;
         background-color: #FFFFFF;
-        border: 0.5px solid #B5B5B5;
+        border: 0.048828125vw solid #B5B5B5;
     }
     /* When the checkbox is checked, add a black background */
     
-    .container input:checked~.checkmark {
+    .custom input:checked~.checkmark {
         background-color: #000000;
     }
     /* Create the checkmark/indicator (hidden when not checked) */
@@ -46,18 +46,18 @@
     }
     /* Show the checkmark when checked */
     
-    .container input:checked~.checkmark:after {
+    .custom input:checked~.checkmark:after {
         display: block;
     }
     /* Style the checkmark/indicator */
     
-    .container .checkmark:after {
-        left: 6.5px;
-        top: 3.6px;
-        width: 3.5px;
-        height: 7.2px;
+    .custom .checkmark:after {
+        left: 0.6347656vw;
+        top: 0.3515625vw;
+        width: 0.341796875vw;
+        height: 0.703125vw;
         border: solid white;
-        border-width: 0 2px 2px 0;
+        border-width: 0 0.1953125vw 0.1953125vw 0;
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
@@ -66,10 +66,10 @@
 
 <body>
 
-    <label class="container">
-  <input type="checkbox">
-  <span class="checkmark"></span>
-</label>
+    <label class="custom">
+        <input type="checkbox">
+        <span class="checkmark"></span>
+    </label>
 
 </body>
 

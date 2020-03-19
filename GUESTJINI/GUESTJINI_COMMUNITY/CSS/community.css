@@ -289,8 +289,129 @@
     border: 0;
 }
 
+.interestHeader {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 9.9%;
+}
 
-/* ====================================================================== */
+.backIconBox {
+    width: 9.5%;
+}
+
+#azureBackIcon {
+    width: 3.125vw;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px #00000029;
+}
+
+.interestTextBox {
+    width: 64.8%;
+}
+
+.interestHeading {
+    font: 700 1.36vw/1.46vw 'Roboto';
+    letter-spacing: 1.4px;
+    color: #464646;
+    padding-bottom: 0.88vw;
+}
+
+.interestText {
+    font: 400 1.17vw/1.46vw 'Roboto';
+    letter-spacing: 0.3px;
+    color: #909090;
+}
+
+.viewLinkBox {
+    width: 25.7%;
+    position: relative;
+    text-align: right;
+}
+
+#viewInterestLink {
+    text-decoration: underline;
+    font: 400 1.17vw/1.46vw 'Roboto';
+    letter-spacing: 0.3px;
+    color: #32BDD2;
+}
+
+.genreBox {
+    margin-bottom: 4.95%;
+}
+
+.genreDropIcon {
+    width: 1.36vw;
+}
+
+.greyBox {
+    background: #EEEEEE;
+    border: 0.25px solid #B5B5B5;
+    padding: 2.77% 5.94% 2.37%;
+    display: flex;
+    justify-content: space-between;
+    align-items: cente
+}
+
+.activityBox {
+    border: 0.25px solid #B5B5B5;
+    border-top: none;
+}
+
+.activityRow {
+    padding: 4.95% 5.94% 4.95% 0;
+    margin-left: 5.94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid #CCCCCC;
+}
+
+.lastActivityRow {
+    border-bottom: none;
+}
+
+.genre {
+    font: 400 1.36vw/2.05vw 'Roboto';
+    letter-spacing: 0.35px;
+    color: #747474;
+}
+
+.activity {
+    font: 400 1.36vw/1.27vw 'Roboto';
+    letter-spacing: 1.05px;
+    color: #747474;
+}
+
+.activityCount {
+    font: 700 1.36vw/2.05vw 'Lato';
+    letter-spacing: 0.35px;
+    color: #464646;
+}
+
+.showBox {
+    margin: 8.96% 5.94% 0;
+    /* margin-top: 3.96%; */
+    padding: 3.81% 0;
+    background-color: #EEEEEE;
+    text-align: center;
+    box-shadow: 0px 0px 2px #00000029;
+}
+
+.showText {
+    font: 700 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0.9px;
+    color: #747474;
+    vertical-align: middle;
+    margin-right: 0.97vw;
+}
+
+.showDropIcon {
+    width: 1.27vw;
+    vertical-align: middle;
+}
+
+
+/* ======================================================================== EDIT PIC POPUP =============================================================================================== */
 
 #editPicPopup {
     width: 18.8vw;
@@ -326,68 +447,7 @@
 }
 
 
-/* ======================================================================== */
-
-.navigationPage {
-    background-color: #000000b2;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-}
-
-.navigationColumn {
-    width: 25.75%;
-    background-color: #FFFFFF;
-}
-
-.rewardsBox {
-    padding: 18% 14.5% 0;
-    border-bottom: 1px solid #CCCCCC;
-}
-
-.navOptionBars {
-    padding-bottom: 18.18%;
-}
-
-.optionsImageBox {
-    width: 29%;
-    float: left;
-}
-
-.optionsImages {
-    width: 1.95vw;
-    vertical-align: middle;
-}
-
-.optionsTextBox {
-    width: 71%;
-    float: left;
-}
-
-.optionsText {
-    font: 400 1.36vw/1.56vw 'Roboto';
-    letter-spacing: 0;
-    color: #747474;
-    vertical-align: middle;
-}
-
-.passwordBox {
-    padding: 13.5% 14.5% 0 14.5%;
-    border-bottom: 1px solid #CCCCCC;
-}
-
-.logoutBox {
-    padding: 14.2% 14.5%;
-}
-
-.logoutPadding {
-    padding-bottom: 66%;
-}
-
-
-/* ============================================================================ */
+/* ================================================================= CUSTOM TOGGLE BUTTON ===================================================================================================== */
 
 .switch {
     position: relative;
@@ -445,9 +505,6 @@ input:checked+.slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
-
-
-/* ============================================================================= */
 
 @media screen and (max-width:768px) {
     .switch {
@@ -522,67 +579,301 @@ input:checked+.slider:before {
 }
 
 
-/* ============================================================================== */
+/* =========================================================================CUSTOM CHECKBOX========================================================================================================= */
 
-.checkboxValue {
-    font: 400 1.36vw/1.44vw 'Roboto';
-    letter-spacing: 0.35px;
-    color: #5A5A5A;
-    padding-left: 5.5%;
-}
 
-.checkbox-label {
+/* The container */
+
+.custom {
     display: block;
     position: relative;
     cursor: pointer;
-    height: 2.1vw;
-    clear: both;
+    height: 1.7578125vw;
+    width: 1.7578125vw;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-.checkbox-label input {
+
+/* Hide the browser's default checkbox */
+
+.custom input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
+    height: 0;
+    width: 0;
 }
 
-.checkbox-label .checkbox-custom {
+
+/* Create a custom checkbox */
+
+.checkmark {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 1.85vw;
-    height: 1.85vw;
+    top: 0;
+    left: 0;
+    height: 1.7578125vw;
+    width: 1.7578125vw;
     background-color: #FFFFFF;
-    border: 0.5px solid #B5B5B5;
+    border: 0.048828125vw solid #B5B5B5;
 }
 
-.checkbox-label input:checked~.checkbox-custom {
+
+/* When the checkbox is checked, add a black background */
+
+.custom input:checked~.checkmark {
     background-color: #000000;
-    transform: rotate(0deg) scale(1);
-    opacity: 1;
-    border: 0.5px solid #B5B5B5;
 }
 
-.checkbox-label .checkbox-custom::after {
-    position: absolute;
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
     content: "";
-    left: 12px;
-    top: 12px;
-    height: 0px;
-    width: 0px;
-    border: 0.5px solid #B5B5B5;
-    border-width: 0 3px 3px 0;
-    transform: rotate(0deg) scale(0);
-    opacity: 1;
+    position: absolute;
+    display: none;
 }
 
-.checkbox-label input:checked~.checkbox-custom::after {
-    transform: rotate(45deg) scale(1);
-    opacity: 1;
-    left: .6vw;
-    top: 1px;
-    width: 0.55vw;
-    height: 1.1vw;
-    border: 0.5px solid #B5B5B5;
-    border-width: 0 2px 2px 0;
-    background-color: transparent;
+
+/* Show the checkmark when checked */
+
+.custom input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.custom .checkmark:after {
+    left: 0.6347656vw;
+    top: 0.3515625vw;
+    width: 0.341796875vw;
+    height: 0.703125vw;
+    border: solid white;
+    border-width: 0 0.1953125vw 0.1953125vw 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/* =============================================================================INTEREST POPUP=================================================================================================== */
+
+.interestPopup {
+    text-align: left;
+    width: 24.7vw;
+    padding: 4.29vw 0 4.29vw 3.515vw;
+    box-shadow: 0px 1.07vw 2.44vw #00000040;
+    border-radius: 0px 0px 0.97vw 0.97vw;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1;
+}
+
+.genreBlocks {
+    margin-bottom: 1.5625vw;
+    border-bottom: 0.5px solid #CCCCCC;
+}
+
+.genreTitle {
+    font: 500 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 1.2px;
+    color: #464646;
+    padding-bottom: 1.5625vw;
+}
+
+.activityTitle {
+    font: 400 0.97vw/1.07vw 'Roboto';
+    letter-spacing: 0.5px;
+    color: #909090;
+    padding-bottom: 1.5625vw;
+}
+
+.lastGenreBlock {
+    border-bottom: none;
+}
+
+
+/* ==================================================================ORIGIN POPUP=========================================================================== */
+
+.translucent {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000B2;
+    position: relative;
+}
+
+.originPopup {
+    background-color: #FFFFFF;
+    width: 55.66%;
+    box-shadow: 0px 0px 3.41vw #00000029;
+    border-radius: 1.95vw;
+    padding: 1.95vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cancelRow {
+    padding-bottom: 1.3%;
+}
+
+.closeOriginIcon {
+    width: 3.71vw;
+    float: right;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #00000029;
+    border: 0.5px solid #EFEFEF;
+}
+
+.originBody {
+    padding: 0 1.95vw 1.95vw 1.95vw;
+}
+
+.originContent {}
+
+.originTitle {
+    font: 700 1.56vw/1.85vw 'Roboto';
+    letter-spacing: 1.6px;
+    color: #32BDD2;
+    padding-bottom: 6.12%;
+}
+
+.originText {
+    width: 93.87%;
+    font: 400 1.36vw/2.34vw 'Roboto';
+    letter-spacing: 0.7px;
+    color: #5A5A5A;
+    padding-bottom: 12.24%;
+}
+
+.originInputRow {
+    padding-bottom: 12.24%;
+}
+
+.originInput {
+    width: 71.83%;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0.29296875vw 0.68359375vw #00000026;
+    border: 1px solid #F7F4F4;
+    border-radius: 1.17vw;
+    font: 400 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 1.4px;
+    color: #464646;
+    padding: 3.47% 4.28%;
+}
+
+.originBtnRow {
+    padding-bottom: 4.08%;
+    text-align: center;
+}
+
+.originDoneBtn {
+    background: #32BDD2;
+    box-shadow: 0px 0.390625vw 0.5859375vw #00000029;
+    border-radius: 0.29296875vw;
+    border: 0;
+    text-align: center;
+    font: 700 1.46vw/1.75vw 'Roboto';
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    padding: 2.04% 6.53%;
+}
+
+.failedBackground {
+    background-color: #E65959;
+}
+
+.failedText {
+    color: #E65959;
+}
+
+.greyFlex {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.21% 5.04%;
+    margin-bottom: 10.08%;
+}
+
+.greyFlexText {
+    font: 400 1.36vw/1.56vw 'Roboto';
+    letter-spacing: 1.05px;
+    color: #747474;
+}
+
+#deleteUploadIcon {
+    width: 1.46vw;
+    vertical-align: middle;
+}
+
+.leftButton {
+    text-align: left;
+}
+
+.uploadBox {
+    box-shadow: 0px 0px 10px #00000029;
+    border: 0.5px solid #CCCCCC;
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.browseBox {
+    padding: 4.36% 5.45%;
+    width: 50%;
+}
+
+.browseText {
+    font: 500 1.17vw/1.46vw 'Roboto';
+    letter-spacing: 0.3px;
+    color: #747474;
+}
+
+.browseSubText {
+    font: 400 0.97vw/1.46vw 'Roboto';
+    letter-spacing: 0;
+    color: #747474;
+}
+
+.browseButton {
+    background: #32BDD2;
+    border: 1px solid #32BDD2;
+    border-radius: 4px;
+    font: 700 0.97vw/1.07vw 'Roboto';
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    border: 0;
+    padding: 2.78% 6.75%;
+    margin-top: 12%;
+}
+
+.dropBox {
+    width: 50%;
+    background-color: #32BDD2;
+    padding: 2.77% 3.57%;
+}
+
+.dashedBorderBox {
+    border: 2px dashed #FFFFFF;
+    border-radius: 4px;
+    padding: 12% 0;
+}
+
+#uploadProfileIcon {
+    width: 2.44vw;
+    display: block;
+    margin: auto;
+}
+
+.dropText {
+    font: 400 1.17vw/1.46vw 'Roboto';
+    letter-spacing: 0;
+    color: #FFFFFFCC;
+    text-align: center;
 }
