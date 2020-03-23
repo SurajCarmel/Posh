@@ -43,7 +43,7 @@
 }
 
 .userPicBox {
-    width: fit-content;
+    width: 24%;
 }
 
 .userPic {
@@ -53,7 +53,7 @@
 }
 
 .userNameBox {
-    width: fit-content;
+    width: 58%;
 }
 
 .userName {
@@ -65,7 +65,7 @@
 }
 
 .dropDownBox {
-    width: fit-content;
+    width: 14%;
 }
 
 .headerDropdown {
@@ -735,8 +735,6 @@ input:checked+.slider:before {
     padding: 0 1.95vw 1.95vw 1.95vw;
 }
 
-.originContent {}
-
 .originTitle {
     font: 700 1.56vw/1.85vw 'Roboto';
     letter-spacing: 1.6px;
@@ -876,4 +874,10 @@ input:checked+.slider:before {
     letter-spacing: 0;
     color: #FFFFFFCC;
     text-align: center;
+}
+
+.btnAdjust {
+    padding-left: 9.18%;
+    padding-right: 9.18%;
+    margin-left: 6.12%;
 }

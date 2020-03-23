@@ -175,11 +175,11 @@ function courseerror(fullID, halfID, titleID, descID) {
     var title = document.getElementById(titleID);
     var desc = document.getElementById(descID);
     if (title.value !== "" || desc.value !== "") {
-        nextNav("../HTML/c-on_Web_1920-61.html")
+        nextNav("../HTML/c-on_Web_1920-61.html");
 
     } else {
-        fullerror.style.display = "block"
-        halferror.style.display = "block"
+        fullerror.style.display = "block";
+        halferror.style.display = "block";
     }
 
 }
@@ -221,7 +221,7 @@ function courseSubmit(titleID, formatID, alertBar, alertBarTwo) {
         titleAlert.style.display = "block";
         formatAlert.style.display = "block";
     } else if (title.value !== "" && (format.value == "SELF LEARNING" || format.value == "INSTRUCTOR LED CLASSROOM" || format.value == "BLENDROOM")) {
-        nextNav('../HTML/c-on_Web_1920-47.html')
+        nextNav('../HTML/c-on_Web_1920-47.html');
     }
 }
 
