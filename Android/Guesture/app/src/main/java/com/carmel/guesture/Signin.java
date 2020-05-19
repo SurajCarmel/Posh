@@ -22,9 +22,9 @@ public class Signin extends Fragment {
     @Override
     protected void onViewCreated(View view,@Nullable Bundle savedInstanceState){
         super.onViewCreated(view, savedInstanceState);
-        username= findViewById(R.id.username);
-        password=  findViewById(R.id.password);
-        loginButton= findViewById(R.id.loginButton);
+        username= getView().findViewById(R.id.username);
+        password= getView().findViewById(R.id.password);
+        loginButton= getView().findViewById(R.id.loginButton);
     }
 
 
