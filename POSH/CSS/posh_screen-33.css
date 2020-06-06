@@ -84,33 +84,36 @@
 
 .underBox {
     border: 1px solid #CCCCCC;
+    padding: 7.74% 3.63%;
     margin-bottom: 3.6%;
+    background-color: #EEEEEE;
+    position: relative;
 }
 
 .greyUnderBar {
-    padding: 3.4% 4.2%;
     background-color: #EEEEEE;
-}
-
-.buttonBox {
-    width: 40%;
-    float: left;
+    border-bottom: 0.5px solid #CCCCCC;
+    padding-bottom: 3.9%;
 }
 
 .underButton {
-    background-color: #D05224;
-    color: #FFFFFF;
+    background-color: #FFF;
     border: 0;
     padding: 6px 15px;
+    font: 900 1.36vw/1.46vw 'Lato';
     letter-spacing: 1.2px;
-    font-family: 'Lato';
-    font-size: 1.17vw;
-    font-weight: 900;
+    color: #E65959;
+    border-radius: 1.36vw;
+    box-shadow: 0px 0px 8px #E65959;
+    position: absolute;
+    top: -4%;
+    left: 3%;
 }
 
 .detailsBox {
-    width: 30%;
+    width: 50%;
     float: left;
+    text-align: right;
 }
 
 .barHeading {
@@ -130,9 +133,9 @@
 }
 
 .complaintBox {
-    width: 30%;
+    width: 50%;
     float: left;
-    text-align: right;
+    text-align: left;
 }
 
 .underBody {

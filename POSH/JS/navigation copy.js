@@ -1,30 +1,45 @@
-var carouselIndex = 1;
-showCarousel(carouselIndex);
+function loadBanner() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
 
-function plusCarousel(n) {
-    showCarousel((carouselIndex += n));
+        if (this.readyState == 4 && this.status == 200) {
+            var results = JSON.parse(xhttp.responseText);
+            banners = results.banners;
+
+            bannerIndex = 0;
+            showCarousel(bannerIndex);
+        }
+
+    };
+    // xhttp.open("GET", "https://api.myjson.com/bins/1cnomm", true);
+    xhttp.open("GET", "https://api.myjson.com/bins/juyva", true);
+    xhttp.send();
 }
 
-function currentCarousel(n) {
-    showCarousel((carouselIndex = n));
+
+function plusCarousel(n) {
+    showCarousel((bannerIndex += n));
 }
 
 function showCarousel(n) {
-    var i;
-    var carousels = document.getElementsByClassName("carouselImage");
 
-    if (n > carousels.length) {
-        carouselIndex = 1;
+    var carousels = document.getElementById("carouselImage");
+    if (n > banners.length) {
+        bannerIndex = 1;
     }
     if (n < 1) {
-        carouselIndex = carousels.length;
+        bannerIndex = banners.length;
     }
-    for (i = 0; i < carousels.length; i++) {
-        carousels[i].style.display = "none";
-    }
-    carousels[carouselIndex - 1].style.display = "block";
-    document.getElementById("counterText").innerHTML = carouselIndex + '/' + carousels.length;
+    console.log(bannerIndex);
+
+    carousels.src = '../ASSETS/' + banners[bannerIndex - 1];
+    var currWidth = carousels.clientWidth;
+    var currHeight = carousels.clientHeight;
+    alert("Current width=" + currWidth + ", " + "Original height=" + currHeight);
+
+    document.getElementById("counterText").innerHTML = bannerIndex + '/' + banners.length;
 }
+
 
 // ===========================================================================================================================
 
@@ -46,7 +61,7 @@ function hide(id) {
 function show(full, half) {
     var fullBox = document.getElementsByClassName(full);
     for (
-        let index = 0; index < document.getElementsByClassName(full).length; index++
+        var index = 0; index < document.getElementsByClassName(full).length; index++
     ) {
         fullBox[index].style.display = "block";
     }

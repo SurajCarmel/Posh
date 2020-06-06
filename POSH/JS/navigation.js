@@ -1,46 +1,32 @@
 var banners;
 var bannerIndex;
 
-function loadBanner() {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-
-        if (this.readyState == 4 && this.status == 200) {
-            var results = JSON.parse(xhttp.responseText);
-            banners = results.banners;
-
-            bannerIndex = 0;
-            showCarousel(bannerIndex);
-        }
-
-    };
-    // xhttp.open("GET", "https://api.myjson.com/bins/1cnomm", true);
-    xhttp.open("GET", "https://api.myjson.com/bins/juyva", true);
-    xhttp.send();
-}
-
+var carouselIndex = 1;
+showCarousel(carouselIndex);
 
 function plusCarousel(n) {
-    showCarousel((bannerIndex += n));
+    showCarousel((carouselIndex += n));
+}
+
+function currentCarousel(n) {
+    showCarousel((carouselIndex = n));
 }
 
 function showCarousel(n) {
+    var i;
+    var carousels = document.getElementsByClassName("carouselImage");
 
-    var carousels = document.getElementById("carouselImage");
-    if (n > banners.length) {
-        bannerIndex = 1;
+    if (n > carousels.length) {
+        carouselIndex = 1;
     }
     if (n < 1) {
-        bannerIndex = banners.length;
+        carouselIndex = carousels.length;
     }
-    console.log(bannerIndex);
-
-    carousels.src = '../ASSETS/' + banners[bannerIndex - 1];
-    var currWidth = carousels.clientWidth;
-    var currHeight = carousels.clientHeight;
-    alert("Current width=" + currWidth + ", " + "Original height=" + currHeight);
-
-    document.getElementById("counterText").innerHTML = bannerIndex + '/' + banners.length;
+    for (i = 0; i < carousels.length; i++) {
+        carousels[i].style.display = "none";
+    }
+    carousels[carouselIndex - 1].style.display = "block";
+    document.getElementById("counterText").innerHTML = carouselIndex + '/' + carousels.length;
 }
 
 // ===========================================================================================================================
@@ -230,7 +216,7 @@ function showSlides(n) {
         slides[i].style.display = "none";
     }
 
-    for (let i = 0; i < dots.length; i++) {
+    for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace("active", "");
     }
     slides[slideIndex - 1].style.display = "block";

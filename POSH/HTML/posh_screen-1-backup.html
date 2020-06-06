@@ -8,13 +8,12 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
     <link rel="stylesheet" href="../CSS/posh_screen-1.css">
-
     <title>screen-1</title>
 </head>
 
-<body>
+<body onload="loadBanner()">
     <div class="pageParent">
-        <div class="listHeader">
+        <div class="listHeader" onclick="tst()">
             <div class="headerLeftPart">
                 <span class="posh">
                     POSH
@@ -38,16 +37,13 @@
         </div>
 
         <div class="topCarousel">
-            <img class="carouselImage" src="../ASSETS/carousel-04.png" alt="">
-            <img class="carouselImage" style="display: none;" src="../ASSETS/carousel-03.png" alt="">
-            <img class="carouselImage" style="display: none;" src="../ASSETS/carousel-02.png" alt="">
-            <img class="carouselImage" style="display: none;" src="../ASSETS/carousel-01.png" alt="">
+            <img id="carouselImage" class="carouselImage" src="" alt="">
             <div class="counter">
                 <div>
                     <img id="prevSign" class="prevSign" onclick="plusCarousel(-1)" src="../ASSETS/Artboard 1 copy 45@16x.png" alt="">
                 </div>
                 <div>
-                    <p id="counterText" class="counterText">1/4</p>
+                    <p id="counterText" class="counterText"></p>
                 </div>
                 <div>
                     <img id="nextSign" class="nextSign" onclick="plusCarousel(1)" src="../ASSETS/Artboard 1 copy 46@16x.png" alt="">

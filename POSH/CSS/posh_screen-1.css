@@ -11,7 +11,7 @@
 .listHeader {
     padding: 1.3%;
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 4px #00000029;
+    box-shadow: 0 0 0.38vw #00000029;
 }
 
 .headerLeftPart {
@@ -36,15 +36,13 @@
 }
 
 .notiIcon {
-    width: 32px;
-    height: 32px;
-    margin-right: 27px;
+    width: 3.125vw;
+    margin-right: 2.63vw;
 }
 
 .userImage {
-    width: 32px;
-    height: 32px;
-    margin-right: 9px;
+    width: 3.125vw;
+    margin-right: 0.88vw;
 }
 
 .userName {
@@ -52,12 +50,11 @@
     font-size: 1.17vw;
     letter-spacing: 0.9px;
     color: #595959;
-    margin-right: 10px;
+    margin-right: 0.97vw;
 }
 
 .dropIcon {
-    width: 9px;
-    height: 9px;
+    width: 0.88vw;
 }
 
 .clear {
@@ -74,15 +71,13 @@
 
 .topCarousel {
     position: relative;
-    height: 49vh;
+    height: 38vw;
     width: 100%;
 }
 
 .carouselImage {
     position: absolute;
     left: 50%;
-    height: 49vh;
-    /* height: 36.803748%; */
     width: 100%;
     transform: translate(-50%);
 }
@@ -93,7 +88,7 @@
     align-items: center;
     width: 4.4%;
     position: absolute;
-    top: 83%;
+    top: 80%;
     right: 4%;
     z-index: 1;
 }
@@ -104,10 +99,10 @@
 }
 
 .counterText {
-    font: 700 1.17vw/14px 'Roboto';
+    font: 700 1.17vw/1.36vw 'Roboto';
     letter-spacing: 1.2px;
     color: #DBC5C5;
-    margin: 0 4px;
+    margin: 0 0.39vw;
 }
 
 .nextSign {
@@ -121,8 +116,8 @@
 .cooContainer {
     background-color: #FFFFFF;
     padding: 3% 6%;
-    box-shadow: 0px 2px 6px #00000029;
-    border-radius: 20px;
+    box-shadow: 0 2px 0.58vw #00000029;
+    border-radius: 1.95vw;
     position: absolute;
     top: -10%;
     width: 72.7%;
@@ -139,7 +134,7 @@
 }
 
 .cooImage {
-    width: 61px;
+    width: 5.95vw;
 }
 
 .cooRight {
@@ -177,7 +172,7 @@
     font-size: 1.36vw;
     letter-spacing: 0.7px;
     font-weight: 900;
-    padding-bottom: 7px;
+    padding-bottom: 0.68vw;
     color: #505050;
 }
 
@@ -196,7 +191,7 @@
     background-color: #FFFFFF;
     border-bottom-left-radius: 3.5vw;
     border-bottom-right-radius: 3.5vw;
-    box-shadow: 0px 0px 6px #00000029;
+    box-shadow: 0 0 0.58vw #00000029;
     margin-top: 40%;
 }
 
@@ -206,14 +201,14 @@
 }
 
 .training {
-    font-size: 14px;
+    font-size: 1.36vw;
     font-family: 'Anton';
     letter-spacing: 1.4px;
     color: #000000;
 }
 
 .trainingSubtext {
-    font-size: 12px;
+    font-size: 1.17vw;
     font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #747474;
@@ -238,7 +233,7 @@
 
 .statusMessage {
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 1.2px;
     color: #000000;
     padding-bottom: 2%;
@@ -246,7 +241,7 @@
 
 .subMessage {
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 0.6px;
     color: #505050;
 }
@@ -265,7 +260,7 @@
 
 .darkText {
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 0.6px;
     color: #505050;
     font-weight: 900;
@@ -273,22 +268,22 @@
 
 .lightText {
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 0.6px;
     color: #909090;
 }
 
 .greyText {
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 0.6px;
     color: #505050;
 }
 
 .Image {
-    width: 22px;
+    width: 2.14vw;
     vertical-align: middle;
-    margin-right: 16px;
+    margin-right: 1.56vw;
 }
 
 .underline {
@@ -296,7 +291,7 @@
 }
 
 .space {
-    padding-bottom: 11px;
+    padding-bottom: 1.07vw;
 }
 
 .columnOne {
@@ -323,7 +318,7 @@
 
 .slideshow-container {
     background-color: #FFFFFF;
-    box-shadow: 0px 2px 6px #00000029;
+    box-shadow: 0 2px 0.58vw #00000029;
     border-radius: 1.95vw;
     margin-top: 6.5%;
     display: flex;
@@ -338,14 +333,15 @@
 }
 
 .prev {
-    width: 27px;
-    height: 33px;
+    width: 3.4vw;
     cursor: pointer;
     transition: 0.6s ease;
     position: absolute;
     top: 50%;
     left: 50%;
+    box-shadow: 0 0 0.78vw #32BDD2;
     transform: translate(-50%, -50%);
+    border-radius: 50%;
 }
 
 .slideshow-inner {
@@ -398,7 +394,7 @@
 .svgImage {
     width: 100%;
     margin: 25.5% 0 16% 0;
-    box-shadow: 0px 0px 10px #00000029;
+    box-shadow: 0 0 0.97vw #00000029;
 }
 
 .stop {
@@ -445,14 +441,15 @@
 
 .next {
     margin-left: 4%;
-    width: 27px;
-    height: 33px;
+    width: 3.4vw;
     cursor: pointer;
     transition: 0.6s ease;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0 0 0.78vw #32BDD2;
+    border-radius: 50%;
 }
 
 .navBar {
@@ -464,7 +461,7 @@
     cursor: pointer;
     width: 0.97vw;
     height: 0.97vw;
-    margin: 0 7px;
+    margin: 0 0.68vw;
     border: 1px solid #32BDD2;
     border-radius: 50%;
     display: inline-block;
@@ -481,7 +478,7 @@
 
 .main_container {
     background-color: #FFFFFF;
-    box-shadow: 0 0 6px #00000029;
+    box-shadow: 0 0 0.58vw #00000029;
     width: 47%;
     float: left;
 }
@@ -491,13 +488,13 @@
 }
 
 .faq_top {
-    padding: 6.81% 0 7.84% 4.81%;
+    padding: 6.81% 0 6.44% 4.81%;
 }
 
 .faq {
     text-align: left;
     font-family: "Anton";
-    font-size: 14px;
+    font-size: 1.36vw;
     letter-spacing: 1.4px;
     color: #000000;
 }
@@ -510,19 +507,18 @@
 .explore {
     float: right;
     text-align: left;
-    font-family: "Lato";
+    font: 900 1.17vw/0.97vw "Lato";
     letter-spacing: 0.6px;
-    color: #505050;
-    font-size: 12px;
-    font-weight: 600;
+    color: #32BDD2;
     padding-right: 1%;
+    vertical-align: middle;
 }
 
 .icon_image {
     padding-top: 0.3%;
-    width: 8.61px;
-    float: right;
     vertical-align: middle;
+    width: 0.78vw;
+    float: right;
 }
 
 .message {
@@ -531,7 +527,7 @@
 
 .quesition {
     background-color: #EEEEEE;
-    border-radius: 15px;
+    border-radius: 1.46vw;
     padding: 4.80% 5.16% 5.5%;
     margin-bottom: 3.81%;
 }
@@ -539,7 +535,7 @@
 .meant {
     text-align: left;
     font-family: "Lato";
-    font-size: 14px;
+    font-size: 1.36vw;
     letter-spacing: 0;
     color: #505050;
 }
@@ -549,7 +545,7 @@
     padding: 3.95% 0 3.84% 0;
     text-align: left;
     font-family: "Lato";
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 0.6px;
     color: #909090;
 }
@@ -558,7 +554,7 @@
     cursor: pointer;
     text-align: right;
     font-family: "Lato";
-    font-size: 7px;
+    font-size: 0.68vw;
     letter-spacing: 0.35px;
     color: #505050;
     font-weight: bold;
@@ -585,17 +581,17 @@
 }
 
 .left_icon img {
-    width: 8.02px;
+    width: 0.78vw;
     vertical-align: middle;
 }
 
 .right_icon img {
-    width: 8.02px;
+    width: 0.78vw;
     vertical-align: middle;
 }
 
 .number {
-    font-size: 8px;
+    font-size: 0.78vw;
     font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #B5B5B5;
@@ -612,7 +608,7 @@
     background-color: #FFFFFF;
     width: 47%;
     float: right;
-    box-shadow: 0px 0px 6px #00000029;
+    box-shadow: 0 0 0.58vw #00000029;
 }
 
 .firstRow {
@@ -658,8 +654,8 @@
 }
 
 .profilePic {
-    width: 55px;
-    height: 55px;
+    width: 5.37vw;
+    height: 5.37vw;
 }
 
 .textContainer {
@@ -704,8 +700,7 @@
 }
 
 .navImage {
-    width: 10px;
-    height: 10px;
+    width: 0.97vw;
     vertical-align: middle;
 }
 
@@ -722,7 +717,7 @@
 /* ----------------------Submit Complaint------------------------ */
 
 .subComplaintContainer {
-    box-shadow: 0px 0px 6px #00000029;
+    box-shadow: 0 0 0.58vw #00000029;
     margin-top: 6.5%;
     background-color: #FFFFFF;
 }
@@ -755,7 +750,7 @@
 .complaintButton {
     background-color: #FF0000;
     box-shadow: 2px 2px 3px #FF000043;
-    border-radius: 27px;
+    border-radius: 2.63vw;
     color: #FFFFFF;
     padding: 0.97vw 0.93vw;
     font-weight: 600;
@@ -763,6 +758,7 @@
     font-family: 'Lato';
     font-size: 1.17vw;
     border: 0;
+    box-shadow: 0px 0px 8px #FF0000BE;
     text-align: center;
     cursor: pointer;
 }
@@ -786,7 +782,7 @@
     font-weight: 600;
     font-family: 'Lato';
     border-bottom: 1px solid #505050;
-    padding-bottom: 5px;
+    padding-bottom: 0.48vw;
     cursor: pointer;
 }
 
@@ -796,7 +792,7 @@
 .policyContainer {
     background-color: #FFFFFF;
     margin-top: 6.5%;
-    box-shadow: 0px 0px 6px #00000029;
+    box-shadow: 0 0 6px #00000029;
     overflow: hidden;
 }
 
@@ -812,7 +808,7 @@
 
 .policy {
     font-family: 'Anton';
-    font-size: 14px;
+    font-size: 1.36vw;
     text-align: left;
     letter-spacing: 1.4px;
     color: #000000;
@@ -830,7 +826,7 @@
 .last {
     text-align: left;
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 0;
     color: #747474;
 }
@@ -839,7 +835,7 @@
     padding-right: 01%;
     text-align: right;
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 1.17vw;
     letter-spacing: 0.3px;
     color: #747474;
 }
@@ -860,8 +856,9 @@
 }
 
 .image img {
-    width: 34px;
-    height: 34px;
+    width: 3.32vw;
+    box-shadow: 0px 0px 8px #32BDD2;
+    border-radius: 50%;
     vertical-align: middle;
 }
 
@@ -872,7 +869,7 @@
 .paragraph {
     text-align: left;
     font-family: 'Lato';
-    font-size: 14px;
+    font-size: 1.36vw;
     color: #505050;
     padding-top: 1%;
 }
@@ -880,10 +877,10 @@
 .comment_bar {
     display: flex;
     border: 0.35px solid #B5B5B5;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-left-radius: 4.88vw;
+    border-bottom-left-radius: 4.88vw;
+    border-top-right-radius: 4.88vw;
+    border-bottom-right-radius: 4.88vw;
 }
 
 .bar {
@@ -893,7 +890,7 @@
 }
 
 .profile img {
-    width: 45px;
+    width: 4.4vw;
     vertical-align: middle;
 }
 
@@ -901,8 +898,8 @@
     width: fit-content;
     padding-top: .2%;
     background-color: #fff;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+    border-top-left-radius: 4.88vw;
+    border-bottom-left-radius: 4.88vw;
 }
 
 .drop_comment {
@@ -916,12 +913,14 @@
 .submit {
     background-color: #32BDD2;
     color: #fff;
-    border: #32BDD2;
-    font-size: 12px;
+    font-size: 1.17vw;
+    font-family: "Lato";
+    font-weight: 900;
+    border: 0;
     height: 100%;
     width: 100%;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
+    border-top-right-radius: 3.8vw;
+    border-bottom-right-radius: 3.8vw;
     cursor: pointer;
     text-align: center;
 }
@@ -943,8 +942,8 @@
 }
 
 .left_part img {
-    width: 58px;
-    width: 58px;
+    width: 5.66vw;
+    width: 5.66vw;
 }
 
 .thumb {
@@ -952,8 +951,8 @@
 }
 
 .thumb img {
-    width: 15px;
-    height: 15px;
+    width: 1.46vw;
+    height: 1.46vw;
     cursor: pointer;
 }
 
@@ -964,7 +963,7 @@
 
 .name {
     text-align: left;
-    font-size: 14px;
+    font-size: 1.36vw;
     font-family: 'Lato';
     letter-spacing: 0;
     color: #505050;
@@ -1013,7 +1012,7 @@
 
 .show {
     text-align: left;
-    font-size: 12px;
+    font-size: 1.17vw;
     font-family: 'Lato';
     letter-spacing: 0.6px;
     color: #505050;
@@ -1021,8 +1020,7 @@
 }
 
 .down img {
-    width: 9.91px;
-    height: 6.51px;
+    width: 0.97vw;
     vertical-align: middle;
 }
 
@@ -1032,7 +1030,7 @@
 
 .review {
     text-align: left;
-    font: 400 1.17vw/18px 'Lato';
+    font: 400 1.17vw/1.75vw 'Lato';
     letter-spacing: 0.6px;
     color: #909090;
     padding-left: 2%;
@@ -1081,542 +1079,6 @@
 }
 
 
-/* ------------------------Media Queries------------------------- */
-
-@media screen and (max-device-width: 768px) {
-    .notiIcon {
-        width: 24px;
-        height: 24px;
-    }
-    .userImage {
-        width: 24px;
-        height: 24px;
-    }
-    .dropIcon {
-        width: 6.75px;
-        height: 6.75px;
-    }
-    .cooImage {
-        width: 46px;
-    }
-    .training {
-        font-size: 10.4px;
-    }
-    .trainingSubtext {
-        font-size: 8.9px;
-    }
-    .statusMessage {
-        font-size: 8.9px;
-    }
-    .subMessage {
-        font-size: 8.9px;
-    }
-    .darkText {
-        font-size: 8.9px;
-    }
-    .lightText {
-        font-size: 8.9px;
-    }
-    .greyText {
-        font-size: 8.9px;
-    }
-    .Image {
-        width: 16.4px;
-    }
-    .prev {
-        width: 20px;
-        height: 25px;
-    }
-    .next {
-        width: 20px;
-        height: 25px;
-    }
-    .navCircles {
-        width: 8px;
-        height: 8px;
-    }
-    .navImage {
-        width: 7.4px;
-        height: 7.4px;
-    }
-    .profilePic {
-        width: 41px;
-        height: 41px;
-    }
-    .faq {
-        font-size: 10px;
-    }
-    .explore {
-        font-size: 9px;
-    }
-    .icon_image {
-        width: 7px;
-    }
-    .meant {
-        font-size: 10px;
-    }
-    .lorem {
-        font-size: 9px;
-    }
-    .read {
-        font-size: 5px;
-    }
-    .left_icon img {
-        width: 5px;
-    }
-    .right_icon img {
-        width: 5px;
-    }
-    .number {
-        font-size: 5px;
-    }
-    .policy {
-        font-size: 10px;
-    }
-    .last {
-        font-size: 9px;
-    }
-    .kb {
-        font-size: 9px;
-    }
-    .image img {
-        width: 25.5px;
-        height: 23.5px;
-    }
-    .paragraph {
-        font-size: 10px;
-    }
-    .profile img {
-        width: 32px;
-        height: 32px;
-    }
-    .submit {
-        font-size: 10px;
-    }
-    .left_part img {
-        width: 43px;
-        height: 43px;
-    }
-    .thumb img {
-        width: 11.2px;
-        height: 11.2px;
-    }
-    .name {
-        font-size: 10px;
-    }
-    .show {
-        font-size: 9px;
-    }
-    .down img {
-        width: 6.75px;
-        height: 7.75px;
-    }
-}
-
-@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
-    .notiIcon {
-        width: 45px;
-        height: 45px;
-    }
-    .userImage {
-        width: 45px;
-        height: 45px;
-    }
-    .dropIcon {
-        width: 12.7px;
-        height: 12.7px;
-    }
-    .cooImage {
-        width: 86px;
-    }
-    .training {
-        font-size: 19.58px;
-    }
-    .trainingSubtext {
-        font-size: 16.84px;
-    }
-    .statusMessage {
-        font-size: 16.84px;
-    }
-    .subMessage {
-        font-size: 16.84px;
-    }
-    .darkText {
-        font-size: 16.84px;
-    }
-    .lightText {
-        font-size: 16.84px;
-    }
-    .greyText {
-        font-size: 16.84px;
-    }
-    .Image {
-        width: 30.8px;
-    }
-    .prev {
-        width: 38px;
-        height: 46px;
-    }
-    .next {
-        width: 38px;
-        height: 46px;
-    }
-    .navCircles {
-        width: 14px;
-        height: 14px;
-    }
-    .navImage {
-        width: 14px;
-        height: 14px;
-    }
-    .profilePic {
-        width: 77px;
-        height: 77px;
-    }
-    .faq {
-        font-size: 19px;
-    }
-    .explore {
-        font-size: 17px;
-    }
-    .icon_ {
-        width: 10px;
-    }
-    .meant {
-        font-size: 19px;
-    }
-    .lorem {
-        font-size: 17px;
-    }
-    .read {
-        font-size: 13px;
-    }
-    .left_icon img {
-        width: 10px;
-    }
-    .right_icon img {
-        width: 10px;
-    }
-    .number {
-        font-size: 10px;
-    }
-    .policy {
-        font-size: 19px;
-    }
-    .last {
-        font-size: 19px;
-    }
-    .kb {
-        font-size: 17px;
-    }
-    .image img {
-        width: 47.8px;
-        height: 47.8px;
-    }
-    .paragraph {
-        font-size: 19px;
-    }
-    .profile img {
-        width: 59.5px;
-        height: 59.5px;
-    }
-    .submit {
-        font-size: 12px;
-    }
-    .left_part img {
-        width: 80.5px;
-        height: 80.5px;
-    }
-    .thumb img {
-        width: 21px;
-        height: 21px;
-    }
-    .name {
-        font-size: 19px;
-    }
-    .show {
-        font-size: 17px;
-    }
-    .down img {
-        width: 17.7px;
-        height: 12.51px;
-    }
-}
-
-@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
-    .notiIcon {
-        width: 60px;
-        height: 60px;
-    }
-    .userImage {
-        width: 60px;
-        height: 60px;
-    }
-    .dropIcon {
-        width: 17px;
-        height: 17px;
-    }
-    .cooImage {
-        width: 114px;
-    }
-    .training {
-        font-size: 26.112px;
-    }
-    .trainingSubtext {
-        font-size: 22.46px;
-    }
-    .statusMessage {
-        font-size: 22.46px;
-    }
-    .subMessage {
-        font-size: 22.46px;
-    }
-    .darkText {
-        font-size: 22.46px;
-    }
-    .lightText {
-        font-size: 22.46px;
-    }
-    .greyText {
-        font-size: 22.46px;
-    }
-    .Image {
-        width: 41px;
-    }
-    .prev {
-        width: 51px;
-        height: 62px;
-    }
-    .next {
-        width: 51px;
-        height: 62px;
-    }
-    .navCircles {
-        width: 19px;
-        height: 19px;
-    }
-    .navImage {
-        width: 19px;
-        height: 19px;
-    }
-    .profilePic {
-        width: 103px;
-        height: 103px;
-    }
-    .faq {
-        font-size: 29px;
-    }
-    .explore {
-        font-size: 23px;
-    }
-    .icon_image {
-        width: 18px;
-    }
-    .meant {
-        font-size: 25px;
-    }
-    .lorem {
-        font-size: 23px;
-    }
-    .read {
-        font-size: 13px;
-    }
-    .left_icon img {
-        width: 15px;
-    }
-    .right_icon img {
-        width: 14px;
-    }
-    .number {
-        font-size: 14px;
-    }
-    .policy {
-        font-size: 25px;
-    }
-    .last {
-        font-size: 23px;
-    }
-    .kb {
-        font-size: 23px;
-    }
-    .image img {
-        width: 63.7px;
-        height: 63.7px;
-    }
-    .paragraph {
-        font-size: 25px;
-    }
-    .profile img {
-        width: 78.72px;
-    }
-    .drop_comment {
-        flex-grow: 10;
-    }
-    .submit {
-        font-size: 23px;
-    }
-    .left_part img {
-        width: 107.52px;
-        height: 107.52px;
-    }
-    .thumb img {
-        width: 28.5px;
-        height: 28.5px;
-    }
-    .name {
-        font-size: 25px;
-    }
-    .show {
-        font-size: 23px;
-    }
-    .down img {
-        width: 17px;
-        height: 18px;
-    }
-}
-
-@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
-    .notiIcon {
-        width: 80px;
-        height: 80px;
-    }
-    .userImage {
-        width: 80px;
-        height: 80px;
-    }
-    .dropIcon {
-        width: 22.5px;
-        height: 22.5px;
-    }
-    .cooImage {
-        width: 152px;
-    }
-    .training {
-        font-size: 34.81px;
-    }
-    .trainingSubtext {
-        font-size: 29.95px;
-    }
-    .statusMessage {
-        font-size: 29.95px;
-    }
-    .subMessage {
-        font-size: 29.95px;
-    }
-    .darkText {
-        font-size: 29.95px;
-    }
-    .lightText {
-        font-size: 29.95px;
-    }
-    .greyText {
-        font-size: 29.95px;
-    }
-    .Image {
-        width: 54.78px;
-    }
-    .prev {
-        width: 67px;
-        height: 83px;
-    }
-    .next {
-        width: 67px;
-        height: 83px;
-    }
-    .navCircles {
-        width: 25px;
-        height: 25px;
-    }
-    .navImage {
-        width: 25px;
-        height: 25px;
-    }
-    .profilePic {
-        width: 105px;
-        height: 105px;
-    }
-    .faq {
-        font-size: 35px;
-    }
-    .explore {
-        font-size: 30px;
-    }
-    .icon_image {
-        width: 18px;
-    }
-    .meant {
-        font-size: 35px;
-    }
-    .lorem {
-        font-size: 30px;
-    }
-    .read {
-        font-size: 17px;
-    }
-    .left_icon img {
-        width: 17px;
-    }
-    .right_icon img {
-        width: 17px;
-    }
-    .number {
-        font-size: 17px;
-    }
-    .policy {
-        font-size: 35px;
-    }
-    .last {
-        font-size: 30px;
-    }
-    .kb {
-        font-size: 30px;
-    }
-    .image img {
-        width: 85px;
-        height: 85px;
-    }
-    .paragraph {
-        font-size: 35px;
-    }
-    .profile img {
-        width: 105px;
-        height: 105px;
-    }
-    .drop_comment {
-        flex-grow: 10;
-    }
-    .submit {
-        font-size: 30px;
-        border-top-right-radius: 60px;
-        border-bottom-right-radius: 60px;
-    }
-    .comment_bar {
-        border-top-left-radius: 90px;
-        border-bottom-left-radius: 90px;
-        border-top-right-radius: 80px;
-        border-bottom-right-radius: 90px;
-    }
-    .left_part img {
-        width: 143.36px;
-        height: 143.36px;
-    }
-    .thumb img {
-        width: 37.5px;
-        height: 37.5px;
-    }
-    .name {
-        font-size: 35px;
-    }
-    .show {
-        font-size: 30px;
-    }
-    .down img {
-        width: 32.6px;
-        height: 24.8px;
-    }
-}
-
-
 /* =============================================screen 35===================================================== */
 
 .ceoBox {
@@ -1641,15 +1103,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0px 2px 6px #00000029;
+    box-shadow: 0 2px 0.58vw #00000029;
     border-radius: 1.95vw;
 }
 
 .cancelIcon {
-    box-shadow: 0px 0px 10px #00000029;
+    box-shadow: 0 0 0.97vw #00000029;
     border: 0.5px solid #EFEFEF;
     float: right;
-    width: 38px;
+    width: 3.7vw;
     border-radius: 50%;
 }
 
@@ -1695,7 +1157,7 @@
     font-size: 1.36vw;
     letter-spacing: 0.7px;
     font-weight: 900;
-    padding-bottom: 7px;
+    padding-bottom: 0.68vw;
     color: #505050;
 }
 
@@ -1709,46 +1171,6 @@
 
 .clear {
     clear: both;
-}
-
-@media screen and (max-device-width: 768px) {
-    .cooImage {
-        width: 46px;
-        height: 46px;
-    }
-    .cancelIcon {
-        width: 28.5px;
-    }
-}
-
-@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
-    .cooImage {
-        width: 86px;
-        height: 86px;
-    }
-    .cancelIcon {
-        width: 53.4px;
-    }
-}
-
-@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
-    .cooImage {
-        width: 114px;
-        height: 114px;
-    }
-    .cancelIcon {
-        width: 71.2px;
-    }
-}
-
-@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
-    .cooImage {
-        width: 152px;
-        height: 152px;
-    }
-    .cancelIcon {
-        width: 95px;
-    }
 }
 
 
@@ -1899,31 +1321,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 111px;
-}
-
-@media screen and (max-device-width:768px) {
-    .loadingImage {
-        width: 83px;
-    }
-}
-
-@media screen and (min-device-width:1025px) and (max-device-width:1440px) {
-    .loadingImage {
-        width: 155.5px;
-    }
-}
-
-@media screen and (min-device-width:1441px) and (max-device-width:1920px) {
-    .loadingImage {
-        width: 207px;
-    }
-}
-
-@media screen and (min-device-width:1921px) and (max-device-width:2560px) {
-    .loadingImage {
-        width: 176.5px;
-    }
+    width: 10.83vw;
 }
 
 
@@ -1940,7 +1338,7 @@
 
 .popupContainer {
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 35px #00000029;
+    box-shadow: 0 0 3.4vw #00000029;
     border-radius: 1.95vw;
     width: 55.6%;
     position: absolute;
@@ -1954,12 +1352,11 @@
 }
 
 .cancelImage {
-    width: 38px;
-    height: 38px;
+    width: 3.7vw;
     float: right;
     border: 0;
     border-radius: 50%;
-    box-shadow: 0px 0px 8px #00000029;
+    box-shadow: 0 0 0.78vw #00000029;
 }
 
 .textRow {
@@ -1998,54 +1395,26 @@
     background-color: #E65959;
     color: #FFFFFF;
     border: 0;
-    box-shadow: 0px 4px 6px #00000029;
+    box-shadow: 0 0.29vw 0.58vw #00000029;
     border-radius: 3px;
     letter-spacing: 1.5px;
     font-family: 'Roboto';
     font-size: 1.46vw;
-    padding: 10px 30px;
+    padding: 0.97vw 2.93vw;
 }
 
 .doneButtonSuccess {
     background-color: #32BDD2;
     color: #FFFFFF;
     border: 0;
-    box-shadow: 0px 4px 6px #00000029;
+    box-shadow: 0 0.29vw 0.58vw #00000029;
     border-radius: 3px;
     letter-spacing: 1.5px;
     font-family: 'Roboto';
     font-size: 1.46vw;
-    padding: 10px 30px;
+    padding: 0.97vw 2.93vw;
 }
 
 .clear {
     clear: both;
-}
-
-@media screen and (max-device-width: 768px) {
-    .cancelImage {
-        width: 28.5px;
-        height: 28.5px;
-    }
-}
-
-@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
-    .cancelImage {
-        width: 53.4px;
-        height: 53.4px;
-    }
-}
-
-@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
-    .cancelImage {
-        width: 71.2px;
-        height: 71.2px;
-    }
-}
-
-@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
-    .cancelImage {
-        width: 95px;
-        height: 95px;
-    }
 }
