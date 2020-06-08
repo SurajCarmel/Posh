@@ -6,7 +6,7 @@
 
 .header_container {
     width: 100%;
-    box-shadow: 0px 0px 4px #00000029;
+    box-shadow: 0 0 0.39vw #00000029;
     padding: 1.17% 2.44%;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .notification img {
-    width: 32px;
+    width: 3.125vw;
     vertical-align: middle;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .down_icon img {
-    width: 9.38px;
+    width: 0.97vw;
     vertical-align: middle;
 }
 
@@ -60,12 +60,12 @@
 }
 
 .profile_pic img {
-    width: 32px;
+    width: 3.125vw;
     vertical-align: middle;
 }
 
 .down_icon {
-    width: 9.32px;
+    width: 0.97vw;
 }
 
 .parent {
@@ -98,7 +98,7 @@
 }
 
 .search_bar input {
-    border: 0px;
+    border: 0;
     margin: 1.5%;
     width: 92%;
     font: 400 1.17vw Lato;
@@ -176,10 +176,11 @@ textarea {
     cursor: pointer;
     background-color: #32BDD2;
     border: 1px solid #32BDD2;
-    border-radius: 8px;
+    border-radius: 0.78vw;
     margin-top: 1.76%;
     font-weight: 600;
     font-size: 1.17vw;
+    box-shadow: 0 0 0.58vw #32BDD2;
 }
 
 .review {
@@ -205,7 +206,7 @@ textarea {
     width: 95%;
     margin: auto;
     background-color: #EEEEEE;
-    padding: 2%;
+    padding: 1%;
 }
 
 .show {
@@ -226,77 +227,10 @@ textarea {
 }
 
 .footer {
-    width: 14%;
+    width: 16%;
     margin: auto
 }
 
 .drop_down {
-    width: 10.91px;
-}
-
-@media only screen and (max-width: 768px) {
-    .profile_pic img {
-        width: 24px;
-    }
-    .notification img {
-        width: 24px;
-    }
-    .down_icon {
-        width: 7.4px;
-    }
-    .drop_down {
-        width: 7.5px;
-        padding-left: 5%;
-    }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    .profile_pic img {
-        width: 45px;
-    }
-    .notification img {
-        width: 45px;
-    }
-    .down_icon {
-        width: 14.27px;
-    }
-    .faq {
-        font-size: 17px;
-    }
-    .drop_down {
-        width: 14.27px;
-    }
-}
-
-@media only screen and (min-width: 1441px) and (max-width: 1920px) {
-    .profile_pic img {
-        width: 60px;
-    }
-    .notification img {
-        width: 60px;
-    }
-    .down_icon {
-        width: 18.6px;
-    }
-    .drop_down {
-        width: 18.6px;
-    }
-}
-
-@media only screen and (min-width: 1921px) and (max-width: 2560px) {
-    .profile_pic img {
-        width: 80px;
-    }
-    .notification img {
-        width: 80px;
-    }
-    .lucy {
-        font-size: 28px;
-    }
-    .down_icon {
-        width: 24.8px;
-    }
-    .drop_down {
-        width: 24.8px;
-    }
+    width: 1.07vw;
 }

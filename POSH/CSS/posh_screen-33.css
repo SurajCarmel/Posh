@@ -11,7 +11,7 @@
 .listHeader {
     padding: 1.3%;
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 4px #00000029;
+    box-shadow: 0 0 0.39vw #00000029;
 }
 
 .headerLeftPart {
@@ -36,15 +36,15 @@
 }
 
 .notiIcon {
-    width: 32px;
-    height: 32px;
-    margin-right: 27px;
+    width: 3.125vw;
+    height: 3.125vw;
+    margin-right: 2.63vw;
 }
 
 .userImage {
-    width: 32px;
-    height: 32px;
-    margin-right: 9px;
+    width: 3.125vw;
+    height: 3.125vw;
+    margin-right: 0.88vw;
 }
 
 .userName {
@@ -52,40 +52,45 @@
     font-size: 1.17vw;
     letter-spacing: 0.9px;
     color: #595959;
-    margin-right: 10px;
+    margin-right: 0.97vw;
 }
 
 .dropIcon {
-    width: 9px;
-    height: 9px;
+    width: 0.88vw;
+    height: 0.88vw;
 }
 
 .clear {
     clear: both;
 }
 
-.listContainer {
+.complaintBody {
+    box-shadow: 0 0 0.39vw #00000029;
+    background-color: #FFFFFF;
     width: 95%;
     margin: 2.5%;
-    box-shadow: 0px 0px 4px #00000029;
+}
+
+.complaintHead {
+    padding: 3.6% 4.1%;
     background-color: #FFFFFF;
+    border-bottom: 0.5px solid #CCCCCC;
+}
+
+.listContainer {
     padding: 5.8% 7.6%;
 }
 
-.returnImage {
-    width: 32px;
-    height: 32px;
-    margin-bottom: 7%;
-    border: 0;
-    border-radius: 50%;
-    box-shadow: 0px 0px 8px #00000029;
-    cursor: pointer;
+.headtTextDark {
+    font: 400 1.36vw 'Anton';
+    letter-spacing: 2.8px;
+    color: #000000;
 }
 
 .underBox {
     border: 1px solid #CCCCCC;
+    border-bottom: 0;
     padding: 7.74% 3.63%;
-    margin-bottom: 3.6%;
     background-color: #EEEEEE;
     position: relative;
 }
@@ -99,12 +104,11 @@
 .underButton {
     background-color: #FFF;
     border: 0;
-    padding: 6px 15px;
+    padding: 0.58vw 1.46vw;
     font: 900 1.36vw/1.46vw 'Lato';
     letter-spacing: 1.2px;
-    color: #E65959;
-    border-radius: 1.36vw;
-    box-shadow: 0px 0px 8px #E65959;
+    color: #FFFFFF;
+    background-color: #E65959;
     position: absolute;
     top: -4%;
     left: 3%;
@@ -139,7 +143,7 @@
 }
 
 .underBody {
-    padding: 3.4% 4.2%;
+    padding-top: 3.4%;
 }
 
 .complainantBox {
@@ -193,7 +197,7 @@
     font-family: 'Lato';
     font-size: 1.36vw;
     font-weight: 700;
-    letter-spacing: 1.4px;
+    letter-spacing: 1.0.39vw;
     color: #505050;
     padding-bottom: 2.5%;
 }
@@ -206,10 +210,16 @@
     width: 60%;
 }
 
+.inboxCardContainer {
+    border: 1px solid #CCCCCC;
+    margin-top: 2.2%;
+}
+
 .inboxCard {
     background-color: #EEEEEE;
     padding: 2.7% 4.4% 3.2% 3.8%;
-    margin-top: 2.2%;
+    display: flex;
+    align-items: center;
 }
 
 .imageContainers {
@@ -218,8 +228,7 @@
 }
 
 .inboxImage {
-    width: 35px;
-    height: 35px;
+    width: 3.41vw;
 }
 
 .detailsContainers {
@@ -233,19 +242,18 @@
 }
 
 .dot {
-    height: 10px;
-    width: 10px;
+    height: 0.97vw;
+    width: 0.97vw;
     background-color: #FF0000;
     border-radius: 50%;
     display: inline-block;
-    margin-top: 50%;
 }
 
 .inboxName {
     font-family: 'Lato';
     font-size: 1.36vw;
     font-weight: 700;
-    letter-spacing: 1.4px;
+    letter-spacing: 1.0.39vw;
 }
 
 .inboxDesignation {
@@ -266,36 +274,25 @@
 }
 
 .dropdown {
-    width: 10px;
-    height: 10px;
+    width: 0.97vw;
     float: right;
     vertical-align: middle;
 }
 
-.inboxLeftBox {
-    width: 14%;
-    float: left;
+.inboxDropBox {
+    padding: 0;
 }
 
-.inboxRightBox {
-    width: 86%;
-    float: right;
-    padding: 13.8% 6.5% 0 0;
-}
-
-.inboxgreyCard {
+.inboxTextCard {
     padding: 4.3%;
-    background-color: #EEEEEE;
-    border: 1px solid #CCCCCC;
-    border-radius: 6px;
-    margin-bottom: 7.6%;
+    border-bottom: 1px dashed #CCCCCC;
 }
 
 .inboxSubmitBtn {
     background-color: #32BDD2;
-    box-shadow: 0px 3px 6px #00000029;
+    box-shadow: 0px 0px 8px #32BDD2;
     border-radius: 1.36vw;
-    padding: 7px 20px;
+    padding: 0.68vw 1.95vw;
     font-family: 'Roboto';
     font-size: 1.17vw;
     font-weight: 700;
@@ -304,20 +301,28 @@
     border: 0;
 }
 
-.inboxRowBlack {
-    border-bottom: 0.5px solid #CCCCCC;
-    padding-bottom: 6.3%;
-    position: relative;
+.msgList {
+    padding: 5.8% 5.1%;
 }
 
-.inboxRow {
-    border-bottom: 0.5px solid #CCCCCC;
-    padding-top: 7.6%;
-    padding-bottom: 6.3%;
+.msgRow {
+    padding: 4% 5.7% 4% 2.9%;
+    box-shadow: 0 0 0.58vw #00000029;
+    margin-bottom: 7.3%;
 }
 
-.splInboxRow {
-    padding-top: 7.6%;
+.lastmsgRow {
+    margin-bottom: 0;
+}
+
+.notiColumn {
+    width: 6%;
+    float: left;
+}
+
+.msgColumn {
+    width: 94%;
+    float: right;
 }
 
 .nameContent {
@@ -329,14 +334,17 @@
 }
 
 .inboxTextBox {
-    box-shadow: 0px 0px 10px #00000029;
+    box-shadow: 0 0 0.97vw #00000029;
     width: 100%;
+    height: 9.5vw;
+    border: 0;
     margin: 2.1% 0;
 }
 
 .contentDateTime {
     font-family: 'Roboto';
     font-size: 1.17vw;
+    font-weight: 400;
     letter-spacing: 0.6px;
     color: #747474;
     padding-bottom: 2.5%;
@@ -352,9 +360,9 @@
 .blackBox {
     padding: 7.3% 0 0 5.8%;
     background-color: #000000;
-    border-radius: 7px;
+    border-radius: 0.68vw;
     opacity: 0.75;
-    letter-spacing: 1.4px;
+    letter-spacing: 1.0.39vw;
     color: #FFFFFF;
     font-family: 'Roboto';
     font-size: 1.36vw;
@@ -366,8 +374,8 @@
 }
 
 .redBar {
-    border-top: 3px solid #FF0000;
-    padding-top: 3px;
+    border-top: 0.29vw solid #FF0000;
+    padding-top: 0.29vw;
 }
 
 .whiteUL {
@@ -380,6 +388,14 @@
 
 .none {
     display: none;
+}
+
+.hideNoti {
+    visibility: hidden;
+}
+
+.unreadMsg {
+    font-weight: 700;
 }
 
 
@@ -405,7 +421,7 @@
 
 .focused {
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 6px #3B3B3B29;
+    box-shadow: 0 0 0.58vw #3B3B3B29;
 }
 
 .home {
@@ -445,131 +461,4 @@
     display: block;
     margin: auto;
     cursor: pointer;
-}
-
-
-/* --------------------------media queries----------------- */
-
-@media screen and (max-device-width: 768px) {
-    .notiIcon {
-        width: 24px;
-        height: 24px;
-    }
-    .userImage {
-        width: 24px;
-        height: 24px;
-    }
-    .dropIcon {
-        width: 6.75px;
-        height: 6.75px;
-    }
-    .returnImage {
-        width: 24px;
-        height: 24px;
-    }
-    .inboxImage {
-        width: 26.2px;
-        height: 26.2px;
-    }
-    .dot {
-        height: 7.4px;
-        width: 7.4px;
-    }
-    .dropdown {
-        width: 7.4px;
-        height: 7.4px;
-    }
-}
-
-@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
-    .notiIcon {
-        width: 45px;
-        height: 45px;
-    }
-    .userImage {
-        width: 45px;
-        height: 45px;
-    }
-    .dropIcon {
-        width: 12.7px;
-        height: 12.7px;
-    }
-    .returnImage {
-        width: 45px;
-        height: 45px;
-    }
-    .inboxImage {
-        width: 49px;
-        height: 49px;
-    }
-    .dot {
-        height: 14px;
-        width: 14px;
-    }
-    .dropdown {
-        width: 14px;
-        height: 14px;
-    }
-}
-
-@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
-    .notiIcon {
-        width: 60px;
-        height: 60px;
-    }
-    .userImage {
-        width: 60px;
-        height: 60px;
-    }
-    .dropIcon {
-        width: 17px;
-        height: 17px;
-    }
-    .returnImage {
-        width: 60px;
-        height: 60px;
-    }
-    .inboxImage {
-        width: 65.4px;
-        height: 65.4px;
-    }
-    .dot {
-        height: 18.6px;
-        width: 18.6px;
-    }
-    .dropdown {
-        width: 18.6px;
-        height: 18.6px;
-    }
-}
-
-@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
-    .notiIcon {
-        width: 80px;
-        height: 80px;
-    }
-    .userImage {
-        width: 80px;
-        height: 80px;
-    }
-    .dropIcon {
-        width: 22.5px;
-        height: 22.5px;
-    }
-    .returnImage {
-        width: 80px;
-        height: 80px;
-    }
-    .inboxImage {
-        width: 87.3px;
-        height: 87.3px;
-    }
-    .dot {
-        height: 25px;
-        width: 25px;
-    }
-    .dropdown {
-        width: 25px;
-        height: 25px;
-    }
 }

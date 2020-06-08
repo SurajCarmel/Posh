@@ -84,7 +84,7 @@ function nextNav(dest) {
 function imageclick() {
     var path = document.getElementById("dark");
     if (path.alt == "like") {
-        path.src = "../ASSETS/Artboard 1 copy 8@16x.png";
+        path.src = "../ASSETS/liked.png";
         path.alt = "dislike";
     } else {
         path.src = "../ASSETS/like.png";

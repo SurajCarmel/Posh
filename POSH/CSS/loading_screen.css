@@ -17,6 +17,7 @@
 .loadingScreen {
     height: 100vh;
     position: relative;
+    background-color: #000000B2;
 }
 
 .loadingImage {

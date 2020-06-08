@@ -11,7 +11,7 @@
 .listHeader {
     padding: 1.3%;
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 4px #00000029;
+    box-shadow: 0 0 0.39vw #00000029;
 }
 
 .headerLeftPart {
@@ -36,15 +36,13 @@
 }
 
 .notiIcon {
-    width: 32px;
-    height: 32px;
-    margin-right: 27px;
+    width: 3.125vw;
+    margin-right: 2.63vw;
 }
 
 .userImage {
-    width: 32px;
-    height: 32px;
-    margin-right: 9px;
+    width: 3.125vw;
+    margin-right: 0.88vw;
 }
 
 .userName {
@@ -52,12 +50,11 @@
     font-size: 1.17vw;
     letter-spacing: 0.9px;
     color: #595959;
-    margin-right: 10px;
+    margin-right: 0.97vw;
 }
 
 .dropIcon {
-    width: 9px;
-    height: 9px;
+    width: 0.88vw;
 }
 
 .clear {
@@ -65,59 +62,51 @@
 }
 
 .formContainer {
-    margin: 2.5%;
-    display: flex;
-    flex-direction: row;
-    box-shadow: 0px 0px 4px #00000029;
+    padding: 2.5%;
 }
 
-.leftContainer {
+.formContent {
+    box-shadow: 0 0 0.39vw #00000029;
     background-color: #FFFFFF;
-    width: 5%;
-    padding-top: 4%;
+}
+
+.formHeader {
+    display: flex;
+    align-items: center;
+    padding: 3.6%;
+    border-bottom: 0.5px solid #CCCCCC;
 }
 
 .headingContainer {
-    text-align: center;
-    padding-bottom: 50%;
+    width: 80%;
 }
 
 .complaintHeading {
-    text-align: left;
-    font-size: 1.36vw;
-    font-family: 'Anton';
+    font: 400 1.36vw "Anton";
     letter-spacing: 2.8px;
     color: #000000;
-    writing-mode: vertical-rl;
-    transform: rotate(-180deg);
 }
 
 .svgContainer {
-    width: 45%;
-    margin: auto;
+    width: 20%;
 }
 
 .circle_color {
-    font-size: 1.17vw;
+    font-size: 0.97vw;
     font-family: 'Roboto';
     letter-spacing: 0;
     fill: #fff;
 }
 
 .circle_without_color {
-    font-size: 1.17vw;
+    font-size: 0.97vw;
     font-family: 'Roboto';
     letter-spacing: 0;
     fill: #d3d3d3;
 }
 
-.rightContainer {
-    width: 95%;
-    background-color: #FCFCFC;
-}
-
 .content {
-    padding: 5%;
+    padding: 3.6%;
 }
 
 .heading {
@@ -142,136 +131,100 @@
     padding-top: 4%;
 }
 
+.mandatory {
+    font: 400 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.12px;
+    color: #E65959;
+}
+
 .fullBox {
     width: 60%;
-    border: 1px solid #CECECE;
-    border-radius: 4px;
     padding: 0.5vw;
+    box-shadow: 0 0.29vw 0.58vw #00000029;
+    border: 1px solid #F7F4F4;
+    border-radius: 0.97vw;
+    height: 4.4vw;
+}
+
+.address {
+    height: 9.76vw;
 }
 
 .halfBox {
     width: 30%;
     border: 1px solid #CECECE;
-    border-radius: 4px;
+    border-radius: 0.39vw;
     padding: 0.5vw;
 }
 
 .alertBox {
-    background-color: #FFDBD0;
-    padding: 5px 30px;
+    padding: 1% 2.82% 0 2.82%;
     width: 60%;
-    display: none;
-}
-
-.alertBoxHalf {
-    background-color: #FFDBD0;
-    padding: 5px 30px;
-    width: 30%;
-    display: none;
 }
 
 .alertImage {
-    width: 14px;
-    height: 14px;
+    width: 1.36vw;
 }
 
 .alertText {
-    font-family: 'Lato';
-    font-size: 1.17vw;
-    letter-spacing: 0.6px;
-    color: #772309;
-    padding-left: 15px;
+    font: 300 1.07vw/1.26vw "Lato";
+    letter-spacing: 0.55px;
+    color: #E65959;
+    padding-left: 0.65vw;
+}
+
+.dot {
+    width: 0.78vw;
+    height: 0.78vw;
+    background-color: #E65959;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .bottRow {
-    margin-top: 10.3%;
+    margin-top: 1.54%;
+    padding: 2.1% 3.6%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 6px #00000033;
 }
 
 .bottomLeftRow {
     width: 50%;
-    float: left;
 }
 
 .saveDraft {
     border-bottom: 1px solid #595959;
-    ;
     font-family: 'Lato';
     font-size: 1.17vw;
     font-weight: 900;
     letter-spacing: 1.2px;
     color: #595959;
+    vertical-align: middle;
 }
 
 .bottomRightRow {
     width: 50%;
-    float: right;
 }
 
 .nextBtn {
     text-align: center;
-    font-family: 'Lato';
-    font-size: 1.07vw;
-    font-weight: 900;
-    letter-spacing: 1.1px;
+    font: 700 1.17vw/1.36vw "Roboto";
+    letter-spacing: 1.2px;
     color: #FFFFFF;
-    background-color: #32BDD2;
-    border-radius: 2.83vw;
+    box-shadow: 0 0 0.78vw #32BDD2;
+    border-radius: 2.89vw;
     border: 0;
-    padding: 8px 18px;
+    background-color: #32BDD2;
+    padding: 1.64% 3.7%;
     float: right;
-    margin-right: 12.5%;
 }
 
 .btnIcon {
-    width: 10px;
-    height: 10px;
-    margin-left: 10px;
+    width: 0.97vw;
+    margin-left: 0.97vw;
 }
 
 .clear {
     clear: both;
-}
-
-@media screen and (max-device-width: 768px) {
-    .alertImage {
-        width: 10.4px;
-        height: 10.4px;
-    }
-    .btnIcon {
-        width: 7.4px;
-        height: 7.4px;
-    }
-}
-
-@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
-    .alertImage {
-        width: 19.6px;
-        height: 19.6px;
-    }
-    .btnIcon {
-        width: 14px;
-        height: 14px;
-    }
-}
-
-@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
-    .alertImage {
-        width: 26px;
-        height: 26px;
-    }
-    .btnIcon {
-        width: 18.6px;
-        height: 18.6px;
-    }
-}
-
-@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
-    .alertImage {
-        width: 35px;
-        height: 35px;
-    }
-    .btnIcon {
-        width: 24.8px;
-        height: 24.8px;
-    }
 }

@@ -113,7 +113,9 @@
 }
 
 .explore img {
-    width: 28px;
+    width: 3.71vw;
+    box-shadow: 0px 0px 8px #32BDD2;
+    border-radius: 50%;
 }
 
 .explore {
@@ -252,6 +254,7 @@ textarea {
     cursor: pointer;
     background-color: #32BDD2;
     border: 1px solid #32BDD2;
+    box-shadow: 0 0 0.58vw #32BDD2;
     border-radius: 8px;
     margin-top: 2%;
     font-weight: 600;
@@ -268,6 +271,12 @@ textarea {
     letter-spacing: 0.6px;
     color: #505050;
     padding-bottom: 3.5%;
+}
+
+#review {
+    border: 0;
+    box-shadow: 0 0 0.58vw #00000029;
+    height: 7.5vw;
 }
 
 .comment_section {
@@ -375,7 +384,6 @@ textarea {
 }
 
 @media only screen and (max-width: 768px) {
-
     .profile_pic img {
         width: 24px;
     }
@@ -396,7 +404,6 @@ textarea {
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
- 
     .profile_pic img {
         width: 45px;
     }
@@ -422,7 +429,6 @@ textarea {
         width: 39.3px;
         height: 38.5px;
     }
-  
     .like img {
         width: 78px;
         height: 78px;
@@ -431,7 +437,6 @@ textarea {
         width: 78px;
         height: 78px;
     }
-  
     .left_part img {
         width: 80px;
         height: 80px;
@@ -448,9 +453,7 @@ textarea {
 }
 
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
- 
-
-    .notification img{
+    .notification img {
         width: 60px;
     }
     .profile_pic img {
@@ -468,7 +471,6 @@ textarea {
         width: 52px;
         height: 52px;
     }
-   
     .like img {
         width: 103.8px;
         height: 103.5px;
@@ -477,7 +479,6 @@ textarea {
         width: 103.5px;
         height: 103.5px;
     }
-  
     .left_part img {
         width: 106px;
         height: 106%;
@@ -494,7 +495,6 @@ textarea {
 }
 
 @media only screen and (min-width: 1921px) and (max-width: 2560px) {
-   
     .profile_pic img {
         width: 80px;
     }
@@ -505,7 +505,6 @@ textarea {
         width: 22px;
         height: 22px;
     }
-  
     .group img {
         width: 750px;
         height: 651px;
@@ -514,7 +513,6 @@ textarea {
         width: 70px;
         height: 70px;
     }
-   
     .like img {
         width: 138px;
         height: 138px;
@@ -523,7 +521,6 @@ textarea {
         width: 138px;
         height: 138px;
     }
-    
     .left_part img {
         width: 142px;
         height: 142px;

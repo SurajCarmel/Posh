@@ -6,7 +6,7 @@
     
     .header_container {
         width: 100%;
-        box-shadow: 0px 0px 4px #00000029;
+        box-shadow: 0 0 0.39vw #00000029;
         padding: 1.17% 2.44%;
     }
     
@@ -38,7 +38,7 @@
     }
     
     .notification img {
-        width: 40px;
+        width: 3.9vw;
     }
     
     .notification {
@@ -54,15 +54,15 @@
     }
     
     .down_icon img {
-        width: 12px;
+        width: 1.17vw;
     }
     
     .profile_pic img {
-        width: 40px;
+        width: 3.9vw;
     }
     
     .down_icon {
-        width: 9.32px;
+        width: 0.97vw;
         vertical-align: middle;
     }
     
@@ -85,15 +85,15 @@
     }
     
     .search_bar img {
-        width: 20px;
+        width: 1.95vw;
         vertical-align: middle;
     }
     
     .search_bar input {
-        border: 0px;
+        border: 0;
         margin: 1.5%;
         width: 92%;
-        font: 400 1.17vw Lato;
+        font: 400 1.17vw 'Lato';
     }
     
     .search {
@@ -150,70 +150,4 @@
         font-weight: bold;
         padding-top: 2.26%;
         padding-bottom: 4.33%;
-    }
-    
-    @media only screen and (max-width: 768px) {
-        .profile_pic img {
-            width: 24px;
-        }
-        .notification img {
-            width: 24px;
-        }
-        .down_icon img {
-            width: 10px;
-        }
-        .down_icon {
-            width: 6.5px;
-        }
-        .search_bar img {
-            width: 15px;
-        }
-    }
-    
-    @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-        .profile_pic img {
-            width: 45px;
-        }
-        .notification img {
-            width: 45px;
-        }
-        .down_icon img {
-            width: 17px;
-        }
-        .down_icon {
-            width: 12.7px;
-        }
-        .search_bar img {
-            width: 20px;
-        }
-    }
-    
-    @media only screen and (min-width: 1441px) and (max-width: 1920px) {
-        .profile_pic img {
-            width: 60px;
-        }
-        .notification img {
-            width: 60px;
-        }
-        .down_icon {
-            width: 17px;
-        }
-        .search_bar img {
-            width: 30px;
-        }
-    }
-    
-    @media only screen and (min-width: 1921px) and (max-width: 2560px) {
-        .profile_pic img {
-            width: 80px;
-        }
-        .notification img {
-            width: 80px;
-        }
-        .down_icon {
-            width: 22.5px;
-        }
-        .search_bar img {
-            width: 35px;
-        }
     }

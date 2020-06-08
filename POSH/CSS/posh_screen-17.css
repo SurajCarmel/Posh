@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.opaqueBackground {
+    width: 100%;
+    height: 100vh;
+    background-color: #000000B2;
+    position: relative;
+}
+
+.chargePopup {
+    background-color: #FFFFFF;
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 3.41vw #00000029;
+    border-radius: 2.44vw;
+}
+
+.imageHolder {
+    padding: 2.9% 2.9% 1.01%;
+}
+
+#closePop {
+    width: 3.71vw;
+    float: right;
+    box-shadow: 0 0 0.97vw #00000029;
+    border: 0.5px solid #EFEFEF;
+    border-radius: 50%;
+}
+
+.popupBody {
+    padding: 0 7.12%;
+}
+
+.popupHead {
+    font: 900 1.56vw/1.85vw "Lato";
+    letter-spacing: 0.8px;
+    color: #5A5A5A;
+}
+
+.chargeDate {
+    width: 50%;
+    box-shadow: 0 0.29vw 0.78vw #00000029;
+    border: 1px solid #F7F4F4;
+    border-radius: 0.97vw;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin: 7.7% 0 6%;
+}
+
+.dateBox {
+    width: 82%;
+}
+
+#dateSlot {
+    width: 100%;
+    font: 300 1.46vw/1.46vw "Lato";
+    letter-spacing: 0.6px;
+    color: #5A5A5A;
+    border: 0;
+    padding: 0 0.97vw;
+}
+
+.dateIconBox {
+    width: 18%;
+    border-left: 1px solid #F7F4F4;
+    padding: 0.97vw 0;
+}
+
+#calenderIcon {
+    width: 2.05vw;
+    display: block;
+    margin: auto;
+}
+
+.chargeNote {
+    margin-bottom: 13.8%;
+}
+
+#chargeDesc {
+    box-shadow: 0 0.29vw 0.58vw #00000029;
+    border: 1px solid #F7F4F4;
+    border-radius: 10px;
+    padding: 3.44% 4.3%;
+    font: 300 1.17vw/1.46vw "Lato";
+    letter-spacing: 0.6px;
+    color: #B5B5B5;
+    width: 100%;
+}
+
+.bottRow {
+    margin-top: 1.54%;
+    padding: 2.7% 7.12%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 6px #00000033;
+}
+
+.bottomLeftRow {
+    width: 50%;
+}
+
+.saveDraft {
+    font: 700 1.36vw/1.66 "Lato";
+    letter-spacing: 1.4px;
+    color: #5A5A5A;
+    border-bottom: 1px solid #5A5A5A;
+    padding-bottom: 4px;
+}
+
+.bottomRightRow {
+    width: 50%;
+}
+
+.nextBtn {
+    text-align: center;
+    font: 700 1.36vw/1.66vw "Lato";
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    box-shadow: 0 0 0.78vw #32BDD2;
+    border-radius: 2.89vw;
+    border: 0;
+    background-color: #32BDD2;
+    padding: 1.64% 3.7%;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
