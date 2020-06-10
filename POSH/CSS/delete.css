@@ -6,7 +6,6 @@
 
 .delete_parent {
     background-color: #000000B2;
-    display: none;
     position: fixed;
     height: 100vh;
     top: 0;
@@ -104,90 +103,4 @@
     border: 1px solid #32BDD2;
     cursor: pointer;
     font-weight: 600;
-}
-
-.clear {
-    clear: both;
-}
-
-.left {
-    width: 50%;
-    float: left;
-}
-
-.right {
-    width: 50%;
-    float: right;
-}
-
-@media only screen and (max-width: 768px) {
-    .icon img {
-        width: 30px;
-    }
-    .delete {
-        font-size: 13px;
-    }
-    .conferm {
-        font-size: 11px;
-    }
-    .delete_btn {
-        font-size: 10px;
-    }
-    .no_btn {
-        font-size: 10px;
-    }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .icon img {
-        width: 32px;
-    }
-    .delete {
-        font-size: 16px;
-    }
-    .conferm {
-        font-size: 14px;
-    }
-    .delete_btn {
-        font-size: 15px;
-    }
-    .no_btn {
-        font-size: 15px;
-    }
-}
-
-@media only screen and (min-width: 1025px) and (max-width: 1440px) {
-    .icon img {
-        width: 55px;
-    }
-    .delete {
-        font-size: 25px;
-    }
-    .conferm {
-        font-size: 17px;
-    }
-    .delete_btn {
-        font-size: 15px;
-    }
-    .no_btn {
-        font-size: 15px;
-    }
-}
-
-@media only screen and (min-width: 1921px) and (max-width: 2560px) {
-    .icon img {
-        width: 125px;
-    }
-    .delete {
-        font-size: 50px;
-    }
-    .conferm {
-        font-size: 40px;
-    }
-    .delete_btn {
-        font-size: 38px;
-    }
-    .no_btn {
-        font-size: 38px;
-    }
 }

@@ -2,148 +2,137 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
 }
 
-.add {
+.opaqueBackground {
+    height: 150vh;
     background-color: #000000B2;
-    display: none;
-    position: fixed;
-    height: 100vh;
-    top: 0;
-}
-
-.parent_add {
-    width: 100vw;
-    height: 100vh;
+    position: relative;
 }
 
 .addContainer {
     background-color: #FFFFFF;
-    box-shadow: 0px 0px 35px #00000029;
-    border-radius: 35px;
-    width: 67.5%;
+    width: 65vw;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0 0 3.41vw #00000029;
+    border-radius: 2.44vw;
 }
 
-.topRow {
-    padding: 2.7%;
+.imageHolder {
+    padding: 2.9% 2.9% 1.01%;
 }
 
-.cancelIcon {
-    width: 38px;
-    height: 38px;
+.closePop {
+    width: 3.71vw;
     float: right;
-    border: 0;
+    box-shadow: 0 0 0.97vw #00000029;
+    border: 0.5px solid #EFEFEF;
     border-radius: 50%;
-    box-shadow: 0px 0px 8px #00000029;
 }
 
 .middleRow {
-    padding: 0 6.8%;
+    padding: 0 6.8% 7.8%;
+}
+
+.spacing {
+    padding-top: 4%;
 }
 
 .heading {
-    font-family: 'Lato';
-    font-size: 1.56vw;
-    font-weight: 900;
+    font: 900 1.56vw/1.85vw "Lato";
     letter-spacing: 0.8px;
     color: #5A5A5A;
-    padding-bottom: 5%;
+    padding-bottom: 7.22%;
 }
 
-.parameters {
-    font-family: 'Lato';
-    font-size: 1.17vw;
+.spacing {
+    font: 300 1.17vw/1.46vw "Lato";
     letter-spacing: 0.6px;
-    color: #595959;
-    padding-bottom: 1%;
+    color: #747474;
 }
 
-.inputFull {
-    width: 65%;
-    margin-bottom: 4%;
-    border: 1px solid #CECECE;
-    border-radius: 4px;
-    padding: 1%;
+.mandatory {
+    font: 400 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.12px;
+    color: #E65959;
 }
 
-.inputHalf {
+.fullBox {
+    width: 80%;
+    padding: 0.5vw;
+    box-shadow: 0 0.29vw 0.58vw #00000029;
+    border: 1px solid #F7F4F4;
+    border-radius: 0.97vw;
+    height: 4.4vw;
+    margin-top: 0.68vw;
+    font: 300 1.17vw/1.46vw 'Lato';
+    letter-spacing: 0.6px;
+    color: #747474;
+}
+
+.alertBox {
+    padding: 1% 2.82% 0 2.82%;
+    width: 60%;
+}
+
+.alertText {
+    font: 300 1.07vw/1.26vw "Lato";
+    letter-spacing: 0.55px;
+    color: #E65959;
+    padding-left: 0.65vw;
+}
+
+.redDot {
+    width: 0.68vw;
+    height: 0.68vw;
+    background-color: #E65959;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.bottRow {
+    margin-top: 1.54%;
+    padding: 2.7% 7.12%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 6px #00000033;
+    border-bottom-left-radius: 2.44vw;
+    border-bottom-right-radius: 2.44vw;
+}
+
+.bottomLeftRow {
     width: 50%;
-    margin-bottom: 4%;
-    border: 1px solid #CECECE;
-    border-radius: 4px;
-    padding: 1%;
 }
 
-.formRow {}
-
-.bottomRow {
-    padding: 9% 6.8% 4% 6.8%;
-}
-
-.leftBottom {
-    width: 50%;
-    float: left;
-}
-
-.cancel {
-    font-family: 'Lato';
-    font-size: 1.36vw;
-    font-weight: 700;
+.cancelBtn {
+    font: 700 1.36vw/1.66vw "Lato";
     letter-spacing: 1.4px;
     color: #5A5A5A;
-    padding-bottom: 5px;
     border-bottom: 1px solid #5A5A5A;
+    padding-bottom: 0.39vw;
 }
 
-.rightBottom {
+.bottomRightRow {
     width: 50%;
-    float: right;
 }
 
-.saveButton {
-    border-radius: 8px;
+.saveBtn {
+    text-align: center;
+    font: 700 1.36vw/1.66vw "Lato";
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    box-shadow: 0 0 0.78vw #32BDD2;
+    border-radius: 2.89vw;
     border: 0;
     background-color: #32BDD2;
-    color: #FFFFFF;
-    font-family: 'Lato';
-    font-size: 1.36vw;
-    font-weight: 700;
-    padding: 14px 50px;
+    padding: 2.3% 8.6%;
     float: right;
 }
 
 .clear {
     clear: both;
-}
-
-@media screen and (max-device-width: 768px) {
-    .cancelIcon {
-        width: 28.5px;
-        height: 28.5px;
-    }
-}
-
-@media screen and (min-device-width: 1025px) and (max-device-width: 1440px) {
-    .cancelIcon {
-        width: 53.4px;
-        height: 53.4px;
-    }
-}
-
-@media screen and (min-device-width: 1441px) and (max-device-width: 1920px) {
-    .cancelIcon {
-        width: 71.2px;
-        height: 71.2px;
-    }
-}
-
-@media screen and (min-device-width: 1921px) and (max-device-width: 2560px) {
-    .cancelIcon {
-        width: 95px;
-        height: 95px;
-    }
 }

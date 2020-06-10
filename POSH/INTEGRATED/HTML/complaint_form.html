@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/posh.css">
+    <title>posh screen 16</title>
+</head>
+
+<body>
+    <div class="form_parent">
+        <div class="listHeader">
+            <div class="headerLeftPart">
+                <span class="posh">
+                    POSH
+                </span>
+            </div>
+            <div class="headerRightPart">
+                <div>
+                    <img class="notiIcon" src="../IMAGES/notification-small.png" alt="">
+                </div>
+                <div>
+                    <img class="userImage" src="../IMAGES/profile-pic.png" alt="">
+                </div>
+                <div>
+                    <span class="userName">Lucy Carter</span>
+                </div>
+                <div>
+                    <img class="dropIcon" src="../IMAGES/cheveron-down-grey.png" alt="">
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="formContainer">
+            <div class="formContent">
+                <div class="formHeader">
+                    <div class="headingContainer">
+                        <span class="complaintHeading">COMPLAINT</span>
+                    </div>
+                    <div class="svgContainer">
+                        <div>
+                            <svg viewBox="0 0 26 4.5">
+                                <circle cx= "2" cy="2.3" r="1.9" stroke="#D3D3D3" stroke-width="0.2" fill="#32BDD2" />
+                                <circle cx="13" cy="2.3" r="1.9" stroke="#D3D3D3" stroke-width="0.2" fill="#fff" />
+                                <circle cx="23.8" cy="2.3" r="1.9" stroke="#D3D3D3" stroke-width="0.2" fill="#FFF" />
+        
+                                <path stroke-dasharray="1" d="M 3.8 2.2 L 11 2.2" stroke="#D3D3D3" stroke-width="0.3" />
+                                <path stroke-dasharray="1" d="M 14.9 2.2 L 22 2.2" stroke="#D3D3D3" stroke-width="0.3" />
+        
+                                <text class="circle_color" x="1.5" y="3">1</text>
+                                <text class="circle_without_color" x="12.4" y="3">2</text>
+                                <text class="circle_without_color" x="23.2" y="3">3</text>
+                              </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="form_heading">
+                            COMPLAINANT
+                        </p>
+                    </div>
+                    <div>
+                        <div class="spacing">
+                            <p class="commonText">
+                                FULL NAME <span class="mandatory"> *</span>
+                            </p>
+                            <input class="fullBox" type="text">
+                            <div class="alertBox">
+                                <span class="error_dot"></span><span class="alertText"> This field is required</span>
+                            </div>
+                        </div>
+                        <div class="spacing">
+                            <p class="commonText">
+                                ADDRESS <span class="mandatory"> *</span>
+                            </p>
+                            <textarea class="fullBox address" name="" cols="30" rows="4"></textarea>
+                            <div class="alertBox">
+                                <span class="error_dot"></span><span class="alertText"> This field is required</span>
+                            </div>
+                        </div>
+                        <div class="spacing">
+                            <p class="commonText">
+                                MOBILE <span class="mandatory"> *</span>
+                            </p>
+                            <input class="fullBox" type="text">
+                            <div class="alertBox">
+                                <span class="error_dot"></span><span class="alertText"> This field is required</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="form_heading spacing">
+                            RESPONDENT
+                        </p>
+                    </div>
+                    <div>
+                        <div class="spacing">
+                            <p class="commonText">
+                                FULL NAME <span class="mandatory"> *</span>
+                            </p>
+                            <input class="fullBox" type="text">
+                            <div class="alertBox">
+                                <span class="error_dot"></span><span class="alertText"> This field is required</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spacing">
+                        <p class="commonText">
+                            ADDRESS <span class="mandatory"> *</span>
+                        </p>
+                        <textarea class="fullBox address" name="" cols="30" rows="4"></textarea>
+                        <div class="alertBox">
+                            <span class="error_dot"></span><span class="alertText"> This field is required</span>
+                        </div>
+                    </div>
+                    <div class="spacing">
+                        <p class="commonText">
+                            MOBILE <span class="mandatory"> *</span>
+                        </p>
+                        <input class="fullBox" type="text">
+                        <div class="alertBox">
+                            <span class="error_dot"></span><span class="alertText"> This field is required</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form_bottRow">
+                    <div class="bottomLeftRow">
+                        <span class="saveDraft" onclick="nextNav('posh_screen-20.html')">SAVE DRAFT</span>
+                    </div>
+                    <div class="bottomRightRow">
+                        <button onclick="show('alertBox','alertBoxHalf')" ondblclick="nextNav('posh_screen-22.html')" class="nextBtn">NEXT<img class="btnIcon" src="../IMAGES/cheveron-right-white.png" alt=""></button>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/navigation.js"></script>
+</body>
+
+</html>

@@ -6,7 +6,7 @@
 
 .cert_parent {
     background-color: #000000B2;
-    display: none;
+    /* display: none; */
     position: fixed;
     height: 100vh;
     top: 0;

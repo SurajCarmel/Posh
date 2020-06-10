@@ -462,3 +462,410 @@
     margin: auto;
     cursor: pointer;
 }
+
+
+/* ==================================== report ============================================= */
+
+.reportTitle {
+    font: 700 1.36vw/1.66vw "Lato";
+    letter-spacing: 1.4px;
+    color: #505050;
+    padding-bottom: 6.29%;
+}
+
+.underDev {
+    font: 300 3vw "Lato";
+    letter-spacing: 4.1px;
+    color: #32BDD2;
+    padding-bottom: 28%;
+}
+
+
+/* =================================== 34 =========================================== */
+
+.text {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    padding-top: 2.54%;
+    line-height: 1.7;
+}
+
+.lorem_text {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    line-height: 1.7;
+    padding-top: 3.6%;
+}
+
+.may {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #747474;
+}
+
+.heading {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #464646;
+    font-weight: bold;
+    padding-top: 2.06%
+}
+
+.lorem {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    line-height: 1.7;
+    padding-top: 0.8%;
+}
+
+.append_charges {
+    padding: 01.6% 2.6%;
+    margin-top: 3.7%;
+}
+
+.witness_charges {
+    padding: 01.6% 2.6%;
+    background-color: #EEEEEE;
+}
+
+.evidence_table {
+    padding-top: 7.2%;
+}
+
+.append {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+    vertical-align: middle;
+    padding: 0% 1% .5%;
+}
+
+.pluse_icon {
+    width: 26px;
+    height: 26px;
+    vertical-align: middle;
+}
+
+.error_msg {
+    background: #F0F0F0;
+    border-radius: 50px;
+    padding: 01% 02%;
+    margin-top: 1.79%;
+    width: 38%;
+}
+
+.error_icon {
+    width: 14.85px;
+    height: 13.5px;
+    vertical-align: middle;
+}
+
+.msg {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #CB1720;
+    vertical-align: middle;
+    padding-left: 01%;
+}
+
+.evidence_section {
+    padding-bottom: 7.40%;
+    padding-top: 10.8%;
+}
+
+.witness_section {
+    padding-bottom: 5.21%;
+}
+
+.evidence_container {
+    padding: 3% 2%;
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+}
+
+.lorem_text_02 {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    line-height: 1.7;
+    padding-top: 2.90%;
+}
+
+.append_charges_02 {
+    padding: 01.6% 2.6%;
+    margin-top: 1.13%;
+}
+
+.append_container {
+    padding: 1% 2%;
+    background-color: #EEEEEE;
+}
+
+.drop_down {
+    width: 9.39px;
+    height: 5.85px;
+    vertical-align: middle;
+}
+
+.evidence_description {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.evidence {
+    width: 12%;
+    background-color: #EEEEEE;
+    border-top-left-radius: 15px;
+    padding: 1%;
+}
+
+.witnessTag {
+    background-color: #EEEEEE;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    padding: 1.2% 2.7%;
+    border-top-left-radius: 1.17vw;
+    display: inline-block;
+}
+
+.borderContainer {
+    border: 1px solid #CCCCCC;
+}
+
+.yellowCard {
+    background-color: #EEEEEE;
+    padding: 4% 2.7%;
+}
+
+.witDescription {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 1%;
+}
+
+.addIcons {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.addLabel {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    color: #000000;
+    padding-left: 1.2%;
+}
+
+.row {
+    padding: 4.6% 2.7%;
+}
+
+.bodBot {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.editIcons {
+    width: 34px;
+    height: 34px;
+}
+
+.deleteIcons {
+    width: 34px;
+    height: 34px;
+    margin-left: 2%;
+}
+
+.rightColumn {
+    float: right;
+    width: 50%;
+    text-align: right;
+    visibility: hidden;
+}
+
+.witName {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+
+.witDetails {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+
+.parent {
+    padding-bottom: 7.28%;
+    padding-top: 7.28%;
+}
+
+.evidenceHeading {
+    background-color: #EEEEEE;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    padding: 1.2% 2.7%;
+    border-top-left-radius: 12px;
+    display: inline-block;
+}
+
+.evidenceDescription {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 1%;
+}
+
+.yellowCard {
+    background-color: #EEEEEE;
+    padding: 4% 2.7%;
+}
+
+.borderBox {
+    border: 1px solid #CCCCCC;
+}
+
+.rows {
+    padding: 4.4% 2.7%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.leftColumns {
+    width: 75%;
+    float: left;
+    text-align: left;
+}
+
+.rightColumns {
+    width: 25%;
+    float: right;
+    text-align: right;
+}
+
+.latoReg {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.latoBold {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #747474;
+    padding-bottom: 2%;
+}
+
+.underline {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #595959;
+}
+
+.appendparent {
+    padding-top: 4.24%;
+}
+
+.appendChargeText {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0.7px;
+    color: #505050;
+    margin-left: 10px;
+}
+
+.greyTab {
+    padding: 3.5% 6%;
+    background-color: #F4F8FA;
+}
+
+.barAppend {
+    display: flex;
+}
+
+.appendImage {
+    width: fit-content;
+    background-color: #FFFFFF;
+    border-top-left-radius: 5.27vw;
+    border-bottom-left-radius: 5.27vw;
+}
+
+.profilePic {
+    width: 34px;
+    vertical-align: middle;
+}
+
+.appendBox {
+    width: 81.25%;
+}
+
+.textLine {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.appendSubmit {
+    width: 12.5%;
+}
+
+.submitButton {
+    background-color: #32BDD2;
+    border-radius: 0px 5.27vw 5.27vw 0px;
+    border: 0;
+    color: #FFFFFF;
+    letter-spacing: 1.2px;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+}
+
+.border {
+    border: 0.5px solid #CCCCCC;
+}
+
+.noTopBorder {
+    border: 0.5px solid #CCCCCC;
+    border-top: 0;
+}
+
+.noBottomBorder {
+    border: 0.5px solid #CCCCCC;
+    border-bottom: 0;
+}

@@ -1,0 +1,5896 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.pageParent {
+    background-color: #F6F8F9;
+}
+
+.listHeader {
+    padding: 1.3%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 0.39vw #00000029;
+}
+
+.headerLeftPart {
+    width: 75%;
+    float: left;
+}
+
+.posh {
+    font-family: 'Anton';
+    font-size: 2.34vw;
+    letter-spacing: 1.1px;
+    color: #000000;
+}
+
+.headerRightPart {
+    width: 25%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.notiIcon {
+    width: 3.125vw;
+    margin-right: 2.63vw;
+}
+
+.userImage {
+    width: 3.125vw;
+    margin-right: 0.88vw;
+}
+
+.userName {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    letter-spacing: 0.9px;
+    color: #595959;
+    margin-right: 0.97vw;
+    font-weight: 500;
+}
+
+.dropIcon {
+    width: 0.88vw;
+}
+
+.clear {
+    clear: both;
+}
+
+.paddedContainer {
+    padding: 0 13.6% 5.5%;
+    position: relative;
+}
+
+
+/* ----------------------Top Caraousel--------------------------- */
+
+.topCarousel {
+    position: relative;
+    height: 38vw;
+    width: 100%;
+}
+
+.carouselImage {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%);
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.4%;
+    position: absolute;
+    top: 80%;
+    right: 4%;
+    z-index: 1;
+}
+
+.prevSign {
+    width: 1.17vw;
+    cursor: pointer;
+}
+
+.counterText {
+    font: 700 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 1.2px;
+    color: #DBC5C5;
+    margin: 0 0.39vw;
+}
+
+.nextSign {
+    width: 1.17vw;
+    cursor: pointer;
+}
+
+
+/* ----------------------COO Card-------------------------------- */
+
+.cooContainer {
+    background-color: #FFFFFF;
+    padding: 3% 6%;
+    box-shadow: 0 2px 0.58vw #00000029;
+    border-radius: 1.95vw;
+    position: absolute;
+    top: -10%;
+    width: 72.7%;
+}
+
+.cooLeft {
+    width: 16%;
+    float: left;
+}
+
+.cooImageContainer {
+    width: 50%;
+    margin-top: 25%;
+}
+
+.cooImage {
+    width: 5.95vw;
+}
+
+.cooRight {
+    width: 84%;
+    float: right;
+}
+
+.cooHeading {
+    font-family: 'Anton';
+    font-size: 1.36vw;
+    letter-spacing: 1px;
+    color: #000000;
+    padding-bottom: 2%;
+}
+
+.cooText {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0;
+    color: #505050;
+    padding-bottom: 4%;
+    text-align: justify;
+}
+
+.readMoreCoo {
+    font: 900 1.07vw/0.97vw Lato;
+    letter-spacing: 0.55px;
+    color: #32BDD2;
+    padding: 2.5% 0 3% 0;
+    cursor: pointer;
+}
+
+.cooName {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0.7px;
+    font-weight: 900;
+    padding-bottom: 0.68vw;
+    color: #505050;
+}
+
+.cooDesignation {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 900;
+    letter-spacing: 0.7px;
+    color: #505050;
+}
+
+
+/* -----------------------Training------------------------------- */
+
+.trainContainer {
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 3.5vw;
+    border-bottom-right-radius: 3.5vw;
+    box-shadow: 0 0 0.58vw #00000029;
+    margin-top: 40%;
+}
+
+.trainingContainer {
+    padding: 3% 5% 4% 5%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.training {
+    font-size: 1.36vw;
+    font-family: 'Anton';
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.trainingSubtext {
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #747474;
+}
+
+.listContainer {
+    padding: 4% 6.7% 7% 6.7%;
+    border-bottom-left-radius: 3.5vw;
+    border-bottom-right-radius: 3.5vw;
+}
+
+.greenCard {
+    padding: 2%;
+    background-color: #EFFAF6;
+    border: 0.5px solid #B6D1C8;
+    display: none;
+}
+
+#cert {
+    cursor: pointer;
+}
+
+.statusMessage {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #000000;
+    padding-bottom: 2%;
+}
+
+.subMessage {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.redCard {
+    padding: 2%;
+    background-color: #FFE8E8;
+    border: 0.5px solid #BA8C8C;
+}
+
+.row {
+    padding: 2%;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.darkText {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    font-weight: 900;
+}
+
+.lightText {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #909090;
+}
+
+.greyText {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.traning_icons {
+    width: 2.14vw;
+    vertical-align: middle;
+    margin-right: 1.56vw;
+}
+
+.underline {
+    border-bottom: 1px solid #505050;
+}
+
+.space {
+    padding-bottom: 1.07vw;
+}
+
+.columnOne {
+    width: 34%;
+    float: left;
+    text-align: left;
+    clear: left;
+}
+
+.columnTwo {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.columnThree {
+    width: 33%;
+    float: right;
+    text-align: right;
+}
+
+
+/* ------------------------Carousel------------------------------ */
+
+.slideshow-container {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 0.58vw #00000029;
+    border-radius: 1.95vw;
+    margin-top: 6.5%;
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    padding-top: 28%;
+    padding-left: 4%;
+    width: 17%;
+    position: relative;
+}
+
+.prev {
+    width: 3.4vw;
+    cursor: pointer;
+    transition: 0.6s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 0.78vw #32BDD2;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.slideshow-inner {
+    width: 66%;
+}
+
+.loremCard {
+    margin: 24.5% 0 21% 0;
+    padding: 10.4% 10.6% 9.2% 10.6%;
+    background-color: #F7F6EF;
+}
+
+.caraouselHeading {
+    font-family: 'Merriweather';
+    font-size: 2.14vw;
+    letter-spacing: 3.2px;
+    font-weight: 900;
+    color: #521A1A;
+    text-align: center;
+}
+
+.caraouselText {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 300;
+    letter-spacing: 0;
+    color: #521A1A;
+    text-align: center;
+    padding-top: 4.5%;
+}
+
+.carouselVideo {
+    width: 86%;
+    display: block;
+    margin: auto;
+    padding: 14.2% 0 4.6% 0;
+}
+
+.videoDescription {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    color: #505050;
+    letter-spacing: 0;
+    line-height: 2.14vw;
+    width: 86%;
+    margin: auto;
+    padding-bottom: 11.3%;
+}
+
+.svgImage {
+    width: 100%;
+    margin: 25.5% 0 16% 0;
+    box-shadow: 0 0 0.97vw #00000029;
+}
+
+.stop {
+    padding: 11.5% 0 3.8% 0;
+    width: 95%;
+    display: block;
+    margin: auto;
+}
+
+.caraouselDesc {
+    font-family: 'Lato';
+    font-size: 1.35vw;
+    letter-spacing: 0;
+    color: #505050;
+    text-align: left;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 7.8%;
+}
+
+.infotext {
+    padding: 12.1% 0 8.2% 0;
+}
+
+.caraouselpara {
+    font-family: 'Lato';
+    font-size: 1.35vw;
+    letter-spacing: 0;
+    color: #505050;
+    text-align: left;
+    line-height: 1.8vw;
+}
+
+.spacer {
+    padding-top: 4.2%;
+}
+
+.right {
+    padding-top: 28%;
+    padding-right: 4%;
+    width: 17%;
+    position: relative;
+}
+
+.next {
+    margin-left: 4%;
+    width: 3.4vw;
+    cursor: pointer;
+    transition: 0.6s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0.78vw #32BDD2;
+    border-radius: 50%;
+}
+
+.carousel_navBar {
+    text-align: center;
+    margin-bottom: 7.5%;
+}
+
+.dot {
+    cursor: pointer;
+    width: 0.97vw;
+    height: 0.97vw;
+    margin: 0 0.68vw;
+    border: 1px solid #32BDD2;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #32BDD2;
+}
+
+
+/* ------------------------FAQ--------------------------- */
+
+.main_container {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 0.58vw #00000029;
+    width: 47%;
+    margin-right: 5.4%;
+}
+
+.faqheader {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.faq_top {
+    padding: 6.81% 0 6.44% 4.81%;
+}
+
+.landing_faq {
+    text-align: left;
+    font-family: "Anton";
+    font-size: 1.36vw;
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.explore_top {
+    padding: 0 5.56% 5.125% 0;
+    cursor: pointer;
+}
+
+.exploreText {
+    float: right;
+    text-align: left;
+    font: 900 1.17vw/0.97vw "Lato";
+    letter-spacing: 0.6px;
+    color: #32BDD2;
+    padding-right: 1%;
+    vertical-align: middle;
+}
+
+.icon_image {
+    padding-top: 0.3%;
+    vertical-align: middle;
+    width: 0.78vw;
+    float: right;
+}
+
+.message {
+    margin: 8.56% 5.56% 10.81% 5.56%;
+}
+
+.quesition {
+    background-color: #EEEEEE;
+    border-radius: 1.46vw;
+    padding: 4.80% 5.16% 5.5%;
+    margin-bottom: 5%;
+}
+
+.meant {
+    text-align: left;
+    font-family: "Lato";
+    font-size: 1.36vw;
+    letter-spacing: 0;
+    color: #505050;
+}
+
+.faq_desc {
+    width: 88%;
+    padding: 3% 0 3% 0;
+    text-align: left;
+    font-family: "Lato";
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #909090;
+}
+
+.read_more {
+    cursor: pointer;
+    text-align: right;
+    font-family: "Lato";
+    font-size: 0.68vw;
+    letter-spacing: 0.35px;
+    color: #505050;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 0 0 6.16% 5.96%;
+}
+
+.left_icon {
+    width: 1%;
+}
+
+.right_icon {
+    width: 88%;
+}
+
+.number {
+    width: 12%;
+    text-align: center;
+}
+
+.left_icon img {
+    width: 0.78vw;
+    vertical-align: middle;
+}
+
+.right_icon img {
+    width: 0.78vw;
+    vertical-align: middle;
+}
+
+.number {
+    font-size: 0.78vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #B5B5B5;
+}
+
+
+/* ---------------------CONTACTS--------------------------- */
+
+.faqContactContainer {
+    margin-top: 6.5%;
+    display: flex;
+}
+
+.contactContainer {
+    background-color: #FFFFFF;
+    width: 47%;
+    box-shadow: 0 0 0.58vw #00000029;
+}
+
+.firstRow {
+    padding: 7% 8%;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.contacts {
+    font-family: 'Anton';
+    font-size: 1.36vw;
+    color: #000000;
+    letter-spacing: 1.4px;
+}
+
+.contactsSubtext {
+    padding-top: 4.5%;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    color: #909090;
+}
+
+.listsContainer {
+    padding: 6%;
+}
+
+.card {
+    background-color: #EEEEEE;
+    padding: 6% 0;
+}
+
+.spaces {
+    margin-bottom: 6%;
+}
+
+.imageContainer {
+    width: 35%;
+    float: left;
+    padding: 0 7% 0 8%;
+}
+
+.profilePicContainer {
+    border-radius: 15%;
+}
+
+.download_icon {
+    width: 3.32vw;
+}
+
+.contact_pic {
+    width: 5.37vw;
+}
+
+.textContainer {
+    width: 65%;
+    float: right;
+}
+
+.name {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 1.07vw;
+    color: #4D4F5C;
+    padding-bottom: 2%;
+}
+
+.designation {
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    color: #747474;
+    padding-bottom: 4%;
+}
+
+.email {
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #747474;
+    padding-bottom: 2%;
+}
+
+.mobileNumber {
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #747474;
+}
+
+.lastRow {
+    padding: 0% 6% 4% 6%;
+}
+
+.navImage {
+    width: 0.97vw;
+    vertical-align: middle;
+}
+
+.indexText {
+    font-family: 'Lato';
+    font-size: 0.8vw;
+    letter-spacing: 0.6px;
+    color: #B5B5B5;
+    padding: 2% 1%;
+    transform: translateY(-50%);
+}
+
+
+/* ----------------------Submit Complaint------------------------ */
+
+.subComplaintContainer {
+    box-shadow: 0 0 0.58vw #00000029;
+    margin-top: 6.5%;
+    background-color: #FFFFFF;
+}
+
+.headingHolder {
+    padding: 5% 4%;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.submitHeading {
+    font-family: 'Anton';
+    font-size: 1.36vw;
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.buttonHolder {
+    padding: 4%;
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.submitText {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0;
+    color: #505050;
+    padding-bottom: 2%;
+}
+
+.complaintButton {
+    background-color: #FF0000;
+    box-shadow: 2px 2px 3px #FF000043;
+    border-radius: 2.63vw;
+    color: #FFFFFF;
+    padding: 0.97vw 0.93vw;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    border: 0;
+    box-shadow: 0px 0px 8px #FF0000BE;
+    text-align: center;
+    cursor: pointer;
+}
+
+.trackHolder {
+    padding: 4%;
+}
+
+.registeredText {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 1%;
+}
+
+.trackText {
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    font-weight: 600;
+    font-family: 'Lato';
+    border-bottom: 1px solid #505050;
+    padding-bottom: 0.48vw;
+    cursor: pointer;
+}
+
+
+/* -----------------------policy--------------------------------- */
+
+.policyContainer {
+    background-color: #FFFFFF;
+    margin-top: 6.5%;
+    box-shadow: 0 0 6px #00000029;
+    overflow: hidden;
+}
+
+.policy_header {
+    border-bottom: 1px solid #505050;
+    padding: 2.95% 3.0% 2.82% 3.49%;
+}
+
+.download {
+    width: 20%;
+    float: right;
+}
+
+.policy {
+    font-family: 'Anton';
+    font-size: 1.36vw;
+    text-align: left;
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.left_container {
+    width: 80%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.last {
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0;
+    color: #747474;
+}
+
+.kb {
+    padding-right: 01%;
+    text-align: right;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.3px;
+    color: #747474;
+}
+
+.kb_1 {
+    font-weight: 600;
+}
+
+.pdf {
+    width: 74%;
+    float: left;
+    padding-right: 8%;
+}
+
+.image {
+    width: 26%;
+    float: right;
+}
+
+.download_icon {
+    width: 3.32vw;
+    box-shadow: 0px 0px 8px #32BDD2;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.policies {
+    padding: 3.62% 3.0% 4.4% 3.44%;
+}
+
+.paragraph {
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    color: #505050;
+    padding-top: 1%;
+}
+
+.comment_bar {
+    display: flex;
+    border: 0.35px solid #B5B5B5;
+    border-top-left-radius: 4.88vw;
+    border-bottom-left-radius: 4.88vw;
+    border-top-right-radius: 4.88vw;
+    border-bottom-right-radius: 4.88vw;
+}
+
+.bar {
+    background-color: #EAF2F4;
+    padding: 3.2% 5.3%;
+    margin-bottom: 8.18%;
+}
+
+.profile img {
+    width: 4.4vw;
+    vertical-align: middle;
+}
+
+.profile {
+    width: fit-content;
+    padding-top: .2%;
+    background-color: #fff;
+    border-top-left-radius: 4.88vw;
+    border-bottom-left-radius: 4.88vw;
+}
+
+.drop_comment {
+    width: 80%;
+}
+
+.btn_container {
+    width: 13%;
+}
+
+.submit {
+    background-color: #32BDD2;
+    color: #fff;
+    font-size: 1.17vw;
+    font-family: "Lato";
+    font-weight: 900;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 3.8vw;
+    border-bottom-right-radius: 3.8vw;
+    cursor: pointer;
+    text-align: center;
+}
+
+.comment_section {
+    width: 100%;
+}
+
+.right_containt {
+    width: 60.48%;
+    padding-left: 3.41%;
+    padding-bottom: 8.18%;
+}
+
+.left_part {
+    width: 10%;
+    float: left;
+    padding-left: 2.82%;
+}
+
+.comment_image {
+    width: 5.56vw;
+}
+
+.thumb {
+    padding-top: 3.36%;
+}
+
+.thumb img {
+    width: 1.46vw;
+    height: 1.46vw;
+    cursor: pointer;
+}
+
+.right_part {
+    width: 90%;
+    float: right;
+}
+
+.contactName {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 0;
+    color: #505050;
+    padding: .5%;
+}
+
+.date {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #909090;
+    padding: .3%;
+}
+
+.text {
+    text-align: left;
+    font-size: 1.07vw;
+    font-family: 'Lato';
+    letter-spacing: 1.1px;
+    color: #747474;
+    padding-top: 1.61%;
+}
+
+.likes {
+    text-align: left;
+    font-size: .97vw;
+    font-family: 'Lato';
+    letter-spacing: 0.5px;
+    color: #909090;
+    padding: .5%;
+    padding-right: 2%;
+}
+
+.landing_show_more {
+    background-color: #EEEEEE;
+    margin: 0% 2.82% 4.97% 2.82%;
+    cursor: pointer;
+}
+
+.center {
+    width: 14.83%;
+    margin: auto;
+    padding: 2.82% 0%;
+}
+
+.show {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+    font-weight: bold;
+}
+
+.down img {
+    width: 0.97vw;
+    vertical-align: middle;
+}
+
+.down {
+    padding-left: 1%;
+}
+
+.review {
+    text-align: left;
+    font: 400 1.17vw/1.75vw 'Lato';
+    letter-spacing: 0.6px;
+    color: #909090;
+    padding-left: 2%;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+/* -----------------------carousel ---------------------- */
+
+.stop {
+    font-family: 'Roboto';
+    font-size: 8.59vw;
+    fill: #FFFFFF;
+    font-weight: bold;
+}
+
+.harassment {
+    font-family: 'Roboto';
+    font-size: 3.02vw;
+    fill: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.Unwelcome {
+    font-family: 'Roboto';
+    font-size: 1.56vw;
+    letter-spacing: 0.4px;
+    fill: #FFFFFF;
+}
+
+.icon {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    fill: #fff;
+    font-weight: 700;
+}
+
+
+/* -----------------------Certificate----------------------------- */
+
+.certContainer {
+    background-color: #00000067;
+    height: 100vh;
+}
+
+
+/* =============================================screen 35===================================================== */
+
+.ceoBox {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    top: 0;
+}
+
+.ceo_parent {
+    height: 100vh;
+    background-color: #000000B2;
+    position: relative;
+}
+
+.ceoContainer {
+    width: 77.7%;
+    background-color: #FFFFFF;
+    padding: 2% 2% 5.2% 7.6%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 0.58vw #00000029;
+    border-radius: 1.95vw;
+}
+
+.cancelIcon {
+    box-shadow: 0 0 0.97vw #00000029;
+    border: 0.5px solid #EFEFEF;
+    float: right;
+    width: 3.7vw;
+    border-radius: 50%;
+}
+
+.ceoLeft {
+    width: 14.5%;
+    float: left;
+}
+
+.ceoImageContainer {
+    width: 62.6%;
+    margin-top: 36.7%;
+}
+
+.ceoImage {
+    width: 5.9vw;
+}
+
+.ceoRight {
+    width: 85.5%;
+    float: right;
+    padding-right: 7%;
+}
+
+.ceoHeading {
+    font-family: 'Anton';
+    font-size: 1.36vw;
+    letter-spacing: 1px;
+    color: #000000;
+    padding-bottom: 2%;
+}
+
+.ceoText {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0;
+    color: #505050;
+    padding-bottom: 2%;
+}
+
+.ceoName {
+    padding-top: 2%;
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0.7px;
+    font-weight: 900;
+    padding-bottom: 0.68vw;
+    color: #505050;
+}
+
+.ceoDesignation {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 900;
+    letter-spacing: 0.7px;
+    color: #505050;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* ===============================================loading screen===================================================== */
+
+.loadingParent {
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    background-color: #000000B2;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.loadingScreen {
+    height: 100vh;
+    position: relative;
+}
+
+.loadingImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10.83vw;
+}
+
+
+/* ======================================submit faq fail========================================================= */
+
+.msgparent {
+    background-color: #000000B2;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+.popupContainer {
+    background-color: #FFFFFF;
+    box-shadow: 0 0 3.4vw #00000029;
+    border-radius: 1.95vw;
+    width: 55.6%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topRow {
+    padding: 4%;
+}
+
+.cancelImage {
+    width: 3.7vw;
+    float: right;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 0.78vw #00000029;
+}
+
+.textRow {
+    padding: 0 6.5%;
+    font-family: 'Lato';
+}
+
+.failMessage {
+    font-size: 1.56vw;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    color: #E65959;
+    padding-bottom: 5%;
+}
+
+.successMessage {
+    font-size: 1.56vw;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    color: #32BDD2;
+    padding-bottom: 5%;
+}
+
+.messageText {
+    font-size: 1.36vw;
+    letter-spacing: 0.7px;
+    color: #5A5A5A;
+}
+
+.buttonRow {
+    padding: 7.6% 0;
+    text-align: center;
+}
+
+.doneButtonFail {
+    background-color: #E65959;
+    color: #FFFFFF;
+    border: 0;
+    box-shadow: 0 0.29vw 0.58vw #00000029;
+    border-radius: 3px;
+    letter-spacing: 1.5px;
+    font-family: 'Roboto';
+    font-size: 1.46vw;
+    padding: 0.97vw 2.93vw;
+}
+
+.doneButtonSuccess {
+    background-color: #32BDD2;
+    color: #FFFFFF;
+    border: 0;
+    box-shadow: 0 0.29vw 0.58vw #00000029;
+    border-radius: 3px;
+    letter-spacing: 1.5px;
+    font-family: 'Roboto';
+    font-size: 1.46vw;
+    padding: 0.97vw 2.93vw;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* ==============================================================   certificate       ========================================================================================================= */
+
+.certcontainer {
+    background-color: #000000B2;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.certificate_containt {
+    width: 74%;
+    background-color: #E9F0F1;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.logo_part {
+    padding: 9.94% 0 11.25% 0;
+}
+
+.left_part_cert {
+    width: 30%;
+    float: left;
+}
+
+.right_part_cert {
+    width: 70%;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    width: 6.78vw;
+}
+
+.title {
+    padding: 1% 0 0 2%;
+}
+
+.cirtificate {
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 2.44vw;
+    letter-spacing: 2.5px;
+    color: #505050;
+}
+
+.attendance {
+    padding-top: 1%;
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 1.36vw;
+    letter-spacing: 0.7px;
+    color: #505050;
+}
+
+.naming_senction {
+    width: 30%;
+    float: left;
+    margin-right: auto;
+}
+
+.participation {
+    width: 70%;
+    float: right;
+    padding-left: 6%;
+}
+
+.left_senction {
+    text-align: right;
+}
+
+.venue {
+    font-size: 1.56vw;
+    font-family: 'Roboto';
+    letter-spacing: 0.8px;
+    color: #747474;
+    padding: 0 5.2% 0;
+}
+
+.cert_field {
+    font-size: 1.56vw;
+    font-family: 'Roboto';
+    letter-spacing: 0.8px;
+    color: #747474;
+    padding-bottom: 10.10%;
+}
+
+.person {
+    font-size: 1.56vw;
+    font-family: 'Roboto';
+    letter-spacing: 0.8px;
+    color: #505050;
+    font-weight: 500;
+    padding-bottom: 5.10%;
+}
+
+.dr {
+    padding-top: 4%;
+    font-size: 1.56vw;
+    font-family: 'Roboto';
+    letter-spacing: 0.8px;
+    color: #505050;
+    font-weight: 500;
+}
+
+.second_row {
+    padding-bottom: 8.37%;
+}
+
+
+/* ======================================================FAQ EXPLORE=========================================================================================== */
+
+.header_container {
+    width: 100%;
+    box-shadow: 0px 0px 4px #00000029;
+    padding: 1.17% 2.44%;
+}
+
+.left_section {
+    width: 78%;
+    float: left;
+}
+
+.right_section {
+    width: 22%;
+    float: right;
+    padding-top: 0.3%;
+}
+
+.clear {
+    clear: both;
+}
+
+.header_containt {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containt {
+    padding: 6.95% 4.4% 4.31% 4.31%;
+    background-color: #fff;
+}
+
+.faq_parent {
+    background-color: #F6F8F9;
+    padding: 2.44%;
+}
+
+.video {
+    padding: 3% 0;
+}
+
+.faq {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #424242;
+    padding: 2% 0;
+}
+
+.group img {
+    width: 29.8vw;
+    height: 24.3vw;
+}
+
+.group {
+    padding-bottom: 2%;
+}
+
+.explore img {
+    width: 3.71vw;
+    box-shadow: 0px 0px 8px #32BDD2;
+    border-radius: 50%;
+}
+
+.explore {
+    width: 5%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.topics {
+    width: 95%;
+    float: right;
+    padding-top: 1%;
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #424242;
+    padding-left: 01%;
+}
+
+.description {
+    margin-top: 5%;
+}
+
+.meant {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    color: #000000;
+    letter-spacing: 0;
+    color: #505050;
+    font-weight: 600;
+    padding-bottom: 1%;
+}
+
+.lorem {
+    font: 400 1.35vw/2.14vw "Lato";
+    letter-spacing: 0px;
+    color: #505050;
+    padding-bottom: 2%;
+}
+
+.helpfull {
+    width: 100%;
+    display: flex;
+    margin-bottom: 6.88%;
+}
+
+.coloumn_one {
+    width: 29%;
+    background-color: #EEEEEE;
+    padding: 2.5% 2%;
+}
+
+.coloumn_two {
+    width: 71%;
+    background-color: #EEEEEE;
+    padding: 4.84% 11%;
+    border-left: 3px solid #fff;
+}
+
+.usefull {
+    text-align: center;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    color: #000000;
+    letter-spacing: 0;
+    color: #505050;
+    font-weight: bold;
+    padding-bottom: 7.5%;
+    padding-top: 14%;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 3.0%;
+}
+
+.like_part {
+    width: 50%;
+    float: left;
+}
+
+.like img {
+    width: 5.38vw;
+    vertical-align: middle;
+}
+
+.dislike img {
+    width: 5.38vw;
+    vertical-align: middle;
+}
+
+.like {
+    width: 50%;
+    margin: auto;
+}
+
+.dislike {
+    width: 60%;
+    margin: auto;
+}
+
+.dis_like_part {
+    width: 50%;
+    float: right;
+}
+
+.percent {
+    text-align: center;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #747474;
+    padding-top: 10%;
+}
+
+.percent_10 {
+    text-align: center;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #747474;
+    padding-top: 10%;
+}
+
+.comment_submit {
+    color: #fff;
+    padding: 6px 15px;
+    cursor: pointer;
+    background-color: #32BDD2;
+    border: 1px solid #32BDD2;
+    box-shadow: 0 0 0.58vw #32BDD2;
+    border-radius: 8px;
+    margin-top: 2%;
+    font-weight: 600;
+    font-size: 1.17vw;
+    margin-top: 2.83%;
+}
+
+
+/* .review {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 3.5%;
+} */
+
+#review {
+    padding: 01%;
+    border: 0;
+    box-shadow: 0 0 0.58vw #00000029;
+    height: 7.5vw;
+}
+
+.comment_section {
+    width: 100%;
+}
+
+.right_containt {
+    width: 75.48%;
+    padding-left: 3.41%;
+    padding-bottom: 8.18%;
+}
+
+.left_part {
+    width: 15%;
+    float: left;
+    padding-left: 5.96%;
+}
+
+
+/* 
+.left_part img {
+    width: 5.5vw;
+} */
+
+.thumb {
+    padding-top: 3.36%;
+}
+
+.right_part {
+    width: 85%;
+    float: right;
+}
+
+.name {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 0;
+    color: #505050;
+    padding: .5%;
+}
+
+.date {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #909090;
+    padding: .3%;
+}
+
+.text {
+    text-align: left;
+    font-size: 1.07vw;
+    font-family: 'Lato';
+    letter-spacing: 1.1px;
+    color: #747474;
+    padding-top: 1.61%;
+}
+
+.likes {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.5px;
+    color: #909090;
+    padding: .5%;
+    padding-right: 2%;
+}
+
+.show_more {
+    width: 95%;
+    margin: auto;
+    background-color: #EEEEEE;
+    padding: 2%;
+}
+
+.more {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+    font-weight: 600;
+    padding-right: 0.78vw;
+}
+
+.faq_footer {
+    width: 14%;
+    margin: auto
+}
+
+.drop_down {
+    width: 1.17vw;
+    vertical-align: middle;
+}
+
+
+/*==========================================faq_submit ================================= */
+
+
+/* .parent {
+    background-color: #F6F8F9;
+    padding: 2%;
+} */
+
+
+/* .faq {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #424242;
+    padding-left: 4.3%;
+    padding-top: 6.86%;
+} */
+
+.found {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #909090;
+    padding-left: 15%;
+    padding-top: 1%;
+}
+
+.faq_results {
+    padding-bottom: 5.03%;
+}
+
+.faq_container {
+    width: 87%;
+    margin: auto;
+}
+
+.meant {
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.35vw;
+    letter-spacing: 0;
+    color: #505050;
+    padding-bottom: 1.17%;
+}
+
+
+/* .lorem {
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.35vw;
+    letter-spacing: 0.6px;
+    color: #909090;
+} */
+
+.read {
+    text-align: right;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.35px;
+    color: #505050;
+    font-weight: bold;
+    padding-top: 2.26%;
+}
+
+.submit_box {
+    /* width: 94%;
+    margin: auto; */
+    background-color: #EEEEEE;
+    padding: 5.14% 6.82%;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #B5B5B5;
+}
+
+.btn {
+    color: #fff;
+    padding: 1% 3%;
+    cursor: pointer;
+    background-color: #32BDD2;
+    border: 1px solid #32BDD2;
+    border-radius: 0.78vw;
+    margin-top: 1.76%;
+    font-weight: 600;
+    font-size: 1.17vw;
+    box-shadow: 0 0 0.58vw #32BDD2;
+}
+
+.quetion_top {
+    padding: 0 10%;
+}
+
+.quetion_section {
+    padding: 0 10% 4.11% 10%;
+}
+
+.show_more {
+    width: 95%;
+    margin: auto;
+    background-color: #EEEEEE;
+    padding: 1%;
+}
+
+.show {
+    padding: 2.1%;
+    margin: 1.13% 0% 5.56% 0%;
+    background-color: #EEEEEE;
+}
+
+.showmore_row {
+    width: 16%;
+    margin: auto
+}
+
+.drop_down {
+    width: 1.07vw;
+}
+
+.showmore {
+    padding: 1.19%;
+    margin: 1.13% 10% 5.56% 10%;
+    background-color: #EEEEEE;
+}
+
+
+/* .more {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    color: #000000;
+    letter-spacing: 0.6px;
+    color: #505050;
+    font-weight: 600;
+    padding-right: 10%;
+} */
+
+.drop_down {
+    width: 1.07vw;
+}
+
+
+/* ========================================== search-no-results-found ========================================== */
+
+.container {
+    background-color: #F6F8F9;
+    padding: 2.44%;
+}
+
+.search_content {
+    background-color: #fff;
+    box-shadow: 0px 0px 0.39vw #00000029;
+}
+
+.search_faq {
+    text-align: left;
+    font-family: "Lato";
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #424242;
+    padding-left: 4.3%;
+}
+
+.search_faq_top {
+    padding-top: 6.88%;
+}
+
+.no_result_search {
+    padding-top: 6.5%;
+}
+
+.img {
+    width: 6.73vw;
+}
+
+.no_result_found {
+    padding-top: 14.18%;
+    width: 8%;
+    margin: auto;
+}
+
+.no_result {
+    text-align: center;
+    color: #000;
+    font-family: "Lato";
+    font-size: 1.35vw;
+    letter-spacing: 0.7px;
+    color: #747474;
+    font-weight: 600;
+    padding-top: 2.1%;
+}
+
+.we {
+    width: 23%;
+    margin: auto;
+    text-align: center;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #909090;
+    padding-bottom: 19.21%;
+}
+
+
+/* ============================================= Searched result found============================================= */
+
+.result_found {
+    text-align: left;
+    font-family: "Lato";
+    font-size: 1.35vw;
+    letter-spacing: 0.6px;
+    color: #909090;
+}
+
+.read {
+    text-align: right;
+    font-family: "Lato";
+    font-size: 1.17vw;
+    letter-spacing: 0.35px;
+    color: #505050;
+    font-weight: bold;
+    padding-top: 2.26%;
+    padding-bottom: 4.33%;
+}
+
+.result_cards {
+    width: 90%;
+    margin: auto;
+    padding-top: 3.89%;
+}
+
+.search_container {
+    width: 93%;
+}
+
+.search_icon_container {
+    width: 7%;
+}
+
+.search {
+    padding-top: 6.5%;
+    padding-bottom: 10.48%;
+}
+
+.search_icon {
+    width: 2.17vw;
+    vertical-align: middle;
+}
+
+.search_bar_input {
+    border: 0;
+    margin: 1.5%;
+    font: 400 1.17vw "Lato";
+    letter-spacing: 0.6px;
+    color: #909090;
+}
+
+
+/* .search {
+    padding-top: 6.5%;
+} */
+
+.search_bar {
+    border: 1px solid #B5B5B5;
+    border-radius: 3.81vw;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 0.2% 0;
+}
+
+
+/* =========================================== Success and Fail popup =========================================== */
+
+.topRow {
+    padding: 4%;
+}
+
+.cancelImage {
+    width: 3.71vw;
+    float: right;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 0.78vw #00000029;
+}
+
+.textRow {
+    padding: 0 6.5%;
+    font-family: 'Lato';
+}
+
+.failMessage {
+    font-size: 1.56vw;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    color: #E65959;
+    padding-bottom: 5%;
+}
+
+.successMessage {
+    font-size: 1.56vw;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+    color: #32BDD2;
+    padding-bottom: 5%;
+}
+
+.messageText {
+    font: 400 1.36vw/2.34vw "Lato";
+    letter-spacing: 0.7px;
+    color: #5A5A5A;
+}
+
+.buttonRow {
+    padding: 7.6% 0;
+    text-align: center;
+}
+
+.doneButtonFail {
+    background-color: #E65959;
+    box-shadow: 0 0 8px #E65959;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 0.293vw;
+    letter-spacing: 1.5px;
+    font: Bold 1.46vw/1.75vw "Roboto";
+    padding: 0.97vw 2.93vw;
+}
+
+.doneButtonSuccess {
+    background-color: #32BDD2;
+    box-shadow: 0px 0px 8px #32BDD2;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 0.293vw;
+    letter-spacing: 1.5px;
+    font-family: 'Roboto';
+    font-size: 1.46vw;
+    padding: 0.97vw 2.93vw;
+}
+
+.clear {
+    clear: both;
+}
+
+.loadingParent {
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    background-color: #000000B2;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.loadingScreen {
+    height: 100vh;
+    position: relative;
+    background-color: #000000B2;
+}
+
+.loadingImage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10.83vw;
+}
+
+
+/* ===================================================================Lorem page============================================ */
+
+.lorem_parent {
+    background-color: #F6F8F9;
+}
+
+.customContainer {
+    background-color: #FFFFFF;
+    margin: 2.4%;
+    padding: 10% 16.75% 10% 4.25%;
+    box-shadow: 0 0 0.39vw #00000029;
+}
+
+.latoBlack {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #505050;
+    margin-bottom: 2.6%;
+}
+
+.latoRegular {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0;
+    color: #505050;
+    line-height: 2.14vw;
+}
+
+.loremipsumCard {
+    padding: 9.5% 0 10% 0;
+    margin-bottom: 7.7%;
+    background-color: #F7F6EF;
+}
+
+.merriweatherHeading {
+    font-family: 'Merriweather';
+    font-size: 4.2vw;
+    font-weight: 900;
+    letter-spacing: 4.3px;
+    color: #521A1A;
+    margin-bottom: 5.8%;
+    text-align: center;
+}
+
+.merriweatherText {
+    font-family: 'Merriweather';
+    font: 300 1.75vw "Lato";
+    letter-spacing: 0px;
+    color: #521A1A;
+    text-align: center;
+    width: 62.5%;
+    margin: auto;
+}
+
+.spaceOne {
+    margin-bottom: 10.5%;
+}
+
+.spaceTwo {
+    margin-bottom: 3.3%;
+}
+
+
+/* ======================================================complaint form========================================= */
+
+.form_parent {
+    background-color: #F6F8F9;
+}
+
+.formContainer {
+    padding: 2.5%;
+}
+
+.formContent {
+    box-shadow: 0 0 0.39vw #00000029;
+    background-color: #FFFFFF;
+}
+
+.formHeader {
+    display: flex;
+    align-items: center;
+    padding: 3.6%;
+    border-bottom: 0.5px solid #CCCCCC;
+}
+
+.headingContainer {
+    width: 80%;
+}
+
+.complaintHeading {
+    font: 400 1.36vw "Anton";
+    letter-spacing: 2.8px;
+    color: #000000;
+}
+
+.svgContainer {
+    width: 20%;
+}
+
+.circle_color {
+    font-size: 0.97vw;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #fff;
+}
+
+.circle_without_color {
+    font-size: 0.97vw;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #d3d3d3;
+}
+
+.content {
+    padding: 3.6%;
+}
+
+.form_heading {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.commonText {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #595959;
+    padding-bottom: .5%;
+}
+
+.spacing {
+    padding-top: 4%;
+}
+
+.mandatory {
+    font: 400 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.12px;
+    color: #E65959;
+}
+
+.fullBox {
+    width: 60%;
+    padding: 0.5vw;
+    box-shadow: 0 0.29vw 0.58vw #00000029;
+    border: 1px solid #F7F4F4;
+    border-radius: 0.97vw;
+    height: 4.4vw;
+}
+
+.address {
+    height: 9.76vw;
+}
+
+.halfBox {
+    width: 30%;
+    border: 1px solid #CECECE;
+    border-radius: 0.39vw;
+    padding: 0.5vw;
+}
+
+.alertBox {
+    padding: 1% 2.82% 0 2.82%;
+    width: 60%;
+}
+
+.alertImage {
+    width: 1.36vw;
+}
+
+.alertText {
+    font: 300 1.07vw/1.26vw "Lato";
+    letter-spacing: 0.55px;
+    color: #E65959;
+    padding-left: 0.65vw;
+}
+
+.error_dot {
+    width: 0.78vw;
+    height: 0.78vw;
+    background-color: #E65959;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.form_bottRow {
+    margin-top: 1.54%;
+    padding: 2.1% 3.6%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 6px #00000033;
+}
+
+.bottomLeftRow {
+    width: 50%;
+}
+
+.saveDraft {
+    border-bottom: 1px solid #595959;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    color: #595959;
+    vertical-align: middle;
+}
+
+.bottomRightRow {
+    width: 50%;
+}
+
+.nextBtn {
+    text-align: center;
+    font: 700 1.17vw/1.36vw "Roboto";
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    box-shadow: 0 0 0.78vw #32BDD2;
+    border-radius: 2.89vw;
+    border: 0;
+    background-color: #32BDD2;
+    padding: 1.64% 3.7%;
+    float: right;
+}
+
+.btnIcon {
+    width: 0.97vw;
+    margin-left: 0.97vw;
+}
+
+
+/* ================================================================= form Preview===================================== */
+
+.preview_container {
+    background-color: #F6F8F9;
+    padding: 2.44%;
+}
+
+.pre_container {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px #00000029;
+}
+
+.preview_containt_bar {
+    padding: 03.6% 0 5.1% 3.72%;
+}
+
+.sidebar_complaint_top {
+    width: 77%;
+    float: left;
+    padding-top: 0.5%;
+}
+
+.complainant {
+    font-size: 1.36vw;
+    font-family: 'Anton';
+    letter-spacing: 2.8px;
+    color: #000000;
+    padding-top: 01%;
+}
+
+.circle_color {
+    font-size: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #fff;
+}
+
+.circle_without_color {
+    font-size: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #d3d3d3;
+}
+
+.svg_viewport {
+    width: 23%;
+    float: right;
+}
+
+.preview {
+    font: 900 1.36vw/1.66vw 'Lato';
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.preview_description {
+    font: 400 1.17vw/1.75vw "Lato";
+    letter-spacing: 0.6px;
+    color: #747474;
+}
+
+.comolaint_top {
+    width: 32.47%;
+    padding-top: 08.72%;
+}
+
+.type {
+    font-family: 'Lato';
+    text-align: left;
+    font-size: 1.35vw;
+    letter-spacing: 1.4px;
+    color: #909090;
+    font-weight: 900;
+}
+
+.complanter_name {
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.35vw;
+    letter-spacing: 1.4px;
+    color: #505050;
+    padding-top: 5.02%;
+}
+
+.address {
+    font: 400 1.17vw/2.24 "Lato";
+    letter-spacing: 1.2px;
+    color: #505050;
+    padding-top: 1.42%;
+    line-height: 1.7;
+}
+
+.charges_top {
+    width: 77.07%;
+    padding-top: 03.78%;
+}
+
+.preview_charges {
+    text-align: left;
+    font-size: 1.35vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #909090;
+    font-weight: bold;
+    padding: 1.5% 0;
+}
+
+.text {
+    text-align: left;
+    font-size: 1.35vw;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 1.4px;
+    color: #909090;
+    line-height: 1.7;
+    padding-top: 2.38%;
+}
+
+.lorem_text {
+    text-align: left;
+    font-size: 1.35vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+    line-height: 1.7;
+    padding-top: 03.34%;
+}
+
+.may {
+    text-align: left;
+    font-size: 1.14vw;
+    font-family: 'Lato';
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    color: #747474;
+    width: 83%;
+}
+
+.respodent {
+    padding-top: 10.11%;
+}
+
+.evidence_top {
+    padding-top: 2.90%;
+    width: 70%;
+}
+
+.evidence_tag {
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    background-color: #EEEEEE;
+    border-top-left-radius: 1.83vw;
+    padding: 02%;
+    width: 21.57%;
+}
+
+.uploaded_files_container {
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+
+.uploade_files {
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+    padding: 4.74% 2.0% 4.74% 5.05%;
+}
+
+.colom_one {
+    width: 50%;
+    float: left;
+    padding-top: 1%;
+}
+
+.img {
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #595959;
+}
+
+.colom_two {
+    width: 50%;
+    float: left;
+    padding-top: 1%;
+}
+
+.kb {
+    text-align: right;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0;
+    color: #595959;
+    padding-top: 2%;
+}
+
+.witness_title {
+    padding-top: 5.56%;
+    width: 70%;
+}
+
+.witness_top {
+    width: 21%;
+    padding: 2%;
+    background: #EEEEEE;
+    border-top-left-radius: 1.83vw;
+    text-align: center;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.witness {
+    background: #EEEEEE;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.2px;
+    color: #505050;
+    padding: 01%;
+}
+
+.first_witness {
+    border-bottom: 1px solid #EEEEEE;
+    padding: 5.05% 0 3.21% 5.60%;
+}
+
+.customer {
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.witness_details {
+    border: 1px solid #EEEEEE;
+}
+
+.charge_02 {
+    width: 77.07%;
+    padding-top: 7.5%;
+}
+
+.charge_02_lorem_text {
+    text-align: left;
+    font-size: 1.35vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: 505050;
+    line-height: 1.7;
+    padding-top: 02.66%;
+}
+
+.text_02 {
+    text-align: left;
+    font-size: 1.35vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #909090;
+    font-weight: bold;
+    line-height: 1.7;
+}
+
+.error_msg {
+    background: #F0F0F0;
+    border-radius: 50px;
+    padding: 01% 02%;
+    margin-top: 1.55%;
+    width: 37%;
+}
+
+.error_icon {
+    width: 1.45vw;
+    height: 1.37vw;
+    vertical-align: middle;
+}
+
+.msg {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #CB1720;
+    vertical-align: middle;
+    padding-left: 01%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 2% 3.5%;
+    box-shadow: 0px 0px 4px #00000029;
+}
+
+.submit_btn_container {
+    width: 84%;
+    text-align: right;
+}
+
+.draft {
+    width: 12%;
+    text-align: right;
+}
+
+.save_draft {
+    cursor: pointer;
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    letter-spacing: 1.2px;
+    color: #595959;
+    padding-bottom: 05%;
+    border-bottom: 2px solid #595959;
+}
+
+.back {
+    width: 4%;
+}
+
+.back span {
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    letter-spacing: 1.2px;
+    color: #595959;
+    padding-bottom: 07%;
+    border-bottom: 2px solid #595959;
+}
+
+.submit_btn_container input {
+    cursor: pointer;
+    background: #32BDD2;
+    border-radius: 2.83vw;
+    text-align: center;
+    font: 900 1.07vw/1.27vw "Lato";
+    letter-spacing: 1.1px;
+    color: #FFFFFF;
+    border: 2px solid #32BDD2;
+    box-shadow: 0px 0px 8px #32BDD2;
+    padding: 01% 3.5%;
+}
+
+
+/* ==================== Acknowledgement================================================ */
+
+.ack_main_container {
+    background-color: #F6F8F9;
+    padding: 2.44%;
+}
+
+.ack_container {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 4px #00000029;
+}
+
+.ack_heading {
+    text-align: left;
+    font: 900 1.36vw/1.66vw "Lato";
+    letter-spacing: 1.4px;
+    color: #B5B5B5;
+    padding-top: 2.06%;
+}
+
+.ack_text {
+    width: 78%;
+    font: 400 1.36vw/2.14vw "Lato";
+    letter-spacing: 1.4px;
+    color: #505050;
+    padding-top: 1.5%;
+}
+
+.side_bar {
+    background-color: #fff;
+    padding: 04% 5.13% 4% 3.5%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.containt_bar {
+    padding: 03.5% 3.5% 34.26% 3.5%;
+}
+
+.sidebar_complaint_top {
+    width: 77%;
+    float: left;
+    padding-top: 0.5%;
+}
+
+.complainant {
+    font-size: 1.36vw;
+    font-family: 'Anton';
+    letter-spacing: 2.8px;
+    color: #000000;
+    padding-top: 01%;
+}
+
+.circle_color {
+    font-size: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #fff;
+}
+
+.circle_without_color {
+    font-size: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #d3d3d3;
+}
+
+
+/* .svg_viewport {
+    width: 23%;
+    float: right;
+} */
+
+.circle_color {
+    font-size: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #fff;
+}
+
+.circle_without_color {
+    font-size: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #d3d3d3;
+}
+
+.circle_color {
+    font-size: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #fff;
+}
+
+.circle_without_color {
+    font-size: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 0;
+    fill: #d3d3d3;
+}
+
+.svg_view_port {
+    width: 50%;
+    margin: auto;
+}
+
+.right_part {
+    background-color: #FCFCFC;
+}
+
+.heading {
+    font: 900 1.36vw/2.24vw "Lato";
+    letter-spacing: 1.4px;
+    color: #B5B5B5;
+}
+
+.ack {
+    padding-top: 3.44%;
+    font: 700 1.36vw/2.24vw "Lato";
+    letter-spacing: 1.4px;
+    color: #505050;
+}
+
+.ack_desc {
+    padding-top: 1.44%;
+    font: 400 1.36vw/2.14vw "Lato";
+    letter-spacing: 1.4px;
+    color: #505050;
+}
+
+.print {
+    font: 400 1.17vw/1.75vw "Lato";
+    letter-spacing: 0.6px;
+    color: #32BDD2;
+    padding-bottom: .5%;
+    border-bottom: 1px solid #32BDD2;
+}
+
+.links {
+    padding-top: 3%;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 2.89%;
+}
+
+
+/* ===============================================Chharge popup========================================================================== */
+
+.opaqueBackground {
+    width: 100%;
+    height: 100vh;
+    background-color: #000000B2;
+    position: relative;
+}
+
+.chargePopup {
+    background-color: #FFFFFF;
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 3.41vw #00000029;
+    border-radius: 2.44vw;
+}
+
+.imageHolder {
+    padding: 2.9% 2.9% 1.01%;
+}
+
+#closePop {
+    width: 3.71vw;
+    float: right;
+    box-shadow: 0 0 0.97vw #00000029;
+    border: 0.5px solid #EFEFEF;
+    border-radius: 50%;
+}
+
+.popupBody {
+    padding: 0 7.12%;
+}
+
+.popupHead {
+    font: 900 1.56vw/1.85vw "Lato";
+    letter-spacing: 0.8px;
+    color: #5A5A5A;
+}
+
+.chargeDate {
+    width: 50%;
+    box-shadow: 0 0.29vw 0.78vw #00000029;
+    border: 1px solid #F7F4F4;
+    border-radius: 0.97vw;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin: 7.7% 0 6%;
+}
+
+.dateBox {
+    width: 82%;
+}
+
+#dateSlot {
+    width: 100%;
+    font: 300 1.46vw/1.46vw "Lato";
+    letter-spacing: 0.6px;
+    color: #5A5A5A;
+    border: 0;
+    padding: 0 0.97vw;
+}
+
+.dateIconBox {
+    width: 18%;
+    border-left: 1px solid #F7F4F4;
+    padding: 0.97vw 0;
+}
+
+#calenderIcon {
+    width: 2.05vw;
+    display: block;
+    margin: auto;
+}
+
+.chargeNote {
+    margin-bottom: 13.8%;
+}
+
+#chargeDesc {
+    box-shadow: 0 0.29vw 0.58vw #00000029;
+    border: 1px solid #F7F4F4;
+    border-radius: 10px;
+    padding: 3.44% 4.3%;
+    font: 300 1.17vw/1.46vw "Lato";
+    letter-spacing: 0.6px;
+    color: #B5B5B5;
+    width: 100%;
+}
+
+.bottRow {
+    margin-top: 1.54%;
+    padding: 2.7% 7.12%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 6px #00000033;
+    border-bottom-left-radius: 2.44vw;
+    border-bottom-right-radius: 2.44vw;
+}
+
+.bottomLeftRow {
+    width: 50%;
+}
+
+.saveDraft {
+    font: 700 1.36vw/1.66 "Lato";
+    letter-spacing: 1.4px;
+    color: #5A5A5A;
+    border-bottom: 1px solid #5A5A5A;
+    padding-bottom: 4px;
+}
+
+.bottomRightRow {
+    width: 50%;
+}
+
+.nextBtn {
+    text-align: center;
+    font: 700 1.36vw/1.66vw "Lato";
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    box-shadow: 0 0 0.78vw #32BDD2;
+    border-radius: 2.89vw;
+    border: 0;
+    background-color: #32BDD2;
+    padding: 1.64% 3.7%;
+    float: right;
+}
+
+
+/* =================================================================Add charge================================================ */
+
+.content {
+    padding: 6% 11% 6% 6%;
+}
+
+.chargesHeading {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 900;
+    letter-spacing: 1.0.39vw;
+    color: #000000;
+}
+
+.chargesDescription {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.0.58vw;
+    color: #747474;
+    padding-bottom: 4.7%;
+}
+
+.addChargeBox {
+    border: 0.39vw dashed #B5B5B5;
+    padding: 2.7% 0;
+    margin-bottom: 2.4%;
+}
+
+.contentBox {
+    width: fit-content;
+    margin: auto;
+}
+
+.addChargeIcon {
+    width: 3.8vw;
+    margin-right: 1.17vw;
+    vertical-align: middle;
+}
+
+.addCharge {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 900;
+    letter-spacing: 1.0.39vw;
+    color: #595959;
+}
+
+.aligner {
+    text-align: center;
+    margin-bottom: 6.2%;
+    position: relative;
+}
+
+.whatText {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0;
+    color: #747474;
+    border-bottom: 1px solid #595959;
+}
+
+.greyContainer {
+    border: 1px solid #F0F0F0;
+    margin-bottom: 5.4%;
+}
+
+.greyHeader {
+    padding: 2.4%;
+    background-color: #F0F0F0;
+    display: flex;
+}
+
+.upIcon {
+    width: 1.27vw;
+    margin-right: 1.36vw;
+    vertical-align: middle;
+}
+
+.darkerText {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 900;
+    letter-spacing: 1.0.39vw;
+    color: #595959;
+}
+
+.deleteIcon {
+    width: 2.93vw;
+    float: right;
+    box-shadow: 0px 0px 0.58vw #E65959;
+    border: 0.5px solid #E65959;
+    border-radius: 50%;
+}
+
+.greyBody {
+    padding: 6% 4.3%;
+}
+
+.whiteBG {
+    background-color: #FFFFFF;
+    border-radius: 1.46vw;
+    padding: 0.58vw 1.27vw 0.68vw;
+    margin-right: 1.17vw;
+    width: 30%;
+}
+
+.errorIcon {
+    margin-right: 1.17vw;
+    width: 1.36vw;
+    vertical-align: middle;
+}
+
+.errorText {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.0.58vw;
+    font-weight: 600;
+    color: #CB1720;
+}
+
+.saveContainer {
+    padding-top: 3%;
+}
+
+.saveDraft {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    color: #595959;
+    border-bottom: 1px solid #595959;
+}
+
+.nextButton {
+    padding: 0.78vw 1.85vw;
+    border-radius: 2.83vw;
+    background-color: #32BDD2;
+    color: #FFFFFF;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    border: 0;
+    float: right;
+}
+
+.nextIcon {
+    width: 0.97vw;
+    vertical-align: middle;
+    margin-left: 1.07vw;
+}
+
+.valign {
+    vertical-align: middle;
+    width: 63%;
+}
+
+
+/* =============================================================witnes  and evidence====================================================== */
+
+.witness_evidence_container {
+    background-color: #F6F8F9;
+    padding: 02.44%;
+    box-shadow: 0px 0px 4px #00000029;
+}
+
+.complaint_header {
+    background-color: #FFFFFF;
+    padding: 4% 3.57%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.complaint_header p {
+    font: 400 1.36vw/1.95vw "Anton";
+    letter-spacing: 2.8px;
+    color: #000000;
+}
+
+.under_riview {
+    height: 273px;
+    border: 1px solid #CCCCCC;
+    margin: 2% 0;
+}
+
+.containt_background {
+    background-color: #fff;
+    padding: 6.50% 7.50% 5.1% 7.50%;
+}
+
+.charges_container {
+    border: 1px solid #CCCCCC;
+    padding: 4.60% 8.37% 6% 12.62%;
+    position: relative;
+}
+
+.greyTab {
+    padding: 3.5% 6%;
+    background-color: #F4F8FA;
+}
+
+.barAppend {
+    display: flex;
+}
+
+.appendImage {
+    width: fit-content;
+    background-color: #FFFFFF;
+    border-top-left-radius: 5.27vw;
+    border-bottom-left-radius: 5.27vw;
+}
+
+.appendImage img {
+    width: 4.3vw;
+    vertical-align: middle;
+}
+
+.appendBox {
+    width: 79.25%;
+}
+
+.appendBox input {
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    line-height: 1.7;
+    padding-left: 2%;
+}
+
+.textLine {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.appendSubmit {
+    width: 14.5%;
+}
+
+.submitButton {
+    background-color: #32BDD2;
+    border-radius: 0px 5.27vw 5.27vw 0px;
+    border: 0;
+    color: #FFFFFF;
+    letter-spacing: 1.2px;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+}
+
+.charges {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+    font-weight: bold;
+}
+
+.text {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    padding-top: 2.54%;
+    line-height: 1.7;
+}
+
+.lorem_text {
+    padding-top: 3.68%;
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    line-height: 1.7;
+}
+
+.may {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    font-weight: 700;
+    color: #747474;
+}
+
+.heading {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #464646;
+    font-weight: bold;
+    padding-top: 2.06%
+}
+
+.lorem {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    line-height: 1.7;
+    padding-top: 0.8%;
+}
+
+.witness_append_charges {
+    margin-top: 3.8%;
+}
+
+.witness_charges {
+    padding: 01.6% 4%;
+    background-color: #EEEEEE;
+}
+
+.evidence_table {
+    padding-top: 7.2%;
+}
+
+.witness_table {
+    padding-top: 7.2%;
+}
+
+.charge_two {
+    padding-top: 7.2%;
+}
+
+.append {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+    vertical-align: middle;
+    padding: 0% 1% .5%;
+}
+
+.pluse_icon {
+    width: 2.53vw;
+    box-shadow: 0px 0px 6px #32BDD2;
+    border-radius: 10vw;
+    vertical-align: middle;
+}
+
+.close_X {
+    width: 2.63vw;
+    vertical-align: middle;
+    cursor: pointer;
+    background: #32BDD2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 0.58vw #32BDD2;
+}
+
+.error_msg_container {
+    background: #F0F0F0;
+    border-radius: 50px;
+    padding: 01% 02%;
+    margin-top: 1.79%;
+    width: 40%;
+}
+
+.error_icon {
+    width: 1.36vw;
+    height: 1.27vw;
+    vertical-align: middle;
+}
+
+.msg {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #CB1720;
+    vertical-align: middle;
+    padding-left: 01%;
+}
+
+.evidence_section {
+    padding-bottom: 7.40%;
+    padding-top: 10.8%;
+}
+
+.witness_section {
+    padding-bottom: 5.21%;
+}
+
+.evidence_container {
+    padding: 3% 2%;
+    background-color: #FBFCE7;
+    border: 1px solid #F3F5B3;
+}
+
+.lorem_text_02 {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    line-height: 1.7;
+    padding-top: 2.90%;
+}
+
+.append_charges_02 {
+    padding: 01.6% 2.6%;
+    margin-top: 1.13%;
+}
+
+.append_container {
+    padding: 1% 2%;
+    background-color: #FBFCE7;
+}
+
+.drop_down {
+    width: 0.97vw;
+    height: 0.85vw;
+    vertical-align: middle;
+}
+
+.appendContainner {
+    width: 95%;
+    float: left;
+}
+
+.append_charge {
+    width: 5%;
+    float: right;
+    text-align: right;
+}
+
+.append_evidence_container {
+    background-color: #EEEEEE;
+    border-top: 1px solid #CCCCCC;
+    padding-left: 6.19%;
+}
+
+.fileContainer {
+    display: flex;
+    padding: 3.8% 0% 0% 0;
+}
+
+.uploadFile {
+    display: flex;
+    padding: 3.8% 6.3% 3.8% 0
+}
+
+.selectContainer {
+    background-color: white;
+    border: 1px solid #DFEBEF;
+    padding: 2% 2% 1%;
+    width: 50%;
+}
+
+.select {
+    padding-bottom: 1%;
+    font-size: 1.17vw;
+    color: #747474;
+    font-family: 'Lato';
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.maximum {
+    padding-bottom: 3%;
+    font-size: 0.97vw;
+    color: #747474;
+    font-family: 'Lato';
+    letter-spacing: 0.5px;
+}
+
+.browse {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    background-color: #32BDD2;
+    font-weight: 700;
+    border-radius: 6%;
+    padding: 2% 3%;
+    color: #FFFFFF;
+    border: 0;
+    letter-spacing: 0.6px;
+}
+
+.uploadContainer {
+    background-color: #32BDD2;
+    border: 1px solid #DFEBEF;
+    padding: 2%;
+    width: 50%;
+}
+
+.uploadBackground {
+    border: 1px dashed white;
+    padding: 6% 0;
+}
+
+.upload {
+    display: block;
+    margin: auto;
+    width: 2.73vw;
+}
+
+.drop_guide_line {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 1.17vw;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 1px;
+    opacity: 0.75;
+    padding-top: 2%;
+}
+
+.updated_files {
+    padding: 5% 6.19% 4.6% 0;
+    border-top: 1px dashed #CCCCCC;
+}
+
+.file {
+    font: 400 1.17vw/2.14vw "Lato";
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.file_status {
+    margin-top: 03.3%;
+    padding: 2.097% 4.52% 2.097% 2.77%;
+    background: #FFFFFF;
+    border-radius: 0.78vw;
+}
+
+.file_type_img {
+    border-radius: 0.78vw;
+    border-left: 0.88vw solid #464646;
+}
+
+.file_type_mp4 {
+    border-radius: 0.78vw;
+    border-left: 0.88vw solid #E65959;
+}
+
+.file_type_pdf {
+    border-radius: 0.78vw;
+    border-left: 0.88vw solid #F0C142;
+}
+
+.file_name {
+    width: 55%;
+    float: left;
+    padding-top: 1%;
+}
+
+.file_name p {
+    font: 400 1.17vw/1.4vw "Lato";
+    letter-spacing: 0.6px;
+    color: #595959;
+}
+
+.file_size {
+    float: left;
+    width: 35%;
+    padding-top: 1%;
+}
+
+.file_size p {
+    font: 400 1.17vw/1.46vw "Lato";
+    letter-spacing: 0px;
+    color: #464646;
+}
+
+.status {
+    float: right;
+    width: 10%;
+    text-align: right;
+}
+
+.status img {
+    width: 2.20vw;
+    vertical-align: middle;
+    box-shadow: 0px 0px 0.58vw #E6595980;
+    border: 0.5px solid #E65959;
+    border-radius: 1.85vw;
+}
+
+.container_btn {
+    padding-top: 5.5%;
+    text-align: right;
+}
+
+.witness_submit {
+    background: #32BDD2;
+    box-shadow: 0px 0px 0.78vw #32BDD2;
+    border: 1px solid #32BDD2;
+    border-radius: 0.48vw;
+    font: 700 1.17vw/1.46vw "Lato";
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    padding: 1% 3%;
+}
+
+.evidence_description {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.contact_info {
+    padding: 0 7.8%;
+    border-top: 1px solid #CCCCCC;
+}
+
+.btn_witness {
+    padding-top: 4.58%;
+    padding-bottom: 3.99%;
+}
+
+.witness_name {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #595959;
+    padding: 1% 0%;
+}
+
+.input_text {
+    padding-top: 4.58%;
+}
+
+.email_text {
+    padding-top: 4.58%;
+}
+
+.mobile_input {
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F7F4F4;
+    border-radius: 10px;
+    padding: 2%;
+    width: 69%;
+}
+
+.evidence {
+    width: 12%;
+    background: #F3F5B3;
+    border-top-left-radius: 15px;
+    padding: 1%;
+}
+
+.task_container {
+    width: 7%;
+    background-color: #32BDD2;
+    border: 1px solid #D6D4E0;
+    border-radius: 3.6vw;
+    position: absolute;
+    top: 2.62%;
+    left: 0;
+    transform: translateX(-50%);
+}
+
+.task_container_home {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 0.78vw #32BDD2;
+    border-radius: 2.73vw 2.73vw 0px 0px;
+    padding: 2vw 0;
+    cursor: pointer;
+}
+
+.task_container_report {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 0.78vw #32BDD2;
+    border-radius: 0px 0px 2.73vw 2.73vw;
+    padding: 2vw 0;
+    cursor: pointer;
+}
+
+.text {
+    font: 400 1.17vw/1.46vw "Lato";
+    letter-spacing: 0.6px;
+    color: #747474;
+}
+
+.task_container_charge {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 0.78vw #32BDD2;
+    padding: 2vw 0;
+    cursor: pointer;
+}
+
+.task_name_blue {
+    text-align: center;
+    font: 400 0.97vw/1.96vw "Lato";
+    letter-spacing: 0.5px;
+    color: #32BDD2;
+    padding-top: 10.5%;
+}
+
+.task_name_gray {
+    color: #EEEEEE;
+    text-align: center;
+    font: 400 0.97vw/1.96vw "Lato";
+    letter-spacing: 0.5px;
+    padding-top: 10.5%;
+}
+
+.dash_border {
+    border-top-style: dashed;
+    border-color: #A0DCE5;
+}
+
+.task_container_mail {
+    padding: 1.5vw 0;
+    cursor: pointer;
+}
+
+.home {
+    width: 1.76vw;
+    display: block;
+    margin: auto;
+}
+
+.mail {
+    width: 1.76vw;
+    display: block;
+    margin: auto;
+}
+
+.calender {
+    width: 1.76vw;
+    display: block;
+    margin: auto;
+}
+
+.pencil {
+    width: 1.75vw;
+    display: block;
+    margin: auto;
+}
+
+.eiro {
+    width: 2.06vw;
+    display: block;
+    margin: auto;
+}
+
+
+/* ================== under review ==================== */
+
+
+/* .underBox {
+    border: 1px solid #CCCCCC;
+    margin-bottom: 3.5%;
+} */
+
+.greyUnderBar {
+    padding: 3.4% 4.2%;
+    background-color: #EEEEEE;
+}
+
+.buttonBox {
+    width: 40%;
+    float: left;
+}
+
+.underButton {
+    background-color: #D05224;
+    color: #FFFFFF;
+    border: 0;
+    padding: 6px 15px;
+    letter-spacing: 1.2px;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 900;
+}
+
+.detailsBox {
+    width: 30%;
+    float: left;
+}
+
+.barHeading {
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+    padding-bottom: 2%;
+}
+
+.barDetails {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #464646;
+    font-weight: 700;
+}
+
+.complaintBox {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+
+.underBody {
+    padding: 3.4% 4.2%;
+}
+
+.complainantBox {
+    width: 50%;
+    float: left;
+}
+
+.respondentBox {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.bodyHeading {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #909090;
+    font-weight: 600;
+    padding-bottom: 4%;
+}
+
+.underName {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    font-weight: 900;
+    padding-bottom: 3%;
+}
+
+.bodyDetails {
+    color: #4C5264;
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    letter-spacing: 1.2px;
+    padding-bottom: 2%;
+}
+
+.container {
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    padding: 12.62% 0 13.47% 0;
+    position: relative;
+}
+
+.svg_container {
+    width: 30%;
+    float: left;
+}
+
+.left_svg_viewport {
+    width: 5.09vw;
+    margin-left: auto;
+}
+
+.data_container {
+    width: 65%;
+    float: right;
+    margin-left: 5%;
+}
+
+.complaint_container {
+    padding-top: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.days {
+    font-size: 1.66vw;
+    font-family: 'Lato';
+    letter-spacing: 1.7px;
+    color: #464646;
+    font-weight: 700;
+    padding-top: 2%;
+}
+
+.complaint {
+    margin-top: 43.5%;
+}
+
+.date_time {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.2px;
+    color: #505050;
+}
+
+.sent {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #909090;
+}
+
+.jeret {
+    padding-top: 1%;
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+    font-weight: bold;
+}
+
+.member {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+}
+
+.mob_number {
+    width: 25%;
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+    padding-top: 1%;
+    line-height: 1.5;
+}
+
+.Gurgaon {
+    width: 50%;
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #505050;
+    padding-top: 1%;
+    line-height: 1.5;
+}
+
+.accepted {
+    margin-top: 29%;
+}
+
+.witnessTag {
+    background-color: #EEEEEE;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    padding: 1.2% 2.7%;
+    border-top-left-radius: 1.17vw;
+    display: inline-block;
+}
+
+.borderContainer {
+    border: 1px solid #CCCCCC;
+}
+
+.yellowCard {
+    background-color: #EEEEEE;
+    padding: 3% 2.7%;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+}
+
+.witDescription {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 1%;
+}
+
+.addIcons {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.addLabel {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    color: #000000;
+    padding-left: 1.2%;
+}
+
+.row {
+    padding: 4.6% 2.7%;
+}
+
+.bodBot {
+    border-bottom: 1px solid #F3F5B3;
+}
+
+.editIcons {
+    width: 3.32vw;
+}
+
+.deleteIcons {
+    width: 3.32vw;
+    margin-left: 2%;
+}
+
+.leftColumn {
+    float: left;
+    width: 50%;
+}
+
+.rightColumn {
+    float: right;
+    width: 50%;
+    text-align: right;
+    visibility: hidden;
+}
+
+.witName {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+
+.witDetails {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+
+.parent {
+    padding-bottom: 7.28%;
+    padding-top: 7.28%;
+}
+
+.evidenceHeading {
+    background-color: #EEEEEE;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    padding: 1.2% 2.7%;
+    border-top-left-radius: 1.17vw;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    display: inline-block;
+}
+
+.evidenceDescription {
+    width: 80%;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 1%;
+}
+
+.borderBox {
+    border: 1px solid #CCCCCC;
+}
+
+.rows {
+    display: flex;
+    padding: 3.98% 3.95%;
+    border-bottom: 1px solid #CCCCCC;
+    align-items: center;
+}
+
+.entryColumns {
+    width: 50%;
+}
+
+.sizeColumns {
+    width: 25%;
+    text-align: left;
+}
+
+.delete_column {
+    width: 25%;
+}
+
+.witness_column {
+    width: 86%;
+}
+
+.edit_column {
+    width: 7%;
+}
+
+.deletecolumn {
+    width: 7%;
+}
+
+.updated_file {
+    width: 90%;
+}
+
+.updated_file_size {
+    width: 10%;
+}
+
+.entry_edit {
+    width: 2.93vw;
+    box-shadow: 0px 0px 4px #32BDD2;
+    border-radius: 50%;
+    float: right;
+}
+
+.entry_delete {
+    width: 2.93vw;
+    box-shadow: 0px 0px 6px #E6595980;
+    border-radius: 50%;
+    float: right;
+}
+
+.latoReg {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.latoBold {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #747474;
+    padding-bottom: 2%;
+}
+
+.underline {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #595959;
+}
+
+.desContainer {
+    border: 1px solid #D5E2E8;
+    position: relative;
+    padding: 2.3% 3.3% 1.5%;
+}
+
+.desLorem {
+    font: 400 1.36vw/2.14vw "Lato";
+    letter-spacing: 1.4px;
+    color: #747474;
+}
+
+.charge_edit {
+    width: 2.53vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    box-shadow: 0px 0px 0.39VW #00000041;
+    border-radius: 50%;
+}
+
+.charge_container {
+    padding: 3.6%;
+}
+
+.file_container {
+    width: 82%;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.no_radius {
+    border-radius: 0;
+    padding-left: 3.6%;
+    padding-right: 3.6%;
+}
+
+.delete_icon_box {
+    width: 7%;
+}
+
+.add_box {
+    width: 12%;
+    margin-top: 1%;
+}
+
+.add_icon_box {
+    width: 40%;
+    float: left;
+}
+
+.add_text_box {
+    width: 60%;
+    float: right;
+    padding-top: 5%;
+    font: 700 1.36vw/1.75vw "Lato";
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.draftDelete {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid #E65959;
+    border-radius: 0.48vw;
+    overflow: hidden;
+    margin-top: 1.74%;
+}
+
+.draftLeft {
+    width: 83%;
+}
+
+.draftText {
+    font: 400 0.97vw/1.17vw "Roboto";
+    letter-spacing: 0.5px;
+    color: #909090;
+    text-align: center;
+}
+
+.draftRight {
+    width: 17%;
+    background-color: #E65959;
+    padding: 5% 0;
+}
+
+.delete_draft_icon {
+    width: 1.36vw;
+    display: block;
+    margin: auto;
+}
+
+
+/* ====================================== Your complaint ============================================= */
+
+.rentInvoiceParent {
+    background-color: #E5E5E5;
+}
+
+.navBar {
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 6px #BCBCBC40;
+    padding: 1.9% 2.44% 1.9% 2.46%;
+}
+
+.menu {
+    width: 78.90%;
+    float: left;
+}
+
+.posh {
+    font: 400 2.34vw/3.5vw "Anton";
+    letter-spacing: 1.1px;
+    color: #000000;
+}
+
+.burgerMenu {
+    width: 2.24vw;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.profile {
+    width: 21.073%;
+    float: right;
+}
+
+.navRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification img {
+    width: 3.125vw;
+    vertical-align: middle;
+}
+
+.pic {
+    width: 15.89%;
+    margin-left: 7%;
+}
+
+.profilePic {
+    width: 3.125vw;
+    vertical-align: middle;
+}
+
+.john {
+    width: 50.08%;
+    text-align: center;
+    margin: 0 2%;
+}
+
+.name {
+    font: 500 1.17vw/1.36vw 'Roboto';
+    letter-spacing: 0.9px;
+    color: #5A5A5A;
+}
+
+.drop {
+    width: 8.31%;
+}
+
+.dropDown {
+    width: 0.97vw;
+}
+
+.container {
+    background-color: #F6F8F9;
+    padding: 02% 02% 3%;
+}
+
+.your_complaint_background {
+    background-color: #fff;
+    box-shadow: 0px 0px 4px #00000029;
+}
+
+.complaints {
+    font: 400 1.36vw/3.32vw "Anton";
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.first_row {
+    padding: 2.2% 4.4%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.87% 4.14% 5.2% 4.1%;
+}
+
+.button_container {
+    padding-top: 2.15%;
+}
+
+.tmp {
+    font: 700 1.36vw/1.86vw "Lato";
+    letter-spacing: 1.4px;
+    color: #595959;
+}
+
+.respondent {
+    font: 400 1.36vw/1.46vw "Lato";
+    letter-spacing: 0.6px;
+    color: #909090;
+    padding-top: 1%;
+}
+
+.nishant {
+    font: 700 1.36vw/1.85vw "Lato";
+    letter-spacing: 1.4px;
+    color: #505050;
+}
+
+.addres_container {
+    width: 62.55%;
+    padding-top: 3%;
+}
+
+.address {
+    font: 400 1.36vw/1.85vw "Lato";
+    letter-spacing: 1.2px;
+    color: #4C5264;
+}
+
+.seen {
+    font: 400 1.17vw/1.46vw "Lato";
+    letter-spacing: 0.6px;
+    color: #909090;
+}
+
+.saved_date {
+    font: 700 1.17vw/1.66vw "Lato";
+    letter-spacing: 0.7px;
+    color: #505050;
+}
+
+.delete_row {
+    padding-top: 2.79%;
+}
+
+.your_complaint_delete {
+    width: 10%;
+    float: left;
+}
+
+.your_complaint_delete_text {
+    width: 90%;
+    float: right;
+    margin-top: 0.65vw;
+}
+
+.your_complaint_delete img {
+    width: 2.93vw;
+    vertical-align: middle;
+    background: #FFFFFF 0% 0%;
+    box-shadow: 0px 0px 6px #E65959;
+    border: 0.5px solid #E65959;
+    border-radius: 1.85vw;
+}
+
+.delete_icon {
+    width: 25%;
+    float: left;
+}
+
+.your_complaint_delete_text span {
+    font: 400 1.17vw/1.46vw "Lato";
+    letter-spacing: 1.2px;
+    color: #595959;
+}
+
+.delete {
+    text-align: left;
+    font-family: 'Lato';
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+
+.draft_btn {
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    background: #D0C824;
+    border-radius: 0.5vw;
+    padding: 1% 3%;
+    border: 1px solid #D0C824;
+}
+
+.review_btn {
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    background: #D15629;
+    border-radius: 0.5vw;
+    padding: 1% 3%;
+    border: 1px solid #D15629;
+}
+
+.submit_on {
+    padding-top: 4%;
+}
+
+.second_colom img {
+    width: 3.22vw;
+}
+
+.border_top {
+    border-top: 1px solid #CCCCCC;
+}
+
+.first_colom {
+    width: 60%;
+}
+
+.second_colom {
+    width: 20%;
+}
+
+.third_colom {
+    width: 20%;
+    text-align: right;
+}
+
+.complaintBody {
+    box-shadow: 0 0 0.39vw #00000029;
+    background-color: #FFFFFF;
+    width: 95%;
+    margin: 2.5%;
+}
+
+.complaintHead {
+    padding: 3.6% 4.1%;
+    background-color: #FFFFFF;
+    border-bottom: 0.5px solid #CCCCCC;
+}
+
+.listContainer {
+    padding: 5.8% 7.6%;
+}
+
+.headtTextDark {
+    font: 400 1.36vw 'Anton';
+    letter-spacing: 2.8px;
+    color: #000000;
+}
+
+.underBox {
+    border: 1px solid #CCCCCC;
+    border-bottom: 0;
+    padding: 7.74% 3.63%;
+    background-color: #EEEEEE;
+    position: relative;
+}
+
+.under_Grey_Bar {
+    background-color: #EEEEEE;
+    border-bottom: 0.5px solid #CCCCCC;
+    padding-bottom: 3.9%;
+}
+
+.underButton {
+    background-color: #FFF;
+    border: 0;
+    padding: 0.58vw 1.46vw;
+    font: 900 1.36vw/1.46vw 'Lato';
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    background-color: #E65959;
+    position: absolute;
+    top: -4%;
+    left: 3%;
+}
+
+.detailsBox {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.barHeading {
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+    padding-bottom: 2%;
+}
+
+.barDetails {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #464646;
+    font-weight: 700;
+}
+
+.complaintBox {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.complainterParties {
+    padding-top: 3.4%;
+}
+
+.complainantBox {
+    width: 50%;
+    float: left;
+}
+
+.respondentBox {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.bodyHeading {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #909090;
+    font-weight: 600;
+    padding-bottom: 4%;
+}
+
+.underName {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    font-weight: 900;
+    padding-bottom: 3%;
+}
+
+.bodyDetails {
+    color: #4C5264;
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    letter-spacing: 1.2px;
+    padding-bottom: 2%;
+}
+
+.inboxContainer {
+    padding: 4.6% 4.36% 4.6% 12.6%;
+    border: 1px solid #CCCCCC;
+    position: relative;
+}
+
+.inboxHeader {
+    padding-bottom: 7.6%;
+}
+
+.inboxHeading {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 700;
+    letter-spacing: 1.0.39vw;
+    color: #505050;
+    padding-bottom: 2.5%;
+}
+
+.inboxSubheading {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    width: 60%;
+}
+
+.inboxCardContainer {
+    border: 1px solid #CCCCCC;
+    margin-top: 2.2%;
+}
+
+.inboxCard {
+    background-color: #EEEEEE;
+    padding: 2.7% 4.4% 3.2% 3.8%;
+    display: flex;
+    align-items: center;
+}
+
+.imageContainers {
+    width: 15%;
+    float: left;
+}
+
+.inboxImage {
+    width: 3.41vw;
+}
+
+.detailsContainers {
+    width: 70%;
+    float: left;
+}
+
+.notiContainer {
+    width: 7%;
+    float: left;
+}
+
+.noti_dot {
+    height: 0.97vw;
+    width: 0.97vw;
+    background-color: #FF0000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.inboxName {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 700;
+    letter-spacing: 1.0.39vw;
+}
+
+.inboxDesignation {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+
+.inboxDetails {
+    width: 93%;
+    float: left;
+}
+
+.dropdownContainers {
+    width: 15%;
+    float: left;
+}
+
+.dropdown {
+    width: 0.97vw;
+    float: right;
+    vertical-align: middle;
+}
+
+.inboxDropBox {
+    padding: 0;
+}
+
+.inboxTextCard {
+    padding: 4.3%;
+    border-bottom: 1px dashed #CCCCCC;
+}
+
+.inboxSubmitBtn {
+    background-color: #32BDD2;
+    box-shadow: 0px 0px 8px #32BDD2;
+    border-radius: 1.36vw;
+    padding: 0.68vw 1.95vw;
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    border: 0;
+}
+
+.msgList {
+    padding: 5.8% 5.1%;
+}
+
+.msgRow {
+    padding: 4% 5.7% 4% 2.9%;
+    box-shadow: 0 0 0.58vw #00000029;
+    margin-bottom: 7.3%;
+}
+
+.lastmsgRow {
+    margin-bottom: 0;
+}
+
+.notiColumn {
+    width: 6%;
+    float: left;
+}
+
+.msgColumn {
+    width: 94%;
+    float: right;
+}
+
+.nameContent {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    color: #747474;
+}
+
+.inboxTextBox {
+    box-shadow: 0 0 0.97vw #00000029;
+    width: 100%;
+    height: 9.5vw;
+    border: 0;
+    margin: 2.1% 0;
+    padding: 1%;
+}
+
+.contentDateTime {
+    font-family: 'Roboto';
+    font-size: 1.17vw;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    color: #747474;
+    padding-bottom: 2.5%;
+}
+
+.inboxContent {
+    font-family: 'Roboto';
+    font-size: 1.36vw;
+    letter-spacing: 0.7px;
+    color: #747474;
+}
+
+.blackBox {
+    padding: 7.3% 0 0 5.8%;
+    background-color: #000000;
+    border-radius: 0.68vw;
+    opacity: 0.75;
+    letter-spacing: 1.0.39vw;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 1.36vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.redBar {
+    border-top: 0.29vw solid #FF0000;
+    padding-top: 0.29vw;
+}
+
+.whiteUL {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.clear {
+    clear: both;
+}
+
+.none {
+    display: none;
+}
+
+.hideNoti {
+    visibility: hidden;
+}
+
+.unreadMsg {
+    font-weight: 700;
+}
+
+
+/* ==================================== report ============================================= */
+
+.reportTitle {
+    font: 700 1.36vw/1.66vw "Lato";
+    letter-spacing: 1.4px;
+    color: #505050;
+    padding-bottom: 6.29%;
+}
+
+.underDev {
+    font: 300 3vw "Lato";
+    letter-spacing: 4.1px;
+    color: #32BDD2;
+    padding-bottom: 28%;
+}
+
+
+/* ============================== tracker ======================================================================= */
+
+.pageContainer {
+    background-color: #F6F8F9;
+}
+
+.trackerContainer {
+    padding: 12.62% 0 13.47% 0;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    position: relative;
+}
+
+
+/* ============================= inbox ====================================================== */
+
+.text {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    padding-top: 2.54%;
+    line-height: 1.7;
+}
+
+.lorem_text {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    line-height: 1.7;
+    padding-top: 3.6%;
+}
+
+.may {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #747474;
+}
+
+.heading {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #464646;
+    font-weight: bold;
+    padding-top: 2.06%
+}
+
+.lorem {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    line-height: 1.7;
+    padding-top: 0.8%;
+}
+
+.append_charges {
+    padding: 01.6% 2.6%;
+    margin-top: 3.7%;
+}
+
+.witness_charges {
+    padding: 01.6% 2.6%;
+    background-color: #EEEEEE;
+}
+
+.append {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+    vertical-align: middle;
+    padding: 0% 1% .5%;
+}
+
+.error_msg {
+    background: #F0F0F0;
+    border-radius: 50px;
+    padding: 01% 02%;
+    margin-top: 1.79%;
+    width: 38%;
+}
+
+.error_icon {
+    width: 14.85px;
+    height: 13.5px;
+    vertical-align: middle;
+}
+
+.msg {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #CB1720;
+    vertical-align: middle;
+    padding-left: 01%;
+}
+
+.evidence_section {
+    padding-bottom: 7.40%;
+    padding-top: 10.8%;
+}
+
+.witness_section {
+    padding-bottom: 5.21%;
+}
+
+.evidence_container {
+    padding: 3% 2%;
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+}
+
+.lorem_text_02 {
+    text-align: left;
+    font-size: 1.36vw;
+    font-family: 'Lato';
+    letter-spacing: 1.4px;
+    color: #4C5264;
+    line-height: 1.7;
+    padding-top: 2.90%;
+}
+
+.append_charges_02 {
+    padding: 01.6% 2.6%;
+    margin-top: 1.13%;
+}
+
+.append_container {
+    padding: 1% 2%;
+    background-color: #EEEEEE;
+}
+
+
+/* .drop_down {
+    width: 9.39px;
+    height: 5.85px;
+    vertical-align: middle;
+} */
+
+.evidence_description {
+    text-align: left;
+    font-size: 1.17vw;
+    font-family: 'Lato';
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.evidence {
+    width: 12%;
+    background-color: #EEEEEE;
+    border-top-left-radius: 15px;
+    padding: 1%;
+}
+
+.witnessTag {
+    background-color: #EEEEEE;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    padding: 1.2% 2.7%;
+    border-top-left-radius: 1.17vw;
+    display: inline-block;
+}
+
+.borderContainer {
+    border: 1px solid #CCCCCC;
+}
+
+.yellowCard {
+    background-color: #EEEEEE;
+    padding: 4% 2.7%;
+}
+
+.witDescription {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 1%;
+}
+
+.addIcons {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.addLabel {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    color: #000000;
+    padding-left: 1.2%;
+}
+
+.row {
+    padding: 4.6% 2.7%;
+}
+
+.bodBot {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.editIcons {
+    width: 34px;
+    height: 34px;
+}
+
+.deleteIcons {
+    width: 34px;
+    height: 34px;
+    margin-left: 2%;
+}
+
+.rightColumn {
+    float: right;
+    width: 50%;
+    text-align: right;
+    visibility: hidden;
+}
+
+.witName {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+
+.witDetails {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+
+.parent {
+    padding-bottom: 7.28%;
+    padding-top: 7.28%;
+}
+
+.evidenceHeading {
+    background-color: #EEEEEE;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    padding: 1.2% 2.7%;
+    border-top-left-radius: 12px;
+    display: inline-block;
+}
+
+.evidenceDescription {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+    padding-bottom: 1%;
+}
+
+.yellowCard {
+    background-color: #EEEEEE;
+    padding: 4% 2.7%;
+}
+
+.borderBox {
+    border: 1px solid #CCCCCC;
+}
+
+.rows {
+    padding: 4.4% 2.7%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.leftColumns {
+    width: 75%;
+    float: left;
+    text-align: left;
+}
+
+.rightColumns {
+    width: 25%;
+    float: right;
+    text-align: right;
+}
+
+.latoReg {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #505050;
+}
+
+.latoBold {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #747474;
+    padding-bottom: 2%;
+}
+
+.underline {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #595959;
+}
+
+.appendparent {
+    padding-top: 4.24%;
+}
+
+.appendChargeText {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0.7px;
+    color: #505050;
+    margin-left: 10px;
+}
+
+.greyTab {
+    padding: 3.5% 6%;
+    background-color: #F4F8FA;
+}
+
+.barAppend {
+    display: flex;
+}
+
+.appendImage {
+    width: fit-content;
+    background-color: #FFFFFF;
+    border-top-left-radius: 5.27vw;
+    border-bottom-left-radius: 5.27vw;
+}
+
+.profilePic {
+    width: 34px;
+    vertical-align: middle;
+}
+
+.appendBox {
+    width: 81.25%;
+}
+
+.textLine {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.appendSubmit {
+    width: 12.5%;
+}
+
+.submitButton {
+    background-color: #32BDD2;
+    border-radius: 0px 5.27vw 5.27vw 0px;
+    border: 0;
+    color: #FFFFFF;
+    letter-spacing: 1.2px;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+}
+
+.border {
+    border: 0.5px solid #CCCCCC;
+}
+
+.noTopBorder {
+    border: 0.5px solid #CCCCCC;
+    border-top: 0;
+}
+
+.noBottomBorder {
+    border: 0.5px solid #CCCCCC;
+    border-bottom: 0;
+}
+
+
+/* =========================================Delete=================================== */
+
+.delete_parent {
+    background-color: #000000B2;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+}
+
+.relative_container {
+    background-color: #000000B2;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.delete_container {
+    width: 55.55%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 35px #00000029;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon {
+    padding-right: 3.38%;
+    padding-top: 3.38%;
+}
+
+.icon img {
+    float: right;
+    width: 3.71vw;
+    background: #FAFAFA 0% 0%;
+    box-shadow: 0px 0px 10px #00000029;
+    border: 0.5px solid #EFEFEF;
+    border-radius: 10vw;
+}
+
+.delete_top {
+    padding: 1.91% 0 5.52% 6.55%;
+}
+
+.delete {
+    text-align: left;
+    font-size: 1.56vw;
+    font-weight: bold;
+    font-family: 'Lato';
+    letter-spacing: 1.6px;
+    color: #E65959;
+}
+
+.button_top {
+    text-align: center;
+    padding-bottom: 7.90%;
+}
+
+.conferm_top {
+    width: 90%;
+    padding-left: 6.55%;
+}
+
+.conferm {
+    font: 400 1.36vw/2.34vw "Lato";
+    letter-spacing: 0.7px;
+    color: #5A5A5A;
+    padding-bottom: 8.1%;
+}
+
+.delete_btn {
+    padding: 1.61% 4.44%;
+    text-align: center;
+    font: 700 1.46vw/1.75vw "Roboto";
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    background: #E65959 0% 0%;
+    box-shadow: 0px 0px 8px #E65959;
+    border: 0;
+    cursor: pointer;
+    border-radius: 0.35vw;
+    margin-right: 5.27%;
+    outline: none;
+}
+
+.no_btn {
+    padding: 1.8% 8.4%;
+    text-align: center;
+    font: 700 1.46vw/1.75vw "Roboto";
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0;
+    background: #32BDD2 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 8px #32BDD2;
+    border-radius: 0.35vw;
+    outline: none;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: right;
+}
+
+
+/* ========================================add witness=============================================================== */
+
+.opaqueBackground {
+    height: 150vh;
+    background-color: #000000B2;
+    position: relative;
+}
+
+.addContainer {
+    background-color: #FFFFFF;
+    width: 65vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 3.41vw #00000029;
+    border-radius: 2.44vw;
+}
+
+.imageHolder {
+    padding: 2.9% 2.9% 1.01%;
+}
+
+.closePop {
+    width: 3.71vw;
+    float: right;
+    box-shadow: 0 0 0.97vw #00000029;
+    border: 0.5px solid #EFEFEF;
+    border-radius: 50%;
+}
+
+.middleRow {
+    padding: 0 6.8% 7.8%;
+}
+
+.redDot {
+    width: 0.68vw;
+    height: 0.68vw;
+    background-color: #E65959;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.cancelBtn {
+    font: 700 1.36vw/1.66vw "Lato";
+    letter-spacing: 1.4px;
+    color: #5A5A5A;
+    border-bottom: 1px solid #5A5A5A;
+    padding-bottom: 0.39vw;
+}
+
+.saveBtn {
+    text-align: center;
+    font: 700 1.36vw/1.66vw "Lato";
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+    box-shadow: 0 0 0.78vw #32BDD2;
+    border-radius: 2.89vw;
+    border: 0;
+    background-color: #32BDD2;
+    padding: 2.3% 8.6%;
+    float: right;
+}
+
+
+/* =================================================== Meeting ======================================= */
+
+.complaintBody {
+    box-shadow: 0 0 0.39vw #00000029;
+    background-color: #FFFFFF;
+    width: 95%;
+    margin: 2.5%;
+}
+
+.complaintHead {
+    padding: 3.6% 4.1%;
+    background-color: #FFFFFF;
+    border-bottom: 0.5px solid #CCCCCC;
+}
+
+.listContainer {
+    padding: 5.8% 7.6%;
+}
+
+.headtTextDark {
+    font: 400 1.36vw 'Anton';
+    letter-spacing: 2.8px;
+    color: #000000;
+}
+
+.underBox {
+    border: 1px solid #CCCCCC;
+    border-bottom: 0;
+    padding: 7.74% 3.63%;
+    background-color: #EEEEEE;
+    position: relative;
+}
+
+.greyUnderBar {
+    background-color: #EEEEEE;
+    border-bottom: 0.5px solid #CCCCCC;
+    padding-bottom: 3.9%;
+}
+
+.underButton {
+    background-color: #FFF;
+    border: 0;
+    padding: 0.58vw 1.46vw;
+    font: 900 1.36vw/1.46vw 'Lato';
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    background-color: #E65959;
+    position: absolute;
+    top: -4%;
+    left: 3%;
+}
+
+.detailsBox {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.barHeading {
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    letter-spacing: 1.2px;
+    color: #747474;
+    padding-bottom: 2%;
+}
+
+.barDetails {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #464646;
+    font-weight: 700;
+}
+
+.complaintBox {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.underBody {
+    padding-top: 3.4%;
+}
+
+.complainantBox {
+    width: 50%;
+    float: left;
+}
+
+.respondentBox {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.bodyHeading {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #909090;
+    font-weight: 600;
+    padding-bottom: 4%;
+}
+
+.underName {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #505050;
+    font-weight: 900;
+    padding-bottom: 3%;
+}
+
+.bodyDetails {
+    color: #4C5264;
+    font-family: 'Lato';
+    font-size: 0.97vw;
+    letter-spacing: 1.2px;
+    padding-bottom: 2%;
+}
+
+.eventsContainer {
+    border: 1px solid #CCCCCC;
+    position: relative;
+}
+
+.meetingsTitle {
+    padding: 7.5% 15.7% 1.93% 15.7%;
+    letter-spacing: 1.4px;
+    color: #505050;
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    font-weight: 700;
+}
+
+.topContainer {
+    margin-bottom: 9.77%;
+    border-top: 1px solid #EAF2F4;
+}
+
+.topLeft {
+    padding: 6.15% 3.6% 0 0;
+    text-align: right;
+    float: left;
+    width: 30%;
+}
+
+.day {
+    font-family: 'Lato';
+    font-size: 4.88vw;
+    letter-spacing: 5px;
+    color: #505050;
+    font-weight: 300;
+    padding-bottom: 4px;
+}
+
+.meetingDate {
+    font-family: 'Lato';
+    font-size: 1.75vw;
+    letter-spacing: 1.8px;
+    color: #505050;
+    padding-bottom: 21%;
+}
+
+.time {
+    font-family: 'Lato';
+    font-size: 1.75vw;
+    letter-spacing: 1.6px;
+    color: #505050;
+}
+
+.to {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 1.2px;
+    color: #909090;
+    padding: 6px 0;
+}
+
+.topRight {
+    border-left: 4px solid #EAF2F4;
+    border-radius: 2px;
+    padding: 6.15% 12.9% 0 5.5%;
+    width: 70%;
+    float: right;
+}
+
+.highlight {
+    border: 0.5px solid #CCCCCC;
+    border-radius: 1.26vw;
+    display: inline-block;
+    width: 22%;
+    text-align: center;
+    padding: 0.39vw;
+    background-color: #EEEEEE;
+    margin-right: 2%;
+}
+
+.mainText {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0.7px;
+    color: #505050;
+    padding-bottom: 2.75%;
+}
+
+.Card {
+    padding: 5.88%;
+    border: 0.5px solid #CCCCCC;
+    margin-top: 5.8%;
+}
+
+.grey {
+    background-color: #F7F7F7;
+    margin-top: 11.6%;
+}
+
+.cardLeft {
+    width: 20%;
+    float: left;
+}
+
+.cardImage {
+    width: 47px;
+    height: 47px;
+}
+
+.cardRight {
+    width: 80%;
+    float: right;
+}
+
+.acceptPart {
+    padding-bottom: 6.7%;
+}
+
+.declinePart {
+    padding-top: 6.7%;
+    margin-top: 6.7%;
+    border-top: 1px solid #CCCCCC;
+}
+
+.cardName {
+    font-family: 'Lato';
+    font-size: 1.36vw;
+    letter-spacing: 0.7px;
+    color: #464646;
+    padding-bottom: 1.3%;
+}
+
+.cardDesignation {
+    font-family: 'Lato';
+    font-size: 1.07vw;
+    letter-spacing: 0.55px;
+    color: #747474;
+    font-weight: 700;
+    padding-bottom: 5.2%;
+}
+
+.cardContact {
+    font-family: 'Lato';
+    font-size: 1.07vw;
+    letter-spacing: 0.55px;
+    color: #747474;
+    padding-bottom: 2.8%;
+}
+
+.Btn {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    border: 1px solid #32BDD2;
+    border-radius: 4px;
+    background-color: #32BDD2;
+    box-shadow: 0 0 0.78vw #32BDD2;
+    padding: 5px 12px;
+    margin: 6.7% 0 0 0;
+}
+
+.declineBtn {
+    box-shadow: 0 0 0.78vw #E65959;
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+    border: 1px solid #E65959;
+    border-radius: 4px;
+    background-color: #E65959;
+    padding: 5px 12px;
+    margin: 6.7% 0 0 0;
+}
+
+.loremText {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.6px;
+    color: #747474;
+}
+
+.textBox {
+    width: 100%;
+    margin-top: 4.9%;
+    box-shadow: 0 0 6px #00000029;
+    border-radius: 5px;
+    border: 0;
+    padding: 5%;
+    font: 300 1.17vw/1.75vw "Lato";
+    letter-spacing: 0.6px;
+    color: #747474;
+    height: 7.12vw;
+}
+
+.statusPart {
+    padding-top: 14.5%;
+}
+
+.statusLeft {
+    width: 11%;
+    float: left;
+}
+
+.statusIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.statusRight {
+    width: 89%;
+    float: right
+}
+
+.cardStatus {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #747474;
+}
+
+
+/* ===================================================Option pop===================================== */
+
+.pop_container {
+    width: 24.58%;
+}
+
+.close_row img {
+    width: 3.125vw;
+    float: right;
+    cursor: pointer;
+    box-shadow: 0px 0px 0.58vw #32BDD233;
+}
+
+.body {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 0.97vw 0px 0.97vw 0.97vw;
+    padding-left: 15%;
+}
+
+.move_up {
+    padding: 15% 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+.pop_icons {
+    width: 25%;
+    float: left;
+}
+
+.option_pop {
+    width: 75%;
+    float: right;
+    margin-top: 2%;
+}
+
+.pop_icons img {
+    width: 2.93vw;
+    background: #FFFFFF 0% 0%;
+    box-shadow: 0px 0px 6px #32BDD2;
+    border-radius: 1.85vw;
+}
+
+.pop_delete_icon {
+    width: 25%;
+    float: left;
+}
+
+.pop_delete_icon img {
+    width: 2.93vw;
+    background: #FFFFFF 0% 0%;
+    box-shadow: 0px 0px 6px #E65959;
+    border-radius: 1.85vw;
+}
+
+.option_pop span {
+    font: 400 1.17vw/1.46vw "Lato";
+    letter-spacing: 1.2px;
+    color: #595959;
+    padding-top: 5%;
+}
+
+.delete {
+    padding: 15% 0;
+}
+
+.parent_pop {
+    width: 46vw;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #EEEEEE;
+    position: absolute;
+}
+
+.learn_textContainer {
+    padding: 3.5%;
+    box-shadow: 0px 0px 6px #00000029;
+    border: 0.5px solid #B5B5B5;
+    background-color: #FFFFFF;
+}
+
+.whatText_pop {
+    font-family: 'Lato';
+    font-size: 1.17vw;
+    letter-spacing: 0.12px;
+    color: #747474;
+    padding-bottom: 2.9%;
+}
+
+.learnMore {
+    text-decoration: underline;
+    font: 900 1.07vw/1.56vw "Lato";
+    letter-spacing: 0.55px;
+    color: #32BDD2;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+
+/* ========================================================Coo Statement==================================================== */
+
+.stmt_parent {
+    background-color: #000000B2;
+    height: 120vh;
+    position: relative;
+}
+
+.stmt_cooContainer {
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 6px #00000029;
+    border-radius: 1.95vw;
+    width: 72.75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.stmt_imageHolder {
+    padding: 2.9% 2.9% 1.01%;
+}
+
+.stmt_closePop {
+    width: 3.71vw;
+    float: right;
+    box-shadow: 0 0 0.97vw #00000029;
+    border: 0.5px solid #EFEFEF;
+    border-radius: 50%;
+}
+
+.stmt_statementBody {
+    padding: 0 7.6% 5%;
+}
+
+.stmt_cooLeft {
+    width: 20%;
+    float: left;
+}
+
+.stmt_cooImageContainer {
+    width: 50%;
+    margin-top: 25%;
+}
+
+.stmt_cooImage {
+    width: 5.95vw;
+}
+
+.stmt_cooRight {
+    width: 80%;
+    float: right;
+}
+
+.stmt_cooHeading {
+    font-family: 'Anton';
+    font-size: 1.36vw;
+    letter-spacing: 1px;
+    color: #000000;
+    padding-bottom: 2%;
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/posh.css">
+    <title></title>
+</head>
+
+<body>
+    <div>
+        <div class="listHeader">
+            <div class="headerLeftPart">
+                <span class="posh">
+                    POSH
+                </span>
+            </div>
+            <div class="headerRightPart">
+                <div>
+                    <img class="notiIcon" src="../IMAGES/notification-small.png" alt="">
+                </div>
+                <div>
+                    <img class="userImage" src="../IMAGES/profile-pic.png" alt="">
+                </div>
+                <div>
+                    <span class="userName">Lucy Carter</span>
+                </div>
+                <div>
+                    <img class="dropIcon" src="../IMAGES/cheveron-down-grey.png" alt="">
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="faq_parent">
+            <div class="containt">
+                <div class="faq">
+                    <p>
+                        FAQ/
+                    </p>
+                </div>
+                <div class="search">
+                    <div class="search_bar" onclick="nextNav('posh_screen-8.html')">
+                        <div class="search_container"> <input class="search_bar_input" type="search" placeholder="Unwelcome"></div>
+                        <div class="search_icon_container"><img class="search_icon" src="../IMAGES/search.png" alt="search"></div>
+                    </div>
+                </div>
+                <div class="faq_container">
+                    <div class="faq_results">
+                        <p class="meant">What is Meant by ‘Unwelcome’</p>
+                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula, tortor ipsum faucibus nunc, id aliquam lacus odio nec magna. Cras a ipsum placerat, efficitur nibh sed, iaculis elit. Mauris
+                            semper tempor facilisis. Nunc at consequat tortor, vel facilisis tortor. Morbi blandit, libero id pellentesque faucibus, eros leo consequat erat, a gravida elit enim vitae tellus. Sed mattis nulla ut nulla hendrerit porta in
+                            quis orci.</p>
+                        <p class="read">READ MORE…</p>
+                    </div>
+
+                    <div class="faq_results">
+                        <p class="meant">What is Meant by ‘Unwelcome’</p>
+                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula, tortor ipsum faucibus nunc, id aliquam lacus odio nec magna. Cras a ipsum placerat, efficitur nibh sed, iaculis elit. Mauris
+                            semper tempor facilisis. Nunc at consequat tortor, vel facilisis tortor. Morbi blandit, libero id pellentesque faucibus, eros leo consequat erat, a gravida elit enim vitae tellus. Sed mattis nulla ut nulla hendrerit porta in
+                            quis orci.</p>
+                        <p class="read">READ MORE…</p>
+                    </div>
+
+                    <div class="faq_results">
+                        <p class="meant">What is Meant by ‘Unwelcome’</p>
+                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula, tortor ipsum faucibus nunc, id aliquam lacus odio nec magna. Cras a ipsum placerat, efficitur nibh sed, iaculis elit. Mauris
+                            semper tempor facilisis. Nunc at consequat tortor, vel facilisis tortor. Morbi blandit, libero id pellentesque faucibus, eros leo consequat erat, a gravida elit enim vitae tellus. Sed mattis nulla ut nulla hendrerit porta in
+                            quis orci.</p>
+                        <p class="read">READ MORE…</p>
+                    </div>
+
+                    <div class="faq_results">
+                        <p class="meant">What is Meant by ‘Unwelcome’</p>
+                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula, tortor ipsum faucibus nunc, id aliquam lacus odio nec magna. Cras a ipsum placerat, efficitur nibh sed, iaculis elit. Mauris
+                            semper tempor facilisis. Nunc at consequat tortor, vel facilisis tortor. Morbi blandit, libero id pellentesque faucibus, eros leo consequat erat, a gravida elit enim vitae tellus. Sed mattis nulla ut nulla hendrerit porta in
+                            quis orci.</p>
+                        <p class="read">READ MORE…</p>
+                    </div>
+
+                    <div class="show">
+                        <div class="showmore_row">
+                            <span class="more"> SHOW MORE </span>
+                            <img class=" drop_down" src="../IMAGES/cheveron-down-grey.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="submit_box">
+                        <div>
+                            <p class="review">
+                                If you have question which is beyond this FAQ, please write to us.
+                            </p>
+                        </div>
+                        <div>
+                            <textarea name="text" id="review" cols="30" rows="7"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" onclick="submit('loadId');" class="btn">SUBMIT</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="loadingParent" id="loadId" onclick="failDisplay('loadId','failId')">
+            <div class="loadingScreen">
+                <img class="loadingImage" src="../IMAGES/load-white.png" alt="loading">
+            </div>
+        </div>
+
+        <div class="msgparent" id="failId">
+            <div class="popupContainer">
+                <div class="topRow">
+                    <img id="failcancelId" onclick="showsuccess('failId','sucessId')" class="cancelImage" src="../IMAGES/back.png" alt="Cancel">
+                    <div class="clear"></div>
+                </div>
+                <div class="textRow">
+                    <p class="failMessage">FAILED</p>
+                    <p class="messageText">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula, tortor ipsum faucibus nunc, id aliquam lacus odio nec magna.
+                    </p>
+                </div>
+                <div class="buttonRow">
+                    <input id="failbtnId" onclick="showsuccess('failId','sucessId')" class="doneButtonFail" type="submit" value="DONE">
+                </div>
+            </div>
+        </div>
+
+        <div class="msgparent" id="sucessId">
+            <div class="popupContainer">
+                <div class="topRow">
+                    <img id="sucesscancelId" onclick="nextNav('posh_screen-4.html')" class="cancelImage" src="../IMAGES/back.png" alt="Cancel">
+                    <div class="clear"></div>
+                </div>
+                <div class="textRow">
+                    <p class="successMessage">SUCCESS</p>
+                    <p class="messageText">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula, tortor ipsum faucibus nunc, id aliquam lacus odio nec magna.
+                    </p>
+                </div>
+                <div class="buttonRow">
+                    <input id="sucessbtnId" class="doneButtonSuccess" type="submit" onclick="nextNav('posh_screen-4.html')" value="DONE">
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="../JS/navigation.js"></script>
+</body>
+
+</html>

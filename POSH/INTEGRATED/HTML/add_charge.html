@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/posh.css">
+    <title></title>
+</head>
+
+<body>
+    <div>
+        <div class="listHeader">
+            <div class="headerLeftPart">
+                <span class="posh">
+                    POSH
+                </span>
+            </div>
+            <div class="headerRightPart">
+                <div>
+                    <img class="notiIcon" src="../IMAGES/notification-small.png" alt="">
+                </div>
+                <div>
+                    <img class="userImage" src="../IMAGES/profile-pic.png" alt="">
+                </div>
+                <div>
+                    <span class="userName">Lucy Carter</span>
+                </div>
+                <div>
+                    <img class="dropIcon" src="../IMAGES/cheveron-down-grey.png" alt="">
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="preview_container">
+            <div class="pre_container">
+                <div class="side_bar">
+                    <div>
+                        <div class="sidebar_complaint_top">
+                            <p class="complainant">COMPLAINT</p>
+                        </div>
+                        <div class="svg_viewport">
+                            <svg viewBox="0 0 26 4.5">
+                                <circle cx="2" cy="2.3" r="1.9" stroke="#D3D3D3" stroke-width="0.2" fill="#fff" />
+                                <circle cx="13" cy="2.3" r="1.9" stroke="#D3D3D3" stroke-width="0.2" fill="#32BDD2" />
+                                <circle cx="23.8" cy="2.3" r="1.9" stroke="#D3D3D3" stroke-width="0.2" fill="#fff" />
+    
+                                <path stroke-dasharray="1" d="M 3.8 2.2 L 11 2.2" stroke="#D3D3D3" stroke-width="0.3" />
+                                <path stroke-dasharray="1" d="M 14.9 2.2 L 22 2.2" stroke="#D3D3D3" stroke-width="0.3" />
+    
+                                <text class="circle_without_color" x="1.5" y="3">1</text>
+                                <text class="circle_color" x="12.4" y="3">2</text>
+                                <text class="circle_without_color" x="23.2" y="3">3</text>
+                            </svg>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="draftDelete">
+                        <div class="draftLeft">
+                            <p class="draftText">This is a draft, you may delete it.</p>
+                        </div>
+                        <div class="draftRight">
+                            <img class="delete_draft_icon" src="../IMAGES/delete-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="charge_container">
+                        <div>
+                            <span class="chargesHeading">CHARGES</span>
+                            <p class="chargesDescription">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula.
+                            </p>
+                        </div>
+
+                        <div class="addChargeBox" onclick="showcharge('popup')">
+                            <div class="contentBox">
+                                <img class="addChargeIcon" src="../IMAGES/plus-white-filled-blue.png" alt="add">
+                                <span class="addCharge">ADD CHARGE</span>
+                            </div>
+                        </div>
+
+                        <div class="aligner">
+                            <span class="whatText" id="hover" onmouseout="mout()" onmouseover="mover()">What is a
+                                charge?</span>
+                            <!-- <div class="parent_pop" id="pop">
+                                <div class="arrow-up"></div>
+                                <div class="textContainer">
+                                    <p class="whatText_pop">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula, tortor ipsum faucibus nunc, id aliquam lacus odio nec magna. Cras a ipsum placerat, efficitur nibh sed, iaculis elit. Mauris semper tempor facilisis.
+                                        Nunc at consequat tortor, vel facilisis tortor. Morbi blandit, libero id pellentesque faucibus, eros leo consequat erat, a gravida elit enim vitae tellus.
+                                    </p>
+                                </div>
+                            </div> -->
+                        </div>
+
+                        <div class="greyContainer">
+                            <div class="greyHeader">
+                                <div class="valign">
+                                    <img class="upIcon" src="../IMAGES/cheveron-down-grey.png" alt="up">
+                                    <span class="darkerText valign">CHARGE 01 </span>
+                                    <span class="darkerText valign"> (26th May 2018)</span>
+                                </div>
+                                <div class="whiteBG" style="visibility: hidden;">
+                                    <img class="errorIcon" src="../IMAGES/error.png" alt="alert">
+                                    <span class="errorText valign">This charge is older than 90 days</span>
+                                </div>
+                                <div class="delete_icon_box">
+                                    <img class="deleteIcon" src="../IMAGES/delete-white-filled-red.png" alt="delete">
+                                </div>
+                            </div>
+                            <div class="greyBody">
+                                <div class="desContainer">
+                                    <p class="desLorem">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula, tortor ipsum faucibus nunc, id aliquam lacus odio nec magna. Cras a ipsum placerat, efficitur nibh sed, iaculis elit. Mauris semper tempor facilisis.
+                                        Nunc at consequat tortor, vel facilisis tortor. Ad aliquam lacus odio nec magna. Cras a ipsum placerat.
+                                    </p>
+                                    <img class="charge_edit" src="../IMAGES/edit-blue-bordered.png" alt="">
+                                </div>
+                                <div class="evidence_table">
+
+                                    <div>
+                                        <span class="evidenceHeading">EVIDENCE</span>
+                                    </div>
+                                    <div class="yellowCard">
+                                        <div>
+                                            <p class="evidenceDescription">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula, tortor ipsum faucibus nunc, id aliquam lacus odio nec magna.
+                                            </p>
+                                        </div>
+
+                                        <div class="file_container">
+                                            <div class="fileContainer">
+                                                <div class="selectContainer">
+                                                    <p class="select">
+                                                        Select a file from my computer.
+                                                    </p>
+                                                    <p class="maximum">
+                                                        Video, image, audio or any other document can be submitted as evidence. Max 15MB
+                                                    </p>
+                                                    <input class="browse" type="submit" value="BROWSE">
+                                                </div>
+                                                <div class="uploadContainer">
+                                                    <div class="uploadBackground">
+                                                        <img class="upload" src="../IMAGES/upload-white.png" alt="">
+                                                        <p class="drop_guide_line">Drop a file here</p>
+                                                    </div>
+                                                </div>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="borderBox">
+                                        <div class="rows">
+                                            <div class="entryColumns">
+                                                <span class="latoReg underline">image0037429023.png</span>
+                                            </div>
+                                            <div class="sizeColumns">
+                                                <span class="latoReg">976 KB</span>
+                                            </div>
+                                            <div class="delete_column">
+                                                <img class="entry_delete" src="../IMAGES/delete-red.png" alt="">
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+                                        <div class="rows">
+                                            <div class="entryColumns">
+                                                <span class="latoReg underline">video0.flv</span>
+                                            </div>
+                                            <div class="sizeColumns">
+                                                <span class="latoReg">4.6 MB</span>
+                                            </div>
+                                            <div class="delete_column">
+                                                <img class="entry_delete" src="../IMAGES/delete-red.png" alt="">
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="witness_table">
+                                    <div>
+                                        <span class="evidenceHeading">WITNESS</span>
+                                    </div>
+                                    <div class="yellowCard">
+                                        <p class="evidenceDescription">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit amet tempor vehicula, tortor ipsum faucibus nunc, id aliquam lacus odio nec magna.
+                                        </p>
+                                        <div class="add_box">
+                                            <div class="add_icon_box">
+                                                <img class="pluse_icon" src="../IMAGES//plus-white-filled-blue.png" alt="">
+                                            </div>
+                                            <div class="add_text_box">
+                                                <span>ADD</span>
+                                            </div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="borderBox">
+                                        <div class="rows">
+                                            <div class="witness_column">
+                                                <p class="witName">Satish Kumar Chauhan</p>
+                                                <p class="witDetails">satish.kumar@airtel.in</p>
+                                                <p class="witDetails">+91 98456 45823</p>
+                                            </div>
+                                            <div class="edit_column">
+                                                <img class="entry_edit" src="../IMAGES/edit-blue-bordered.png" alt="">
+                                            </div>
+                                            <div class="deletecolumn">
+                                                <img class="entry_delete" src="../IMAGES/delete-red.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="rows">
+                                            <div class="witness_column">
+                                                <p class="witName">Anita Seth</p>
+                                                <p class="witDetails">anitha.seth@airtel.in</p>
+                                                <p class="witDetails">+91 84379 58314</p>
+                                            </div>
+                                            <div class="edit_column">
+                                                <img class="entry_edit" src="../IMAGES/edit-blue-bordered.png" alt="">
+                                            </div>
+                                            <div class="deletecolumn">
+                                                <img class="entry_delete" src="../IMAGES/delete-red.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="greyContainer noMargin">
+                            <div class="greyHeader">
+                                <div class="valign">
+                                    <img class="upIcon" src="../IMAGES/cheveron-down-grey.png" alt="up">
+                                    <span class="darkerText valign">CHARGE 02 </span>
+                                    <span class="darkerText valign"> (26th May 2018)</span>
+                                </div>
+                                <div class="whiteBG">
+                                    <img class="errorIcon" src="../IMAGES/error.png" alt="alert">
+                                    <span class="errorText valign">This charge is older than 90 days</span>
+                                </div>
+                                <div class="delete_icon_box">
+                                    <img class="deleteIcon" src="../IMAGES/delete-white-filled-red.png" alt="delete">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottRow no_radius">
+                        <div class="bottomLeftRow">
+                            <span class="saveDraft" onclick="nextNav('posh_screen-20.html')">BACK</span>
+                        </div>
+                        <div class="bottomRightRow">
+                            <button onclick="show('alertBox','alertBoxHalf')" ondblclick="nextNav('posh_screen-22.html')" class="nextBtn">NEXT<img class="btnIcon" src="../IMAGES/cheveron-right-white.png" alt=""></button>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
