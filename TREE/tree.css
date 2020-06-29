@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* ====================================================================== TREE TEST ================================================================================= */
+
+.toggle {
+    border: 0.098vw solid #32BDD2;
+    border-radius: 10%;
+    width: 2.148vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.tree_section {
+    overflow-x: scroll;
+}
+
+.treeContainer {
+    padding: 5%;
+    width: 88vw;
+    min-height: 100vh;
+}
+
+.node {
+    display: flex;
+    border-left: 1px dashed #CCCCCC;
+}
+
+.node_left {
+    border-top: 1px dashed #CCCCCC;
+    width: 5.371vw;
+    height: 6.836vw;
+    margin-top: 0.97vw;
+    position: relative;
+}
+
+.node_right {
+    padding-top: 6.836vw;
+    position: relative;
+}
+
+.nodeContent {
+    width: 50vw;
+    box-shadow: 0 0 0.781vw #32BDD267;
+    border: 0.5px solid #32BDD2;
+    margin-bottom: 6.836vw;
+}
+
+.nodeContent_header {
+    padding: 4.54% 6.36%;
+    border-bottom: 0.5px dashed #CCCCCC;
+}
+
+.nodeContent_title {
+    font: 500 1.172vw/1.953vw Roboto;
+    letter-spacing: 0.6px;
+    color: #464646;
+    text-transform: uppercase;
+}
+
+.nodeContent_spaceType {
+    font: 400 1.074vw/1.27vw Roboto;
+    letter-spacing: 0.55px;
+    color: #707070;
+    text-transform: capitalize;
+}
+
+.nodeContent_body {
+    padding: 6.36%;
+}
+
+.attributesDropBox {
+    border: 0.5px solid #EEEEEE;
+    margin-bottom: 7.27%;
+}
+
+.attrBox_header {
+    background-color: #EEEEEE;
+    padding: 2% 4.2%;
+}
+
+.dropBoxHeader_left {
+    width: 10%;
+    float: left;
+    padding-top: 1%;
+}
+
+.dropBoxIcon {
+    width: 1.172vw;
+}
+
+.dropBoxHeader_right {
+    width: 90%;
+    float: right;
+}
+
+.text_optional {
+    font: 400 1.172vw/1.367vw Roboto;
+    letter-spacing: 0.6px;
+    color: #464646;
+}
+
+.dropBoxTitle {
+    font: 700 1.172vw/2.539vw Roboto;
+    letter-spacing: 1.2px;
+    color: #464646;
+    text-transform: uppercase;
+}
+
+.rentPkgDropBox {
+    border: 0.5px solid #EEEEEE;
+    margin-bottom: 7.27%;
+}
+
+.rentBox_header {
+    background-color: #EEEEEE;
+    padding: 2% 4.2%;
+}
+
+.mediaDropBox {
+    border: 0.5px solid #EEEEEE;
+}
+
+.mediaBox_header {
+    background-color: #EEEEEE;
+    padding: 2% 4.2%;
+}
+
+.nodeDetails {
+    width: 10vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(90%, -40%);
+    background-color: #FFFFFF;
+    padding: 10%;
+    z-index: 1;
+}
+
+.nodeTitle {
+    font: 500 1.172vw/1.953vw Roboto;
+    letter-spacing: 0.6px;
+    color: #32BDD2;
+    padding-bottom: 0.196vw;
+    border-bottom: 1px solid #32BDD2;
+}
+
+.grey {
+    font: 500 1.172vw/1.953vw Roboto;
+    letter-spacing: 0.6px;
+    color: #464646;
+    text-transform: uppercase;
+    border: 0;
+    padding: 0;
+}
+
+.nodeDesc {
+    font: 300 1.074vw/1.27vw Roboto;
+    letter-spacing: 0.55px;
+    color: #707070;
+    text-transform: capitalize;
+    padding-top: 0.391vw;
+}
+
+.nonFoldable {
+    width: 2.148vw;
+    height: 2.148vw;
+    border: 1px solid #CCCCCC;
+    border-radius: 0.293vw;
+    background-color: #FFFFFF;
+    padding: 8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.nonFoldable_icon {
+    background-color: #CCCCCC;
+    height: 100%;
+    width: 100%;
+}
+
+.endNode {
+    border-left: 0;
+}
+
+
+/* ========================================================================================================================================================= */
