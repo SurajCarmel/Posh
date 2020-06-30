@@ -47,6 +47,9 @@ $(document).ready(function() {
                 $(this).closest(".node_left").next().show();
             }
         });
+        $(".nodeTitle").click(function() {
+            $(this).closest(".node_left").next().append();
+        });
     }
 
 

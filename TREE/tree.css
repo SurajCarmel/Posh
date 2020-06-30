@@ -134,6 +134,10 @@
     border: 0.5px solid #EEEEEE;
 }
 
+.mediaBox {
+    border-top: 0.5px solid #EEEEEE;
+}
+
 .mediaBox_header {
     background-color: #EEEEEE;
     padding: 2% 4.2%;
@@ -197,6 +201,312 @@
 
 .endNode {
     border-left: 0;
+}
+
+
+/* ========================================================================================================================================================= */
+
+
+/* ====================================================================== NODE DETAILS BLOCK ================================================================================= */
+
+.detailsBlock {
+    width: 100%;
+    box-shadow: 0 0 0.781vw #32BDD267;
+    border: 0.5px solid #32BDD2;
+}
+
+.detailsHeader {
+    padding: 3.225% 4.516%;
+    border-bottom: 0.5px dashed #CCCCCC;
+}
+
+.nodeDetails_title {
+    font: 500 1.172vw/1.953vw Roboto;
+    letter-spacing: 0.6px;
+    color: #464646;
+    text-transform: uppercase;
+}
+
+.nodeDetails_type {
+    font: 400 1.074vw/1.27vw Roboto;
+    letter-spacing: 0.55px;
+    color: #707070;
+    text-transform: capitalize;
+}
+
+.detailsBody {
+    padding: 4.516%;
+}
+
+.dropTable {
+    border: 0.5px solid #CCCCCC;
+    padding: 0.5px 0.5px 0 0;
+    margin-bottom: 5.16%;
+}
+
+.dropTable:last-of-type {
+    margin-bottom: 0;
+}
+
+.greyHeader {
+    background-color: #EFEFEF;
+    padding: 3.546%;
+}
+
+.greyHeader_left {
+    width: 3%;
+    float: left;
+}
+
+.blueDrop_icon {
+    width: 0.977vw;
+}
+
+.greyHeader_right {
+    width: 97%;
+    float: right;
+}
+
+.greyHeader_title {
+    font: 700 1.172vw/1.758vw Roboto;
+    letter-spacing: 1.2px;
+    color: #464646;
+    text-transform: uppercase;
+}
+
+.dropTable_body {
+    border: 0.5px solid #CCCCCC;
+}
+
+.attributes_table {
+    font: 400 1.172vw/1.367vw Roboto;
+    letter-spacing: 0.6px;
+    color: #707070;
+    text-transform: capitalize;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    border-top: 0.5px solid #CCCCCC;
+}
+
+.attributes_table_row {}
+
+.attributes_table_left {
+    width: 55%;
+    padding: 2.836% 4.964%;
+    border-right: 0.5px solid #CCCCCC;
+}
+
+.attributes_table_right {
+    width: 45%;
+    padding: 2.836% 4.964%;
+}
+
+ul {
+    list-style: none
+}
+
+ul li {
+    padding-bottom: 3%;
+}
+
+li:last-of-type {
+    padding: 0;
+}
+
+.inactive::before {
+    visibility: hidden;
+}
+
+li::before {
+    width: 0.586vw;
+    height: 0.586vw;
+    content: "";
+    color: #32BDD2;
+    border-radius: 50%;
+    background-color: #32BDD2;
+    display: inline-block;
+    margin-left: -1.5em;
+    margin-right: 1em;
+}
+
+.packagesList {
+    border-top: 0.5px solid #CCCCCC;
+}
+
+.packageList_row {
+    border-bottom: 0.5px solid #CCCCCC;
+    padding: 2.836% 4.964%;
+}
+
+.packageList_row:last-of-type {
+    border-bottom: 0;
+}
+
+.listPackage_title {
+    font: 500 1.172vw/1.758vw Roboto;
+    letter-spacing: 0.6px;
+    color: #464646;
+    text-transform: uppercase;
+}
+
+.listPackag_type {
+    font: 400 1.074vw/1.367vw Roboto;
+    letter-spacing: 0.55px;
+    color: #909090;
+    padding-bottom: 2.127%;
+}
+
+.rentAmt {
+    font: 500 1.172vw/1.367vw Roboto;
+    letter-spacing: 0.6px;
+    color: #707070;
+}
+
+.billingCycle {
+    font: 400 1.172vw/1.367vw Roboto;
+    letter-spacing: 0px;
+    color: #B5B5B5;
+}
+
+.optional {
+    font: 400 1.172vw/1.367vw Roboto;
+    letter-spacing: 0.6px;
+    color: #464646;
+}
+
+.uploadedHolder {
+    border-bottom: 0.5px solid #CCCCCC;
+}
+
+.uploadedPhotoFrame {
+    width: 52.04%;
+    margin: 8% auto;
+}
+
+.uploadedPhoto_box {
+    position: relative;
+}
+
+.uploadedImage {
+    width: 36.523vw;
+    height: 36.523vw;
+    display: block;
+    margin: auto;
+}
+
+.translucentBar {
+    background-color: #000000B2;
+    position: absolute;
+    width: 36.523vw;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1.6% 2.67%;
+}
+
+.uploadedImage_Title {
+    font: 500 1.074vw/1.27vw Roboto;
+    letter-spacing: 0.55px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding-bottom: 1.2%;
+}
+
+.descBar {
+    display: flex;
+    align-items: flex-end;
+}
+
+.uploadedImage_Desc {
+    font: 400 0.977vw/1.074vw Roboto;
+    letter-spacing: 0.5px;
+    color: #EEEEEE;
+    text-transform: capitalize;
+    width: 94.5%;
+}
+
+.ellipsisContainer {
+    width: 5.5%;
+}
+
+.ellipsis {
+    width: 1.758vw;
+    vertical-align: bottom;
+    float: left;
+}
+
+.uploaded_carouselHolder {
+    border-radius: 0 0 0.488vw 0.488vw;
+    background-color: #FFFFFF;
+    margin: 1.67% 0;
+    display: flex;
+    align-items: center;
+}
+
+.navHolder {
+    width: 10%;
+}
+
+.carouselNav_icon {
+    width: 2.563vw;
+    display: block;
+    margin: auto;
+}
+
+.uploadedCarousel {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carouselImage_holder {
+    width: 19%;
+    border: 0.5px solid #B5B5B5;
+    padding: 1.5% 0;
+}
+
+.carouselImage {
+    width: 9.159vw;
+    height: 9.159vw;
+    display: block;
+    margin: auto;
+}
+
+.carouselImage_holder_focused {
+    background-color: #FFFFFF;
+    width: 25%;
+    box-shadow: 0 0 0.586vw #32BDD280;
+    border: 1px solid #32BDD2;
+    padding: 2% 0;
+}
+
+.carouselImage_focused {
+    width: 12.207vw;
+    height: 12.207vw;
+    display: block;
+    margin: auto;
+}
+
+.zoom_icon {
+    background: #000000B2;
+    box-shadow: 0 0 0.58vw #000000;
+    border-radius: 50%;
+    padding: 4%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.zoom_in {
+    width: 3.125vw;
+    display: block;
+    margin: auto;
+    cursor: pointer;
 }
 
 
