@@ -15,7 +15,7 @@
 .toggle {
     border: 0.098vw solid #32BDD2;
     border-radius: 10%;
-    width: 2.148vw;
+    width: 1vw;
     position: absolute;
     top: 0;
     left: 0;
@@ -26,11 +26,12 @@
 
 .tree_section {
     overflow-x: scroll;
+    background-color: #EEEEEE;
 }
 
 .treeContainer {
     padding: 5%;
-    width: 88vw;
+    width: 100%;
     min-height: 100vh;
 }
 
@@ -43,13 +44,18 @@
     border-top: 1px dashed #CCCCCC;
     width: 5.371vw;
     height: 6.836vw;
-    margin-top: 0.97vw;
+    margin-top: 0.4vw;
     position: relative;
 }
 
 .node_right {
-    padding-top: 6.836vw;
     position: relative;
+    width: 100%;
+}
+
+.node_right_top {
+    height: 6.836vw;
+    width: 100%;
 }
 
 .nodeContent {
@@ -65,14 +71,14 @@
 }
 
 .nodeContent_title {
-    font: 500 1.172vw/1.953vw Roboto;
+    font: 500 1.172vw Roboto;
     letter-spacing: 0.6px;
     color: #464646;
     text-transform: uppercase;
 }
 
 .nodeContent_spaceType {
-    font: 400 1.074vw/1.27vw Roboto;
+    font: 400 1.074vw Roboto;
     letter-spacing: 0.55px;
     color: #707070;
     text-transform: capitalize;
@@ -149,13 +155,13 @@
     top: 0;
     right: 0;
     transform: translate(90%, -40%);
-    background-color: #FFFFFF;
-    padding: 10%;
-    z-index: 1;
+    padding: 0 7% 7% 7%;
+    z-index: 0;
+    background-color: #EEEEEE;
 }
 
 .nodeTitle {
-    font: 500 1.172vw/1.953vw Roboto;
+    font: 500 0.772vw/1.953vw Roboto;
     letter-spacing: 0.6px;
     color: #32BDD2;
     padding-bottom: 0.196vw;
@@ -172,11 +178,11 @@
 }
 
 .nodeDesc {
-    font: 300 1.074vw/1.27vw Roboto;
+    font: 300 0.574vw Roboto;
     letter-spacing: 0.55px;
     color: #707070;
     text-transform: capitalize;
-    padding-top: 0.391vw;
+    padding-top: 0.291vw;
 }
 
 .nonFoldable {
@@ -290,8 +296,6 @@
 table td {
     border-top: 0.5px solid #CCCCCC;
 }
-
-.attributes_table_row {}
 
 .attributes_table_left {
     width: 55%;
@@ -511,3 +515,11 @@ li::before {
 
 
 /* ========================================================================================================================================================= */
+
+.search {
+    margin: 5% 5% 0 5%;
+    width: 20%;
+    padding: 0.4% 1%;
+    border: 1px solid #CCCCCC;
+    border-radius: 1.563vw;
+}

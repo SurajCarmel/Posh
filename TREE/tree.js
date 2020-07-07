@@ -1,9 +1,11 @@
 $(document).ready(function() {
 
+    var nodes;
+
     $.getJSON("tree.json",
         function(result) {
             var data = result.json;
-            var nodes = data.record;
+            nodes = data.record;
             init(nodes);
         }
     );
@@ -21,6 +23,8 @@ $(document).ready(function() {
                 '</div>' +
                 '</div>' +
                 '<div class="node_right">' +
+                '<div class="node_right_top"' +
+                '</div>' +
                 '</div>' +
                 '</div>'
             );
@@ -32,9 +36,9 @@ $(document).ready(function() {
                 $(this).attr("src", "cheveron-down-blue-filled-white-bordered.png");
                 $(this).closest(".node_left").css("border-right", "0");
                 $(this).closest(".node_left").next().hide();
-                $(this).closest(".node_left").next().find(".node_right").hide();
-                $(this).closest(".node_left").next().find(".node_left").css({ "border-right": "0" });
-                $(this).closest(".node_left").next().find(".toggle").attr("src", "cheveron-down-blue-filled-white-bordered.png");
+                // $(this).closest(".node_left").next().find(".node_right").hide();
+                // $(this).closest(".node_left").next().find(".node_left").css({ "border-right": "0" });
+                // $(this).closest(".node_left").next().find(".toggle").attr("src", "cheveron-down-blue-filled-white-bordered.png");
 
 
             } else {
@@ -50,13 +54,18 @@ $(document).ready(function() {
         $(".nodeTitle").click(function() {
             $(this).closest(".node_left").next().append();
         });
+
+        $('#searchSubmit').click(function() {
+            let searchWord = $('#treeSearch').val();
+            searchTree(searchWord);
+        });
     }
 
 
     function fillnode(parentID, toFill, nodes) {
         childrenIndexList = getChildren(parentID, nodes); //fetching children nodes list
 
-        if ($(toFill).children().length == 0) { // filling child nodes using list
+        if ($(toFill).children().length == 1) { // filling child nodes using list
             for (var index = 0; index < childrenIndexList.length; index++) {
                 $(toFill).append(
                     '<div class="node">' +
@@ -68,6 +77,8 @@ $(document).ready(function() {
                     '</div>' +
                     '</div>' +
                     '<div class="node_right">' +
+                    '<div class="node_right_top"' +
+                    '</div>' +
                     '</div>' +
                     '</div>'
                 );
@@ -82,9 +93,9 @@ $(document).ready(function() {
                     $(this).closest(".node_left").next().hide(); // collapsing content
                     $(this).closest(".node_left").css("border-right", "0"); // removing right vertical seperator line
 
-                    $(this).closest(".node_left").next().find(".toggle").attr("src", "cheveron-down-blue-filled-white-bordered.png"); // changing image of child nodes
-                    $(this).closest(".node_left").next().find(".node_right").hide(); // collapsing child nodes
-                    $(this).closest(".node_left").next().find(".node_left").css({ "border-right": "0" }); // removing right vertical seperator line of child nodes
+                    // $(this).closest(".node_left").next().find(".toggle").attr("src", "cheveron-down-blue-filled-white-bordered.png"); // changing image of child nodes
+                    // $(this).closest(".node_left").next().find(".node_right").hide(); // collapsing child nodes
+                    // $(this).closest(".node_left").next().find(".node_left").css({ "border-right": "0" }); // removing right vertical seperator line of child nodes
 
                 } else {
                     $(this).attr("src", "cheveron-up-blue-filled-white-bordered.png"); //changing image
@@ -96,7 +107,6 @@ $(document).ready(function() {
                     }
 
                     $(this).closest(".node_left").next().show(); //expanding filled content
-
                 }
             });
         }
@@ -116,4 +126,16 @@ $(document).ready(function() {
     }
 
 
+    function searchTree(searchWord) {
+
+        var matches = [];
+
+        for (let c = 0; c < nodes.length; c++) {
+            if (nodes[c].id.includes(searchWord)) {
+                matches.push(c);
+            }
+        }
+
+
+    }
 });
