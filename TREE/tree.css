@@ -13,7 +13,7 @@
 /* ====================================================================== TREE TEST ================================================================================= */
 
 .toggle {
-    border: 0.098vw solid #32BDD2;
+    border: 1.004px solid #32BDD2;
     border-radius: 10%;
     width: 1vw;
     position: absolute;
@@ -42,19 +42,20 @@
 
 .node_left {
     border-top: 1px dashed #CCCCCC;
-    width: 5.371vw;
-    height: 6.836vw;
-    margin-top: 0.4vw;
+    width: 5%;
+    height: 6.436vw;
+    /* margin-top: 0.4vw; */
     position: relative;
 }
 
 .node_right {
     position: relative;
-    width: 100%;
+    width: 95%;
 }
 
 .node_right_top {
-    height: 6.836vw;
+    height: 6.436vw;
+    /* margin-top: 0.4vw; */
     width: 100%;
 }
 
@@ -150,21 +151,19 @@
 }
 
 .nodeDetails {
-    width: 10vw;
     position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(90%, -40%);
-    padding: 0 7% 7% 7%;
-    z-index: 0;
-    background-color: #EEEEEE;
+    top: 0.01vw;
+    left: -1vw;
+    z-index: 1;
+    background-color: #EEE;
+    padding: 0 0.5% 0.5% 0.5%;
 }
 
 .nodeTitle {
-    font: 500 0.772vw/1.953vw Roboto;
+    font: 500 0.772vw Roboto;
     letter-spacing: 0.6px;
     color: #32BDD2;
-    padding-bottom: 0.196vw;
+    padding-bottom: 5%;
     border-bottom: 1px solid #32BDD2;
 }
 
@@ -182,7 +181,7 @@
     letter-spacing: 0.55px;
     color: #707070;
     text-transform: capitalize;
-    padding-top: 0.291vw;
+    padding-top: 12%;
 }
 
 .nonFoldable {
