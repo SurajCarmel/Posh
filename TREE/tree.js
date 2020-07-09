@@ -7,7 +7,7 @@ $(document).ready(function() {
     });
 
     function init(nodes) {
-        var children = getChildren("ALTA", nodes);
+        var children = getChildren("ALTA");
         for (var index = 0; index < children.length; index++) {
             $(".treeContainer").append(
                 '<div class="node">' +

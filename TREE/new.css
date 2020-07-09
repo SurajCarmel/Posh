@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.tree_section {
+    overflow-x: scroll;
+    background-color: #EEEEEE;
+    padding: 5% 0;
+}
+
+.treeContainer {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 5%;
+}
+
+.node {
+    width: 100%;
+}
+
+.nodeRow {
+    display: flex;
+}
+
+.nodeRow_left {
+    width: 5%;
+}
+
+.dividerTop {
+    height: 2vw;
+    border-left: 1px dashed #CCCCCC;
+}
+
+.dividerBottom {
+    height: 3.86vw;
+    position: relative;
+    border-top: 1px dashed #CCCCCC;
+    border-left: 1px dashed #CCCCCC;
+    border-right: 1px dashed #CCCCCC;
+}
+
+.toggle {
+    border: 1.004px solid #32BDD2;
+    border-radius: 10%;
+    width: 1vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.nodeRow_right {
+    height: 5.86vw;
+    width: auto;
+    position: relative;
+}
+
+.nodeDetails {
+    position: absolute;
+    width: 10vw;
+    left: -0.8vw;
+    top: 50%;
+    transform: translateY(-58%);
+    background-color: #EEE;
+    padding: 5px;
+}
+
+.nodeTitle {
+    font: 500 0.6vw Roboto;
+    letter-spacing: 0.6px;
+    color: #32BDD2;
+    padding-bottom: 5%;
+    border-bottom: 1px solid #32BDD2;
+}
+
+.nodeDesc {
+    font: 300 0.574vw Roboto;
+    letter-spacing: 0.55px;
+    color: #707070;
+    text-transform: capitalize;
+    padding-top: 9%;
+}
+
+.childRow {
+    display: flex;
+    padding: 0 5%;
+}
+
+.nodeSpacer {
+    width: 5%;
+    height: 5.86vw;
+    border-left: 1px dashed #CCCCCC;
+    border-right: 1px dashed transparent;
+}
+
+.lastNode {
+    border-right: transparent;
+}
+
+.terminalNode {
+    border-left: transparent;
+}
+
+.endNode {
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.selected {
+    background-color: #FFF;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="new.css">
+    <title></title>
+</head>
+
+<body>
+    <div class="tree_section">
+        <input class="search" type="search" name="" id="treeSearch">
+        <input type="button" value="SEARCH" id="searchSubmit">
+        <div class="treeContainer">
+            <div class="node">
+                <div class="nodeRow" style="padding: 0 5%;">
+                    <div class="nodeRow_left">
+                        <div class="dividerTop" style="border-left: 0;"></div>
+                        <div class="dividerBottom">
+                            <img class="toggle" src="cheveron-down-blue-filled-white-bordered.png" alt="">
+                        </div>
+                    </div>
+                    <div class="nodeRow_right">
+                        <div class="nodeDetails">
+                            <span class="nodeTitle">A BLOCK</span>
+                            <p class="nodeDesc">Tower</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="childRow">
+                    <div class="nodeSpacer"></div>
+                    <div class="node">
+                        <div class="nodeRow">
+                            <div class="nodeRow_left">
+                                <div class="dividerTop"></div>
+                                <div class="dividerBottom">
+                                    <img class="toggle" src="cheveron-down-blue-filled-white-bordered.png" alt="">
+                                </div>
+                            </div>
+                            <div class="nodeRow_right">
+                                <div class="nodeDetails">
+                                    <span class="nodeTitle">1ST FLOOR</span>
+                                    <p class="nodeDesc">Floor</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="childRow">
+                    <div class="nodeSpacer"></div>
+                    <div class="nodeSpacer"></div>
+                    <div class="node">
+                        <div class="nodeRow">
+                            <div class="nodeRow_left">
+                                <div class="dividerTop"></div>
+                                <div class="dividerBottom lastNode">
+                                    <img class="toggle" src="cheveron-down-blue-filled-white-bordered.png" alt="">
+                                </div>
+                            </div>
+                            <div class="nodeRow_right">
+                                <div class="nodeDetails">
+                                    <span class="nodeTitle">1A3</span>
+                                    <p class="nodeDesc">Flat</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="childRow selected">
+                    <div class="nodeSpacer"></div>
+                    <div class="nodeSpacer"></div>
+                    <div class="node">
+                        <div class="nodeRow">
+                            <div class="nodeRow_left">
+                                <div class="dividerTop"></div>
+                                <div class="dividerBottom endNode">
+                                    <img class="toggle" src="cheveron-down-blue-filled-white-bordered.png" alt="">
+                                </div>
+                            </div>
+                            <div class="nodeRow_right">
+                                <div class="nodeDetails selected">
+                                    <span class="nodeTitle">1A4</span>
+                                    <p class="nodeDesc">Flat</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="childRow">
+                    <div class="nodeSpacer"></div>
+                    <div class="node">
+                        <div class="nodeRow">
+                            <div class="nodeRow_left">
+                                <div class="dividerTop"></div>
+                                <div class="dividerBottom lastNode">
+                                    <img class="toggle" src="cheveron-down-blue-filled-white-bordered.png" alt="">
+                                </div>
+                            </div>
+                            <div class="nodeRow_right">
+                                <div class="nodeDetails">
+                                    <span class="nodeTitle">2ND FLOOR</span>
+                                    <p class="nodeDesc">Floor</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="childRow">
+                    <div class="nodeSpacer"></div>
+                    <div class="node">
+                        <div class="nodeRow">
+                            <div class="nodeRow_left">
+                                <div class="dividerTop"></div>
+                                <div class="dividerBottom endNode">
+                                    <img class="toggle" src="cheveron-down-blue-filled-white-bordered.png" alt="">
+                                </div>
+                            </div>
+                            <div class="nodeRow_right">
+                                <div class="nodeDetails">
+                                    <span class="nodeTitle">3RD FLOOR</span>
+                                    <p class="nodeDesc">Floor</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="node">
+                <div class="nodeRow selected" style="padding: 0 5%;">
+                    <div class="nodeRow_left">
+                        <div class="dividerTop"></div>
+                        <div class="dividerBottom terminalNode">
+                            <img class="toggle" src="cheveron-down-blue-filled-white-bordered.png" alt="">
+                        </div>
+                    </div>
+                    <div class="nodeRow_right">
+                        <div class="nodeDetails selected">
+                            <span class="nodeTitle">B BLOCK</span>
+                            <p class="nodeDesc">Tower</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="childRow">
+                    <div class="nodeSpacer endNode"></div>
+                    <div class="node">
+                        <div class="nodeRow">
+                            <div class="nodeRow_left">
+                                <div class="dividerTop"></div>
+                                <div class="dividerBottom terminalNode">
+                                    <img class="toggle" src="cheveron-down-blue-filled-white-bordered.png" alt="">
+                                </div>
+                            </div>
+                            <div class="nodeRow_right">
+                                <div class="nodeDetails">
+                                    <span class="nodeTitle">1ST FLOOR</span>
+                                    <p class="nodeDesc">Floor</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="childRow">
+                    <div class="nodeSpacer endNode"></div>
+                    <div class="nodeSpacer endNode"></div>
+                    <div class="node">
+                        <div class="nodeRow">
+                            <div class="nodeRow_left">
+                                <div class="dividerTop"></div>
+                                <div class="dividerBottom endNode">
+                                    <img class="toggle" src="cheveron-down-blue-filled-white-bordered.png" alt="">
+                                </div>
+                            </div>
+                            <div class="nodeRow_right">
+                                <div class="nodeDetails">
+                                    <span class="nodeTitle">1B3</span>
+                                    <p class="nodeDesc">Flat</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="new.js"></script> -->
+</body>
+
+</html>
