@@ -9,15 +9,14 @@
     clear: both;
 }
 
-
 /* ====================================================================== TREE TEST ================================================================================= */
 
 .toggle {
-    border: 1.004px solid #32BDD2;
+    border: 1.004px solid #32bdd2;
     border-radius: 10%;
     width: 1vw;
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 0;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -26,7 +25,7 @@
 
 .tree_section {
     overflow-x: scroll;
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
 }
 
 .treeContainer {
@@ -37,15 +36,23 @@
 
 .node {
     display: flex;
-    border-left: 1px dashed #CCCCCC;
+    border-left: 1px dashed #cccccc;
 }
 
 .node_left {
-    border-top: 1px dashed #CCCCCC;
     width: 5%;
     height: 6.436vw;
     /* margin-top: 0.4vw; */
     position: relative;
+}
+
+.left_top {
+    border-bottom: 1px dashed #cccccc;
+    height: 3.218vw;
+}
+
+.left_bottom {
+    height: 3.218vw;
 }
 
 .node_right {
@@ -57,18 +64,20 @@
     height: 6.436vw;
     /* margin-top: 0.4vw; */
     width: 100%;
+    position: relative;
+    z-index: 1;
 }
 
 .nodeContent {
     width: 50vw;
-    box-shadow: 0 0 0.781vw #32BDD267;
-    border: 0.5px solid #32BDD2;
+    box-shadow: 0 0 0.781vw #32bdd267;
+    border: 0.5px solid #32bdd2;
     margin-bottom: 6.836vw;
 }
 
 .nodeContent_header {
     padding: 4.54% 6.36%;
-    border-bottom: 0.5px dashed #CCCCCC;
+    border-bottom: 0.5px dashed #cccccc;
 }
 
 .nodeContent_title {
@@ -90,12 +99,12 @@
 }
 
 .attributesDropBox {
-    border: 0.5px solid #EEEEEE;
+    border: 0.5px solid #eeeeee;
     margin-bottom: 7.27%;
 }
 
 .attrBox_header {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     padding: 2% 4.2%;
 }
 
@@ -128,43 +137,44 @@
 }
 
 .rentPkgDropBox {
-    border: 0.5px solid #EEEEEE;
+    border: 0.5px solid #eeeeee;
     margin-bottom: 7.27%;
 }
 
 .rentBox_header {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     padding: 2% 4.2%;
 }
 
 .mediaDropBox {
-    border: 0.5px solid #EEEEEE;
+    border: 0.5px solid #eeeeee;
 }
 
 .mediaBox {
-    border-top: 0.5px solid #EEEEEE;
+    border-top: 0.5px solid #eeeeee;
 }
 
 .mediaBox_header {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     padding: 2% 4.2%;
 }
 
 .nodeDetails {
     position: absolute;
-    top: 0.01vw;
+    top: 50%;
+    transform: translateY(-50%);
     left: -1vw;
     z-index: 1;
-    background-color: #EEE;
+    background-color: #eee;
     padding: 0 0.5% 0.5% 0.5%;
 }
 
 .nodeTitle {
     font: 500 0.772vw Roboto;
     letter-spacing: 0.6px;
-    color: #32BDD2;
+    color: #32bdd2;
     padding-bottom: 5%;
-    border-bottom: 1px solid #32BDD2;
+    border-bottom: 1px solid #32bdd2;
 }
 
 .grey {
@@ -187,9 +197,9 @@
 .nonFoldable {
     width: 2.148vw;
     height: 2.148vw;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #cccccc;
     border-radius: 0.293vw;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 8%;
     position: absolute;
     top: 0;
@@ -199,7 +209,7 @@
 }
 
 .nonFoldable_icon {
-    background-color: #CCCCCC;
+    background-color: #cccccc;
     height: 100%;
     width: 100%;
 }
@@ -208,21 +218,19 @@
     border-left: 0;
 }
 
-
 /* ========================================================================================================================================================= */
-
 
 /* ====================================================================== NODE DETAILS BLOCK ================================================================================= */
 
 .detailsBlock {
     width: 100%;
-    box-shadow: 0 0 0.781vw #32BDD267;
-    border: 0.5px solid #32BDD2;
+    box-shadow: 0 0 0.781vw #32bdd267;
+    border: 0.5px solid #32bdd2;
 }
 
 .detailsHeader {
     padding: 3.225% 4.516%;
-    border-bottom: 0.5px dashed #CCCCCC;
+    border-bottom: 0.5px dashed #cccccc;
 }
 
 .nodeDetails_title {
@@ -244,7 +252,7 @@
 }
 
 .dropTable {
-    border: 0.5px solid #CCCCCC;
+    border: 0.5px solid #cccccc;
     padding: 0.5px 0.5px 0 0;
     margin-bottom: 5.16%;
 }
@@ -254,7 +262,7 @@
 }
 
 .greyHeader {
-    background-color: #EFEFEF;
+    background-color: #efefef;
     padding: 3.546%;
 }
 
@@ -280,7 +288,7 @@
 }
 
 .dropTable_body {
-    border: 0.5px solid #CCCCCC;
+    border: 0.5px solid #cccccc;
 }
 
 .attributes_table {
@@ -293,13 +301,13 @@
 }
 
 table td {
-    border-top: 0.5px solid #CCCCCC;
+    border-top: 0.5px solid #cccccc;
 }
 
 .attributes_table_left {
     width: 55%;
     padding: 2.836% 4.964%;
-    border-right: 0.5px solid #CCCCCC;
+    border-right: 0.5px solid #cccccc;
 }
 
 .attributes_table_right {
@@ -308,7 +316,7 @@ table td {
 }
 
 ul {
-    list-style: none
+    list-style: none;
 }
 
 ul li {
@@ -327,20 +335,20 @@ li::before {
     width: 0.586vw;
     height: 0.586vw;
     content: "";
-    color: #32BDD2;
+    color: #32bdd2;
     border-radius: 50%;
-    background-color: #32BDD2;
+    background-color: #32bdd2;
     display: inline-block;
     margin-left: -1.5em;
     margin-right: 1em;
 }
 
 .packagesList {
-    border-top: 0.5px solid #CCCCCC;
+    border-top: 0.5px solid #cccccc;
 }
 
 .packageList_row {
-    border-bottom: 0.5px solid #CCCCCC;
+    border-bottom: 0.5px solid #cccccc;
     padding: 2.836% 4.964%;
 }
 
@@ -371,7 +379,7 @@ li::before {
 .billingCycle {
     font: 400 1.172vw/1.367vw Roboto;
     letter-spacing: 0px;
-    color: #B5B5B5;
+    color: #b5b5b5;
 }
 
 .optional {
@@ -381,7 +389,7 @@ li::before {
 }
 
 .uploadedHolder {
-    border-bottom: 0.5px solid #CCCCCC;
+    border-bottom: 0.5px solid #cccccc;
 }
 
 .uploadedPhotoFrame {
@@ -401,7 +409,7 @@ li::before {
 }
 
 .translucentBar {
-    background-color: #000000B2;
+    background-color: #000000b2;
     position: absolute;
     width: 36.523vw;
     bottom: 0;
@@ -413,7 +421,7 @@ li::before {
 .uploadedImage_Title {
     font: 500 1.074vw/1.27vw Roboto;
     letter-spacing: 0.55px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-transform: uppercase;
     padding-bottom: 1.2%;
 }
@@ -426,7 +434,7 @@ li::before {
 .uploadedImage_Desc {
     font: 400 0.977vw/1.074vw Roboto;
     letter-spacing: 0.5px;
-    color: #EEEEEE;
+    color: #eeeeee;
     text-transform: capitalize;
     width: 94.5%;
 }
@@ -443,7 +451,7 @@ li::before {
 
 .uploaded_carouselHolder {
     border-radius: 0 0 0.488vw 0.488vw;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     margin: 1.67% 0;
     display: flex;
     align-items: center;
@@ -468,7 +476,7 @@ li::before {
 
 .carouselImage_holder {
     width: 19%;
-    border: 0.5px solid #B5B5B5;
+    border: 0.5px solid #b5b5b5;
     padding: 1.5% 0;
 }
 
@@ -480,10 +488,10 @@ li::before {
 }
 
 .carouselImage_holder_focused {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     width: 25%;
-    box-shadow: 0 0 0.586vw #32BDD280;
-    border: 1px solid #32BDD2;
+    box-shadow: 0 0 0.586vw #32bdd280;
+    border: 1px solid #32bdd2;
     padding: 2% 0;
 }
 
@@ -495,7 +503,7 @@ li::before {
 }
 
 .zoom_icon {
-    background: #000000B2;
+    background: #000000b2;
     box-shadow: 0 0 0.58vw #000000;
     border-radius: 50%;
     padding: 4%;
@@ -512,13 +520,21 @@ li::before {
     cursor: pointer;
 }
 
-
 /* ========================================================================================================================================================= */
 
 .search {
     margin: 5% 5% 0 5%;
     width: 20%;
     padding: 0.4% 1%;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #cccccc;
     border-radius: 1.563vw;
+}
+
+.search-highlight {
+    background-color: #FFFFFF;
+    border-bottom: 4px solid #EEE;
+}
+
+.search-initial {
+    background-color: #EEE;
 }
