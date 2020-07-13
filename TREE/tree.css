@@ -62,7 +62,7 @@
 
 .node_right_top {
     height: 6.436vw;
-    /* margin-top: 0.4vw; */
+    /* left: -1vw; */
     width: 100%;
     position: relative;
     z-index: 1;
@@ -163,7 +163,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: -1vw;
+    left: 0;
     z-index: 1;
     background-color: #eee;
     padding: 0 0.5% 0.5% 0.5%;
@@ -537,4 +537,12 @@ li::before {
 
 .search-initial {
     background-color: #EEE;
+}
+
+.selected {
+    background-color: #FFFFFF;
+}
+
+.unselected {
+    background-color: #EEEEEE;
 }

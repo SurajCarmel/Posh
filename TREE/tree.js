@@ -31,7 +31,10 @@ $(document).ready(function () {
                 '</div>'
             );
         }
-        $(".treeContainer").find(".left_top").first().css("margin-left", "10px")
+        $(".treeContainer").find(".left_top").first().css({
+            "margin-left": "-1px",
+            "border-left": "1px solid #EEEEEE"
+        });
         $(".treeContainer").children(".node").last().addClass("endNode");
         $(".treeContainer").children(".node").last().children(".node_left").children(".left_top").css("border-left", "1px dashed #CCCCCC");
         $(".treeContainer .toggle").click(function () {
@@ -55,14 +58,30 @@ $(document).ready(function () {
         $(".node_right_top").hover(function () {
             $(this).css("background-color", "#CCCCCC");
             $(this).children(".nodeDetails").css("background-color", "#CCCCCC");
-            $(this).parent().prev().css("background-color", "#CCCCCC");
+            // $(this).parent().prev().css("background-color", "#CCCCCC");
         }, function () {
-            $(this).css("background-color", "#EEEEEE");
-            $(this).children(".nodeDetails").css("background-color", "#EEEEEE");
-            $(this).parent().prev().css("background-color", "#EEEEEE");
+            if ($(this).hasClass("selected")) {
+                $(this).css("background-color", "#FFF");
+                $(this).children(".nodeDetails").css("background-color", "#FFF");
+                // $(this).parent().prev().css("background-color", "#FFF");
+            } else {
+                $(this).css("background-color", "#EEEEEE");
+                $(this).children(".nodeDetails").css("background-color", "#EEEEEE");
+                // $(this).parent().prev().css("background-color", "#EEEEEE");
+            }
         });
 
-
+        $(".node_right_top").click(function () {
+            $(".node_right_top").css("background-color", "#EEE");
+            $(".node_right_top").children(".nodeDetails").css("background-color", "#EEE");
+            // $(".node_right_top").parent().prev().css("background-color", "#EEE");
+            $(".node_right_top").removeClass("selected");
+            $(".node_right_top").children(".nodeDetails").removeClass("selected");
+            // $(".node_right_top").parent().prev().removeClass("selected");
+            $(this).addClass("selected");
+            $(this).children(".nodeDetails").addClass("selected");
+            // $(this).parent().prev().addClass("selected");
+        });
     }
 
     function fillnode(parentID, toFill) {
@@ -121,14 +140,34 @@ $(document).ready(function () {
                     }
                 });
 
-            $(".node_right_top").hover(function () {
-                $(this).css("background-color", "#CCCCCC");
-                $(this).children(".nodeDetails").css("background-color", "#CCCCCC");
-                $(this).parent().prev().css("background-color", "#CCCCCC");
-            }, function () {
-                $(this).css("background-color", "#EEEEEE");
-                $(this).children(".nodeDetails").css("background-color", "#EEEEEE");
-                $(this).parent().prev().css("background-color", "#EEEEEE");
+            $(".node_right_top").hover(
+                function () {
+                    $(this).css("background-color", "#CCCCCC");
+                    $(this).children(".nodeDetails").css("background-color", "#CCCCCC");
+                    // $(this).parent().prev().css("background-color", "#CCCCCC");
+                },
+                function () {
+                    if ($(this).hasClass("selected")) {
+                        $(this).css("background-color", "#FFF");
+                        $(this).children(".nodeDetails").css("background-color", "#FFF");
+                        // $(this).parent().prev().css("background-color", "#FFF");
+                    } else {
+                        $(this).css("background-color", "#EEEEEE");
+                        $(this).children(".nodeDetails").css("background-color", "#EEEEEE");
+                        // $(this).parent().prev().css("background-color", "#EEEEEE");
+                    }
+                });
+
+            $(".node_right_top").click(function () {
+                $(".node_right_top").css("background-color", "#EEEEEE");
+                $(".node_right_top").children(".nodeDetails").css("background-color", "#EEEEEE");
+                // $(".node_right_top").parent().prev().css("background-color", "#EEEEEE");
+                $(".node_right_top").removeClass("selected");
+                $(".node_right_top").children(".nodeDetails").removeClass("selected");
+                // $(".node_right_top").parent().prev().removeClass("selected");
+                $(this).addClass("selected");
+                $(this).children(".nodeDetails").addClass("selected");
+                // $(this).parent().prev().addClass("selected");
             });
         }
     }
@@ -144,56 +183,4 @@ $(document).ready(function () {
         return children;
     }
 
-    $("#searchSubmit").click(function () {
-        $('.nodeTitle').parent().css("background-color", "#EEE");
-        $('.nodeTitle').parent().parent().css("background-color", "#EEE");
-        $('.nodeTitle').parent().parent().parent().prev().css("background-color", "#EEE");
-
-        let searchWord = $("#treeSearch").val().trim();
-
-        if (searchWord != '') {
-            searchTree(searchWord);
-        }
-    });
-
-    function searchTree(searchWord) {
-        matches = getMatches(searchWord);
-        console.log(matches);
-
-        $('.nodeTitle').each(function () {
-            for (let hit = 0; hit < matches.length; hit++) {
-                console.log($(this).text() == matches[hit]);
-
-                if ($(this).text() == matches[hit]) {
-                    $(this).parent().css({
-                        "background-color": "#FFFFFF"
-                    });
-                    $(this).parent().parent().css({
-                        "background-color": "#FFFFFF",
-                        "border-bottom": "4px solid #EEEEEE"
-                    });
-                    $(this).parent().parent().parent().prev().css({
-                        "background-color": "#FFFFFF",
-                        "border-bottom": "4px solid #EEEEEE"
-                    });
-                }
-            }
-        });
-    }
-
-    function getMatches(searchWord) {
-        var matches = [];
-        for (let c = 0; c < nodes.length; c++) {
-            if (nodes[c].title.includes(searchWord)) {
-                matches.push(nodes[c].id);
-            }
-        }
-        return matches;
-    }
-
-    $(".node_right_top").hover(function () {
-        $(this).css("background-color", "#000000");
-    }, function () {
-        $(this).css("background-color", "#EEEEEE");
-    });
 });
