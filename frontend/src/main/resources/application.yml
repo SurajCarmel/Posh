@@ -1,0 +1,17 @@
+
+spring:
+  application:
+    name: olive-suite-application
+  resources:
+    static-locations: file:///@project.basedir@/res/static/
+  thymeleaf:
+    prefix: file:///@project.basedir@/res/templates/
+    cache: false
+
+
+
+
+
+
+
+

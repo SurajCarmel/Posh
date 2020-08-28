@@ -1,0 +1,1241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.clear {
+    clear: both;
+}
+
+.kycPage {
+    background-color: #eeeeee;
+}
+
+.header {
+    padding: 1.33% 2.44%;
+    background-color: #ffffff;
+    box-shadow: 0 3px 0.58vw #bcbcbc40;
+    display: flex;
+    align-items: center;
+}
+
+.navIconContainer {
+    width: 86%;
+}
+
+.navIconBox {
+    width: fit-content;
+}
+
+.navIcon {
+    width: 2.34vw;
+    cursor: pointer;
+}
+
+.userContainer {
+    width: 14%;
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.userPicBox {
+    width: 24%;
+}
+
+.userPic {
+    border-radius: 50%;
+    width: 3.125vw;
+    vertical-align: middle;
+}
+
+.userNameBox {
+    width: 66%;
+}
+
+.userName {
+    font: 500 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.9px;
+    color: #5a5a5a;
+    vertical-align: middle;
+    margin: 0 0.97vw;
+    text-align: center;
+}
+
+.dropDownBox {
+    width: 10%;
+}
+
+.headerDropdown {
+    width: 1.17vw;
+}
+
+.kycBody {
+    padding: 2.92%;
+}
+
+.availibilityBox {
+    position: relative;
+}
+
+.avHeader {
+    padding: 2.59% 3.63%;
+    background-color: #ffffff;
+    margin-bottom: 0.39vw;
+    display: flex;
+    align-items: center;
+}
+
+.headerTextBox {
+    width: 50%;
+}
+
+.headerTitle {
+    font: 700 1.36vw/1.46vw "Roboto";
+    letter-spacing: 1.4px;
+    color: #464646;
+    padding-bottom: 1.45%;
+}
+
+.headerDesc {
+    font: 400 1.17vw/1.75vw "Roboto";
+    letter-spacing: 0.6px;
+    color: #707070;
+}
+
+.headerBtnBox {
+    width: 50%;
+}
+
+.newBtn {
+    background-color: #32bdd2;
+    border: 0;
+    padding: 1.79% 3.8%;
+    font: 700 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.9px;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 0.29vw 0.58vw #32bdd229;
+    border-radius: 1.46vw;
+    float: right;
+}
+
+.avBody {
+    background-color: #ffffff;
+}
+
+.logBox {
+    padding: 3.63% 3.63% 5.18% 3.63%;
+}
+
+.strech {
+    padding-bottom: 42.7%;
+}
+
+.inOutBox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.45%;
+}
+
+.checkinBox {
+    width: 42.3%;
+}
+
+.inOutText {
+    font: 400 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.1px;
+    color: #707070;
+}
+
+.mandatoryField {
+    font: 400 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.1px;
+    color: #e65959;
+}
+
+.formatText {
+    font: 500 0.97vw/1.07vw "Roboto";
+    letter-spacing: 0.1px;
+    color: #b5b5b5;
+}
+
+.checkoutBox {
+    width: 42.3%;
+}
+
+.inputBox {
+    display: flex;
+    align-items: center;
+}
+
+.inBox {
+    width: 90%;
+    position: relative;
+}
+
+.showBox {
+    width: 15.4%;
+}
+
+.datePickerInput {
+    width: 86%;
+    background-color: #ffffff;
+    box-shadow: 0 0.29vw 0.58vw #00000029;
+    border: 1px solid #f7f4f4;
+    border-radius: 0.97vw;
+    display: flex;
+    align-items: center;
+}
+
+.dateInput {
+    width: 82%;
+    padding: 4%;
+    border-right: 1px solid #f7f4f4;
+}
+
+.textBox {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font: 400 1.17vw/1.95vw "Roboto";
+    letter-spacing: 1.2px;
+    color: #707070;
+}
+
+.dropSelectInput {
+    width: 86%;
+    background-color: #ffffff;
+    box-shadow: 0 0.29vw 0.58vw #00000029;
+    border: 1px solid #f7f4f4;
+    border-radius: 0.97vw;
+    display: flex;
+    align-items: center;
+}
+
+.dropInput {
+    width: 82%;
+    padding: 4%;
+}
+
+.dropBox {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font: 400 1.17vw/1.95vw "Roboto";
+    letter-spacing: 1.2px;
+    color: #707070;
+}
+
+.userInput {
+    width: 86%;
+    background-color: #ffffff;
+    box-shadow: 0 0.29vw 0.58vw #00000029;
+    border: 1px solid #f7f4f4;
+    border-radius: 0.97vw;
+    display: flex;
+    align-items: center;
+}
+
+.plainInput {
+    width: 100%;
+    padding: 4%;
+}
+
+.plainBox {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    font: 400 1.17vw/1.95vw "Roboto";
+    letter-spacing: 1.2px;
+    color: #707070;
+}
+
+.iconBox {
+    width: 18%;
+}
+
+.dateIcon {
+    width: 1.56vw;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+.dropIcon {
+    width: 1.17vw;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+.userSuccess {
+    padding: 3.5% 3.5% 7% 7%;
+}
+
+.messageCancelRow {
+    margin-bottom: 1.4%;
+}
+
+.messageText {
+    margin-bottom: 4.9%;
+}
+
+.messageCancelIcon {
+    width: 3.7vw;
+    box-shadow: 0 0 10px #00000029;
+    border: 0.5px solid #efefef;
+    border-radius: 50%;
+    float: right;
+    cursor: pointer;
+}
+
+.successMsg {
+    font: 700 1.56vw/1.85vw "Roboto";
+    letter-spacing: 1.6px;
+    color: #464646;
+    padding-bottom: 6%;
+}
+
+.failText {
+    width: 90%;
+    font: 400 1.36vw/2.34vw "Roboto";
+    letter-spacing: 0.7px;
+    color: #5a5a5a;
+}
+
+.popupLinks {
+    font: 700 1.17vw/1.36vw "Roboto";
+    letter-spacing: 1.2px;
+    color: #32bdd2;
+    padding-bottom: 0.39vw;
+    border-bottom: 2px solid #32bdd2;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+.confirmBtn {
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 3px;
+    padding-top: 1.96%;
+    padding-bottom: 1.96%;
+    font: 700 1.46vw/1.75vw "Roboto";
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    border: 0;
+}
+
+.yesBtn {
+    background-color: #e65959;
+    padding-left: 8.03%;
+    padding-right: 8.03%;
+    margin-right: 5.88%;
+}
+
+.noBtn {
+    background-color: #32bdd2;
+    padding-left: 8.82%;
+    padding-right: 8.82%;
+}
+
+.editPopup {
+    width: 13.86vw;
+    text-align: right;
+    font: 500 1.36vw/1.56vw "Roboto";
+    letter-spacing: 1.05px;
+    color: #505050;
+    position: absolute;
+    top: 0;
+    right: 43%;
+    z-index: 1;
+}
+
+.cancelRow {
+    background-color: transparent;
+}
+
+.popupcancelIcon {
+    width: 3.125vw;
+}
+
+.popList {
+    box-shadow: 0 2px 25px #00000034;
+    border-radius: 0.97vw 0.97vw 0.97vw;
+    background-color: #ffffff;
+}
+
+.editRow {
+    padding: 2.93vw 4.29vw;
+    border-bottom: 1px solid #cccccc;
+}
+
+.deleteRow {
+    padding: 2.93vw 4.29vw;
+}
+
+.optionsPopup {
+    box-shadow: 0 0 1.17vw #00000029;
+    border-radius: 0.48vw 2.05vw 0.48vw 0.48vw;
+    background-color: #ffffff;
+    width: 17.28vw;
+    text-align: left;
+    margin: auto;
+}
+
+.optionsContent {
+    padding: 2.82% 0 19.77% 14.12%;
+}
+
+.optionsCancelIcon {
+    width: 2.44vw;
+    float: right;
+    margin-right: 2.82%;
+}
+
+.optionsList {
+    padding: 14.12% 0;
+    border-bottom: 0.5px solid #cccccc;
+}
+
+.optionsText {
+    font: 400 1.17vw/1.95vw "Roboto";
+    letter-spacing: 0.6px;
+    color: #464646;
+}
+
+.lastOption {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.filterSortPopup {
+    width: 37.17vw;
+    box-shadow: 0 2px 2.44vw #00000034;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.filterSortContent {
+    padding: 7.89% 9.21%;
+}
+
+.sortCancelRow {
+    margin-bottom: 9.6%;
+}
+
+.sortCancelIcon {
+    width: 3.125vw;
+}
+
+.sortBar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 11.93%;
+}
+
+.sortIconBox {
+    width: 9.5%;
+}
+
+.sortIcon {
+    width: 1.56vw;
+    vertical-align: middle;
+}
+
+.sortTextBox {
+    width: 35.5%;
+}
+
+.sortText {
+    font: 500 1.36vw/1.56vw "Roboto";
+    letter-spacing: 1.05px;
+    color: #505050;
+    vertical-align: middle;
+}
+
+.sortDropIconBox {
+    width: 6.5%;
+}
+
+.sortDropIcon {
+    width: 1.36vw;
+    vertical-align: middle;
+    box-shadow: 0 0 8px #00000029;
+    border-radius: 2px;
+}
+
+.orderBox {
+    width: 48.5%;
+}
+
+.orderText {
+    font: 500 0.97vw/1.07vw "Roboto";
+    letter-spacing: 0.75px;
+    color: #747474;
+    vertical-align: middle;
+}
+
+.radioRow {
+    padding-left: 9.67%;
+    margin-bottom: 7.85%;
+}
+
+.radioBtnBox {
+    position: relative;
+    margin-bottom: 10.7%;
+}
+
+.lastRadioBtnBox {
+    margin-bottom: 5.35%;
+}
+
+.radioText {
+    font: 500 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.9px;
+    color: #747474;
+    vertical-align: middle;
+}
+
+
+/* ============================custom radio=============================================== */
+
+
+/* The container */
+
+.customRadio {
+    display: block;
+    position: relative;
+    padding-left: 10%;
+    cursor: pointer;
+    font: 500 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.9px;
+    color: #747474;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default radio button */
+
+.customRadio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom radio button */
+
+.radiocheck {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1.17vw;
+    width: 1.17vw;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 0.5px solid #747474;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.customRadio:hover input~.radiocheck {
+    background-color: #ccc;
+}
+
+
+/* When the radio button is checked, add a blue background */
+
+.customRadio input:checked~.radiocheck {
+    background-color: #fff;
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.radiocheck:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the indicator (dot/circle) when checked */
+
+.customRadio input:checked~.radiocheck:after {
+    display: block;
+}
+
+
+/* Style the indicator (dot/circle) */
+
+.customRadio .radiocheck:after {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0.48vw;
+    height: 0.48vw;
+    border-radius: 50%;
+    background: #747474;
+    border: 0.5px solid #747474;
+}
+
+.nopadding {
+    padding-bottom: 0;
+}
+
+.optionsButton {
+    width: 24.27%;
+    float: right;
+    box-shadow: 0 0 6px #00000029;
+    border-radius: 1.85vw;
+    padding: 0.29vw;
+    position: relative;
+}
+
+.optionsBtnTxt {
+    font: 500 1.17vw/1.95vw "Roboto";
+    letter-spacing: 0.6px;
+    color: #909090;
+    padding: 0 4%;
+    vertical-align: middle;
+}
+
+.bMenuImg {
+    width: 3.125vw;
+    vertical-align: middle;
+}
+
+.detailsContainer {
+    background-color: #ffffff;
+    padding: 3.63%;
+}
+
+.detailsBox {
+    border: 0.5px solid #cccccc;
+    margin-bottom: 15%;
+}
+
+.greyDetailsTab {
+    padding: 2.8% 3.9%;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #cccccc;
+}
+
+.lightText {
+    font: 400 1.17vw/1.36vw "Roboto";
+    letter-spacing: 1.17vw;
+    color: #707070;
+    padding-bottom: 1.1%;
+}
+
+.darkText {
+    font: 500 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.6px;
+    color: #464646;
+    text-transform: uppercase;
+}
+
+.noborder {
+    border: 0;
+}
+
+.financialTab {
+    display: flex;
+    align-items: center;
+    background-color: #eeeeee;
+    padding: 4.25% 3.64%;
+}
+
+.periodColumn {
+    width: 25%;
+}
+
+.periodTitle {
+    font: 500 1.36vw/1.36vw "Roboto";
+    letter-spacing: 0.7px;
+    color: #464646;
+}
+
+.year {
+    font: 400 1.17vw/2.92vw "Roboto";
+    letter-spacing: 0.6px;
+    color: #707070;
+}
+
+.dateColumn {
+    width: 25%;
+}
+
+.fromDate {
+    font: 500 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.6px;
+    color: #707070;
+}
+
+.toDate {
+    font: 500 1.17vw/2.92vw "Roboto";
+    letter-spacing: 0.6px;
+    color: #707070;
+}
+
+.menuColumn {
+    width: 25%;
+}
+
+.menuIcon {
+    width: 3.125vw;
+    display: block;
+    margin: auto;
+}
+
+.updatedColumn {
+    width: 25%;
+}
+
+.lastText {
+    font: 400 1.07vw/1.36vw "Roboto";
+    letter-spacing: 0.55px;
+    color: #707070;
+    text-align: right;
+}
+
+.lastDate {
+    font: 500 1.17vw/2.92vw "Roboto";
+    letter-spacing: 0.3px;
+    color: #707070;
+    text-align: right;
+}
+
+.filler {
+    margin-bottom: 27.3%;
+}
+
+.formContainer {
+    background-color: #ffffff;
+    padding: 3.63%;
+}
+
+.titleInput {
+    box-shadow: 0 0.28vw 0.58vw #00000029;
+    border: 1px solid #f7f4f4;
+    border-radius: 0.97vw;
+    width: 47.5%;
+    padding: 1.3%;
+}
+
+.periodBox {
+    margin-bottom: 5.6%;
+}
+
+.fieldBox {
+    margin-bottom: 5.6%;
+    position: relative;
+}
+
+.endBox {
+    margin-bottom: 5.6%;
+}
+
+.periodText {
+    padding-bottom: 1.45%;
+}
+
+.startText {
+    padding-bottom: 1.45%;
+}
+
+.endText {
+    padding-bottom: 1.45%;
+}
+
+
+/* =========================================================================CUSTOM CHECKBOX========================================================================================================= */
+
+
+/* The container */
+
+.custom {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    height: 1.7578125vw;
+    width: 1.7578125vw;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.custom input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.7578125vw;
+    width: 1.7578125vw;
+    border-radius: 0.28vw;
+    background-color: #ffffff;
+    border: 0.048828125vw solid #32bdd2;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.custom input:checked~.checkmark {
+    background-color: #32bdd2;
+    border: 0;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.custom input:checked~.checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.custom .checkmark:after {
+    left: 0.6347656vw;
+    top: 0.3515625vw;
+    width: 0.341796875vw;
+    height: 0.703125vw;
+    border: solid #ffffff;
+    border-width: 0 0.1953125vw 0.1953125vw 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.currentBox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.46%;
+}
+
+.checkboxBox {
+    width: 3%;
+}
+
+.currentText {
+    font: 500 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.9px;
+    color: #707070;
+}
+
+.cancelBox {
+    width: 50%;
+}
+
+.cancText {
+    font: 700 1.07vw/1.56vw "Roboto";
+    letter-spacing: 1.2px;
+    color: #707070;
+    padding-bottom: 0.28vw;
+    border-bottom: 1px solid #707070;
+    cursor: pointer;
+}
+
+.saveBox {
+    width: 50%;
+}
+
+.saveButn {
+    float: right;
+    border-radius: 2.83vw;
+    font: 700 1.07vw/1.6vw "Roboto";
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    padding: 1% 3%;
+    border: 0;
+    background-color: #32bdd2;
+    box-shadow: 0 0 0.586vw #32BDD2;
+    cursor: pointer;
+}
+
+.kycFormContainer {
+    padding: 4.15% 8.5%;
+    background-color: #ffffff;
+}
+
+.leftForm {
+    width: 50%;
+    float: left;
+}
+
+.rightForm {
+    width: 50%;
+    float: right;
+}
+
+.lastBox {
+    padding: 3.23% 13.5%;
+    background-color: #ffffff;
+    display: flex;
+    box-shadow: 0 0 0.586vw #00000032;
+}
+
+.fieldList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fieldBox {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.fieldText {
+    font: 400 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.12px;
+    color: #707070;
+    padding-bottom: 3.7%;
+}
+
+.sectionTitle {
+    font: 700 1.36vw/1.46vw "Roboto";
+    letter-spacing: 0.7px;
+    color: #464646;
+    padding-bottom: 5.18%;
+}
+
+.sectionTitle {
+    padding-left: 5%;
+}
+
+.employedFlag {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background-color: #ffffff;
+    box-shadow: 0 0.29vw 0.58vw #00000029;
+    border: 1px solid #f7f4f4;
+    border-radius: 0.97vw;
+}
+
+
+/*=============================================Drop-downs=============================  */
+
+.idDropBox {
+    width: 27vw;
+    box-shadow: 0 0.28vw 0.97vw #00000029;
+    border: 1px solid #f7f4f4;
+    border-radius: 0.97vw;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    overflow: hidden;
+}
+
+.purposeDropBox {
+    width: 27vw;
+    box-shadow: 0 0.28vw 0.97vw #00000029;
+    border: 1px solid #f7f4f4;
+    border-radius: 0.97vw;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    overflow: hidden;
+}
+
+.modeDropBox {
+    width: 27vw;
+    box-shadow: 0 0.28vw 0.97vw #00000029;
+    border: 1px solid #f7f4f4;
+    border-radius: 0.97vw;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    overflow: hidden;
+}
+
+.idDropContainer {
+    /* padding: 9.5%; */
+    overflow: hidden;
+}
+
+.radioRows {
+    padding: 6% 12.2%;
+}
+
+.radioRows:hover {
+    background-color: #EEE;
+}
+
+.radioText {
+    font: 400 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.9px;
+    color: #707070;
+}
+
+.blueBox {
+    padding: 5.725% 4.18%;
+    background-color: #32bdd2;
+    width: 100%;
+}
+
+.otherText {
+    font: 700 1.07vw/1.27vw "Roboto";
+    letter-spacing: 0.82px;
+    color: #ffffff;
+    padding-bottom: 4%;
+}
+
+#idTextBox {
+    width: 100%;
+    box-shadow: 0 0 0.97vw #00000029;
+    border: 0;
+    padding: 3.33%;
+}
+
+.foodDropBox {
+    width: 27.6vw;
+    box-shadow: 0 3px 0.97vw #00000029;
+    border: 1px solid #f7f4f4;
+    border-radius: 0.97vw;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    overflow: hidden;
+}
+
+.foodDropContainer {
+    /* padding: 9.5%; */
+    overflow: hidden;
+}
+
+.lastradio {
+    margin-bottom: 0;
+}
+
+.employerDropBox {
+    width: 80%;
+    box-shadow: 0 3px 0.97vw #00000029;
+    border: 1px solid #f7f4f4;
+    background-color: #ffffff;
+    border-radius: 0 0 0.97vw 0.97vw;
+    transform: translateY(-7%);
+}
+
+.trasparentText {
+    color: transparent;
+}
+
+.employerDetails {
+    width: 100%;
+    padding-bottom: 4%;
+    background-color: #32bdd2;
+    border-radius: 0 0 0.97vw 0.97vw
+}
+
+.empDetails {
+    width: 100%;
+    box-shadow: 0px 0px 10px #00000029;
+    padding: 1.5% 0;
+    border: 0;
+}
+
+.redDot {
+    width: 0.97vw;
+    height: 0.97vw;
+    background-color: #e65959;
+    border-radius: 50%;
+    float: left;
+    margin-right: 3%;
+}
+
+.kycErrorBox {
+    font: 400 1.17vw/1.36vw "Roboto";
+    letter-spacing: 0.12px;
+    color: #e65959;
+    padding: 4.2% 0;
+    display: none;
+}
+
+
+/*==================================================================================== */
+
+
+/* ================================links-popup======================================== */
+
+.blackGround {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: #000000b2;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.userSuccessBox {
+    width: 55.66vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 35px #00000029;
+    border-radius: 1.95vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.userSuccess {
+    padding: 3.5% 3.5% 7% 7%;
+}
+
+.messageCancelRow {
+    margin-bottom: 1.4%;
+}
+
+.messageText {
+    margin-bottom: 4.9%;
+}
+
+.messageCancelIcon {
+    width: 3.7vw;
+    box-shadow: 0 0 10px #00000029;
+    border: 0.5px solid #efefef;
+    border-radius: 50%;
+    float: right;
+}
+
+.successMsg {
+    font: 700 1.56vw/1.85vw "Roboto";
+    letter-spacing: 1.6px;
+    color: #464646;
+    padding-bottom: 6%;
+}
+
+.successText {
+    width: 70%;
+    font: 400 1.36vw/2.34vw "Roboto";
+    letter-spacing: 0.7px;
+    color: #5a5a5a;
+    padding-bottom: 10%;
+}
+
+
+/* =================================================================================== */
+
+.rightAlignedBox {
+    text-align: right;
+    background-color: #FFFFFF;
+    margin-bottom: 0.39vw;
+    padding: 2.59% 5%;
+}
+
+.custName {
+    font: 500 1.367vw/1.953vw Roboto;
+    letter-spacing: 1.055px;
+    color: #464646;
+    text-transform: uppercase;
+}
+
+.customerGender {
+    font: 500 1.172vw/1.563vw Roboto;
+    letter-spacing: 0.901px;
+    color: #909090;
+    text-transform: capitalize;
+}
+
+.breadcrumb_text_light {
+    font: 300 1.172vw/1.953vw Roboto;
+    letter-spacing: 0.604px;
+    color: #909090;
+}
+
+.breadcrumb_text_dark {
+    font: 500 1.172vw/1.953vw Roboto;
+    letter-spacing: 0.059vw;
+    color: #464646;
+}
+
+.custStatus {
+    font: 700 1.367vw/1.758vw Roboto;
+    letter-spacing: 0.696px;
+    color: #32BDD2;
+}
+
+.seperator {
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.calContainer {
+    width: 86%;
+    background: #FFFFFF;
+    box-shadow: 0 0 0.977vw #00000029;
+    border-radius: 0.977vw;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.calenderConainer {
+    padding: 8.61% 12.30%;
+}
+
+.imgContainer {
+    float: right;
+    padding: 4% 6% 0 0;
+}
+
+.cal_Holder {
+    position: relative;
+}
+
+#otherID {
+    width: 100%;
+    height: 3vw;
+    padding: 5%;
+    font: 400 1.172vw/1.367vw Roboto;
+    letter-spacing: 0.9px;
+    color: #707070;
+    text-transform: uppercase;
+}

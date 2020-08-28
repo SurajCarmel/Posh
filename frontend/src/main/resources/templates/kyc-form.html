@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" th:href="@{/CSS/kyc-form.css}" />
+    <title></title>
+</head>
+
+<body>
+    <div class="kycPage">
+        <div class="header">
+            <div class="navIconContainer">
+                <div class="navIconBox">
+                    <img class="navIcon" th:src="@{/images/burger-menu.png}" alt="unclicked">
+                </div>
+            </div>
+            <div class="userContainer">
+                <div class="userPicBox">
+                    <img class="userPic" th:src="@{/images/default-profile-pic.png}" alt="">
+                </div>
+                <div class="userNameBox">
+                    <p class="userName">John Doe</p>
+                </div>
+                <div class="dropDownBox">
+                    <img class="headerDropdown" th:src="@{/images/cheveron-down.png}" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="kycBody">
+            <div class="availibilityBox">
+                <div class="avHeader">
+                    <div class="headerTextBox">
+                        <p class="headerTitle">
+                            KNOW YOUR CUSTOMER (KYC)
+                        </p>
+                        <p class="headerDesc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean feugiat felis id sem elementum, sit amet sollicitudin leo vestibulum.
+                        </p>
+                    </div>
+                </div>
+                <div class="kycFormContainer">
+                    <div class="section">
+                        <p class="sectionTitle">CUSTOMER</p>
+                        <div class="fieldList">
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Identity Document
+                                    <span class="mandatoryField">*</span>
+                                </p>
+                                <div class="inBox">
+                                    <div class="dropSelectInput">
+                                        <div class="dropInput">
+                                            <input class="dropBox" type="text" name="" id="">
+                                        </div>
+                                        <div class="iconBox">
+                                            <img class="dropIcon" th:src="@{/images/cheveron-blue-colored-down.png}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="identityErrorBox">
+                                    <p class="redDot"></p>
+                                    <p class="identityError">Invalid Identity</p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Arrived From
+                                </p>
+                                <div class="inBox">
+                                    <div class="userInput">
+                                        <div class="plainInput">
+                                            <input class="plainBox" type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Permanent Address
+                                </p>
+                                <div class="inBox">
+                                    <div class="userInput">
+                                        <div class="plainInput">
+                                            <input class="plainBox" type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Occupation/Designation
+                                </p>
+                                <div class="inBox">
+                                    <div class="userInput">
+                                        <div class="plainInput">
+                                            <input class="plainBox" type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Organization
+                                </p>
+                                <div class="inBox">
+                                    <div class="userInput">
+                                        <div class="plainInput">
+                                            <input class="plainBox" type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    <span class="inOutText">
+                                        Date Of Birth
+                                    </span>
+                                    <span class="formatText">
+                                        (DD/MM/YYYY)
+                                    </span>
+                                </p>
+                                <div class="inBox">
+                                    <div class="datePickerInput">
+                                        <div class="dateInput">
+                                            <input class="textBox" type="text" name="" id="">
+                                        </div>
+                                        <div class="iconBox">
+                                            <img class="dateIcon" th:src="@{/images/calendar-icon.png}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    <span class="inOutText">
+                                        Anniversary
+                                    </span>
+                                    <span class="formatText">
+                                        (DD/MM/YYYY)
+                                    </span>
+                                </p>
+                                <div class="inBox">
+                                    <div class="datePickerInput">
+                                        <div class="dateInput">
+                                            <input class="textBox" type="text" name="" id="">
+                                        </div>
+                                        <div class="iconBox">
+                                            <img class="dateIcon" src="@{/images/calendar-icon.png}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Food Preference
+                                </p>
+                                <div class="inBox">
+                                    <div class="dropSelectInput">
+                                        <div class="dropInput">
+                                            <input class="dropBox" type="text" name="" id="">
+                                        </div>
+                                        <div class="iconBox">
+                                            <img class="dropIcon" th:src="@{/images/cheveron-blue-colored-down.png}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Mode Of Payment
+                                </p>
+                                <div class="inBox">
+                                    <div class="dropSelectInput">
+                                        <div class="dropInput">
+                                            <input class="dropBox" type="text" name="" id="">
+                                        </div>
+                                        <div class="iconBox">
+                                            <img class="dropIcon" th:src="@{/images/cheveron-blue-colored-down.png}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Purpose Of Visit
+                                </p>
+                                <div class="inBox">
+                                    <div class="dropSelectInput">
+                                        <div class="dropInput">
+                                            <input class="dropBox" type="text" name="" id="">
+                                        </div>
+                                        <div class="iconBox">
+                                            <img class="dropIcon" th:src="@{/images/cheveron-blue-colored-down.png}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="section">
+                        <p class="sectionTitle">EMERGENCY CONTACTS</p>
+                        <div class="fieldList">
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    First Contact’s Name
+                                </p>
+                                <div class="inBox">
+                                    <div class="userInput">
+                                        <div class="plainInput">
+                                            <input class="plainBox" type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Phone Number
+                                </p>
+                                <div class="inBox">
+                                    <div class="userInput">
+                                        <div class="plainInput">
+                                            <input class="plainBox" type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Second Contact’s Name
+                                </p>
+                                <div class="inBox">
+                                    <div class="userInput">
+                                        <div class="plainInput">
+                                            <input class="plainBox" type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Phone Number
+                                </p>
+                                <div class="inBox">
+                                    <div class="userInput">
+                                        <div class="plainInput">
+                                            <input class="plainBox" type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="section">
+                        <p class="sectionTitle">FOR FOREIGN NATIONALS ONLY</p>
+                        <div class="fieldList">
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Nationality
+                                </p>
+                                <div class="inBox">
+                                    <div class="userInput">
+                                        <div class="plainInput">
+                                            <input class="plainBox" type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Driving Licence Number
+                                </p>
+                                <div class="inBox">
+                                    <div class="userInput">
+                                        <div class="plainInput">
+                                            <input class="plainBox" type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Passport Number
+                                </p>
+                                <div class="inBox">
+                                    <div class="userInput">
+                                        <div class="plainInput">
+                                            <input class="plainBox" type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Residence Phone Number
+                                </p>
+                                <div class="inBox">
+                                    <div class="userInput">
+                                        <div class="plainInput">
+                                            <input class="plainBox" type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Passport Issue Date
+                                    <span class="formatText">
+                                        (DD/MM/YYYY)
+                                    </span>
+                                </p>
+                                <div class="inBox">
+                                    <div class="datePickerInput">
+                                        <div class="dateInput">
+                                            <input class="textBox" type="text" name="" id="">
+                                        </div>
+                                        <div class="iconBox">
+                                            <img class="dateIcon" th:src="@{/images/calendar-icon.png}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Passport Expiry Date
+                                    <span class="formatText">
+                                        (DD/MM/YYYY)
+                                    </span>
+                                </p>
+                                <div class="inBox">
+                                    <div class="datePickerInput">
+                                        <div class="dateInput">
+                                            <input class="textBox" type="text" name="" id="">
+                                        </div>
+                                        <div class="iconBox">
+                                            <img class="dateIcon" th:src="@{/images/calendar-icon.png}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Visa Issue Date
+                                    <span class="formatText">
+                                        (DD/MM/YYYY)
+                                    </span>
+                                </p>
+                                <div class="inBox">
+                                    <div class="datePickerInput">
+                                        <div class="dateInput">
+                                            <input class="textBox" type="text" name="" id="">
+                                        </div>
+                                        <div class="iconBox">
+                                            <img class="dateIcon" th:src="@{/images/calendar-icon.png}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Visa Expiry Date
+                                    <span class="formatText">
+                                        (DD/MM/YYYY)
+                                    </span>
+                                </p>
+                                <div class="inBox">
+                                    <div class="datePickerInput">
+                                        <div class="dateInput">
+                                            <input class="textBox" type="text" name="" id="">
+                                        </div>
+                                        <div class="iconBox">
+                                            <img class="dateIcon" th:src="@{/images/calendar-icon.png}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Date Of Arrival In Country
+                                    <span class="formatText">
+                                        (DD/MM/YYYY)
+                                    </span>
+                                </p>
+                                <div class="inBox">
+                                    <div class="datePickerInput">
+                                        <div class="dateInput">
+                                            <input class="textBox" type="text" name="" id="">
+                                        </div>
+                                        <div class="iconBox">
+                                            <img class="dateIcon" th:src="@{/images/calendar-icon.png}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Date of Departure From Country
+                                    <span class="formatText">
+                                        (DD/MM/YYYY)
+                                    </span>
+                                </p>
+                                <div class="inBox">
+                                    <div class="datePickerInput">
+                                        <div class="dateInput">
+                                            <input class="textBox" type="text" name="" id="">
+                                        </div>
+                                        <div class="iconBox">
+                                            <img class="dateIcon" th:src="{/IMAGES/calendar-icon.png}" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+                                <p class="fieldText">
+                                    Proposed Number Of Days Of Stay In Country
+                                </p>
+                                <div class="inBox">
+                                    <div class="userInput">
+                                        <div class="plainInput">
+                                            <input class="plainBox" type="text" name="" id="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="fieldBox">
+
+                                <div class="employedFlag">
+                                    <div class="dropInput">
+                                        <span class="fieldText">
+                                            Employed In Country
+                                            </s>
+                                    </div>
+                                    <div class="iconBox">
+                                        <label class="custom">
+                                            <input type="checkbox" checked="checked">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="lastBox">
+                    <div class="cancelBox">
+                        <span class="cancText">CANCEL</span>
+                    </div>
+                    <div class="saveBox">
+                        <input class="saveButn" type="button" value="SUBMIT">
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
