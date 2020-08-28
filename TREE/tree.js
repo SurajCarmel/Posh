@@ -1,6 +1,6 @@
-$(document).ready(function() {
+$(document).ready(function () {
     var nodes;
-    $.getJSON("tree.json", function(result) {
+    $.getJSON("tree.json", function (result) {
         var data = result.json;
         nodes = data.record;
         init(nodes);
@@ -13,6 +13,10 @@ $(document).ready(function() {
                 '<div class="node">' +
                 '   <div class="node_left">' +
                 '       <img class="toggle" src="cheveron-down-blue-filled-white-bordered.png" alt="">' +
+                '       <div class="left_top">' +
+                '       </div> ' +
+                '       <div class="left_bottom">' +
+                '       </div> ' +
                 '   </div>' +
                 '   <div class="node_right">' +
                 '       <div class="node_right_top">' +
@@ -27,11 +31,16 @@ $(document).ready(function() {
                 '</div>'
             );
         }
+        $(".treeContainer").find(".left_top").first().css({
+            "margin-left": "-1px",
+            "border-left": "1px solid #EEEEEE"
+        });
         $(".treeContainer").children(".node").last().addClass("endNode");
-        $(".treeContainer .toggle").click(function() {
+        $(".treeContainer").children(".node").last().children(".node_left").children(".left_top").css("border-left", "1px dashed #CCCCCC");
+        $(".treeContainer .toggle").click(function () {
             if ($(this).attr("src") === "cheveron-up-blue-filled-white-bordered.png") {
                 $(this).attr("src", "cheveron-down-blue-filled-white-bordered.png");
-                $(this).closest(".node_left").css("border-right", "0");
+                $(this).closest(".node_left").children(".left_bottom").css("border-right", "0");
                 $(this).closest(".node_left").next().children(".node_right_bottom").hide();
             } else {
                 $(this).attr("src", "cheveron-up-blue-filled-white-bordered.png");
@@ -40,12 +49,39 @@ $(document).ready(function() {
                     $(this).closest(".node_left").next().children(".node_right_bottom")
                 );
                 if ($(this).closest(".node_left").next().children('.node_right_bottom').children(".node").length != 0) {
-                    $(this).closest(".node_left").css("border-right", "1px dashed #CCCCCC");
+                    $(this).closest(".node_left").children(".left_bottom").css("border-right", "1px dashed #CCCCCC");
                 }
                 $(this).closest(".node_left").next().children(".node_right_bottom").show();
             }
         });
 
+        $(".node_right_top").hover(function () {
+            $(this).css("background-color", "#CCCCCC");
+            $(this).children(".nodeDetails").css("background-color", "#CCCCCC");
+            // $(this).parent().prev().css("background-color", "#CCCCCC");
+        }, function () {
+            if ($(this).hasClass("selected")) {
+                $(this).css("background-color", "#FFF");
+                $(this).children(".nodeDetails").css("background-color", "#FFF");
+                // $(this).parent().prev().css("background-color", "#FFF");
+            } else {
+                $(this).css("background-color", "#EEEEEE");
+                $(this).children(".nodeDetails").css("background-color", "#EEEEEE");
+                // $(this).parent().prev().css("background-color", "#EEEEEE");
+            }
+        });
+
+        $(".node_right_top").click(function () {
+            $(".node_right_top").css("background-color", "#EEE");
+            $(".node_right_top").children(".nodeDetails").css("background-color", "#EEE");
+            // $(".node_right_top").parent().prev().css("background-color", "#EEE");
+            $(".node_right_top").removeClass("selected");
+            $(".node_right_top").children(".nodeDetails").removeClass("selected");
+            // $(".node_right_top").parent().prev().removeClass("selected");
+            $(this).addClass("selected");
+            $(this).children(".nodeDetails").addClass("selected");
+            // $(this).parent().prev().addClass("selected");
+        });
     }
 
     function fillnode(parentID, toFill) {
@@ -57,6 +93,10 @@ $(document).ready(function() {
                     '<div class="node">' +
                     '   <div class="node_left">' +
                     '       <img class="toggle" src="cheveron-down-blue-filled-white-bordered.png" alt="">' +
+                    '       <div class="left_top">' +
+                    '       </div> ' +
+                    '       <div class="left_bottom">' +
+                    '       </div> ' +
                     "   </div>" +
                     '   <div class="node_right">' +
                     '       <div class="node_right_top">' +
@@ -73,16 +113,17 @@ $(document).ready(function() {
             }
 
             $(toFill).children(".node").last().addClass("endNode"); // removing seperators for last nodes
+            $(toFill).children(".node").last().children(".node_left").children(".left_top").css("border-left", "1px dashed #CCCCCC");
             $(toFill)
                 .find(".toggle")
-                .click(function() {
+                .click(function () {
                     if (
                         $(this).attr("src") === "cheveron-up-blue-filled-white-bordered.png"
                     ) {
                         // checking for image state
                         $(this).attr("src", "cheveron-down-blue-filled-white-bordered.png"); // changing image
                         $(this).closest(".node_left").next().children(".node_right_bottom").hide(); // collapsing content
-                        $(this).closest(".node_left").css("border-right", "0"); // removing right vertical seperator line
+                        $(this).closest(".node_left").children(".left_bottom").css("border-right", "0"); // removing right vertical seperator line
                     } else {
                         $(this).attr("src", "cheveron-up-blue-filled-white-bordered.png"); //changing image
 
@@ -93,11 +134,41 @@ $(document).ready(function() {
 
                         if ($(this).closest(".node_left").next().children('.node_right_bottom').children(".node").length != 0) {
                             //applying right vertical seperator only if not empty
-                            $(this).closest(".node_left").css("border-right", "1px dashed #CCCCCC");
+                            $(this).closest(".node_left").children(".left_bottom").css("border-right", "1px dashed #CCCCCC");
                         }
                         $(this).closest(".node_left").next().children(".node_right_bottom").show(); //expanding filled content
                     }
                 });
+
+            $(".node_right_top").hover(
+                function () {
+                    $(this).css("background-color", "#CCCCCC");
+                    $(this).children(".nodeDetails").css("background-color", "#CCCCCC");
+                    // $(this).parent().prev().css("background-color", "#CCCCCC");
+                },
+                function () {
+                    if ($(this).hasClass("selected")) {
+                        $(this).css("background-color", "#FFF");
+                        $(this).children(".nodeDetails").css("background-color", "#FFF");
+                        // $(this).parent().prev().css("background-color", "#FFF");
+                    } else {
+                        $(this).css("background-color", "#EEEEEE");
+                        $(this).children(".nodeDetails").css("background-color", "#EEEEEE");
+                        // $(this).parent().prev().css("background-color", "#EEEEEE");
+                    }
+                });
+
+            $(".node_right_top").click(function () {
+                $(".node_right_top").css("background-color", "#EEEEEE");
+                $(".node_right_top").children(".nodeDetails").css("background-color", "#EEEEEE");
+                // $(".node_right_top").parent().prev().css("background-color", "#EEEEEE");
+                $(".node_right_top").removeClass("selected");
+                $(".node_right_top").children(".nodeDetails").removeClass("selected");
+                // $(".node_right_top").parent().prev().removeClass("selected");
+                $(this).addClass("selected");
+                $(this).children(".nodeDetails").addClass("selected");
+                // $(this).parent().prev().addClass("selected");
+            });
         }
     }
 
@@ -112,37 +183,4 @@ $(document).ready(function() {
         return children;
     }
 
-    $("#searchSubmit").click(function() {
-        let searchWord = $("#treeSearch").val().trim();
-        if (searchWord != '') {
-            searchTree(searchWord);
-        }
-    });
-
-    function searchTree(searchWord) {
-        matches = getMatches(searchWord);
-        console.log(matches);
-
-        $('.nodeTitle').each(function() {
-            for (let hit = 0; hit < matches.length; hit++) {
-                console.log($(this).text() == matches[hit]);
-
-                if ($(this).text() == matches[hit]) {
-                    $(this).parent().css("background-color", "#FFFFFF");
-                    $(this).parent().parent().css("background-color", "#FFFFFF");
-                    $(this).parent().parent().parent().prev().css("background-color", "#FFFFFF");
-                }
-            }
-        });
-    }
-
-    function getMatches(searchWord) {
-        var matches = [];
-        for (let c = 0; c < nodes.length; c++) {
-            if (nodes[c].title.includes(searchWord)) {
-                matches.push(nodes[c].id);
-            }
-        }
-        return matches;
-    }
 });
